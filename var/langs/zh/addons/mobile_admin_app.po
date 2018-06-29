@@ -1,0 +1,790 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Chinese Simplified\n"
+"Language: zh_CN\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: crowdin.com\n"
+"X-Crowdin-Project: cs-cart-latest\n"
+"X-Crowdin-Language: zh-CN\n"
+"X-Crowdin-File: /addons/mobile_admin_app.po\n"
+"Last-Translator: cscart <translations@cs-cart.com>\n"
+"PO-Revision-Date: 2017-11-21 07:01-0500\n"
+
+msgctxt "Addons::name::mobile_admin_app"
+msgid "Mobile Admin App (ex Twigmo)"
+msgstr "移动管理应用程序 (ex Twigmo)"
+
+msgctxt "Addons::description::mobile_admin_app"
+msgid "Connect your store to the <a href=\"http://www.twigmo.com/\" target=\"_blank\">Twigmo service</a> to get mobile admin application. Some features are only available in paid plans."
+msgstr "将您的商店连接到 <a href=\"http://www.twigmo.com/\" target=\"_blank\"> twigmo 服务 </a> 以获取移动管理应用程序。某些功能仅在付费计划中可用。"
+
+msgctxt "SettingsSections::mobile_admin_app::service"
+msgid "Account"
+msgstr "帐户"
+
+msgctxt "SettingsSections::mobile_admin_app::admin_app"
+msgid "Admin app"
+msgstr "管理应用程序"
+
+msgctxt "SettingsSections::mobile_admin_app::addon"
+msgid "Upgrade"
+msgstr "更新"
+
+msgctxt "Languages::twgadmin_access_id"
+msgid "Access ID"
+msgstr "访问 ID"
+
+msgctxt "Languages::twgadmin_more_than_year"
+msgid "More than a year"
+msgstr "一年多"
+
+msgctxt "Languages::twgadmin_error_cannot_connect_store"
+msgid "Cannot connect to Twigmo service at this time. Please try again later. If the problem is still there, please visit <a href=\"http://support.twigmo.com\" target=\"_blank\">Twigmo Support Portal</a> for assistance."
+msgstr "此时无法连接到 Twigmo 服务。请稍后再试。如果问题仍然存在，请访问 <a href=\"http://support.twigmo.com\" target=\"_blank\"> twigmo 支持门户 </a> 以获取帮助。"
+
+msgctxt "Languages::twgadmin_text_store_connected"
+msgid "Your store was connected to Twigmo service successfully!"
+msgstr "您的商店已成功连接到 Twigmo 服务!"
+
+msgctxt "Languages::twgadmin_connect"
+msgid "Connect"
+msgstr "连接"
+
+msgctxt "Languages::tt_addons_mobile_admin_app_settings_settings_twgadmin_home_page_content"
+msgid "If 'Desktop home page blocks' is selected, there are all the supported types of the desktop home page blocks displayed on the Mobile Storefront home page. If 'Twigmo home page blocks' is selected, Twigmo home page blocks are displayed (configured in 'Design'->'Blocks'->'Twigmo home page'). If a category is selected, only its products are displayed on the Mobile Storefront home page."
+msgstr "如果选中了 \"桌面主页块\"，则在移动店面主页上会显示所有支持的桌面主页块类型。如果选中了 \"Twigmo 主页块\"，则会显示 Twigmo 主页块 (在 \"设计\"-\"块\"-\"Twigmo 主页\" 中配置)。如果选择了某个类别，则只在移动店面主页上显示其产品。"
+
+msgctxt "Languages::twgadmin_manage_storefront_settings"
+msgid "Mobile Storefront settings"
+msgstr "移动店面设置"
+
+msgctxt "Languages::twgadmin_wrong_api_object_data"
+msgid "Wrong [object] data"
+msgstr "错误的[object] 数据"
+
+msgctxt "Languages::twgadmin_wrong_api_data"
+msgid "Wrong API data"
+msgstr "错误的 API 数据"
+
+msgctxt "Languages::twgadmin_wrong_shipping_info"
+msgid "Failed to place order: wrong shipping data"
+msgstr "未能放置订单：错误的装运数据"
+
+msgctxt "Languages::twgadmin_wrong_payment_info"
+msgid "Failed to place order: wrong payment data"
+msgstr "无法放置订单：错误的付款数据"
+
+msgctxt "Languages::twgadmin_object_was_not_found"
+msgid "The [object] data were not found"
+msgstr "未找到[object] 数据"
+
+msgctxt "Languages::twgadmin_fail_create_user"
+msgid "Failed to create user"
+msgstr "无法创建用户"
+
+msgctxt "Languages::twgadmin_fail_post_order"
+msgid "Failed to place order"
+msgstr "无法放置订单"
+
+msgctxt "Languages::twg_post_request_fail"
+msgid "Failed to post request"
+msgstr "无法完成发布请求"
+
+msgctxt "Languages::twgadmin_error_validator_required"
+msgid "The '[field]' field is mandatory"
+msgstr "\"[field]\" 字段不能为空"
+
+msgctxt "Languages::twgadmin_mobile_version"
+msgid "Mobile version"
+msgstr "手机版"
+
+msgctxt "Languages::twgadmin_home_page_content"
+msgid "Home page content"
+msgstr "主页内容"
+
+msgctxt "Languages::twgadmin_use_mobile_frontend_for"
+msgid "Show mobile version for"
+msgstr "显示移动版本"
+
+msgctxt "Languages::twgadmin_phones"
+msgid "Phones"
+msgstr "电话"
+
+msgctxt "Languages::twgadmin_tablets"
+msgid "Tablets"
+msgstr "平板"
+
+msgctxt "Languages::twgadmin_home_page_blocks"
+msgid "Desktop home page blocks"
+msgstr "桌面主页块"
+
+msgctxt "Languages::twgadmin_tw_home_page_blocks"
+msgid "Twigmo home page blocks"
+msgstr "Twigmo 主页块"
+
+msgctxt "Languages::twgadmin_homepage"
+msgid "Twigmo home page"
+msgstr "Twigmo 首页"
+
+msgctxt "Languages::twgadmin_edit_these_blocks"
+msgid "Edit these blocks"
+msgstr "编辑这些块"
+
+msgctxt "Languages::twgadmin_select_skin"
+msgid "Skin"
+msgstr "皮肤"
+
+msgctxt "Languages::twgadmin_hide_header"
+msgid "Hide header"
+msgstr "隐藏页眉"
+
+msgctxt "Languages::twg_btn_load_more_items"
+msgid "Load More"
+msgstr "加载更多"
+
+msgctxt "Languages::twg_btn_log_in_to_checkout"
+msgid "Sign in to checkout"
+msgstr "登录到结帐"
+
+msgctxt "Languages::twg_lbl_copy_from_billing"
+msgid "Ship to the same address"
+msgstr "送货到同一地址"
+
+msgctxt "Languages::twg_msg_date_invalid"
+msgid "Please enter a valid date."
+msgstr "请输入一个合法日期。"
+
+msgctxt "Languages::twg_msg_dateiso_invalid"
+msgid "Please enter a valid date (YYYY-MM-DD)."
+msgstr "请输入一个合法日期 (年月日)。"
+
+msgctxt "Languages::twg_msg_digits_required"
+msgid "Please enter only digits."
+msgstr "请只输入数字。"
+
+msgctxt "Languages::twg_msg_email_invalid"
+msgid "Please enter a valid email address."
+msgstr "请输入一个合法电子邮件地址。"
+
+msgctxt "Languages::twg_msg_extension_invalid"
+msgid "Please enter a value with a valid extension."
+msgstr "请输入一个具有有效扩展名的值。"
+
+msgctxt "Languages::twg_msg_field_required"
+msgid "This field is required."
+msgstr "此字段必须填写"
+
+msgctxt "Languages::twg_msg_fill_required_fields"
+msgid "Please fill in all the required fields."
+msgstr "请填写所有必填字段。"
+
+msgctxt "Languages::twg_msg_field_invalid"
+msgid "Please fix this field."
+msgstr "请修复此字段。"
+
+msgctxt "Languages::twg_msg_max_length"
+msgid "Please enter no more than {0} characters."
+msgstr "请输入不超过{0} 个字符。"
+
+msgctxt "Languages::twg_msg_max_value"
+msgid "Please enter a value less than or equal to {0}."
+msgstr "请输入小于或等于{0} 的值。"
+
+msgctxt "Languages::twg_msg_min_length"
+msgid "Please enter at least {0} characters."
+msgstr "请输入至少{0} 个字符。"
+
+msgctxt "Languages::twg_msg_min_value"
+msgid "Please enter a value greater than or equal to {0}."
+msgstr "请输入大于或等于{0} 的值。"
+
+msgctxt "Languages::twg_msg_number_invalid"
+msgid "Please enter a valid number."
+msgstr "请输入一个合法数字。"
+
+msgctxt "Languages::twg_msg_order_was_placed"
+msgid "Your order has been placed!<br />The order ID is "
+msgstr "您的订单已完成！ <br/> 订单 ID 为 "
+
+msgctxt "Languages::twg_msg_orders_were_placed"
+msgid "Your orders have been placed!<br />The order IDs are "
+msgstr "您的订单已完成！ <br/> 订单 id 是 "
+
+msgctxt "Languages::twg_msg_cc_invalid"
+msgid "Please enter a valid credit card number."
+msgstr "请输入一个合法信用卡号码。"
+
+msgctxt "Languages::twg_msg_range_length"
+msgid "Please enter a value between {0} and {1} characters long."
+msgstr "请在{0} 和{1} 字符之间输入一个值。"
+
+msgctxt "Languages::twg_msg_range_value"
+msgid "Please enter a value between {0} and {1}."
+msgstr "请在{0} 和{1} 之间输入一个值。"
+
+msgctxt "Languages::twg_msg_same_value_required"
+msgid "Please enter the same value again."
+msgstr "请再次输入相同的值。"
+
+msgctxt "Languages::twg_msg_url_invalid"
+msgid "Please enter a valid URL."
+msgstr "请输入有效的 URL。"
+
+msgctxt "Languages::twg_cart_info"
+msgid "[amount] ([total])"
+msgstr "[amount] ([total])"
+
+msgctxt "Languages::twg_share"
+msgid "Share"
+msgstr "共享"
+
+msgctxt "Languages::twg_facebook"
+msgid "Facebook"
+msgstr "Facebook"
+
+msgctxt "Languages::twg_twitter"
+msgid "Twitter"
+msgstr "Twitter"
+
+msgctxt "Languages::twg_desktop_site"
+msgid "Desktop site"
+msgstr "桌面网站"
+
+msgctxt "Languages::twgadmin_connect_to_first_ult"
+msgid "Your store is not connected to the Twigmo service yet. Please ask the root store administrator to do it."
+msgstr "您的商店尚未连接到 Twigmo 服务。请向根存储管理员咨询。"
+
+msgctxt "Languages::twgadmin_mobile_logo"
+msgid "Mobile Storefront logo"
+msgstr "移动店面商标"
+
+msgctxt "Languages::twgadmin_mobile_favicon"
+msgid "iOS device home screen icon"
+msgstr "iOS 设备主屏幕图标"
+
+msgctxt "Languages::twgadmin_url_for_facebook"
+msgid "URL of your Facebook page"
+msgstr "您的 Facebook 页面的网址"
+
+msgctxt "Languages::twgadmin_url_for_twitter"
+msgid "URL of your Twitter page"
+msgstr "你的 Twitter 网页的网址"
+
+msgctxt "Languages::twgadmin_only_req_profile_fields"
+msgid "Show only user profile fields marked as required"
+msgstr "仅显示标记为必需的用户配置文件字段"
+
+msgctxt "Languages::twgadmin_reinstall"
+msgid "The version of Twigmo add-on files does not match the one in the database, so the mobile version of your store has been disabled. Please re-install Twigmo add-on (click Uninstall, then Install on the add-ons list) to enable it."
+msgstr "Twigmo 加载项的版本与数据库中的附加文件不匹配，因此您的存储的移动版本已被禁用。请重新安装 Twigmo 加载项 (单击 \"卸载\"，然后在 add-ons 列表上安装) 以启用它。"
+
+msgctxt "Languages::twg_view_cart_checkout"
+msgid "View cart & checkout"
+msgstr "查看购物车和结帐"
+
+msgctxt "Languages::twg_sign_in_to_checkout"
+msgid "Sign in to checkout"
+msgstr "登录到结帐"
+
+msgctxt "Languages::twg_only_via_desktop"
+msgid "This product can be added to cart only via the [linkOpen]desktop website[linkClose]."
+msgstr "此产品只能通过 [linkOpen]desktop website[linkClose] 添加到购物车中。"
+
+msgctxt "Languages::twg_share_on_social"
+msgid "Share on social networks"
+msgstr "分享社交网络"
+
+msgctxt "Languages::twgadmin_order_via_twigmo"
+msgid "[This order was placed via Twigmo Mobile Storefront]"
+msgstr "[此订单通过 Twigmo 移动店面完成]"
+
+msgctxt "Languages::twg_contact_twigmo_support"
+msgid "Contact Twigmo support"
+msgstr "联系 Twigmo 支持"
+
+msgctxt "Languages::twgadmin_enable_geolocation"
+msgid "Enable geolocation"
+msgstr "启用地理位置"
+
+msgctxt "Languages::tt_addons_mobile_admin_app_settings_settings_twgadmin_enable_geolocation"
+msgid "If enabled, shipping and billing address fields will be populated with the address determined by a geolocation service on the registration and checkout pages."
+msgstr "如果启用，则装运和帐单地址字段将由注册和结帐页上的地理定位服务确定的地址填充。"
+
+msgctxt "Languages::twg_billing_is_the_same"
+msgid "Billing address is the same"
+msgstr "帐单地址相同"
+
+msgctxt "Languages::twgadmin_upgrade_addon"
+msgid "Twigmo add-on upgrade has started."
+msgstr "Twigmo 加载项升级已启动。"
+
+msgctxt "Languages::twgadmin_download_twigmo"
+msgid "Downloading Twigmo upgrade package. Please wait..."
+msgstr "正在下载 Twigmo 升级包。请稍候。。。"
+
+msgctxt "Languages::twgadmin_checking_permissions"
+msgid "Done.</br>Checking file permissions..."
+msgstr "完成。</br>正在检查文件权限。。。"
+
+msgctxt "Languages::twgadmin_no_files_permissions"
+msgid "Error: Cannot overwrite the existing Twigmo add-on files. Please check and correct the file permissions manually or [link]provide your FTP access details[/link] (if they are provided, please make sure this FTP user has enough permissions to modify files on the server)."
+msgstr "错误：无法覆盖现有的 Twigmo 加载项文件。请手动检查并更正文件权限或[link] 提供您的 ftp 访问 细节 [/link] (如果提供，请确保该 ftp 用户有足够的权限修改服务器上的文件)。"
+
+msgctxt "Languages::twgadmin_backup_files"
+msgid "Backing up Twigmo files..."
+msgstr "正在备份 Twigmo 文件..。"
+
+msgctxt "Languages::twgadmin_backup_settings"
+msgid "Backing up Twigmo add-on settings..."
+msgstr "正在备份 Twigmo 加载项设置。。。"
+
+msgctxt "Languages::twgadmin_uninstall_addon"
+msgid "Uninstalling Twigmo add-on..."
+msgstr "正在卸载 Twigmo 加载项。。。"
+
+msgctxt "Languages::twgadmin_restore_settings"
+msgid "Restoring Twigmo add-on settings..."
+msgstr "正在还原 Twigmo 加载项设置。。。"
+
+msgctxt "Languages::twg_min_product_quantity"
+msgid "Minimum order quantity"
+msgstr "最小订单数量"
+
+msgctxt "Languages::twg_checkout_terms_n_conditions"
+msgid "I accept Terms and Conditions"
+msgstr "我接受条款和条件"
+
+msgctxt "Languages::twgadmin_cant_create_file"
+msgid "Cannot create a file [file]. Please create it manually in [path] (only in case you need to customize the selected Twigmo mobile skin)."
+msgstr "无法创建文件[file]。请在[path] 中手动创建它 (仅在您需要自定义所选 Twigmo 移动外观的情况下)。"
+
+msgctxt "Languages::twg_visit_our_mobile_store"
+msgid "Visit our mobile site"
+msgstr "访问我们的移动站点"
+
+msgctxt "Languages::twg_app_for_android"
+msgid "App for Android"
+msgstr "Android 应用软件"
+
+msgctxt "Languages::twg_app_for_ipad"
+msgid "App for iPad"
+msgstr "iPad 应用"
+
+msgctxt "Languages::twgadmin_url_on_appstore"
+msgid "URL of your app on iTunes App Store"
+msgstr "您的应用程序在 iTunes 应用程序商店的网址"
+
+msgctxt "Languages::twgadmin_url_on_googleplay"
+msgid "URL of your app on Google Play"
+msgstr "你的应用程序在谷歌游戏的网址"
+
+msgctxt "Languages::twg_product_added_to_cart"
+msgid "Product Added to Cart"
+msgstr "添加至购物车的商品"
+
+msgctxt "Languages::twg_configurable_via_desktop"
+msgid "This is a configurable product. It can be configured only via [linkOpen]the desktop website[linkClose]."
+msgstr "这是一个可配置的产品。它只能通过[linkOpen]the 桌面 website[linkClose] 配置。"
+
+msgctxt "Languages::twg_requrring_via_desktop"
+msgid "This is a subscription product. Its subscription plan can be selected only via [linkOpen]the desktop website[linkClose]."
+msgstr "这是一个订购产品。它的订阅计划只能通过[linkOpen]the 桌面 website[linkClose] 来选择。"
+
+msgctxt "Languages::twgadmin_basic_skin"
+msgid "Basic skin"
+msgstr "基本皮肤"
+
+msgctxt "Languages::twgadmin_connect_notification"
+msgid "The <a href=\"[addon_link]\">Twigmo add-on</a> is not connected to the <a href=\"http://www.twigmo.com\" target=\"_blank\">Twigmo service</a>. Set it up to enable a mobile version of your store for iOS and Android."
+msgstr "<a href=\"[addon_link]\"> Twigmo 加载项 </a> 未连接到 <a href=\"http://www.twigmo.com\" target=\"_blank\"> Twigmo 服务 </a>。通过设置它为您的店铺启用 iOS 和 Android 移动版本。"
+
+msgctxt "Languages::twgadmin_phpmod_required"
+msgid "PHP extension module [php_module_name] is required for proper operation of the Twigmo add-on. Please install it."
+msgstr "PHP 扩展模块[php_module_name] 是 Twigmo 加载项的正确操作所必需的。请安装它。"
+
+msgctxt "Languages::twgadmin_select_store"
+msgid "Please select a store first"
+msgstr "请先选择商店"
+
+msgctxt "Languages::twg_is_logged_in"
+msgid "logged in."
+msgstr "登录。"
+
+msgctxt "Languages::twg_review_and_place_order"
+msgid "Review and place order"
+msgstr "审阅和下订单"
+
+msgctxt "Languages::twg_login_to_add_to_cart"
+msgid "This product cannot be added to the cart because you are not logged in."
+msgstr "无法将此产品添加到购物车中，因为您没有登录。"
+
+msgctxt "Languages::twgadmin_disconnected"
+msgid "Disconnected"
+msgstr "断开"
+
+msgctxt "Languages::twgadmin_connected"
+msgid "Connected"
+msgstr "连接"
+
+msgctxt "Languages::twgadmin_terms"
+msgid "Terms and conditions"
+msgstr "条款和条件"
+
+msgctxt "Languages::twgadmin_accept_terms_n_conditions"
+msgid "I accept the <a href=\"//www.twigmo.com/terms/\" target=\"_blank\">Terms and Conditions</a>."
+msgstr "我接受 <a href=\"//www.twigmo.com/terms/\" target=\"_blank\"> 条款和条件 </a>。"
+
+msgctxt "Languages::twgadmin_stores"
+msgid "Stores"
+msgstr "店铺"
+
+msgctxt "Languages::twgadmin_open_te"
+msgid "Visual Editor"
+msgstr "可视编辑器"
+
+msgctxt "Languages::twgadmin_open_cp"
+msgid "Twigmo Control Panel"
+msgstr "Twigmo 控制面板"
+
+msgctxt "Languages::twgadmin_no_token_recieved"
+msgid "Twigmo failed to retrieve authentication token. [linkOpen]Go back[linkClose]"
+msgstr "Twigmo 无法检索身份验证令牌。[linkOpen]Go back[linkClose]"
+
+msgctxt "Languages::twg_buy_only_via_desktop"
+msgid "This product can be purchased via [linkOpen]the desktop website[linkClose]."
+msgstr "此产品可通过[linkOpen]the 台式机 website[linkClose] 购买。"
+
+msgctxt "Languages::tt_addons_mobile_admin_app_settings_connect_email"
+msgid "Enter your Twigmo account email address. If you have no Twigmo account, it will be created for you automatically (your email address will be verified)."
+msgstr "输入您的 Twigmo 帐户电子邮件地址。如果您没有 Twigmo 帐户，它将自动为您创建 (您的电子邮件地址将被验证)。"
+
+msgctxt "Languages::tt_addons_mobile_admin_app_settings_connect_password"
+msgid "Enter your Twigmo account password. If you have no Twigmo account, please enter a secure password and we will create a new Twigmo account for you."
+msgstr "输入您的 Twigmo 帐户密码。如果您没有 Twigmo 帐户，请输入安全密码，我们将为您创建一个新的 Twigmo 帐户。"
+
+msgctxt "Languages::tt_addons_mobile_admin_app_settings_connect_twgadmin_stores"
+msgid "Select stores that are to be connected to the Twigmo service."
+msgstr "选择要连接到 Twigmo 服务的存储。"
+
+msgctxt "Languages::twg_cannot_redirect_to_desktop"
+msgid "The desktop site cannot be displayed in this mode, but the link will work fine on a real mobile device."
+msgstr "桌面网站不能以此模式显示，但链接在实际移动设备上将会正常工作。"
+
+msgctxt "Languages::twgadmin_disconnect"
+msgid "Disconnect"
+msgstr "断开"
+
+msgctxt "Languages::twgadmin_disconnect_whole"
+msgid "Disconnect whole addon"
+msgstr "断开整个插件"
+
+msgctxt "Languages::plan"
+msgid "Plan"
+msgstr "计划"
+
+msgctxt "Languages::twgadmin_failed_to_decompress_files"
+msgid "Failed to extract files from the archive"
+msgstr "无法从存档中提取文件"
+
+msgctxt "Languages::twgadmin_upgrade_completed"
+msgid "Upgrade completed"
+msgstr "升级已完成"
+
+msgctxt "Languages::twapp_stats"
+msgid "Statistics"
+msgstr "统计"
+
+msgctxt "Languages::twapp_timeline"
+msgid "Timeline"
+msgstr "时间表"
+
+msgctxt "Languages::twapp_manage_accounts"
+msgid "Manage accounts"
+msgstr "管理帐户"
+
+msgctxt "Languages::twapp_low_stock"
+msgid "Low stock"
+msgstr "低库存"
+
+msgctxt "Languages::twapp_low_stock_products"
+msgid "Low stock products"
+msgstr "低库存产品"
+
+msgctxt "Languages::twapp_all_low_stock_products"
+msgid "All low stock products"
+msgstr "全部低库存产品"
+
+msgctxt "Languages::twapp_delete_account"
+msgid "Delete account"
+msgstr "删除帐户"
+
+msgctxt "Languages::twapp_app_account_info"
+msgid "Fill in the fields below to sign in."
+msgstr "填写下面的字段以登录。"
+
+msgctxt "Languages::twapp_login_or_email"
+msgid "Login/Email"
+msgstr "登录/电子邮件"
+
+msgctxt "Languages::twapp_latest_orders"
+msgid "Latest orders"
+msgstr "最新订单"
+
+msgctxt "Languages::twapp_back"
+msgid "Back"
+msgstr "返回"
+
+msgctxt "Languages::twapp_users_statistics"
+msgid "Users statistics"
+msgstr "用户统计"
+
+msgctxt "Languages::twapp_configurable"
+msgid "Configurable"
+msgstr "配置"
+
+msgctxt "Languages::twg_lbl_out_of_stock"
+msgid "Out of stock"
+msgstr "断货"
+
+msgctxt "Languages::twapp_signing_in"
+msgid "Signing in..."
+msgstr "登录中。。。"
+
+msgctxt "Languages::twapp_two_days_sales"
+msgid "Sales for the last 2 days"
+msgstr "过去2天的销售额"
+
+msgctxt "Languages::twapp_two_weeks_sales"
+msgid "Sales for the last 2 weeks"
+msgstr "过去2周的销售额"
+
+msgctxt "Languages::twapp_two_month_sales"
+msgid "Sales for the last 2 months"
+msgstr "过去2个月的销售额"
+
+msgctxt "Languages::twapp_stat_day_1"
+msgid "12am"
+msgstr "12am"
+
+msgctxt "Languages::twapp_stat_day_2"
+msgid "4am"
+msgstr "4am"
+
+msgctxt "Languages::twapp_stat_day_3"
+msgid "8am"
+msgstr "8am"
+
+msgctxt "Languages::twapp_stat_day_4"
+msgid "12pm"
+msgstr "12pm"
+
+msgctxt "Languages::twapp_stat_day_5"
+msgid "4pm"
+msgstr "4pm"
+
+msgctxt "Languages::twapp_stat_day_6"
+msgid "8pm"
+msgstr "8pm"
+
+msgctxt "Languages::twapp_stat_week_1"
+msgid "Mo"
+msgstr "周一"
+
+msgctxt "Languages::twapp_stat_week_2"
+msgid "Tu"
+msgstr "周二"
+
+msgctxt "Languages::twapp_stat_week_3"
+msgid "We"
+msgstr "周三"
+
+msgctxt "Languages::twapp_stat_week_4"
+msgid "Th"
+msgstr "周四"
+
+msgctxt "Languages::twapp_stat_week_5"
+msgid "Fr"
+msgstr "周五"
+
+msgctxt "Languages::twapp_stat_week_6"
+msgid "Sa"
+msgstr "周六"
+
+msgctxt "Languages::twapp_stat_week_7"
+msgid "Su"
+msgstr "Su"
+
+msgctxt "Languages::twapp_stat_month_1"
+msgid "w1"
+msgstr "w1"
+
+msgctxt "Languages::twapp_stat_month_2"
+msgid "w2"
+msgstr "w2"
+
+msgctxt "Languages::twapp_stat_month_3"
+msgid "w3"
+msgstr "w3"
+
+msgctxt "Languages::twapp_stat_month_4"
+msgid "w4"
+msgstr "w4"
+
+msgctxt "Languages::twapp_stat_month_5"
+msgid "w5"
+msgstr "w5"
+
+msgctxt "Languages::twapp_net_error_title"
+msgid "No network connection"
+msgstr "无网络连接"
+
+msgctxt "Languages::twapp_net_error_message"
+msgid "Cannot load data. Please check your network connection."
+msgstr "无法加载数据。请检查您的网络连接。"
+
+msgctxt "Languages::twapp_in_stock_lowercase"
+msgid "in stock"
+msgstr "有库存"
+
+msgctxt "Languages::twapp_receive_push"
+msgid "Push notifications"
+msgstr "推送通知"
+
+msgctxt "Languages::twapp_will_affect_all_stores"
+msgid "Updating this field will affect all stores"
+msgstr "更新此字段将影响所有存储"
+
+msgctxt "Languages::twapp_data_lang"
+msgid "Data lang."
+msgstr "数据语言"
+
+msgctxt "Languages::twg_placed"
+msgid "Placed"
+msgstr "完成的"
+
+msgctxt "Languages::twgadmin_mobile_admin_application"
+msgid "Twigmo Mobile Admin application"
+msgstr "Twigmo 移动管理应用程序"
+
+msgctxt "Languages::twgadmin_download_app"
+msgid "Download the app"
+msgstr "下载应用程序"
+
+msgctxt "Languages::twgadmin_download_app_hint"
+msgid "This app is available on the <a href=\"http://www.twigmo.com/pricing/\" target=\"_blank\">selected Twigmo plans</a> only."
+msgstr "此应用程序仅在 <a href=\"http://www.twigmo.com/pricing/\" target=\"_blank\"> 选定的 twigmo 计划 </a> 中可用。"
+
+msgctxt "Languages::twgadmin_saved"
+msgid "Saved"
+msgstr "保存"
+
+msgctxt "Languages::twapp_admin_url"
+msgid "Admin URL"
+msgstr "管理 URL"
+
+msgctxt "Languages::twgadmin_auth_fail_access_id"
+msgid "You have no permissions to log in to the store with this Access ID."
+msgstr "您的登陆ID没有权限访问此商店。"
+
+msgctxt "Languages::twgadmin_mobile_app"
+msgid "Mobile app"
+msgstr "移动应用程序"
+
+msgctxt "Languages::twgadmin_qr_for_admin"
+msgid "QR code for the app<br>login page"
+msgstr "应用程序的 QR 码 <br> 登录页"
+
+msgctxt "Languages::twgadmin_qr_for_admin_comment"
+msgid "Please install the Twigmo admin application first. Then use it to scan the QR code. This code contains the Twigmo Access ID [access_id], this admin panel URL and your admin panel login (email or username). You will only need to enter your admin panel password manually."
+msgstr "请先安装 Twigmo 管理应用程序。然后使用它来扫描 QR 码。此代码包含 Twigmo 访问 ID [access_id]、这个管理面板的 URL 和您的管理面板登录 (电子邮件或用户名)。您将只需要手动输入您的管理面板密码。"
+
+msgctxt "Languages::twapp_wrong_api_login_data"
+msgid "No data is received from this admin URL. Please, check it. Also, make sure that the Twigmo add-on is enabled and connected to the service in your store"
+msgstr "没有从这个管理 URL 接收数据。请核实。此外，请确保 Twigmo 加载项已启用并已连接到存储区中的服务"
+
+msgctxt "Languages::twapp_scan_qr"
+msgid "Scan the QR code in your store admin panel"
+msgstr "在您的商店管理面板中扫描 QR 代码"
+
+msgctxt "Languages::twapp_tap_to_scan"
+msgid "Tap to scan"
+msgstr "点击扫描"
+
+msgctxt "Languages::twapp_fill_manually"
+msgid "Fill in the fields manually"
+msgstr "手动填写字段"
+
+msgctxt "Languages::twapp_fill_to_sign_in"
+msgid "Fill in the fields below to sign in."
+msgstr "填写下面的字段以登录。"
+
+msgctxt "Languages::twgadmin_show_product_code"
+msgid "Show product code on product details page"
+msgstr "在产品详细信息页面上显示产品代码"
+
+msgctxt "Languages::twapp_add_account"
+msgid "Add account"
+msgstr "添加帐户"
+
+msgctxt "Languages::twapp_pull_to_refresh"
+msgid "Pull to refresh"
+msgstr "下拉刷新"
+
+msgctxt "Languages::twapp_release_to_refresh"
+msgid "Release to refresh"
+msgstr "发布以刷新"
+
+msgctxt "Languages::twapp_could_not_connect"
+msgid "Could not connect to the Twigmo add-on at [URL]."
+msgstr "无法连接到[URL] 上的 Twigmo 加载项。"
+
+msgctxt "Languages::twgadmin_push_notifications"
+msgid "Push notifications"
+msgstr "推送通知"
+
+msgctxt "Languages::twgadmin_send_push_notifications"
+msgid "Send push notifications to your mobile store app users"
+msgstr "向移动存储应用程序用户发送推送通知"
+
+msgctxt "Languages::twgadmin_select_store_short"
+msgid "Select a store"
+msgstr "选择商店"
+
+msgctxt "Languages::twgadmin_push_notification_text"
+msgid "Push notification text"
+msgstr "推送通知文本"
+
+msgctxt "Languages::twgadmin_push_notification_comment"
+msgid "Please refer to the policies of <a href=\"https://developer.apple.com/app-store/review/guidelines/#push-notifications\" target=\"_blank\">Apple</a> and <a href=\"https://play.google.com/intl/en/about/developer-content-policy.html\" target=\"_blank\">Google</a> regarding sending ads in push notifications. Your mobile app can be banned for violating these policies."
+msgstr "请参照有关发送广告请求的政策 <a href=\"https://developer.apple.com/app-store/review/guidelines/#push-notifications\" target=\"_blank\">Apple</a> 和 <a href=\"https://play.google.com/intl/en/about/developer-content-policy.html\" target=\"_blank\">Google</a>。如果违反这些政策，你的手机应用可能被禁用。"
+
+msgctxt "Languages::twgadmin_push_will_send_to"
+msgid "This message will be sent to <b>[ios_amount]</b> iOS and <b>[android_amount]</b> Android users of your store app."
+msgstr "此消息将发送至 <b>[ios_amount] </b> iOS 和您的商店应用程序的 <b>[android_amount] </b> Android 用户。"
+
+msgctxt "Languages::twgadmin_push_has_uploaded"
+msgid "Your message has been uploaded to the server and it has started sending the message to your mobile app users (it may take up to an hour depending on the number of users)."
+msgstr "您的邮件已上载到服务器，并且已开始将邮件发送到您的移动应用程序用户 (这可能需要一小时，具体取决于用户的数量)。"
+
+msgctxt "Languages::twgadmin_send_push"
+msgid "Send push notifications about order status update to the mobile store app users"
+msgstr "向移动存储应用程序用户发送有关订单状态更新的推送通知"
+
+msgctxt "Languages::twgadmin_send_push_error"
+msgid "Oops, something went wrong. We cannot confirm your message was sent. Please <a href=\"http://support.twigmo.com\" target=\"_blank\">contact Twigmo support team</a> to resolve this issue."
+msgstr "糟糕，出现异常。我们无法确认您的邮件是否已发送。请 <a href=\"http://support.twigmo.com\" target=\"_blank\"> 联系 twigmo 支持团队 </a> 以解决此问题。"
+
+msgctxt "Languages::twgadmin_order_via_twigmo_app_android"
+msgid "[This order was placed via Twigmo Mobile Application for Android]"
+msgstr "[此订单是通过 Twigmo 移动应用程序完成的 Android]"
+
+msgctxt "Languages::twgadmin_order_via_twigmo_app_ios"
+msgid "[This order was placed via Twigmo Mobile Application for iOS]"
+msgstr "[此订单通过 Twigmo 为 iOS 开发的移动应用程序完成的]"
+
+msgctxt "Languages::product_url_mobile_by_twigmo"
+msgid "Product URL twigmo"
+msgstr "产品网址 twigmo"
+

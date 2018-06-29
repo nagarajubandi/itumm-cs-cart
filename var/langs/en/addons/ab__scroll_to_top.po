@@ -1,0 +1,145 @@
+msgid ""
+msgstr "Project-Id-Version: tygh"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: English\n"
+"Language: en_US\n"
+
+msgctxt "Addons::name::ab__scroll_to_top"
+msgid "ab__scroll_to_top"
+msgstr "AB: Scroll to top"
+
+msgctxt "Addons::description::ab__scroll_to_top"
+msgid "ab__scroll_to_top_description"
+msgstr "<a href='https://cs-cart.alexbranding.com' target='_blank'>cs-cart.alexbranding.com</a>"
+
+msgctxt "Languages::ab__scroll_to_top"
+msgid "ab__scroll_to_top"
+msgstr "AB: Scroll to top"
+
+msgctxt "Languages::ab__stt.color"
+msgid "ab__stt.color"
+msgstr "Color of button <b>color</b>"
+
+msgctxt "SettingsOptions::ab__scroll_to_top::position"
+msgid "position"
+msgstr "Position of button on the page"
+
+msgctxt "SettingsVariants::ab__scroll_to_top::position::top_left"
+msgid "top_left"
+msgstr "Top Left"
+
+msgctxt "SettingsVariants::ab__scroll_to_top::position::top_right"
+msgid "top_right"
+msgstr "Top Right"
+
+msgctxt "SettingsVariants::ab__scroll_to_top::position::bottom_left"
+msgid "bottom_left"
+msgstr "Bottom Left"
+
+msgctxt "SettingsVariants::ab__scroll_to_top::position::bottom_right"
+msgid "bottom_right"
+msgstr "Bottom Right"
+
+msgctxt "SettingsOptions::ab__scroll_to_top::icon"
+msgid "icon"
+msgstr "Icon"
+
+msgctxt "SettingsVariants::ab__scroll_to_top::icon::arrow_1"
+msgid "arrow_1"
+msgstr "Arrow 1"
+
+msgctxt "SettingsVariants::ab__scroll_to_top::icon::arrow_2"
+msgid "arrow_2"
+msgstr "Arrow 2"
+
+msgctxt "SettingsVariants::ab__scroll_to_top::icon::arrow_3"
+msgid "arrow_3"
+msgstr "Arrow 3"
+
+msgctxt "SettingsVariants::ab__scroll_to_top::icon::arrow_4"
+msgid "arrow_4"
+msgstr "Arrow 4"
+
+msgctxt "SettingsVariants::ab__scroll_to_top::icon::arrow_5"
+msgid "arrow_5"
+msgstr "Arrow 5"
+
+msgctxt "SettingsVariants::ab__scroll_to_top::icon::arrow_6"
+msgid "arrow_6"
+msgstr "Arrow 6"
+
+msgctxt "SettingsVariants::ab__scroll_to_top::icon::arrow_7"
+msgid "arrow_7"
+msgstr "Arrow 7"
+
+msgctxt "SettingsVariants::ab__scroll_to_top::icon::arrow_8"
+msgid "arrow_8"
+msgstr "Arrow 8"
+
+msgctxt "SettingsVariants::ab__scroll_to_top::icon::arrow_9"
+msgid "arrow_9"
+msgstr "Arrow 9"
+
+msgctxt "SettingsVariants::ab__scroll_to_top::icon::arrow_10"
+msgid "arrow_10"
+msgstr "Arrow 10"
+
+msgctxt "SettingsOptions::ab__scroll_to_top::margin_top"
+msgid "margin_top"
+msgstr "Value of the attribute <b>margin-top</b>"
+
+msgctxt "SettingsTooltips::ab__scroll_to_top::margin_top"
+msgid "margin_top"
+msgstr "Only integer"
+
+msgctxt "SettingsOptions::ab__scroll_to_top::margin_right"
+msgid "margin_right"
+msgstr "Value of the attribute <b>margin-right</b>"
+
+msgctxt "SettingsTooltips::ab__scroll_to_top::margin_right"
+msgid "margin_right"
+msgstr "Only integer"
+
+msgctxt "SettingsOptions::ab__scroll_to_top::margin_bottom"
+msgid "margin_bottom"
+msgstr "Value of the attribute <b>margin-bottom</b>"
+
+msgctxt "SettingsTooltips::ab__scroll_to_top::margin_bottom"
+msgid "margin_bottom"
+msgstr "Only integer"
+
+msgctxt "SettingsOptions::ab__scroll_to_top::margin_left"
+msgid "margin_left"
+msgstr "Value of the attribute <b>margin-left</b>"
+
+msgctxt "SettingsTooltips::ab__scroll_to_top::margin_left"
+msgid "margin_left"
+msgstr "Only integer"
+
+msgctxt "SettingsOptions::ab__scroll_to_top::font_size"
+msgid "font_size"
+msgstr "Value of the attribute <b>font-size</b>"
+
+msgctxt "SettingsTooltips::ab__scroll_to_top::font_size"
+msgid "font_size"
+msgstr "Only integer"
+
+msgctxt "SettingsOptions::ab__scroll_to_top::font_weight"
+msgid "font_weight"
+msgstr "Value of the attribute <b>font-weight</b>"
+
+msgctxt "SettingsVariants::ab__scroll_to_top::font_weight::normal"
+msgid "normal"
+msgstr "normal"
+
+msgctxt "SettingsVariants::ab__scroll_to_top::font_weight::bold"
+msgid "bold"
+msgstr "bold"
+
+msgctxt "SettingsOptions::ab__scroll_to_top::hide_on_mobile"
+msgid "hide_on_mobile"
+msgstr "Hide on mobile devices"
+
+msgctxt "SettingsOptions::ab__scroll_to_top::show_in_admin_panel"
+msgid "show_in_admin_panel"
+msgstr "Show button in Admin panel"

@@ -1,0 +1,14 @@
+msgid ""
+msgstr "Project-Id-Version: tygh"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Russian\n"
+"Language: ru_RU\n"
+
+msgctxt "Addons::name::cp_ajax_update"
+msgid "Cart-Power: Automatic Cart Recalculate"
+msgstr "Cart-Power: Автоперерасчет корзины"
+
+msgctxt "Addons::description::cp_ajax_update"
+msgid "Automatic AJAX cart recalculate without having to click the Recalculate button.. Developed by <a target=\"_blank\" href=\"http://cart-power.com/\">Cart-Power</a>"
+msgstr "Автоматический пересчет суммы корзины с использованием технологии AJAX. Разработан <a target=\"_blank\" href=\"http://cart-power.ru/\">Cart-Power</a>. Профессиональная разработка для CS-Cart</a>"
+

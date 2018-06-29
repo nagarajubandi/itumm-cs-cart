@@ -1,0 +1,243 @@
+msgid ""
+msgstr "Project-Id-Version: tygh"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: English\n"
+"Language: en_US"
+
+msgctxt "LanguageName"
+msgid "Localized language name"
+msgstr "English"
+
+msgctxt "Addons::name::sms_notification_msg91"
+msgid "SMS Notifications (MSG91)"
+msgstr "SMS Notifications (MSG91)"
+
+msgctxt "Addons::description::sms_notification_msg91"
+msgid "Allows admin to set up administrator/customer sms notifications.<br> <a href='https://webkul.uvdesk.com/en/customer/create-ticket/' target='_blank'>Support</a> | <a href=' https://webkul.com/blog/cs-cart-msg91-sms-notification/' target='_blank'>User Guide</a>"
+msgstr "Allows admin to set up administrator/customer sms notifications.<br> <a href='https://webkul.uvdesk.com/en/customer/create-ticket/' target='_blank'>Support</a> | <a href=' https://webkul.com/blog/cs-cart-msg91-sms-notification/' target='_blank'>User Guide</a>"
+
+msgctxt "SettingsSections::sms_notification_msg91::credentials"
+msgid "API Credentials"
+msgstr "API Credentials"
+
+msgctxt "SettingsSections::sms_notification_msg91::settings"
+msgid "Configuration"
+msgstr "Configuration"
+
+msgctxt "SettingsSections::sms_notification_msg91::template"
+msgid "Template"
+msgstr "Template"
+
+msgctxt "SettingsOptions::sms_notification_msg91::authkey"
+msgid "Auth Key"
+msgstr "Auth Key"
+
+msgctxt "SettingsTooltips::sms_notification_msg91::authkey"
+msgid "Write auth key of your account"
+msgstr "Write auth key of your account"
+
+msgctxt "SettingsOptions::sms_notification_msg91::client_id"
+msgid "Sender id"
+msgstr "Sender id"
+
+msgctxt "SettingsTooltips::sms_notification_msg91::client_id"
+msgid "Write client id here or leave blank for random client id"
+msgstr "Write client id here or leave blank for random client id"
+
+msgctxt "SettingsOptions::sms_notification_msg91::route"
+msgid "Route"
+msgstr "Route"
+
+msgctxt "SettingsTooltips::sms_notification_msg91::route"
+msgid "Write your sms route here (default for promotional route)"
+msgstr "Write your sms route here (default for promotional route)"
+
+msgctxt "SettingsOptions::sms_notification_msg91::sms_new_cusomer_registered"
+msgid "User Registration"
+msgstr "User Registration"
+
+msgctxt "SettingsOptions::sms_notification_msg91::sms_new_order_placed"
+msgid "Order Placement"
+msgstr "Order Placement"
+
+msgctxt "SettingsOptions::sms_notification_msg91::sms_shipment_status"
+msgid "Shipment Creation"
+msgstr "Shipment Creation"
+
+msgctxt "SettingsOptions::sms_notification_msg91::sms_forget_password"
+msgid "Forget Password"
+msgstr "Forget Password"
+
+msgctxt "SettingsOptions::sms_notification_msg91::sms_new_cusomer_registered_template"
+msgid "User Registration"
+msgstr "User Registration"
+
+msgctxt "SettingsOptions::sms_notification_msg91::sms_new_order_placed_template"
+msgid "Order Placement"
+msgstr "Order Placement"
+
+msgctxt "SettingsOptions::sms_notification_msg91::sms_shipment_status_template"
+msgid "Shipment Creation"
+msgstr "Shipment Creation"
+
+msgctxt "SettingsOptions::sms_notification_msg91::sms_forget_password_template"
+msgid "Forget Password"
+msgstr "Forget Password"
+
+msgctxt "SettingsOptions::sms_notification_msg91::setting_admin"
+msgid "Admin SMS Setting"
+msgstr "Admin SMS Setting"
+
+msgctxt "SettingsOptions::sms_notification_msg91::setting_vendor"
+msgid "Vendor SMS Setting"
+msgstr "Vendor SMS Setting"
+
+msgctxt "SettingsOptions::sms_notification_msg91::sms_new_cusomer_registered_admin"
+msgid "User Registration"
+msgstr "User Registration"
+
+msgctxt "SettingsOptions::sms_notification_msg91::sms_new_order_placed_admin"
+msgid "Order Placement"
+msgstr "Order Placement"
+
+msgctxt "SettingsOptions::sms_notification_msg91::sms_new_order_placed_vendor"
+msgid "Order Placement"
+msgstr "Order Placement"
+
+msgctxt "SettingsOptions::sms_notification_msg91::sms_shipment_status_admin"
+msgid "Shipment Creation"
+msgstr "Shipment Creation"
+
+msgctxt "SettingsOptions::sms_notification_msg91::sms_shipment_status_vendor"
+msgid "Shipment Creation"
+msgstr "Shipment Creation"
+
+msgctxt "SettingsOptions::sms_notification_msg91::sms_vendor_status_admin"
+msgid "Vendor Status Change"
+msgstr "Vendor Status Change"
+
+msgctxt "SettingsOptions::sms_notification_msg91::sms_vendor_status_vendor"
+msgid "Vendor Status Change"
+msgstr "Vendor Status Change"
+
+msgctxt "SettingsOptions::sms_notification_msg91::sms_low_stock_admin"
+msgid "Low Stock"
+msgstr "Low Stock"
+
+msgctxt "SettingsOptions::sms_notification_msg91::sms_low_stock_vendor"
+msgid "Low Stock"
+msgstr "Low Stock"
+
+msgctxt "SettingsOptions::sms_notification_msg91::setting_admin_template"
+msgid "Admin SMS Template"
+msgstr "Admin SMS Template"
+
+msgctxt "SettingsOptions::sms_notification_msg91::setting_vendor_template"
+msgid "Vendor SMS Template"
+msgstr "Vendor SMS Template"
+
+msgctxt "SettingsOptions::sms_notification_msg91::sms_shipment_status_admin_template"
+msgid "Shipment Creation"
+msgstr "Shipment Creation"
+
+msgctxt "SettingsOptions::sms_notification_msg91::sms_shipment_status_vendor_template"
+msgid "Shipment Creation"
+msgstr "Shipment Creation"
+
+msgctxt "SettingsOptions::sms_notification_msg91::sms_vendor_status_admin_template"
+msgid "Vendor Status Change"
+msgstr "Vendor Status Change"
+
+msgctxt "SettingsOptions::sms_notification_msg91::sms_vendor_status_vendor_template"
+msgid "Vendor Status Change"
+msgstr "Vendor Status Change"
+
+msgctxt "SettingsOptions::sms_notification_msg91::sms_new_order_placed_admin_template"
+msgid "Order Placement"
+msgstr "Order Placement"
+
+msgctxt "SettingsOptions::sms_notification_msg91::sms_new_order_placed_vendor_template"
+msgid "Order Placement"
+msgstr "Order Placement"
+
+msgctxt "SettingsOptions::sms_notification_msg91::sms_new_cusomer_registered_admin_template"
+msgid "User Registration"
+msgstr "User Registration"
+
+msgctxt "SettingsOptions::sms_notification_msg91::sms_low_stock_admin_template"
+msgid "Low Stock"
+msgstr "Low Stock"
+
+msgctxt "SettingsOptions::sms_notification_msg91::sms_low_stock_vendor_template"
+msgid "Low Stock"
+msgstr "Low Stock"
+
+msgctxt "SettingsOptions::sms_notification_msg91::setting_customer_template"
+msgid "Customer SMS Template"
+msgstr "Customer SMS Template"
+
+msgctxt "SettingsOptions::sms_notification_msg91::admin_phone"
+msgid "Admin Phone""
+msgid "Low Stock"
+msgstr "Low Stock"
+
+msgctxt "SettingsOptions::sms_notification_msg91::setting_customer_template"
+msgid "Customer SMS Template"
+msgstr "Customer SMS Template"
+
+msgctxt "SettingsOptions::sms_notification_msg91::admin_phone"
+msgid "Admin Phone"
+msgstr "Admin Phone"
+
+msgctxt "SettingsOptions::sms_notification_msg91::setting_template_help"
+msgid "Placeholder"
+msgstr "Placeholder"
+
+msgctxt "Languages::msg_shipment_creation"
+msgid "Shipment Creation"
+msgstr "Shipment Creation"
+
+msgctxt "Languages::msg_user_status_change"
+msgid "User status change"
+msgstr "User status change"
+
+msgctxt "Languages::msg_order_placement"
+msgid "Order Placement"
+msgstr "Order Placement"
+
+msgctxt "Languages::msg_user_registration"
+msgid "User Registration"
+msgstr "User Registration"
+
+msgctxt "Languages::msg_user_registration"
+msgid "User Registration"
+msgstr "User Registration"
+
+msgctxt "Languages::msg_low_inventory"
+msgid "Low Inventory"
+msgstr "Low Inventory"
+
+msgctxt "Languages::msg_company_status_change"
+msgid "Vendor Status Change"
+msgstr "Vendor Status Change"
+
+msgctxt "SettingsOptions::sms_notification_msg91::setting_customer"
+msgid "Customer SMS Setting"
+msgstr "Customer SMS Setting"
+
+msgctxt "SettingsOptions::sms_notification_msg91::sms_user_status"
+msgid "User Status Change"
+msgstr "User Status Change"
+
+msgctxt "SettingsOptions::sms_notification_msg91::sms_vendor_status"
+msgid "Vendor Status Change"
+msgstr "Vendor Status Change"
+
+
+msgctxt "SettingsOptions::sms_notification_msg91::sms_user_status_template"
+msgid "User Status Change"
+msgstr "User Status Change"
+
+msgctxt "SettingsOptions::sms_notification_msg91::sms_vendor_status_template"
+msgid "Vendor Status Change"
+msgstr "Vendor Status Change"

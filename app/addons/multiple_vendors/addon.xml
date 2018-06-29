@@ -1,0 +1,72 @@
+<?xml version="1.0"?>
+<addon scheme="2.0" edition_type="ROOT,ULT:VENDOR">
+	<id>multiple_vendors</id>
+	<name>Multiple vendors</name>
+	<priority>1307100458</priority>
+	<position>148</position>
+	<status>active</status>
+    <queries>
+		<item>DELETE FROM `?:privileges` WHERE `privilege`='vendors_products';</item>
+		<item>DELETE FROM `?:usergroup_privileges` WHERE `privilege`='vendors_products';</item>
+		<item>DROP TABLE IF EXISTS `?:vendors_products_data`</item>
+
+		<item>INSERT INTO `?:privileges` (`privilege`, `is_default`) VALUES ('vendors_products', 'Y');</item>
+		<item>INSERT INTO `?:usergroup_privileges` (`usergroup_id`, `privilege`) VALUES ('5', 'vendors_products');</item>
+		<item>CREATE TABLE `?:vendors_products_data` (
+			`id` mediumint(8) unsigned NOT NULL auto_increment,
+			`company_id` mediumint(8) NOT NULL,
+            `product_id` mediumint(8) NOT NULL,
+			`price` decimal(12,2) NOT NULL,
+			`amount` int(11) NOT NULL,
+            PRIMARY KEY  (`id`)
+			) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+		</item>
+		<item>ALTER TABLE `?:product_options_inventory` DROP PRIMARY KEY</item>
+		<item>ALTER TABLE `?:product_options_inventory` ADD `vendor_id` mediumint(8) NOT NULL</item>
+		<item>ALTER TABLE `?:product_options_inventory` ADD PRIMARY KEY (`combination_hash`, `vendor_id`)</item>
+		
+		<item for="uninstall">DELETE FROM `?:privileges` WHERE `privilege`='vendors_products';</item>
+		<item for="uninstall">DELETE FROM `?:usergroup_privileges` WHERE `privilege`='vendors_products';</item>
+		<item for="uninstall">DROP TABLE IF EXISTS `?:vendors_products_data`</item>
+		<item for="uninstall">DELETE FROM `?:product_options_inventory` WHERE `vendor_id` != 0;</item>
+		<item for="uninstall">ALTER TABLE `?:product_options_inventory` DROP `vendor_id`</item>
+	</queries>
+    <language_variables>
+        <item id="vendors_products" lang="en">Vendors products</item>
+        <item id="boutique" lang="en">Boutique</item>
+        <item id="all_store_products" lang="en">All store products</item>
+        <item id="my_shared_products" lang="en">My shared products</item>
+        <item id="all_store_products_menu_description" lang="en">Select products from other vendors</item>
+        <item id="my_shared_products_menu_description" lang="en">View and edit my shared products</item>
+        <item id="boutique" lang="en">Boutique</item>
+        <item id="boutique" lang="en">Boutique</item>
+        <item id="boutique" lang="en">Boutique</item>
+        <item id="boutique" lang="en">Boutique</item>
+        <item id="boutique" lang="en">Boutique</item>
+        <item id="boutique" lang="en">Boutique</item>
+        <item id="boutique" lang="en">Boutique</item>
+        <item id="boutique" lang="en">Boutique</item>
+        <item id="boutique" lang="en">Boutique</item>
+        <item id="boutique" lang="en">Boutique</item>
+        <item id="boutique" lang="en">Boutique</item>
+        <item id="boutique" lang="en">Boutique</item>
+        <item id="boutique" lang="en">Boutique</item>
+        <item id="boutique" lang="en">Boutique</item>
+        <item id="boutique" lang="en">Boutique</item>
+        <item id="boutique" lang="en">Boutique</item>
+        <item id="boutique" lang="en">Boutique</item>
+        <item id="boutique" lang="en">Boutique</item>
+        <item id="boutique" lang="en">Boutique</item>
+        <item id="boutique" lang="en">Boutique</item>
+        <item id="boutique" lang="en">Boutique</item>
+        <item id="boutique" lang="en">Boutique</item>
+        <item id="boutique" lang="en">Boutique</item>
+        <item id="boutique" lang="en">Boutique</item>
+        <item id="boutique" lang="en">Boutique</item>
+        <item id="boutique" lang="en">Boutique</item>
+        <item id="boutique" lang="en">Boutique</item>
+        <item id="boutique" lang="en">Boutique</item>
+        <item id="boutique" lang="en">Boutique</item>
+        <item id="boutique" lang="en">Boutique</item>
+    </language_variables>
+</addon>

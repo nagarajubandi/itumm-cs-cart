@@ -1,0 +1,168 @@
+msgid ""
+msgstr "Project-Id-Version: tygh"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Russian\n"
+"Language: ru_RU\n"
+
+msgctxt "Addons::name::ab__landing_categories"
+msgid "ab__landing_categories"
+msgstr "AB: Посадочные категории"
+
+msgctxt "Addons::description::ab__landing_categories"
+msgid "ab__landing_categories"
+msgstr "Модуль позволяет создать посадочные категории"
+"<br><a href='https://cs-cart.alexbranding.com' target='_blank'>cs-cart.alexbranding.com</a>"
+
+msgctxt "Languages::ab__landing_categories"
+msgid "ab__landing_categories"
+msgstr "AB: Посадочные категории"
+
+msgctxt "Languages::ab__lc_catalog"
+msgid "ab__lc_catalog"
+msgstr "AB: Каталог категорий"
+
+msgctxt "Languages::ab__lc.breadcrumb_catalog"
+msgid "ab__lc.breadcrumb_catalog"
+msgstr "Каталог"
+
+msgctxt "Languages::ab__lc.catalog.image_control"
+msgid "ab__lc.catalog.image_control"
+msgstr "Управление картинкой категории"
+
+msgctxt "Languages::ttc_ab__lc.catalog.image_control"
+msgid "ttc_ab__lc.catalog.image_control"
+msgstr "Для [Изображения категории сверху] будет использоваться размер, указанный в Настройки - Иконки - Ширина/Высота иконки в списке категорий.<br>"
+"Для [Мини-иконки категории слева] будет использоваться размер 32px*32px"
+
+msgctxt "Languages::ab__lc.catalog.image_control.none"
+msgid "ab__lc.catalog.image_control.none"
+msgstr "не отображать"
+
+msgctxt "Languages::ab__lc.catalog.image_control.top"
+msgid "ab__lc.catalog.image_control.top"
+msgstr "отображать изображение категории сверху от названия категории"
+
+msgctxt "Languages::ab__lc.catalog.image_control.left"
+msgid "ab__lc.catalog.image_control.left"
+msgstr "отображать мини-иконку категории слева от названия"
+
+msgctxt "Languages::ab__lc.catalog.icon"
+msgid "ab__lc.catalog.icon"
+msgstr "Мини-иконка категории"
+
+msgctxt "Languages::ttc_ab__lc.catalog.icon"
+msgid "ttc_ab__lc.catalog.icon"
+msgstr "Мини-иконка категории отображаемая на странице [AB: Каталог категорий] слева от названия категории"
+
+msgctxt "Languages::ab__lc.catalog.show_more"
+msgid "ab__lc.catalog.show_more"
+msgstr "Еще"
+
+msgctxt "Languages::ab__lc_landing_category"
+msgid "ab__lc_landing_category"
+msgstr "AB: Посадочная категория"
+
+msgctxt "Languages::ab__lc.landing_category.landing"
+msgid "ab__lc.landing_category.landing"
+msgstr "Категория как посадочная страница"
+
+msgctxt "Languages::ttc_ab__lc.landing_category.landing"
+msgid "ttc_ab__lc.landing_category.landing"
+msgstr "Страница категории будет отображаться как посадочная страница. Будут отображаться только подкатегории и не будут отображаться товары"
+
+msgctxt "Languages::ab__lc.landing_category.subsubcategories"
+msgid "ab__lc.landing_category.subsubcategories"
+msgstr "Количество под-подкатегорий"
+
+msgctxt "Languages::ttc_ab__lc.landing_category.subsubcategories"
+msgid "ttc_ab__lc.landing_category.subsubcategories"
+msgstr "Максимальное количество отображаемых под-подкатегорий. Если пусто или 0 - тогда под-подкатегории не будут отображаться"
+
+msgctxt "Languages::ab__lc.landing_category.show_more"
+msgid "ab__lc.landing_category.show_more"
+msgstr "Еще"
+
+msgctxt "Languages::ab__lc.control_subcategory_structure"
+msgid "ab__lc.control_subcategory_structure"
+msgstr "AB: Управление структурой подкатегорий на страницах [AB: Посадочная категория]"
+
+msgctxt "Languages::ab__lc.control_subcategory_structure.menu_id"
+msgid "ab__lc.control_subcategory_structure.menu_id"
+msgstr "ID меню"
+
+msgctxt "Languages::ttc_ab__lc.control_subcategory_structure.menu_id"
+msgid "ttc_ab__lc.control_subcategory_structure.menu_id"
+msgstr "Укажите ID меню, если хотите использовать Меню для построения текущей структуры подкатегорий"
+
+msgctxt "Languages::ab__lc.control_subcategory_structure.add_menu"
+msgid "ab__lc.control_subcategory_structure.add_menu"
+msgstr "Добавить и/или связать Меню"
+
+msgctxt "Languages::ab__lc.control_subcategory_structure.add_menu.info"
+msgid "ab__lc.control_subcategory_structure.add_menu.info"
+msgstr "Меню создается только при необходимости, так как предварительно происходит поиск меню по коду [ABLC-xxx:], xxx - category_id"
+
+msgctxt "Languages::ab__lc.control_subcategory_structure.add_menu.info.multiplestore"
+msgid "ab__lc.control_subcategory_structure.add_menu.info.multiplestore"
+msgstr "Перед созданием Меню выберите [Магазин]"
+
+msgctxt "Languages::ab__lc.control_subcategory_structure.add_menu.added_new_menu"
+msgid "ab__lc.control_subcategory_structure.add_menu.added_new_menu"
+msgstr "Меню было успешно создано и связано с текущей категорией!"
+
+msgctxt "Languages::ab__lc.control_subcategory_structure.add_menu.used_existing_menu"
+msgid "ab__lc.control_subcategory_structure.add_menu.used_existing_menu"
+msgstr "Меню уже существовало и было связано с текущей категорией!"
+
+msgctxt "Languages::ab__lc.control_subcategory_structure.how_to_use_menu"
+msgid "ab__lc.control_subcategory_structure.how_to_use_menu"
+msgstr "Как использовать меню"
+
+msgctxt "Languages::ab__lc.control_subcategory_structure.how_to_use_menu.not_to_use"
+msgid "ab__lc.control_subcategory_structure.how_to_use_menu.not_to_use"
+msgstr "не использовать"
+
+msgctxt "Languages::ab__lc.control_subcategory_structure.how_to_use_menu.prepend"
+msgid "ab__lc.control_subcategory_structure.how_to_use_menu.prepend"
+msgstr "дополнить текущую структуру подкатегорий пунктами из меню сверху"
+
+msgctxt "Languages::ab__lc.control_subcategory_structure.how_to_use_menu.append"
+msgid "ab__lc.control_subcategory_structure.how_to_use_menu.append"
+msgstr "дополнить текущую структуру подкатегорий пунктами из меню снизу"
+
+msgctxt "Languages::ab__lc.control_subcategory_structure.how_to_use_menu.replace"
+msgid "ab__lc.control_subcategory_structure.how_to_use_menu.replace"
+msgstr "заместить текущую структуру подкатегорий пунктами из меню"
+
+msgctxt "Languages::ab__lc.control_subcategory_structure.inherit_control"
+msgid "ab__lc.control_subcategory_structure.inherit_control"
+msgstr "Наследовать управление"
+
+msgctxt "Languages::ttc_ab__lc.control_subcategory_structure.inherit_control"
+msgid "ttc_ab__lc.control_subcategory_structure.inherit_control"
+msgstr "Если отмечено, тогда каждый пункт подкатегории будет построен с учетом ее настроек <b>AB: Управление структурой подкатегорий на страницах [AB: Посадочная категория]</b>"
+
+msgctxt "Languages::ab__lc.add_menu.added_new_menu"
+msgid "ab__lc.add_menu.added_new_menu"
+msgstr "Создано новое Меню"
+
+msgctxt "Languages::ab__lc.add_menu.used_existing_menu"
+msgid "ab__lc.add_menu.used_existing_menu"
+msgstr "Используется существующее Меню"
+
+msgctxt "SettingsOptions::ab__landing_categories::add_catalog_to_breadcrumbs"
+msgid "add_catalog_to_breadcrumbs"
+msgstr "Добавить [AB: Каталог категорий] в хлебные крошки"
+
+msgctxt "SettingsOptions::ab__landing_categories::maximum_number_of_displayed_items"
+msgid "maximum_number_of_displayed_items"
+msgstr "Максимальное количество отображаемых подкатегорий на странице [AB: Каталог категорий]"
+
+msgctxt "SettingsOptions::ab__landing_categories::catalog_menu"
+msgid "catalog_menu"
+msgstr "ID меню"
+
+msgctxt "SettingsTooltips::ab__landing_categories::catalog_menu"
+msgid "catalog_menu"
+msgstr "Укажите ID меню, если хотите построить [AB: Каталог категорий] с помощью меню, иначе оставьте 0, для построения [AB: Каталог категорий] по дереву категорий"
+

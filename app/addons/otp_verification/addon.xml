@@ -1,0 +1,155 @@
+<?xml version="1.0"?>
+<addon scheme="3.0">
+    <id>otp_verification</id>
+    <version>4.0</version>
+    <priority>2510</priority>
+    <position>131</position>
+    <status>active</status>
+    <has_icon>Y</has_icon>
+    <supplier>Webkul</supplier>
+    <supplier_link>https://store.webkul.com/CS-Cart.html</supplier_link>
+    <default_language>en</default_language>
+    <authors>
+        <author>
+            <name>Webkul Software Pvt Ltd</name>
+            <email>support@webkul.com</email>
+            <url>http://webkul.com</url>
+            <phone>+91-9650486699</phone>
+        </author>
+    </authors>
+    <functions>
+        <item for="install">fn_otp_verification_install</item>
+    </functions>
+    <settings>
+        <sections>
+            <section id="general">
+                <items>
+                    <item id="otp_twilio_settings">
+                        <type>header</type>
+                        <variants/>
+                    </item>
+                    <item id="otp_twilio_phone_number">
+                        <type>input</type>
+                        <variants/>
+                    </item>
+                    <item id="otp_twilio_account_sid">
+                        <type>input</type>
+                        <default_value/>
+                        <variants/>
+                    </item>
+                    <item id="otp_twilio_access_token">
+                        <type>input</type>
+                        <default_value/>
+                        <variants/>
+                    </item>
+                    <item id="otp_otp_verification_only_for">
+                        <type>header</type>
+                        <variants/>
+                    </item>
+                    <item id="enable_otp_on_register">
+                        <type>checkbox</type>
+                        <variants/>
+                    </item>
+                    <item id="login_via_otp">
+                        <type>checkbox</type>
+                        <variants/>
+                    </item>
+                    <item id="login_via_phone_or_email">
+                        <type>checkbox</type>
+                        <variants/>
+                    </item>
+                    <item id="enable_reset_password_by_otp">
+                        <type>checkbox</type>
+                        <variants/>
+                    </item>
+                    <item id="enable_checkout_for_non_verified_user">
+                        <type>checkbox</type>
+                        <variants/>
+                    </item>
+                    <item id="otp_send_payments">
+                        <type>multiple checkboxes</type>
+                        <variants/>
+                    </item>
+                    <item id="otp_otp_setting">
+                        <type>header</type>
+                        <variants/>
+                    </item>
+                    <item id="otp_otp_save_phone_no">
+                        <type>checkbox</type>
+                    </item>
+                    <item id="otp_otp_retry_chance">
+                        <type>selectbox</type>
+                        <variants>
+                            <item id="otp_retry_0"></item>
+                            <item id="otp_retry_1"></item>
+                            <item id="otp_retry_2"></item>
+                            <item id="otp_retry_3"></item>
+                            <item id="otp_retry_4"></item>
+                            <item id="otp_retry_5"></item>
+                            <item id="otp_retry_6"></item>
+                            <item id="otp_retry_7"></item>
+                            <item id="otp_retry_8"></item>
+                            <item id="otp_retry_9"></item>
+                            <item id="otp_retry_10"></item>
+                        </variants>
+                        <default_value>otp_retry_3</default_value>
+                    </item>
+                    <item id="otp_otp_time_of_expiration_of_otp_code">
+                        <type>selectbox</type>
+                        <variants>
+                            <item id="otp_expire_1"></item>
+                            <item id="otp_expire_2"></item>
+                            <item id="otp_expire_3"></item>
+                            <item id="otp_expire_4"></item>
+                            <item id="otp_expire_5"></item>
+                            <item id="otp_expire_6"></item>
+                            <item id="otp_expire_7"></item>
+                            <item id="otp_expire_8"></item>
+                            <item id="otp_expire_9"></item>
+                            <item id="otp_expire_10"></item>
+                        </variants>
+                        <default_value>otp_expire_1</default_value>
+                    </item>
+                    <item id="otp_phone_mask">
+                        <type>input</type>
+                        <default_value/>
+                    </item>
+                    <item id="otp_otp_length">
+                        <type>input</type>
+                        <default_value/>
+                    </item>
+                    <item id="otp_otp_characters">
+                        <type>multiple checkboxes</type>
+                        <variants>
+                            <item id="otp_all_chars"></item>
+                            <item id="otp_numeral"></item>
+                            <item id="otp_alphabet_small"></item>
+                            <item id="otp_alphabet_caps"></item>
+                            <item id="otp_special_char"></item>
+                        </variants>
+                        <default_value>otp_all_chars</default_value>
+                    </item>
+                    <!-- In this case the information returned by the function "handler" will be displayed -->
+                    <item id="otp_info_for_otp_special_char">
+                        <type>info</type>
+                        <handler>fn_otp_verification_info_for_otp_special_char</handler>
+                    </item>
+                </items>
+            </section>
+        </sections>
+    </settings>
+    <queries>
+		<item>DROP TABLE IF EXISTS ?:otp_verification_users;</item>
+		<item>
+			CREATE TABLE IF NOT EXISTS `?:otp_verification_users` (
+			  `user_id` varchar(255) NOT NULL,
+			  `email` varchar(255) NOT NULL,
+              `phone` varchar(255) NOT NULL,
+			  `status` varchar(255) NOT NULL,
+			  PRIMARY KEY (`user_id`)
+			) ENGINE=MyISAM  DEFAULT CHARSET=utf8;
+		</item>
+		<item for="uninstall">DROP TABLE IF EXISTS ?:otp_verification_users;</item>
+
+	</queries>
+</addon>

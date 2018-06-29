@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<addon scheme="3.0">
+    <id>zipcode_validator</id>
+    <version>1.0</version>
+    <priority>4232</priority>
+    <position>654</position>
+    <status>active</status>
+    <default_language>en</default_language>
+	<queries>
+		<item>DROP TABLE IF EXISTS ?:zipcode_validator_list;</item>
+		<item>
+
+			CREATE TABLE IF NOT EXISTS `?:zipcode_validator_list` (
+			`id` int(11) NOT NULL AUTO_INCREMENT,
+			`product_id` int(11) NOT NULL,
+			`code` varchar(50) NOT NULL,
+			PRIMARY KEY (`id`)
+			) ENGINE=MyISAM DEFAULT CHARSET=latin1 AUTO_INCREMENT=1 ;
+
+		</item>
+		<item for="uninstall">DROP TABLE IF EXISTS ?:zipcode_validator_list;</item>
+	</queries>
+</addon>

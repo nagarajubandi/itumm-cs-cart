@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<addon scheme="3.0">
+    <id>1cc_select_delivery_time</id>
+    <name>1Click Select delivery time</name>
+    <version>1.0</version>
+    <priority>1</priority>
+    <position>0</position>
+    <default_language>en</default_language>
+    <language_variables>
+        <item lang="en" id="select_delivery_datetime">Select delivery date and time</item>
+    </language_variables>
+    <queries>
+        <item>ALTER TABLE `?:orders` ADD `delivery_time` varchar(64) NOT NULL</item>
+        <!-- Uncomment to wipe off add-on data completely
+        <item for="uninstall">ALTER TABLE `?:orders` DROP `delivery_time`</item>
+        -->
+    </queries>
+</addon>

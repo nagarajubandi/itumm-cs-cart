@@ -1,0 +1,65 @@
+msgid ""
+msgstr "Project-Id-Version: tygh"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: English\n"
+"Language: en_US"
+
+msgctxt "Addons::name::ebs_payment"
+msgid "EBS Payment Gateway"
+msgstr "EBS Payment Gateway"
+
+msgctxt "LanguageName"
+msgid "Localized language name"
+msgstr "English"
+
+msgctxt "Addons::description::ebs_payment"
+msgid "Integrate EBS Payment Gateway into your store."
+msgstr "Integrate EBS Payment Gateway into your store."
+
+msgctxt "Languages::ebs_payment"
+msgid "EBS Payment Gateway"
+msgstr "EBS Payment Gateway"
+
+msgctxt "Languages::ebs_account_id"
+msgid "EBS Account Id "
+msgstr "EBS Account Id "
+
+msgctxt "Languages::ebs_secret_key"
+msgid "EBS Secket Key "
+msgstr "EBS Secket Key "
+
+msgctxt "Languages::ebs_mode"
+msgid "EBS Mode "
+msgstr "EBS Mode "
+
+msgctxt "Languages::ebs_page_id"
+msgid "Page Id "
+msgstr "Page Id "
+
+msgctxt "Languages::ebs_hash_type"
+msgid "Hash Type "
+msgstr "Hash Type "
+
+msgctxt "Languages::ebs_test"
+msgid "Test "
+msgstr "Test "
+
+msgctxt "Languages::ebs_live"
+msgid "EBS Live "
+msgstr "EBS Live "
+
+msgctxt "Languages::payment_id"
+msgid "Payment Id"
+msgstr "Payment Id"
+
+msgctxt "Languages::request_id"
+msgid "Request Id"
+msgstr "Request Id"
+
+msgctxt "Languages::please_ensure_inr_should_be_configured_in_your_store"
+msgid "Please ensure 'INR' currency should be configured in your store"
+msgstr "Please ensure 'INR' currency should be configured in your store"
+
+msgctxt "Languages::ebs_note"
+msgid "Note"
+msgstr "Note"

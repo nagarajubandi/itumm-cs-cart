@@ -1,0 +1,133 @@
+msgid ""
+msgstr "Project-Id-Version: cs-cart-latest\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Ukrainian\n"
+"Language: uk_UA\n"
+
+msgctxt "Addons::name::ab__auto_loading_products"
+msgid "ab__auto_loading_products"
+msgstr "AB: Автоматичне завантаження товарів"
+
+msgctxt "Addons::description::ab__auto_loading_products"
+msgid "ab__auto_loading_products_description"
+msgstr "Додаток автоматичного завантаження товарів на вітрині магазину при перегляді категорії товарів <a href='https://cs-cart.alexbranding.com' target='_blank'>cs-cart.alexbranding.com</a>"
+
+msgctxt "Languages::ab__auto_loading_products"
+msgid "ab__auto_loading_products"
+msgstr "AB: Автоматичне завантаження товарів"
+
+msgctxt "Languages::ab__alp_texts_t1"
+msgid "ab__alp_texts_t1"
+msgstr "Показати ще "
+
+msgctxt "Languages::ab__alp_texts_t2"
+msgid "ab__alp_texts_t2"
+msgstr " Відображено "
+
+msgctxt "Languages::ab__alp_texts_t3"
+msgid "ab__alp_texts_t3"
+msgstr " з "
+
+msgctxt "Languages::ab__alp_texts_t4"
+msgid "ab__alp_texts_t4"
+msgstr "Відображені вже всі "
+
+msgctxt "Languages::ab__alp_texts_p1"
+msgid "ab__alp_texts_p1"
+msgstr " товар "
+
+msgctxt "Languages::ab__alp_texts_p2"
+msgid "ab__alp_texts_p2"
+msgstr " товара "
+
+msgctxt "Languages::ab__alp_texts_p3"
+msgid "ab__alp_texts_p3"
+msgstr " товарів "
+
+msgctxt "Languages::ab__alp_cache_cleared"
+msgid "ab__alp_cache_cleared"
+msgstr "Якщо змінені параметри модуля не застосовуються, очистіть будь ласка кеш вашого браузера або натисніть F5 у вікні вашого браузера 5-7 разів підряд"
+
+msgctxt "SettingsOptions::ab__auto_loading_products::licence"
+msgid "ab__alp_licence"
+msgstr "Код ліцензії додатка"
+
+msgctxt "SettingsTooltips::ab__auto_loading_products::licence"
+msgid "ab__alp_licence"
+msgstr "Код ліцензії додатка, який Ви отримали при купівлі"
+
+msgctxt "SettingsOptions::ab__auto_loading_products::type_loading"
+msgid "ab__alp_type_loading"
+msgstr "Спосіб завантаження товарів"
+
+msgctxt "SettingsVariants::ab__auto_loading_products::type_loading::auto"
+msgid "auto"
+msgstr "автоматичний"
+
+msgctxt "SettingsVariants::ab__auto_loading_products::type_loading::manual"
+msgid "manual"
+msgstr "вручну"
+
+msgctxt "SettingsOptions::ab__auto_loading_products::before_end"
+msgid "ab__alp_before_end"
+msgstr "Запустити автозавантаження за N px, до кінця сторінки"
+
+msgctxt "SettingsVariants::ab__auto_loading_products::before_end::0"
+msgid "0"
+msgstr "тільки по досягненню кінця сторінки"
+
+msgctxt "SettingsVariants::ab__auto_loading_products::before_end::50"
+msgid "50"
+msgstr "за 50px до кінця сторінки"
+
+msgctxt "SettingsVariants::ab__auto_loading_products::before_end::100"
+msgid "100"
+msgstr "за 100px до кінця сторінки"
+
+msgctxt "SettingsVariants::ab__auto_loading_products::before_end::150"
+msgid "150"
+msgstr "за 150px до кінця сторінки"
+
+msgctxt "SettingsVariants::ab__auto_loading_products::before_end::200"
+msgid "200"
+msgstr "за 200px до кінця сторінки"
+
+msgctxt "SettingsVariants::ab__auto_loading_products::before_end::250"
+msgid "250"
+msgstr "за 250px до кінця сторінки"
+
+msgctxt "SettingsVariants::ab__auto_loading_products::before_end::300"
+msgid "300"
+msgstr "за 300px до кінця сторінки"
+
+msgctxt "SettingsVariants::ab__auto_loading_products::before_end::350"
+msgid "350"
+msgstr "за 350px до кінця сторінки"
+
+msgctxt "SettingsOptions::ab__auto_loading_products::troubleshooting_products_without_options"
+msgid "troubleshooting_products_without_options"
+msgstr "Додати тег &lt;hr&gt;"
+
+msgctxt "SettingsTooltips::ab__auto_loading_products::troubleshooting_products_without_options"
+msgid "troubleshooting_products_without_options"
+msgstr "При завантажені товарів по шаблону <b>blocks/product_list_templates/products_without_options.tpl</b>, можливо, спочатку потрібно додати тег &lt;hr&gt;"
+
+msgctxt "SettingsOptions::ab__auto_loading_products::log"
+msgid "log"
+msgstr "Лог"
+
+msgctxt "SettingsTooltips::ab__auto_loading_products::log"
+msgid "log"
+msgstr "Використовується тільки для тестування. У звичайному стані повинен бути вимкнений."
+
+msgctxt "SettingsOptions::ab__auto_loading_products::animation"
+msgid "ab__alp_animation"
+msgstr "Спосiб анімації завантаження товарів"
+
+msgctxt "SettingsVariants::ab__auto_loading_products::animation::css"
+msgid "css"
+msgstr "css"
+
+msgctxt "SettingsVariants::ab__auto_loading_products::animation::gif"
+msgid "gif"
+msgstr "gif"

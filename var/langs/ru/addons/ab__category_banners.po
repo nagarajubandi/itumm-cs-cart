@@ -1,0 +1,244 @@
+msgid ""
+msgstr "Project-Id-Version: tygh"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Russian\n"
+"Language: ru_RU\n"
+
+msgctxt "Addons::name::ab__category_banners"
+msgid "ab__category_banners"
+msgstr "AB: Баннер для категорий"
+
+msgctxt "Addons::description::ab__category_banners"
+msgid "ab__category_banners_description"
+msgstr "Баннер позволяет добавлять баннер среди товаров категории"
+"<br><a href='https://cs-cart.alexbranding.com' target='_blank'>cs-cart.alexbranding.com</a>"
+
+msgctxt "Languages::ab__category_banners"
+msgid "ab__category_banners"
+msgstr "AB: Баннер для категорий"
+
+msgctxt "Languages::ab__addons"
+msgid "ab__addons"
+msgstr "AB: Модули"
+
+msgctxt "Languages::ab__category_banners.add"
+msgid "ab__category_banners.add"
+msgstr "Добавить банер для категории"
+
+msgctxt "Languages::ab__category_banners.adding"
+msgid "ab__category_banners.adding"
+msgstr "Добавление банера для категории"
+
+msgctxt "Languages::ab__category_banners.editing"
+msgid "ab__category_banners.editing"
+msgstr "Редактирование банера для категории"
+
+msgctxt "Languages::ab__cb.form.include_subcategories"
+msgid "ab__cb.form.include_subcategories"
+msgstr "Показывать в подкатегориях"
+
+msgctxt "Languages::ab__cb.form.url"
+msgid "ab__cb.form.url"
+msgstr "Ссылка"
+
+msgctxt "Languages::ab__cb.form.position"
+msgid "ab__cb.form.position"
+msgstr "Позиция"
+
+msgctxt "Languages::ab__cb.form.rand_position"
+msgid "ab__cb.form.rand_position"
+msgstr "Перемешать очередь позиций"
+
+msgctxt "Languages::ab__cb.form.target_blank"
+msgid "ab__cb.form.target_blank"
+msgstr "Открывать ссылку в новом окне"
+
+msgctxt "Languages::ab__cb.form.from_date"
+msgid "ab__cb.form.from_date"
+msgstr "Активен с даты/времени"
+
+msgctxt "Languages::ab__cb.form.to_date"
+msgid "ab__cb.form.to_date"
+msgstr "Активен до даты/времени"
+
+msgctxt "Languages::ab__cb.form.monday"
+msgid "ab__cb.form.monday"
+msgstr "Понедельник"
+
+msgctxt "Languages::ab__cb.form.tuesday"
+msgid "ab__cb.form.tuesday"
+msgstr "Вторник"
+
+msgctxt "Languages::ab__cb.form.wednesday"
+msgid "ab__cb.form.wednesday"
+msgstr "Среда"
+
+msgctxt "Languages::ab__cb.form.thursday"
+msgid "ab__cb.form.thursday"
+msgstr "Четверг"
+
+msgctxt "Languages::ab__cb.form.friday"
+msgid "ab__cb.form.friday"
+msgstr "Пятница"
+
+msgctxt "Languages::ab__cb.form.saturday"
+msgid "ab__cb.form.saturday"
+msgstr "Субота"
+
+msgctxt "Languages::ab__cb.form.sunday"
+msgid "ab__cb.form.sunday"
+msgstr "Воскресенье"
+
+msgctxt "Languages::tt_addons_ab__category_banners_views_ab__category_banners_update_image"
+msgid "tt_addons_ab__category_banners_views_ab__category_banners_update_image"
+msgstr "Изображение выводится как есть, без каких-либо изменений размера"
+
+msgctxt "Languages::tt_addons_ab__category_banners_views_ab__category_banners_update_ab__cb.form.url"
+msgid "tt_addons_ab__category_banners_views_ab__category_banners_update_ab__cb.form.url"
+msgstr "Рекомендуется контроллерный формат ссылки (например, products.view?product_id=12121)"
+
+msgctxt "Languages::tt_addons_ab__category_banners_views_ab__category_banners_update_ab__cb.form.position"
+msgid "tt_addons_ab__category_banners_views_ab__category_banners_update_ab__cb.form.position"
+msgstr "Позиция баннера, которая может быть указана следующими способами<br />"
+"<ul>"
+"<li><code>7</code> - номер позиции</li>"
+"<li><code>1,5,7,9</code> - множество позиций</li>"
+"<li><code>1-10</code> - диапазон позиций</li>"
+"</ul>"
+"Можно использовать комбинации этих вариантов. Например: <br />"
+"<code>1-5,7-9,11,13</code> - баннер будет показан на одной из позиций: 1, 2, 3, 4, 5, 7, 8, 9, 11, 13"
+
+msgctxt "Languages::tt_addons_ab__category_banners_views_ab__category_banners_update_ab__cb.form.rand_position"
+msgid "tt_addons_ab__category_banners_views_ab__category_banners_update_ab__cb.form.rand_position"
+msgstr "Если отмечено, позиция баннера выбирается из указанных позиций случайным образом, иначе - следует указанному порядку"
+
+msgctxt "Languages::tt_addons_ab__category_banners_views_ab__category_banners_update_ab__cb.form.monday"
+msgid "tt_addons_ab__category_banners_views_ab__category_banners_update_ab__cb.form.monday"
+msgstr "Укажите время действия баннера 'с' и 'до'.<br>"
+"Если не указано время начала, тогда оно принимается за 00:00<br>"
+"Если не указано время окончания, тогда оно принимается за 24:00<br>"
+"Если оба значения не указаны, тогда баннер отображается с 00:00 до 24:00"
+
+msgctxt "Languages::tt_addons_ab__category_banners_views_ab__category_banners_update_ab__cb.form.tuesday"
+msgid "tt_addons_ab__category_banners_views_ab__category_banners_update_ab__cb.form.tuesday"
+msgstr "Укажите время действия баннера 'с' и 'до'.<br>"
+"Если не указано время начала, тогда оно принимается за 00:00<br>"
+"Если не указано время окончания, тогда оно принимается за 24:00<br>"
+"Если оба значения не указаны, тогда баннер отображается с 00:00 до 24:00"
+
+msgctxt "Languages::tt_addons_ab__category_banners_views_ab__category_banners_update_ab__cb.form.wednesday"
+msgid "tt_addons_ab__category_banners_views_ab__category_banners_update_ab__cb.form.wednesday"
+msgstr "Укажите время действия баннера 'с' и 'до'.<br>"
+"Если не указано время начала, тогда оно принимается за 00:00<br>"
+"Если не указано время окончания, тогда оно принимается за 24:00<br>"
+"Если оба значения не указаны, тогда баннер отображается с 00:00 до 24:00"
+
+msgctxt "Languages::tt_addons_ab__category_banners_views_ab__category_banners_update_ab__cb.form.thursday"
+msgid "tt_addons_ab__category_banners_views_ab__category_banners_update_ab__cb.form.thursday"
+msgstr "Укажите время действия баннера 'с' и 'до'.<br>"
+"Если не указано время начала, тогда оно принимается за 00:00<br>"
+"Если не указано время окончания, тогда оно принимается за 24:00<br>"
+"Если оба значения не указаны, тогда баннер отображается с 00:00 до 24:00"
+
+msgctxt "Languages::tt_addons_ab__category_banners_views_ab__category_banners_update_ab__cb.form.friday"
+msgid "tt_addons_ab__category_banners_views_ab__category_banners_update_ab__cb.form.friday"
+msgstr "Укажите время действия баннера 'с' и 'до'.<br>"
+"Если не указано время начала, тогда оно принимается за 00:00<br>"
+"Если не указано время окончания, тогда оно принимается за 24:00<br>"
+"Если оба значения не указаны, тогда баннер отображается с 00:00 до 24:00"
+
+msgctxt "Languages::tt_addons_ab__category_banners_views_ab__category_banners_update_ab__cb.form.saturday"
+msgid "tt_addons_ab__category_banners_views_ab__category_banners_update_ab__cb.form.saturday"
+msgstr "Укажите время действия баннера 'с' и 'до'.<br>"
+"Если не указано время начала, тогда оно принимается за 00:00<br>"
+"Если не указано время окончания, тогда оно принимается за 24:00<br>"
+"Если оба значения не указаны, тогда баннер отображается с 00:00 до 24:00"
+
+msgctxt "Languages::tt_addons_ab__category_banners_views_ab__category_banners_update_ab__cb.form.sunday"
+msgid "tt_addons_ab__category_banners_views_ab__category_banners_update_ab__cb.form.sunday"
+msgstr "Укажите время действия баннера 'с' и 'до'.<br>"
+"Если не указано время начала, тогда оно принимается за 00:00<br>"
+"Если не указано время окончания, тогда оно принимается за 24:00<br>"
+"Если оба значения не указаны, тогда баннер отображается с 00:00 до 24:00"
+
+msgctxt "SettingsOptions::ab__category_banners::item_nth"
+msgid "item_nth"
+msgstr "Позиция баннера в категории"
+
+msgctxt "SettingsTooltips::ab__category_banners::item_nth"
+msgid "item_nth"
+msgstr "Позиция баннера по умолчанию, которая может быть указана следующими способами<br />"
+"<ul>"
+"<li><code>7</code> - номер позиции</li>"
+"<li><code>1,5,7,9</code> - множество позиций</li>"
+"<li><code>1-10</code> - диапазон позиций</li>"
+"</ul>"
+"Можно использовать комбинации этих вариантов. Например: <br />"
+"<code>1-5,7-9,11,13</code> - баннер будет показан на одной из позиций: 1, 2, 3, 4, 5, 7, 8, 9, 11, 13"
+
+msgctxt "SettingsOptions::ab__category_banners::decrease_items_per_page"
+msgid "decrease_items_per_page"
+msgstr "Заместить один товар"
+
+msgctxt "SettingsTooltips::ab__category_banners::decrease_items_per_page"
+msgid "decrease_items_per_page"
+msgstr "Уменьшить количество выводимых товаров на 1, чтобы сохранить сетку товаров"
+
+msgctxt "SettingsOptions::ab__category_banners::cron_key"
+msgid "cron_key"
+msgstr "CRON Ключ"
+
+msgctxt "SettingsTooltips::ab__category_banners::cron_key"
+msgid "cron_key"
+msgstr "Для автоматического выполнения обновления, наличие ключа обязательное. Длина должна составлять от 10 до 20 символов (только латинские буквы и цифры)"
+
+msgctxt "Languages::ab__cb.errors.cron_key"
+msgid "ab__cb.errors.cron_key"
+msgstr "<p>Внимание! CRON Ключ не отвечает требованиям безопасности</p>"
+
+msgctxt "Languages::ab__cb.cron_links"
+msgid "ab__cb.cron_links"
+msgstr "<p>Для автоматического отключения просроченых банннеров по CRON-у используйте одну из этих ссылок:<br>"
+"<br><code>[cron_cmd]</code>"
+"<br>или"
+"<br><code>[cron_url]</code></p>"
+
+msgctxt "Languages::ab__category_banners_menu_description"
+msgid "ab__category_banners_menu_description"
+msgstr "Создание, редактирование и удаление баннеров для страниц категорий"
+
+msgctxt "Languages::ab__category_banners.manage"
+msgid "ab__category_banners.manage"
+msgstr "Управлять баннерами"
+
+msgctxt "Languages::ab__category_banners.help"
+msgid "ab__category_banners.help"
+msgstr "Справка"
+
+msgctxt "Languages::ab__cb.help.cron.title"
+msgid "ab__cb.help.cron.title"
+msgstr "Автовыключение просроченных баннеров"
+
+msgctxt "Languages::ab__cb.form.m_turn_on"
+msgid "ab__cb.form.m_turn_on"
+msgstr "Включить выбранные"
+
+msgctxt "Languages::ab__cb.form.m_turn_off"
+msgid "ab__cb.form.m_turn_off"
+msgstr "Выключить выбранные"
+
+msgctxt "Languages::privilege_sections.ab__category_banners"
+msgid "privilege_sections.ab__category_banners"
+msgstr "AB: Баннер для категорий"
+
+msgctxt "Languages::privileges.ab__cb_manage_banners"
+msgid "privileges.ab__cb_manage_banners"
+msgstr "Управление баннерами для категорий"
+
+msgctxt "Languages::privileges.ab__cb_view_banners"
+msgid "privileges.ab__cb_view_banners"
+msgstr "Просмотр баннеров для категорий"
+
+msgctxt "Languages::ab__cb_help.docs"
+msgid "ab__cb_help.docs"
+msgstr "Ознакомиться с <a target='_blank' href='https://cs-cart.alexbranding.com/ru/ab__category_banners.doc'>документацией</a>."

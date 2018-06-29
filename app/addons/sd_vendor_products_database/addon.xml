@@ -1,0 +1,123 @@
+<?xml version="1.0"?>
+<addon scheme="3.0">
+    <id>sd_vendor_products_database</id>
+    <version>4.5.0.8</version>
+    <commit>5a80446a8d13</commit>
+    <priority>10000</priority>
+    <position>1</position>
+    <status>active</status>
+    <has_icon>Y</has_icon>
+    <default_language>en</default_language>
+    <supplier>Simtech Development</supplier>
+    <supplier_link>http://www.simtechdev.com</supplier_link>
+    <compatibility>
+        <core_version>
+            <min>4.5.0</min>
+        </core_version>
+        <core_edition>
+            MULTIVENDOR
+        </core_edition>
+        <dependencies>vendor_plans</dependencies>
+    </compatibility>
+    <tab_order>prepend</tab_order>
+    <settings>
+        <sections>
+            <section id="general">
+                <items>
+                    <item id="allow_vendors_create_products">
+                        <type>checkbox</type>
+                        <default_value>N</default_value>
+                    </item>
+                    <item id="share_vendor_products" parent_id="allow_vendors_create_products">
+                        <type>checkbox</type>
+                        <default_value>N</default_value>
+                    </item>
+                    <item id="plan_change_action">
+                        <type>selectbox</type>
+                        <default_value>show</default_value>
+                        <variants>
+                            <item id="show">
+                            </item>
+                            <item id="hide">
+                            </item>
+                        </variants>
+                    </item>
+                    <item id="sort_vendor_offers">
+                        <type>selectbox</type>
+                        <default_value>none</default_value>
+                        <variants>
+                            <item id="none"></item>
+                            <item id="asc"></item>
+                            <item id="desc"></item>
+                        </variants>
+                    </item>
+                    <item id="catalog_mode">
+                        <type>template</type>
+                        <default_value>settings.tpl</default_value>
+                    </item>
+                    <item id="hide_price">
+                        <type>hidden</type>
+                    </item>
+                    <item id="show_visit_dealer_button">
+                        <type>hidden</type>
+                    </item>
+                </items>
+            </section>
+        </sections>
+    </settings>
+    <queries>
+        <item>DROP TABLE IF EXISTS ?:product_vendor_sell;</item>
+        <item>
+            CREATE TABLE ?:product_vendor_sell (
+                product_vendor_sell_id mediumint(8) unsigned NOT NULL auto_increment,
+                company_id int(11) unsigned NOT NULL DEFAULT '0',
+                product_id mediumint(8) unsigned NOT NULL DEFAULT '0',
+                amount int(11) unsigned NOT NULL DEFAULT '0',
+                buy_now_url varchar(255) NOT NULL DEFAULT '',
+                PRIMARY KEY  (product_vendor_sell_id),
+                KEY company_id (company_id),
+                KEY product_id (product_id)
+            ) Engine=MyISAM DEFAULT CHARSET UTF8;
+        </item>
+        <item>ALTER TABLE ?:product_prices ADD company_id int(11) unsigned NOT NULL</item>
+        <item>ALTER TABLE ?:product_prices DROP INDEX usergroup</item>
+        <item>ALTER TABLE ?:product_prices ADD UNIQUE KEY usergroup (product_id,usergroup_id,lower_limit,company_id)</item>
+
+        <item>DELETE FROM ?:category_vendor_product_count</item>
+        <item>
+            INSERT INTO ?:category_vendor_product_count (company_id, category_id, product_count)
+                SELECT p.company_id, c.category_id, COUNT(product_id) FROM ?:products_categories c
+                    INNER JOIN ?:products p USING (product_id)
+                    INNER JOIN ?:product_vendor_sell as vendor_sell USING (product_id)
+                GROUP BY c.category_id;
+        </item>
+
+        <item for="uninstall">DELETE FROM ?:category_vendor_product_count;</item>
+        <item for="uninstall">
+            INSERT INTO ?:category_vendor_product_count (company_id, category_id, product_count)
+                SELECT p.company_id, c.category_id, COUNT(product_id) FROM ?:products_categories c
+                    INNER JOIN ?:products p USING (product_id)
+                GROUP BY c.category_id;
+        </item>
+
+        <item>ALTER TABLE ?:products ADD created_by_vendor char(1) NOT NULL DEFAULT 'Y'</item>
+        <item for="uninstall">DROP TABLE IF EXISTS ?:product_vendor_sell;</item>
+        <item for="uninstall">ALTER TABLE ?:products DROP created_by_vendor;</item>
+
+        <item>ALTER TABLE ?:products ADD allow_sharing char(1) NOT NULL DEFAULT 'N';</item>
+        <item for="uninstall">ALTER TABLE ?:products DROP allow_sharing;</item>
+
+        <item>ALTER TABLE ?:vendor_plans ADD enable_create_products CHAR(1) NOT NULL DEFAULT 'Y';</item>
+        <item>ALTER TABLE ?:vendor_plans ADD enable_copy_products CHAR(1) NOT NULL DEFAULT 'Y';</item>
+        <item for="uninstall">ALTER TABLE ?:vendor_plans DROP enable_create_products;</item>
+        <item for="uninstall">ALTER TABLE ?:vendor_plans DROP enable_copy_products;</item>
+        <item>ALTER TABLE ?:companies ADD enable_create_products CHAR(1) NOT NULL DEFAULT 'N';</item>
+        <item>ALTER TABLE ?:companies ADD enable_copy_products CHAR(1) NOT NULL DEFAULT 'N';</item>
+        <item for="uninstall">ALTER TABLE ?:companies DROP enable_create_products;</item>
+        <item for="uninstall">ALTER TABLE ?:companies DROP enable_copy_products;</item>
+    </queries>
+    <functions>
+        <item for="install">sd_Nzk5MDJiZmU2ZGQ1MGM3OTFlNWM0Yjcz</item>
+        <item for="uninstall">sd_OWUzNmUwMGZiOTcyZjFlZTVjMDdjMWYz</item>
+    </functions>
+</addon>

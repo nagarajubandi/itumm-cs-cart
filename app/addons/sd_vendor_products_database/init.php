@@ -1,0 +1,2 @@
+<?php
+ if (!defined('BOOTSTRAP')) { die('Access denied'); } fn_register_hooks( 'get_products', 'get_products_post', 'get_product_data_post', 'post_check_amount_in_stock', 'generate_cart_id', 'change_order_status', 'get_product_data', 'update_product_post', 'calculate_cart_items', 'update_product_pre', 'get_categories', 'delete_product_post', 'update_product_count_post' ); 

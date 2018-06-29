@@ -1,0 +1,125 @@
+msgid ""
+msgstr "Project-Id-Version: tygh"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Russian\n"
+"Language: ru_RU\n"
+
+msgctxt "Addons::name::ab__auto_loading_products"
+msgid "ab__auto_loading_products"
+msgstr "AB: Автоматическая загрузка товаров на странице категории"
+
+msgctxt "Addons::description::ab__auto_loading_products"
+msgid "ab__auto_loading_products_description"
+msgstr "Модуль автоматической загрузки товаров на витрине магазина при просмотре категории товаров <a href='https://cs-cart.alexbranding.com' target='_blank'>cs-cart.alexbranding.com</a>"
+
+msgctxt "Languages::ab__auto_loading_products"
+msgid "ab__auto_loading_products"
+msgstr "AB: Автоматическая загрузка товаров"
+
+msgctxt "Languages::ab__alp_texts_t1"
+msgid "ab__alp_texts_t1"
+msgstr "Показать еще "
+
+msgctxt "Languages::ab__alp_texts_t2"
+msgid "ab__alp_texts_t2"
+msgstr " Показано "
+
+msgctxt "Languages::ab__alp_texts_t3"
+msgid "ab__alp_texts_t3"
+msgstr " из "
+
+msgctxt "Languages::ab__alp_texts_t4"
+msgid "ab__alp_texts_t4"
+msgstr "Показаны уже все"
+
+msgctxt "Languages::ab__alp_texts_p1"
+msgid "ab__alp_texts_p1"
+msgstr " товар "
+
+msgctxt "Languages::ab__alp_texts_p2"
+msgid "ab__alp_texts_p2"
+msgstr " товара "
+
+msgctxt "Languages::ab__alp_texts_p3"
+msgid "ab__alp_texts_p3"
+msgstr " товаров "
+
+msgctxt "Languages::ab__alp_cache_cleared"
+msgid "ab__alp_cache_cleared"
+msgstr "Если изменные параметры модуля не применились, очистите пожалуйста кеш вашего браузера или нажмите F5 в окне вашего браузера 5-7 раз подряд"
+
+msgctxt "SettingsOptions::ab__auto_loading_products::licence"
+msgid "ab__alp_licence"
+msgstr "Код лицензии модуля"
+
+msgctxt "SettingsTooltips::ab__auto_loading_products::licence"
+msgid "ab__alp_licence"
+msgstr "Код лицензии модуля, который Вы получили при покупке модуля"
+
+msgctxt "SettingsOptions::ab__auto_loading_products::type_loading"
+msgid "ab__alp_type_loading"
+msgstr "Способ загрузки товаров"
+
+msgctxt "SettingsVariants::ab__auto_loading_products::type_loading::auto"
+msgid "auto"
+msgstr "автоматический"
+
+msgctxt "SettingsVariants::ab__auto_loading_products::type_loading::manual"
+msgid "manual"
+msgstr "вручную"
+
+msgctxt "SettingsOptions::ab__auto_loading_products::before_end"
+msgid "ab__alp_before_end"
+msgstr "Запустить автозагрузку за N px, до конца страницы"
+
+msgctxt "SettingsVariants::ab__auto_loading_products::before_end::0"
+msgid "0"
+msgstr "только по достижению конца страницы"
+
+msgctxt "SettingsVariants::ab__auto_loading_products::before_end::50"
+msgid "50"
+msgstr "за 50px до конца страницы"
+
+msgctxt "SettingsVariants::ab__auto_loading_products::before_end::100"
+msgid "100"
+msgstr "за 100px до конца страницы"
+
+msgctxt "SettingsVariants::ab__auto_loading_products::before_end::150"
+msgid "150"
+msgstr "за 150px до конца страницы"
+
+msgctxt "SettingsVariants::ab__auto_loading_products::before_end::200"
+msgid "200"
+msgstr "за 200px до конца страницы"
+
+msgctxt "SettingsVariants::ab__auto_loading_products::before_end::250"
+msgid "250"
+msgstr "за 250px до конца страницы"
+
+msgctxt "SettingsVariants::ab__auto_loading_products::before_end::300"
+msgid "300"
+msgstr "за 300px до конца страницы"
+
+msgctxt "SettingsVariants::ab__auto_loading_products::before_end::350"
+msgid "350"
+msgstr "за 350px до конца страницы"
+
+msgctxt "SettingsOptions::ab__auto_loading_products::troubleshooting_products_without_options"
+msgid "troubleshooting_products_without_options"
+msgstr "Добавить тег &lt;hr&gt;"
+
+msgctxt "SettingsTooltips::ab__auto_loading_products::troubleshooting_products_without_options"
+msgid "troubleshooting_products_without_options"
+msgstr "При вставке товаров по шаблону <b>blocks/product_list_templates/products_without_options.tpl</b>, возможно, вначале нужно добавить тег &lt;hr&gt;"
+
+msgctxt "SettingsOptions::ab__auto_loading_products::animation"
+msgid "ab__alp_animation"
+msgstr "Способ анимации загрузки товаров"
+
+msgctxt "SettingsVariants::ab__auto_loading_products::animation::css"
+msgid "css"
+msgstr "css"
+
+msgctxt "SettingsVariants::ab__auto_loading_products::animation::gif"
+msgid "gif"
+msgstr "gif"

@@ -1,0 +1,443 @@
+2017-08-09 19:59:35: Downloading "core" upgrade package
+2017-08-09 19:59:37: Upgrade package has been downloaded and ready to install
+
+
+################################################################################
+################################################################################
+2017-08-09 19:59:49: Starting installation of the "core" upgrade package
+2017-08-09 19:59:49: Upgrading version 4.6.1 to 4.6.2
+2017-08-09 19:59:49: Running as user "www-data"
+2017-08-09 19:59:49: Storing entry point files permissions...
+2017-08-09 19:59:49: index.php ==> 33279 (-rwxrwxrwx)
+2017-08-09 19:59:49: itumm_hq.php ==> 33279 (-rwxrwxrwx)
+2017-08-09 19:59:49: api.php ==> 33279 (-rwxrwxrwx)
+2017-08-09 19:59:49: vendor.php ==> 33279 (-rwxrwxrwx)
+2017-08-09 19:59:49:  ==> 16895 (drwxrwxrwx)
+2017-08-09 19:59:49: Executing pre-upgrade validators
+2017-08-09 19:59:49: Found 0 validators at package
+2017-08-09 19:59:49: Executing "collisions" validator
+2017-08-09 19:59:49: Executing "permissions" validator
+2017-08-09 19:59:49: Upgrade stopped: awaiting resolving "permissions" validator errors
+
+
+################################################################################
+################################################################################
+2017-08-09 20:00:24: Starting installation of the "core" upgrade package
+2017-08-09 20:00:24: Upgrading version 4.6.1 to 4.6.2
+2017-08-09 20:00:24: Running as user "www-data"
+2017-08-09 20:00:24: Storing entry point files permissions...
+2017-08-09 20:00:24: index.php ==> 33279 (-rwxrwxrwx)
+2017-08-09 20:00:24: itumm_hq.php ==> 33279 (-rwxrwxrwx)
+2017-08-09 20:00:24: api.php ==> 33279 (-rwxrwxrwx)
+2017-08-09 20:00:24: vendor.php ==> 33279 (-rwxrwxrwx)
+2017-08-09 20:00:24:  ==> 16895 (drwxrwxrwx)
+2017-08-09 20:00:24: Executing pre-upgrade validators
+2017-08-09 20:00:24: Found 0 validators at package
+2017-08-09 20:00:24: Executing "collisions" validator
+2017-08-09 20:00:25: Executing "permissions" validator
+2017-08-09 20:00:25: Executing "restore" validator
+2017-08-09 20:00:25: Backup filename is "upg_core_4.6.1-4.6.2_09Aug2017_200024"
+2017-08-09 20:00:25: Preparing restore script
+2017-08-09 20:00:25: Upgrades directory permissions: drwxrwxrwx ubuntu:ubuntu
+2017-08-09 20:00:25: Source restore script permissions: -rwxrwxrwx ubuntu:ubuntu
+2017-08-09 20:00:25: Created directory for restore script at "/var/www/html/itumm.com/upgrades/core_4.6.1-4.6.2/"
+2017-08-09 20:00:25: Directory permissions: drwxr-xr-x www-data:www-data
+2017-08-09 20:00:25: Created restore script at "/var/www/html/itumm.com/upgrades/core_4.6.1-4.6.2/restore_2017-08-09_20-00-24.php"
+2017-08-09 20:00:25: Restore script permissions: -rw-r--r-- www-data:www-data
+2017-08-09 20:00:25: Correcting target restore script directory permissions...
+2017-08-09 20:00:25: ----------
+2017-08-09 20:00:25: Changing permissions of "/var/www/html/itumm.com/upgrades/core_4.6.1-4.6.2/" to 755
+2017-08-09 20:00:25: Using chmod()... OK
+2017-08-09 20:00:25: ----------
+2017-08-09 20:00:25: Target restore script directory permissions: drwxr-xr-x www-data:www-data
+2017-08-09 20:00:25: Correcting upgrades directory permissions...
+2017-08-09 20:00:25: ----------
+2017-08-09 20:00:25: Changing permissions of "/var/www/html/itumm.com/upgrades" to 755
+2017-08-09 20:00:25: Using chmod()... FAILED
+2017-08-09 20:00:25: Using FTP...
+2017-08-09 20:00:25: Connection established
+2017-08-09 20:00:25: FTP chmod result: FAILED
+2017-08-09 20:00:25: ----------
+2017-08-09 20:00:25: Upgrades directory permissions: drwxrwxrwx ubuntu:ubuntu
+2017-08-09 20:00:25: Checking restore script availability via HTTP
+2017-08-09 20:00:25: Executing pre-upgrade script "/var/www/html/itumm.com/var/upgrade/packages/core/content/scripts/pre_script.php"
+2017-08-09 20:00:26: Pre-upgrade script executed successfully
+2017-08-09 20:00:26: Closing storefront
+2017-08-09 20:00:26: Backing up files and database
+2017-08-09 20:00:26: mysqldump is not available
+2017-08-09 20:00:46: Backup created at "/var/www/html/itumm.com/var/backups/upg_core_4.6.1-4.6.2_09Aug2017_200024.zip"
+2017-08-09 20:00:46: Sending upgrade information e-mail to: andrey.yeltsov@gmail.com
+2017-08-09 20:00:47: E-mail was successfully sent
+2017-08-09 20:00:47: Executing 4 migrations found at package
+2017-08-09 20:00:47: Phinx by Rob Morgan - https://phinx.org. version 0.4.3
+2017-08-09 20:00:47: 
+2017-08-09 20:00:47: using config file ./app/Tygh/UpgradeCenter/Migrations/config.migrations.php
+2017-08-09 20:00:47: using config parser php
+2017-08-09 20:00:47: using migration path /var/www/html/itumm.com/var/upgrade/packages/core/content/migrations
+2017-08-09 20:00:47: using environment development
+2017-08-09 20:00:47: using adapter mysqli
+2017-08-09 20:00:47: using database itumm_store
+2017-08-09 20:00:47:  -- createTable('phinxlog1502298024')
+2017-08-09 20:00:48:     -> 0.2170s
+2017-08-09 20:00:48: 
+2017-08-09 20:00:48:  == 20170615103931 CoreChangeLanguageVariablesProduct: migrating
+2017-08-09 20:00:48:  == 20170615103931 CoreChangeLanguageVariablesProduct: migrated 0.0177s
+2017-08-09 20:00:48: 
+2017-08-09 20:00:48:  == 20170713081829 CoreChangeFieldDefaultTemplateToTemplateSnippetsMailHeader: migrating
+2017-08-09 20:00:48:  == 20170713081829 CoreChangeFieldDefaultTemplateToTemplateSnippetsMailHeader: migrated 0.0110s
+2017-08-09 20:00:48: 
+2017-08-09 20:00:48:  == 20170724083412 AddonsSmsNotificationsDisable: migrating
+2017-08-09 20:00:48:  == 20170724083412 AddonsSmsNotificationsDisable: migrated 0.0052s
+2017-08-09 20:00:48: 
+2017-08-09 20:00:48:  == 20170727133130 AddonsProductVariationsUpdateProductsTracking: migrating
+2017-08-09 20:00:48:  == 20170727133130 AddonsProductVariationsUpdateProductsTracking: migrated 0.0069s
+2017-08-09 20:00:48: 
+2017-08-09 20:00:48: All Done. Took 0.3087s
+2017-08-09 20:00:48: Migrations were executed successfully
+2017-08-09 20:00:48: Copying package files
+2017-08-09 20:00:48: Deleting files removed at new version
+2017-08-09 20:00:48: Processing themes files
+2017-08-09 20:00:48: Installing languages using upgraded *.po files
+2017-08-09 20:00:48: Already installed languages: en
+2017-08-09 20:00:48: Languages to be installed: pt, ro, ar, sv, sr, uk, en, da, ja, nl, hu, el, fr, tr, es, ru, no, it, ka, sk, vi, cs, fa, pl, hr, de
+2017-08-09 20:00:48: Installing "en" language... OK
+2017-08-09 20:00:53: Executing post-upgrade script "/var/www/html/itumm.com/var/upgrade/packages/core/content/scripts/post_script.php"
+2017-08-09 20:00:53: Post-upgrade script executed successfully
+2017-08-09 20:00:53: Cleaning cache
+2017-08-09 20:00:53: Saving upgrade information to DB
+2017-08-09 20:00:53: Sending statistics
+2017-08-09 20:00:54: Deleting package contents
+2017-08-09 20:00:54: Restoring entry point files permissions...
+2017-08-09 20:00:54: index.php ==> 33279 (-rwxrwxrwx)
+2017-08-09 20:00:54: ----------
+2017-08-09 20:00:54: Changing permissions of "/var/www/html/itumm.com/index.php" to 100777
+2017-08-09 20:00:54: Using chmod()... FAILED
+2017-08-09 20:00:54: Using FTP...
+2017-08-09 20:00:54: Connection established
+2017-08-09 20:00:54: FTP chmod result: FAILED
+2017-08-09 20:00:54: ----------
+2017-08-09 20:00:54: itumm_hq.php ==> 33279 (-rwxrwxrwx)
+2017-08-09 20:00:54: ----------
+2017-08-09 20:00:54: Changing permissions of "/var/www/html/itumm.com/itumm_hq.php" to 100777
+2017-08-09 20:00:54: Using chmod()... FAILED
+2017-08-09 20:00:54: Using FTP...
+2017-08-09 20:00:54: Connection established
+2017-08-09 20:00:54: FTP chmod result: FAILED
+2017-08-09 20:00:54: ----------
+2017-08-09 20:00:54: api.php ==> 33279 (-rwxrwxrwx)
+2017-08-09 20:00:54: ----------
+2017-08-09 20:00:54: Changing permissions of "/var/www/html/itumm.com/api.php" to 100777
+2017-08-09 20:00:54: Using chmod()... FAILED
+2017-08-09 20:00:54: Using FTP...
+2017-08-09 20:00:54: Connection established
+2017-08-09 20:00:54: FTP chmod result: FAILED
+2017-08-09 20:00:54: ----------
+2017-08-09 20:00:54: vendor.php ==> 33279 (-rwxrwxrwx)
+2017-08-09 20:00:54: ----------
+2017-08-09 20:00:54: Changing permissions of "/var/www/html/itumm.com/vendor.php" to 100777
+2017-08-09 20:00:54: Using chmod()... FAILED
+2017-08-09 20:00:54: Using FTP...
+2017-08-09 20:00:54: Connection established
+2017-08-09 20:00:54: FTP chmod result: FAILED
+2017-08-09 20:00:54: ----------
+2017-08-09 20:00:54:  ==> 16895 (drwxrwxrwx)
+2017-08-09 20:00:54: ----------
+2017-08-09 20:00:54: Changing permissions of "/var/www/html/itumm.com/" to 40777
+2017-08-09 20:00:54: Using chmod()... FAILED
+2017-08-09 20:00:54: Using FTP...
+2017-08-09 20:00:54: Connection established
+2017-08-09 20:00:54: FTP chmod result: FAILED
+2017-08-09 20:00:54: ----------
+2017-08-09 20:00:54: Upgrade completed!
+2018-04-19 15:02:35: Downloading "core" upgrade package
+2018-04-19 15:02:37: Upgrade package has been downloaded and ready to install
+
+
+################################################################################
+################################################################################
+2018-04-19 15:02:53: Starting installation of the "core" upgrade package
+2018-04-19 15:02:53: Upgrading version 4.6.2 to 4.6.3
+2018-04-19 15:02:53: Running as user "www-data"
+2018-04-19 15:02:53: Storing entry point files permissions...
+2018-04-19 15:02:53: index.php ==> 33279 (-rwxrwxrwx)
+2018-04-19 15:02:53: itumm_hq.php ==> 33279 (-rwxrwxrwx)
+2018-04-19 15:02:53: api.php ==> 33279 (-rwxrwxrwx)
+2018-04-19 15:02:53: vendor.php ==> 33279 (-rwxrwxrwx)
+2018-04-19 15:02:53:  ==> 16895 (drwxrwxrwx)
+2018-04-19 15:02:53: Executing pre-upgrade validators
+2018-04-19 15:02:53: Found 0 validators at package
+2018-04-19 15:02:53: Executing "collisions" validator
+2018-04-19 15:02:54: Upgrade stopped: awaiting resolving "collisions" validator errors
+
+
+################################################################################
+################################################################################
+2018-04-19 15:03:17: Starting installation of the "core" upgrade package
+2018-04-19 15:03:17: Upgrading version 4.6.2 to 4.6.3
+2018-04-19 15:03:17: Running as user "www-data"
+2018-04-19 15:03:17: Storing entry point files permissions...
+2018-04-19 15:03:17: index.php ==> 33279 (-rwxrwxrwx)
+2018-04-19 15:03:17: itumm_hq.php ==> 33279 (-rwxrwxrwx)
+2018-04-19 15:03:17: api.php ==> 33279 (-rwxrwxrwx)
+2018-04-19 15:03:17: vendor.php ==> 33279 (-rwxrwxrwx)
+2018-04-19 15:03:17:  ==> 16895 (drwxrwxrwx)
+2018-04-19 15:03:17: Executing pre-upgrade validators
+2018-04-19 15:03:17: Found 0 validators at package
+2018-04-19 15:03:17: Executing "collisions" validator
+2018-04-19 15:03:17: Executing "permissions" validator
+2018-04-19 15:03:17: Upgrade stopped: awaiting resolving "permissions" validator errors
+2018-04-19 15:03:27: Update FTP connection settings
+
+
+################################################################################
+################################################################################
+2018-04-19 15:03:27: Starting installation of the "core" upgrade package
+2018-04-19 15:03:27: Upgrading version 4.6.2 to 4.6.3
+2018-04-19 15:03:27: Running as user "www-data"
+2018-04-19 15:03:27: Storing entry point files permissions...
+2018-04-19 15:03:27: index.php ==> 33279 (-rwxrwxrwx)
+2018-04-19 15:03:27: itumm_hq.php ==> 33279 (-rwxrwxrwx)
+2018-04-19 15:03:27: api.php ==> 33279 (-rwxrwxrwx)
+2018-04-19 15:03:27: vendor.php ==> 33279 (-rwxrwxrwx)
+2018-04-19 15:03:27:  ==> 16895 (drwxrwxrwx)
+2018-04-19 15:03:27: Executing pre-upgrade validators
+2018-04-19 15:03:27: Found 0 validators at package
+2018-04-19 15:03:27: Executing "collisions" validator
+2018-04-19 15:03:27: Executing "permissions" validator
+2018-04-19 15:03:27: Upgrade stopped: awaiting resolving "permissions" validator errors
+
+
+################################################################################
+################################################################################
+2018-04-19 15:03:30: Starting installation of the "core" upgrade package
+2018-04-19 15:03:30: Upgrading version 4.6.2 to 4.6.3
+2018-04-19 15:03:30: Running as user "www-data"
+2018-04-19 15:03:30: Storing entry point files permissions...
+2018-04-19 15:03:30: index.php ==> 33279 (-rwxrwxrwx)
+2018-04-19 15:03:30: itumm_hq.php ==> 33279 (-rwxrwxrwx)
+2018-04-19 15:03:30: api.php ==> 33279 (-rwxrwxrwx)
+2018-04-19 15:03:30: vendor.php ==> 33279 (-rwxrwxrwx)
+2018-04-19 15:03:30:  ==> 16895 (drwxrwxrwx)
+2018-04-19 15:03:30: Executing pre-upgrade validators
+2018-04-19 15:03:30: Found 0 validators at package
+2018-04-19 15:03:30: Executing "collisions" validator
+2018-04-19 15:03:30: Executing "permissions" validator
+2018-04-19 15:03:30: Upgrade stopped: awaiting resolving "permissions" validator errors
+
+
+################################################################################
+################################################################################
+2018-04-19 15:03:58: Starting installation of the "core" upgrade package
+2018-04-19 15:03:58: Upgrading version 4.6.2 to 4.6.3
+2018-04-19 15:03:58: Running as user "www-data"
+2018-04-19 15:03:58: Storing entry point files permissions...
+2018-04-19 15:03:58: index.php ==> 33279 (-rwxrwxrwx)
+2018-04-19 15:03:58: itumm_hq.php ==> 33279 (-rwxrwxrwx)
+2018-04-19 15:03:58: api.php ==> 33279 (-rwxrwxrwx)
+2018-04-19 15:03:58: vendor.php ==> 33279 (-rwxrwxrwx)
+2018-04-19 15:03:58:  ==> 16895 (drwxrwxrwx)
+2018-04-19 15:03:58: Executing pre-upgrade validators
+2018-04-19 15:03:58: Found 0 validators at package
+2018-04-19 15:03:58: Executing "collisions" validator
+2018-04-19 15:03:58: Executing "permissions" validator
+2018-04-19 15:03:58: Executing "restore" validator
+2018-04-19 15:03:58: Backup filename is "upg_core_4.6.2-4.6.3_19Apr2018_150358"
+2018-04-19 15:03:58: Preparing restore script
+2018-04-19 15:03:58: Upgrades directory permissions: drwxrwxrwx ubuntu:ubuntu
+2018-04-19 15:03:58: Source restore script permissions: -rwxrwxrwx ubuntu:ubuntu
+2018-04-19 15:03:58: Created directory for restore script at "/var/www/html/itumm.com/upgrades/core_4.6.2-4.6.3/"
+2018-04-19 15:03:58: Directory permissions: drwxr-xr-x www-data:www-data
+2018-04-19 15:03:58: Created restore script at "/var/www/html/itumm.com/upgrades/core_4.6.2-4.6.3/restore_2018-04-19_15-03-58.php"
+2018-04-19 15:03:58: Restore script permissions: -rw-r--r-- www-data:www-data
+2018-04-19 15:03:58: Correcting target restore script directory permissions...
+2018-04-19 15:03:58: ----------
+2018-04-19 15:03:58: Changing permissions of "/var/www/html/itumm.com/upgrades/core_4.6.2-4.6.3/" to 755
+2018-04-19 15:03:58: Using chmod()... OK
+2018-04-19 15:03:58: ----------
+2018-04-19 15:03:58: Target restore script directory permissions: drwxr-xr-x www-data:www-data
+2018-04-19 15:03:58: Correcting upgrades directory permissions...
+2018-04-19 15:03:58: ----------
+2018-04-19 15:03:58: Changing permissions of "/var/www/html/itumm.com/upgrades" to 755
+2018-04-19 15:03:58: Using chmod()... FAILED
+2018-04-19 15:03:58: Using FTP...
+2018-04-19 15:03:58: Connection established
+2018-04-19 15:03:58: FTP chmod result: FAILED
+2018-04-19 15:03:58: ----------
+2018-04-19 15:03:58: Upgrades directory permissions: drwxrwxrwx ubuntu:ubuntu
+2018-04-19 15:03:58: Checking restore script availability via HTTP
+2018-04-19 15:03:58: Executing pre-upgrade script "/var/www/html/itumm.com/var/upgrade/packages/core/content/scripts/pre_script.php"
+2018-04-19 15:03:59: Pre-upgrade script executed successfully
+2018-04-19 15:03:59: Closing storefront
+2018-04-19 15:03:59: Backing up files and database
+2018-04-19 15:03:59: mysqldump is not available
+2018-04-19 15:04:19: Backup created at "/var/www/html/itumm.com/var/backups/upg_core_4.6.2-4.6.3_19Apr2018_150358.zip"
+2018-04-19 15:04:19: Sending upgrade information e-mail to: jithendra.ganji@techgrit.com, andrey.yeltsov@gmail.com
+2018-04-19 15:04:19: E-mail was successfully sent
+2018-04-19 15:04:19: Executing 5 migrations found at package
+2018-04-19 15:04:19: Phinx by Rob Morgan - https://phinx.org. version 0.4.3
+2018-04-19 15:04:19: 
+2018-04-19 15:04:19: using config file ./app/Tygh/UpgradeCenter/Migrations/config.migrations.php
+2018-04-19 15:04:19: using config parser php
+2018-04-19 15:04:19: using migration path /var/www/html/itumm.com/var/upgrade/packages/core/content/migrations
+2018-04-19 15:04:19: using environment development
+2018-04-19 15:04:19: using adapter mysqli
+2018-04-19 15:04:19: using database itumm_store
+2018-04-19 15:04:19:  -- createTable('phinxlog1524139438')
+2018-04-19 15:04:19:     -> 0.0543s
+2018-04-19 15:04:19: 
+2018-04-19 15:04:19:  == 20170731050444 CoreChangeRobotsDataTable: migrating
+2018-04-19 15:04:19:  -- changeColumn('cscart_robots_data', 'data', 'text')
+2018-04-19 15:04:19:     -> 0.0062s
+2018-04-19 15:04:19:  == 20170731050444 CoreChangeRobotsDataTable: migrated 0.0112s
+2018-04-19 15:04:19: 
+2018-04-19 15:04:19:  == 20170816122401 CoreEdpAccessEmailTemplateLinkChanged: migrating
+2018-04-19 15:04:19:  == 20170816122401 CoreEdpAccessEmailTemplateLinkChanged: migrated 0.0069s
+2018-04-19 15:04:19: 
+2018-04-19 15:04:19:  == 20170831091334 CoreChangeWrapperLangvarsValues: migrating
+2018-04-19 15:04:19:  == 20170831091334 CoreChangeWrapperLangvarsValues: migrated 0.0228s
+2018-04-19 15:04:19: 
+2018-04-19 15:04:19:  == 20170927071857 CoreAddPaymentSurchargeToInvoiceTemplate: migrating
+2018-04-19 15:04:19:  == 20170927071857 CoreAddPaymentSurchargeToInvoiceTemplate: migrated 0.0119s
+2018-04-19 15:04:19: 
+2018-04-19 15:04:19:  == 20171004162707 CoreCopyNewInvoiceLangVarFromDefault: migrating
+2018-04-19 15:04:19:  == 20171004162707 CoreCopyNewInvoiceLangVarFromDefault: migrated 0.0137s
+2018-04-19 15:04:19: 
+2018-04-19 15:04:19: All Done. Took 0.1770s
+2018-04-19 15:04:19: Migrations were executed successfully
+2018-04-19 15:04:19: Copying package files
+2018-04-19 15:04:20: Deleting files removed at new version
+2018-04-19 15:04:20: Processing themes files
+2018-04-19 15:04:20: Installing languages using upgraded *.po files
+2018-04-19 15:04:20: Already installed languages: en
+2018-04-19 15:04:20: Languages to be installed: en, ar, hr, cs, da, nl, fr, ka, de, el, hu, it, ja, fa, pt, ro, sr, sk, es, sv, tr, uk, vi, no, pl, ru
+2018-04-19 15:04:20: Installing "en" language... OK
+2018-04-19 15:04:24: Executing post-upgrade script "/var/www/html/itumm.com/var/upgrade/packages/core/content/scripts/post_script.php"
+2018-04-19 15:04:24: Post-upgrade script executed successfully
+2018-04-19 15:04:24: Sending upgrade information e-mail to: jithendra.ganji@techgrit.com, andrey.yeltsov@gmail.com
+2018-04-19 15:04:24: Upgrade information e-mail was successfully sent
+2018-04-19 15:04:24: Cleaning cache
+2018-04-19 15:04:24: Saving upgrade information to DB
+2018-04-19 15:04:24: Sending statistics
+2018-04-19 15:04:25: Deleting package contents
+2018-04-19 15:04:25: Restoring entry point files permissions...
+2018-04-19 15:04:25: index.php ==> 33279 (-rwxrwxrwx)
+2018-04-19 15:04:25: ----------
+2018-04-19 15:04:25: Changing permissions of "/var/www/html/itumm.com/index.php" to 100777
+2018-04-19 15:04:25: Using chmod()... FAILED
+2018-04-19 15:04:25: Using FTP...
+2018-04-19 15:04:25: Connection established
+2018-04-19 15:04:25: FTP chmod result: FAILED
+2018-04-19 15:04:25: ----------
+2018-04-19 15:04:25: itumm_hq.php ==> 33279 (-rwxrwxrwx)
+2018-04-19 15:04:25: ----------
+2018-04-19 15:04:25: Changing permissions of "/var/www/html/itumm.com/itumm_hq.php" to 100777
+2018-04-19 15:04:25: Using chmod()... FAILED
+2018-04-19 15:04:25: Using FTP...
+2018-04-19 15:04:25: Connection established
+2018-04-19 15:04:25: FTP chmod result: FAILED
+2018-04-19 15:04:25: ----------
+2018-04-19 15:04:25: api.php ==> 33279 (-rwxrwxrwx)
+2018-04-19 15:04:25: ----------
+2018-04-19 15:04:25: Changing permissions of "/var/www/html/itumm.com/api.php" to 100777
+2018-04-19 15:04:25: Using chmod()... FAILED
+2018-04-19 15:04:25: Using FTP...
+2018-04-19 15:04:25: Connection established
+2018-04-19 15:04:25: FTP chmod result: FAILED
+2018-04-19 15:04:25: ----------
+2018-04-19 15:04:25: vendor.php ==> 33279 (-rwxrwxrwx)
+2018-04-19 15:04:25: ----------
+2018-04-19 15:04:25: Changing permissions of "/var/www/html/itumm.com/vendor.php" to 100777
+2018-04-19 15:04:25: Using chmod()... FAILED
+2018-04-19 15:04:25: Using FTP...
+2018-04-19 15:04:25: Connection established
+2018-04-19 15:04:25: FTP chmod result: FAILED
+2018-04-19 15:04:25: ----------
+2018-04-19 15:04:25:  ==> 16895 (drwxrwxrwx)
+2018-04-19 15:04:25: ----------
+2018-04-19 15:04:25: Changing permissions of "/var/www/html/itumm.com/" to 40777
+2018-04-19 15:04:25: Using chmod()... FAILED
+2018-04-19 15:04:25: Using FTP...
+2018-04-19 15:04:25: Connection established
+2018-04-19 15:04:25: FTP chmod result: FAILED
+2018-04-19 15:04:25: ----------
+2018-04-19 15:04:25: Upgrade completed!
+2018-04-19 15:04:57: Downloading "core" upgrade package
+2018-04-19 15:04:57: Upgrade package has been downloaded and ready to install
+
+
+################################################################################
+################################################################################
+2018-04-19 15:05:01: Starting installation of the "core" upgrade package
+2018-04-19 15:05:01: Upgrading version 4.6.3 to 4.6.3.SP1
+2018-04-19 15:05:01: Running as user "www-data"
+2018-04-19 15:05:01: Storing entry point files permissions...
+2018-04-19 15:05:01: index.php ==> 33279 (-rwxrwxrwx)
+2018-04-19 15:05:01: itumm_hq.php ==> 33279 (-rwxrwxrwx)
+2018-04-19 15:05:01: api.php ==> 33279 (-rwxrwxrwx)
+2018-04-19 15:05:01: vendor.php ==> 33279 (-rwxrwxrwx)
+2018-04-19 15:05:01:  ==> 16895 (drwxrwxrwx)
+2018-04-19 15:05:01: Executing pre-upgrade validators
+2018-04-19 15:05:01: Found 0 validators at package
+2018-04-19 15:05:01: Executing "collisions" validator
+2018-04-19 15:05:01: Executing "permissions" validator
+2018-04-19 15:05:01: Executing "restore" validator
+2018-04-19 15:05:01: Files and database backup skipped
+2018-04-19 15:05:01: Executing pre-upgrade script "/var/www/html/itumm.com/var/upgrade/packages/core/content/scripts/pre_script.php"
+2018-04-19 15:05:02: Pre-upgrade script executed successfully
+2018-04-19 15:05:02: Closing storefront
+2018-04-19 15:05:02: Sending upgrade information e-mail to: jithendra.ganji@techgrit.com, andrey.yeltsov@gmail.com
+2018-04-19 15:05:02: E-mail was successfully sent
+2018-04-19 15:05:02: No migrations found at package
+2018-04-19 15:05:02: Copying package files
+2018-04-19 15:05:02: Deleting files removed at new version
+2018-04-19 15:05:02: Processing themes files
+2018-04-19 15:05:02: Installing languages using upgraded *.po files
+2018-04-19 15:05:02: Already installed languages: en
+2018-04-19 15:05:02: Languages to be installed: 
+2018-04-19 15:05:02: Installing "en" language... SKIPPED
+2018-04-19 15:05:02: Cleaning cache
+2018-04-19 15:05:02: Saving upgrade information to DB
+2018-04-19 15:05:02: Sending statistics
+2018-04-19 15:05:02: Deleting package contents
+2018-04-19 15:05:02: Restoring entry point files permissions...
+2018-04-19 15:05:02: index.php ==> 33279 (-rwxrwxrwx)
+2018-04-19 15:05:02: ----------
+2018-04-19 15:05:02: Changing permissions of "/var/www/html/itumm.com/index.php" to 100777
+2018-04-19 15:05:02: Using chmod()... FAILED
+2018-04-19 15:05:02: Using FTP...
+2018-04-19 15:05:02: Connection established
+2018-04-19 15:05:02: FTP chmod result: FAILED
+2018-04-19 15:05:02: ----------
+2018-04-19 15:05:02: itumm_hq.php ==> 33279 (-rwxrwxrwx)
+2018-04-19 15:05:02: ----------
+2018-04-19 15:05:02: Changing permissions of "/var/www/html/itumm.com/itumm_hq.php" to 100777
+2018-04-19 15:05:02: Using chmod()... FAILED
+2018-04-19 15:05:02: Using FTP...
+2018-04-19 15:05:02: Connection established
+2018-04-19 15:05:02: FTP chmod result: FAILED
+2018-04-19 15:05:02: ----------
+2018-04-19 15:05:02: api.php ==> 33279 (-rwxrwxrwx)
+2018-04-19 15:05:02: ----------
+2018-04-19 15:05:02: Changing permissions of "/var/www/html/itumm.com/api.php" to 100777
+2018-04-19 15:05:02: Using chmod()... FAILED
+2018-04-19 15:05:02: Using FTP...
+2018-04-19 15:05:02: Connection established
+2018-04-19 15:05:02: FTP chmod result: FAILED
+2018-04-19 15:05:02: ----------
+2018-04-19 15:05:02: vendor.php ==> 33279 (-rwxrwxrwx)
+2018-04-19 15:05:02: ----------
+2018-04-19 15:05:02: Changing permissions of "/var/www/html/itumm.com/vendor.php" to 100777
+2018-04-19 15:05:02: Using chmod()... FAILED
+2018-04-19 15:05:02: Using FTP...
+2018-04-19 15:05:02: Connection established
+2018-04-19 15:05:02: FTP chmod result: FAILED
+2018-04-19 15:05:02: ----------
+2018-04-19 15:05:02:  ==> 16895 (drwxrwxrwx)
+2018-04-19 15:05:02: ----------
+2018-04-19 15:05:02: Changing permissions of "/var/www/html/itumm.com/" to 40777
+2018-04-19 15:05:02: Using chmod()... FAILED
+2018-04-19 15:05:02: Using FTP...
+2018-04-19 15:05:02: Connection established
+2018-04-19 15:05:02: FTP chmod result: FAILED
+2018-04-19 15:05:02: ----------
+2018-04-19 15:05:02: Upgrade completed!

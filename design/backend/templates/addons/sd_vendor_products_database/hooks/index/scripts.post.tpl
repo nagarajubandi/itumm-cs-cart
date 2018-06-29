@@ -1,0 +1,1 @@
+{script src="js/addons/sd_vendor_products_database/scripts.js"}

@@ -1,0 +1,1 @@
+{style src="addons/csc_live_search/styles.less"}

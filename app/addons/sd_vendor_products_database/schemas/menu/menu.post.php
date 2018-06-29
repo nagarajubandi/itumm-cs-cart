@@ -1,0 +1,2 @@
+<?php
+ use Tygh\Registry; $company_id = fn_get_runtime_company_id(); if ((ACCOUNT_TYPE == 'vendor' || Registry::get('runtime.company_id')) && !empty($company_id) && sd_MjYzOWJlNmMxMDM4ZmIxYzdlZGRkNzE1($company_id, 'enable_copy_products')) { $schema['central']['products']['items']['addons.sd_vendor_products_database.all_products'] = array( 'attrs' => array( 'class'=>'is-addon' ), 'href' => 'products.manage?show_mode=all', 'position' => 300 ); } return $schema;

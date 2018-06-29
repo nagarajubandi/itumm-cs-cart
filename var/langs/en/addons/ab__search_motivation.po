@@ -1,0 +1,74 @@
+msgid ""
+msgstr "Project-Id-Version: tygh"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: English\n"
+"Language: en_US\n"
+
+msgctxt "Addons::name::ab__search_motivation"
+msgid "AB: Search motivation"
+msgstr "AB: Search motivation"
+
+msgctxt "Addons::description::ab__search_motivation"
+msgid "Adds motivation placeholder to search input"
+msgstr "Adds motivation placeholder to search input"
+"<br><a href='https://cs-cart.alexbranding.com' target='_blank'>cs-cart.alexbranding.com</a>"
+
+msgctxt "Languages::ab__search_motivation"
+msgid "AB: Search motivation"
+msgstr "AB: Search motivation"
+
+msgctxt "SettingsOptions::ab__search_motivation::show_on_homepage"
+msgid "Show on homepage"
+msgstr "Show on homepage"
+
+msgctxt "SettingsOptions::ab__search_motivation::show_on_category_page"
+msgid "Show on category page"
+msgstr "Show on category page"
+
+msgctxt "SettingsOptions::ab__search_motivation::show_on_product_page"
+msgid "Show on product page"
+msgstr "Show on product page"
+
+msgctxt "SettingsOptions::ab__search_motivation::show_on_cart_page"
+msgid "Show on cart page"
+msgstr "Show on cart page"
+
+msgctxt "SettingsOptions::ab__search_motivation::show_on_checkout_page"
+msgid "Show on checkout page"
+msgstr "Show on checkout page"
+
+msgctxt "SettingsOptions::ab__search_motivation::shuffle"
+msgid "Random order"
+msgstr "Random order"
+
+msgctxt "Languages::ab__search_motivation.search_phrases"
+msgid "Search phrases"
+msgstr "Search phrases"
+
+msgctxt "Languages::ttc_ab__search_motivation.search_phrases"
+msgid "Enter a search phrases for this category, every phrase on a new line"
+msgstr "Enter a search phrases for this category, every phrase on a new line"
+
+msgctxt "Languages::ab__search_motivation.default_search_phrases"
+msgid "Default search phrases"
+msgstr "Default search phrases"
+
+msgctxt "Languages::ttc_ab__search_motivation.default_search_phrases"
+msgid "They will be used, if empty fields in categories"
+msgstr "They will be used, if empty fields in categories"
+
+msgctxt "Languages::ab__search_motivation.manage"
+msgid "ab__search_motivation.manage"
+msgstr "Default search phrases"
+
+msgctxt "Languages::privilege_sections.ab__search_motivation"
+msgid "privilege_sections.ab__search_motivation"
+msgstr "AB: Search motivation"
+
+msgctxt "Languages::privileges.ab__sm_manage_phrases"
+msgid "privileges.ab__sm_manage_phrases"
+msgstr "Manage phrases"
+
+msgctxt "Languages::privileges.ab__sm_view_phrases"
+msgid "privileges.ab__sm_view_phrases"
+msgstr "View phrases"

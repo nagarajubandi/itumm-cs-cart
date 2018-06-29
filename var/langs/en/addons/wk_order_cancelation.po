@@ -1,0 +1,69 @@
+msgid ""
+msgstr "Project-Id-Version: tygh"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: English\n"
+"Language: en_US"
+
+msgctxt "LanguageName"
+msgid "Localized language name"
+msgstr "English"
+
+msgctxt "Addons::name::wk_order_cancelation"
+msgid "Order Cancellation"
+msgstr "Order Cancellation"
+
+msgctxt "Addons::description::wk_order_cancelation"
+msgid "Order Cancellation Addon which provides admin to extend order cancellation functionality to its store's customer according to simple conditions."
+msgstr "Order Cancellation Addon which provides admin to extend order cancellation functionality to its store's customer according to simple conditions."
+
+msgctxt "Languages::cancel_order"
+msgid "Cancel Order"
+msgstr "Cancel Order"
+
+msgctxt "Languages::enter_time_tooltip"
+msgid "configure time here (after order creation , cancel order will be shown till time)"
+msgstr "configure time here (after order creation , cancel order will be shown till time)"
+
+msgctxt "Languages::enter_product_tooltip"
+msgid "Choose product here for which you want to restrict cancellation"
+msgstr "Choose product here for which you want to restrict cancellation"
+
+msgctxt "Languages::enter_status_tooltip"
+msgid "select status for which cancel order button will not be shown to customer"
+msgstr "select status for which cancel order button will not be shown to customer"
+
+msgctxt "Languages::choose_condition"
+msgid "Choose Conditions"
+msgstr "Choose Conditions"
+
+msgctxt "Languages::enter_price_tooltip"
+msgid "set minimum amount for order cancellation."
+msgstr "set minimum amount for order cancellation."
+
+msgctxt "Languages::time"
+msgid "Time"
+msgstr "Time"
+
+msgctxt "Languages::hours"
+msgid "Hour(s)"
+msgstr "Hour(s)"
+
+msgctxt "Languages::days"
+msgid "Days"
+msgstr "Days"
+
+msgctxt "Languages::minutes"
+msgid "Minute(s)"
+msgstr "Minute(s)"
+
+msgctxt "Languages::product"
+msgid "Product"
+msgstr "Product"
+
+msgctxt "Languages::status"
+msgid "Status"
+msgstr "Status"
+
+msgctxt "Languages::choose_condition_tooltip"
+msgid "select single or multiple condition to apply order cancellation."
+msgstr "select single or multiple condition to apply order cancellation."

@@ -1,0 +1,29 @@
+#addon_sd_affiliateinstalled .bg-icon,
+#addon_sd_affiliate .bg-icon {
+    background-image: url('../../media/images/addons/sd_affiliate/icon.png');
+    background-size: contain;
+    border: 0px;
+}
+#addon_sd_affiliateinstalled .bg-icon i,
+#addon_sd_affiliate .bg-icon i {
+    display: none;
+}
+#content_decline_selected {
+    height: 250px!important;
+}
+
+div[id^="content_decline_"] {
+    height: 250px !important;
+}
+
+.content_affiliate_information {
+    display: inline-table;
+}
+
+.partners-tree-table-width {
+    width: 100%;
+}
+
+.partners-tree-table-profile {
+    padding-left: 14px;
+}

@@ -1,0 +1,1 @@
+{include file="addons/product_variations/common/selected_options.tpl" product=$product}

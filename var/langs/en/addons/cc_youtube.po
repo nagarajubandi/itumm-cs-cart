@@ -1,0 +1,86 @@
+msgid ""
+msgstr "Project-Id-Version: tygh"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: English\n"
+"Language: en_US"
+
+msgctxt "Addons::name::cc_youtube"
+msgid "YouTube"
+msgstr "YouTube"
+
+msgctxt "SettingsSections::cc_youtube::general"
+msgid "General"
+msgstr "General"
+
+msgctxt "Addons::description::cc_youtube"
+msgid "Allows you to embed a YouTube video into the product details page."
+msgstr "Allows you to embed a YouTube video into the product details page."
+
+msgctxt "SettingsOptions::cc_youtube::show_suggested_videos_after_finish"
+msgid "Show suggested videos after finish"
+msgstr "Show suggested videos after finish"
+
+msgctxt "SettingsOptions::cc_youtube::show_player_controls"
+msgid "Show player controls"
+msgstr "Show player controls"
+
+msgctxt "SettingsOptions::cc_youtube::show_title_and_actions"
+msgid "Show title and actions"
+msgstr "Show title and actions"
+
+msgctxt "Languages::youtube_link"
+msgid "YouTube link"
+msgstr "YouTube link"
+
+msgctxt "Languages::youtube"
+msgid "You Tube"
+msgstr "YouTube"
+
+msgctxt "Languages::play_video_block"
+msgid "Show play video block"
+msgstr "Show play video block"
+
+msgctxt "Languages::video_limit"
+msgid "Maximum number of videos shown in the video gallery"
+msgstr "Maximum number of videos shown in the video gallery"
+
+msgctxt "Languages::block_youtube_video"
+msgid "YouTube video"
+msgstr "YouTube video"
+
+msgctxt "Languages::block_youtube_video_description"
+msgid "Add to product page single YouTube video."
+msgstr "Add to product page single YouTube video."
+
+msgctxt "Languages::block_video_gallery"
+msgid "YouTube"
+msgstr "YouTube"
+
+msgctxt "Languages::block_video_gallery_description"
+msgid "YouTube video gallery"
+msgstr "YouTube video gallery"
+
+msgctxt "Languages::youtube_video"
+msgid "YouTube video"
+msgstr "YouTube video"
+
+msgctxt "Languages::play_video"
+msgid "Play video"
+msgstr "Play video"
+
+msgctxt "Languages::product_with_video"
+msgid "Products with video"
+msgstr "Products with video"
+
+msgctxt "Languages::product_without_video"
+msgid "Products without video"
+msgstr "Products without video"
+
+msgctxt "Languages::video_gallery"
+msgid "Video gallery"
+msgstr "Video gallery"
+
+msgctxt "Languages::show_youtube_video"
+msgid "Show YouTube video on the product page"
+msgstr "Show YouTube video on the product page"
+

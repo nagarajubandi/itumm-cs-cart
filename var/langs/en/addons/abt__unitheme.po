@@ -1,0 +1,470 @@
+msgid ""
+msgstr "Project-Id-Version: tygh"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: English\n"
+"Language: en_US\n"
+
+msgctxt "Addons::name::abt__unitheme"
+msgid "abt__unitheme"
+msgstr "AB: UniTheme"
+
+msgctxt "Addons::description::abt__unitheme"
+msgid "abt__unitheme_description"
+msgstr "Addon adds template files with Cs-Cart premium theme - UniTheme"
+"<br><a href='https://cs-cart.alexbranding.com' target='_blank'>cs-cart.alexbranding.com</a>"
+
+msgctxt "Languages::abt__unitheme"
+msgid "abt__unitheme"
+msgstr "AB: UniTheme"
+
+msgctxt "Languages::developer"
+msgid "developer"
+msgstr "Based premium template - <a href=\"https://cs-cart.alexbranding.com/en/template-unitheme.html\" rel=\"nofollow\" onclick=\"window.open(this.href); return false\">© UniTheme</a>"
+
+msgctxt "Languages::dropdown_third_level_view"
+msgid "dropdown_third_level_view"
+msgstr "Number of non hided third level menu links"
+
+msgctxt "Languages::tmpl_top_buttons"
+msgid "tmpl_top_buttons"
+msgstr "Top buttons (AB)"
+
+msgctxt "Languages::tmpl_rt_subscription_advanced"
+msgid "tmpl_rt_subscription_advanced"
+msgstr "Extended subscription (AB)"
+
+msgctxt "Languages::blog.recent_posts_advanced"
+msgid "blog.recent_posts_advanced"
+msgstr "Blog: view gallery"
+
+msgctxt "Languages::tmpl_scroller_advanced"
+msgid "Scroller (advanced)"
+msgstr "Scroller (advanced)"
+
+msgctxt "Languages::tmpl_payment_icons_rus"
+msgid "payment_icons_rus"
+msgstr "Payment icons (Rus)"
+
+msgctxt "Languages::my_account_links_advanced"
+msgid "my_account_links_advanced"
+msgstr "My account links (advanced)"
+
+msgctxt "Languages::tmpl_subscription_advanced"
+msgid "subscription_advanced"
+msgstr "Subscription (advanced)"
+
+msgctxt "Languages::add_to_cart"
+msgid "add_to_cart"
+msgstr "Buy"
+
+msgctxt "Languages::cart_is_empty"
+msgid "cart_is_empty"
+msgstr "Cart"
+
+msgctxt "Languages::compare_list"
+msgid "compare_list"
+msgstr "Comparison list"
+
+msgctxt "Languages::select_options"
+msgid "select_options"
+msgstr "Options"
+
+msgctxt "Languages::add_to_comparison_list"
+msgid "add_to_comparison_list"
+msgstr "Compare"
+
+msgctxt "Languages::working_hours"
+msgid "working_hours"
+msgstr "Seven days a week"
+
+msgctxt "Languages::call_requests.request_call"
+msgid "call_requests.request_call"
+msgstr "Call me"
+
+msgctxt "Languages::ab__onclick_dropdown"
+msgid "ab__onclick_dropdown"
+msgstr "The drop-down list by clicking (AB)"
+
+msgctxt "Languages::mainbox_general_no_h1"
+msgid "mainbox_general_no_h1"
+msgstr "Normal main container (SEO)"
+
+msgctxt "Languages::extender"
+msgid "extender"
+msgstr "Extended"
+
+msgctxt "Languages::full_extender"
+msgid "full_extender"
+msgstr "On the full width"
+
+msgctxt "Languages::hidden_filters"
+msgid "hidden_filters"
+msgstr "Hide the column with filters"
+
+msgctxt "Languages::tabbed_blocks"
+msgid "tabbed_blocks"
+msgstr "Display in tabs"
+
+msgctxt "Languages::continue_shopping"
+msgid "continue_shopping"
+msgstr "Close"
+
+msgctxt "Languages::clear_wishlist"
+msgid "clear_wishlist"
+msgstr "Clear wishlist"
+
+msgctxt "Languages::view_wishlist"
+msgid "view_wishlist"
+msgstr "View wishlist"
+
+msgctxt "Languages::share"
+msgid "share"
+msgstr "Share"
+
+msgctxt "Languages::adv_items_in_cart"
+msgid "adv_items_in_cart"
+msgstr "In cart"
+
+msgctxt "Languages::your"
+msgid "your"
+msgstr "Your"
+
+msgctxt "Languages::your_personal"
+msgid "your_personal"
+msgstr "Your personal"
+
+msgctxt "Languages::contacts"
+msgid "contacts"
+msgstr "Contacts"
+
+msgctxt "Languages::sort_by_bestsellers_asc"
+msgid "sort_by_bestsellers_asc"
+msgstr "Less purchased"
+
+msgctxt "Languages::sort_by_bestsellers_desc"
+msgid "sort_by_bestsellers_desc"
+msgstr "By sellings"
+
+msgctxt "Languages::sort_by_on_sale_asc"
+msgid "sort_by_on_sale_asc"
+msgstr "High discounts at the end"
+
+msgctxt "Languages::sort_by_on_sale_desc"
+msgid "sort_by_on_sale_desc"
+msgstr "High discounts first"
+
+msgctxt "Languages::sort_by_popularity_asc"
+msgid "sort_by_popularity_asc"
+msgstr "Less popular above"
+
+msgctxt "Languages::sort_by_popularity_desc"
+msgid "sort_by_popularity_desc"
+msgstr "Popular first"
+
+msgctxt "Languages::sort_by_position_asc"
+msgid "sort_by_position_asc"
+msgstr "Low position"
+
+msgctxt "Languages::sort_by_position_desc"
+msgid "sort_by_position_desc"
+msgstr "High position"
+
+msgctxt "Languages::sort_by_price_asc"
+msgid "sort_by_price_asc"
+msgstr "Cheap first"
+
+msgctxt "Languages::sort_by_price_desc"
+msgid "sort_by_price_desc"
+msgstr "Expensive first"
+
+msgctxt "Languages::sort_by_product_asc"
+msgid "sort_by_product_asc"
+msgstr "from A to Z"
+
+msgctxt "Languages::sort_by_product_desc"
+msgid "sort_by_product_desc"
+msgstr "from Z to A"
+
+msgctxt "Languages::sort_by_rating_asc"
+msgid "sort_by_rating_asc"
+msgstr "Rating ascending"
+
+msgctxt "Languages::sort_by_rating_desc"
+msgid "sort_by_rating_desc"
+msgstr "By rating"
+
+msgctxt "Languages::sort_by_timestamp_asc"
+msgid "sort_by_timestamp_asc"
+msgstr "Newest at the end"
+
+msgctxt "Languages::sort_by_timestamp_desc"
+msgid "sort_by_timestamp_desc"
+msgstr "Newest at the top"
+
+msgctxt "Languages::hover_to_enlarge"
+msgid "hover_to_enlarge"
+msgstr "Hover over an image to enlarge"
+
+msgctxt "Languages::theme_editor.sale_color25"
+msgid "theme_editor.sale_color25"
+msgstr "Discount Label  < 25%"
+
+msgctxt "Languages::theme_editor.sale_color50"
+msgid "theme_editor.sale_color50"
+msgstr "Discount Label < 50%"
+
+msgctxt "Languages::theme_editor.sale_color100"
+msgid "theme_editor.sale_color100"
+msgstr "Discount Label > 50%"
+
+msgctxt "Languages::theme_editor.dark_ellements_type"
+msgid "theme_editor.dark_ellements_type"
+msgstr "Dark style of menu"
+
+msgctxt "Languages::catalog_products"
+msgid "catalog_products"
+msgstr "Product categories"
+
+msgctxt "Languages::ab__grid_tabs.ab__use_ajax"
+msgid "ab__grid_tabs.ab__use_ajax"
+msgstr "Use Ajax"
+
+msgctxt "Languages::ab__grid_tabs.ab__show_in_tabs"
+msgid "ab__grid_tabs.ab__show_in_tabs"
+msgstr "Show block in tabs"
+
+msgctxt "Languages::abt__ut.help"
+msgid "abt__ut.help"
+msgstr "Help"
+
+msgctxt "Languages::abt__ut.help.docs"
+msgid "abt__ut.help.docs"
+msgstr "Read <a target='_blank' href='https://cs-cart.alexbranding.com/en/abt__unitheme.doc'>the documentation</a>."
+
+msgctxt "Languages::abt__ut.demo_data"
+msgid "abt__ut.demo_data"
+msgstr "Demo data"
+
+msgctxt "Languages::abt__ut.demo_data.head"
+msgid "abt__ut.demo_data.head"
+msgstr "Installation of demo data for UniTheme"
+
+msgctxt "Languages::abt__ut.demo_data.table.description"
+msgid "abt__ut.demo_data.table.description"
+msgstr "Demo data type"
+
+msgctxt "Languages::abt__ut.demo_data.table.action"
+msgid "abt__ut.demo_data.table.action"
+msgstr "Actions with demo data"
+
+msgctxt "Languages::abt__ut.demo_data.actions.add_banners"
+msgid "abt__ut.demo_data.actions.add_banners"
+msgstr "Add demo banners"
+
+msgctxt "Languages::abt__ut.demo_data.errors.ab__advanced_banners_not_installed"
+msgid "abt__ut.demo_data.errors.ab__advanced_banners_not_installed"
+msgstr "Demo data could not be installed, because addon AB: Extended Banners is not installed"
+
+msgctxt "Languages::abt__ut.microdata"
+msgid "abt__ut.microdata"
+msgstr "Organization microdata"
+
+msgctxt "SettingsOptions::abt__unitheme::brand_feature_id"
+msgid "brand_feature_id"
+msgstr "Brand feature ID"
+
+msgctxt "Languages::abt__ut.settings"
+msgid "abt__ut.settings"
+msgstr "UniTheme settings"
+
+msgctxt "Languages::abt__ut.setting.hide_product_description"
+msgid "abt__ut.setting.hide_product_description"
+msgstr "Hide full product description (add More button) on product details page"
+
+msgctxt "Languages::abt__ut.setting.hide_product_description__tooltip"
+msgid "abt__ut.setting.hide_product_description"
+msgstr "Set height in px or clear the value to disable"
+
+msgctxt "Languages::abt__ut.setting.hide_feature_descriptions"
+msgid "abt__ut.setting.hide_feature_descriptions"
+msgstr "Hide full product features list (add More button) on product details page"
+
+msgctxt "Languages::abt__ut.setting.hide_feature_descriptions__tooltip"
+msgid "abt__ut.setting.hide_feature_descriptions__tooltip"
+msgstr "Set height in px or clear the value to disable"
+
+msgctxt "Languages::abt__ut.setting.show_short_desc_in_multicolumns_list"
+msgid "abt__ut.setting.show_short_desc_in_multicolumns_list"
+msgstr "Show product short description in product list for multicolumns layout"
+
+msgctxt "Languages::abt__ut.setting.show_short_desc_in_multicolumns_list__tooltip"
+msgid "abt__ut.setting.show_short_desc_in_multicolumns_list__tooltip"
+msgstr "Adds product short description display in multicolumns layout for product lists"
+
+msgctxt "Languages::abt__ut.setting.hide_short_features_in_product_list"
+msgid "abt__ut.setting.hide_short_features_in_product_list"
+msgstr "Hide features list in product list view"
+
+msgctxt "Languages::abt__ut.setting.hide_short_features_in_product_list__tooltip"
+msgid "abt__ut.setting.hide_short_features_in_product_list__tooltip"
+msgstr "Allows hiding of product features list in product list view"
+
+msgctxt "Languages::abt__ut.setting.show_short_desc_in_product"
+msgid "abt__ut.setting.show_short_desc_in_product"
+msgstr "Show Short descroption on product details page"
+
+msgctxt "Languages::abt__ut.setting.show_short_desc_in_product__tooltip"
+msgid "abt__ut.setting.show_short_desc_in_product__tooltip"
+msgstr "Adds Short descriptions field display on product details page"
+
+msgctxt "Languages::abt__ut.setting.show_features_in_product"
+msgid "abt__ut.setting.show_features_in_product"
+msgstr "Show Features list (only checked) on product details page"
+
+msgctxt "Languages::abt__ut.setting.show_features_in_product__tooltip"
+msgid "abt__ut.setting.show_features_in_product__tooltip"
+msgstr "Adds Features list field display on product details page"
+
+msgctxt "Languages::abt__ut.setting.show_block_in_product"
+msgid "abt__ut.setting.show_block_in_product"
+msgstr "Show Block content on product details page"
+
+msgctxt "Languages::abt__ut.setting.show_block_in_product__tooltip"
+msgid "abt__ut.setting.show_block_in_product__tooltip"
+msgstr "Adds some Block content display on product details page. Just set ID of needed block in field"
+
+msgctxt "Languages::abt__ut.setting.show_button_buy_in_product_lists"
+msgid "abt__ut.setting.show_button_buy_in_product_lists"
+msgstr "Show Buy button in products lists layouts"
+
+msgctxt "Languages::abt__ut.setting.show_button_buy_in_product_lists__tooltip"
+msgid "abt__ut.setting.show_button_buy_in_product_lists__tooltip"
+msgstr "Allows display of Buy Buttons in products lists layouts"
+
+msgctxt "Languages::abt__ut.setting.hide_subcategories_in_category"
+msgid "abt__ut.setting.hide_subcategories_in_category"
+msgstr "Hide subcategories on categories pages"
+
+msgctxt "Languages::abt__ut.setting.hide_subcategories_in_category__tooltip"
+msgid "abt__ut.setting.hide_subcategories_in_category__tooltip"
+msgstr "Allows hiding of subcategories links and icons on category pages"
+
+msgctxt "Languages::dropdown_horizontal_ab__un_mwi"
+msgid "dropdown_horizontal_ab__un_mwi"
+msgstr "AB: Dropdown list with icons"
+
+msgctxt "Languages::no_hidden_elements_second_level_view"
+msgid "no_hidden_elements_second_level_view"
+msgstr "Non hiden elements for 2-level menu"
+
+msgctxt "Languages::elements_per_column_third_level_view"
+msgid "elements_per_column_third_level_view"
+msgstr "Elements per column for 3-level menu (dropdown list)"
+
+msgctxt "Languages::abt_menu_ajax_load"
+msgid "abt_menu_ajax_load"
+msgstr "Use Ajax to load menu items (second level and behind it)"
+
+msgctxt "Languages::abt__ut.menu_with_icons.tab"
+msgid "abt__ut.menu_with_icons.tab"
+msgstr "AB: Extended menu settings"
+
+msgctxt "Languages::ab__ut_mwi.status"
+msgid "ab__ut_mwi.status"
+msgstr "AB: Use extended menu with icons"
+
+msgctxt "Languages::ttc_ab__ut_mwi.status"
+msgid "ttc_ab__ut_mwi.status"
+msgstr "Activate extended mode of settings for menu item"
+
+msgctxt "Languages::ab__ut_mwi.icon"
+msgid "ab__ut_mwi.icon"
+msgstr "Icon"
+
+msgctxt "Languages::ttc_ab__ut_mwi.icon"
+msgid "ttc_ab__ut_mwi.icon"
+msgstr "Icon for menu item"
+
+msgctxt "Languages::ab__ut_mwi.dropdown"
+msgid "ab__ut_mwi.dropdown"
+msgstr "Activate 3-level menu (dropdown list)"
+
+msgctxt "Languages::ttc_ab__ut_mwi.dropdown"
+msgid "ttc_ab__ut_mwi.dropdown"
+msgstr "Show children menu items with dropdown list"
+
+msgctxt "Languages::ab__ut_mwi.text"
+msgid "ab__ut_mwi.text"
+msgstr "Text"
+
+msgctxt "Languages::ttc_ab__ut_mwi.text"
+msgid "ttc_ab__ut_mwi.text"
+msgstr "Html-content shown in this menu item"
+
+msgctxt "Languages::ab__ut_mwi.text_position"
+msgid "ab__ut_mwi.text_position"
+msgstr "Content position"
+
+msgctxt "Languages::ttc_ab__ut_mwi.text_position"
+msgid "ttc_ab__ut_mwi.text_position"
+msgstr "Html-content position, shown in this menu item block"
+
+msgctxt "Languages::ab__ut_mwi.text_position.bottom"
+msgid "ab__ut_mwi.text_position.bottom"
+msgstr "bottom"
+
+msgctxt "Languages::ab__ut_mwi.text_position.right_bottom"
+msgid "ab__ut_mwi.text_position.right_bottom"
+msgstr "right bottom"
+
+msgctxt "Languages::ab__ut_mwi.text_position.right_top"
+msgid "ab__ut_mwi.text_position.right_top"
+msgstr "right top"
+
+msgctxt "Languages::ab__ut_mwi.label"
+msgid "ab__ut_mwi.label"
+msgstr "Label"
+
+msgctxt "Languages::ttc_ab__ut_mwi.label"
+msgid "ttc_ab__ut_mwi.label"
+msgstr "Label"
+
+msgctxt "Languages::ab__ut_mwi.label_color"
+msgid "ab__ut_mwi.label_color"
+msgstr "Label color"
+
+msgctxt "Languages::ttc_ab__ut_mwi.label_color"
+msgid "ttc_ab__ut_mwi.label_color"
+msgstr "Label color"
+
+msgctxt "Languages::ab__ut_mwi.label_background"
+msgid "ab__ut_mwi.label_background"
+msgstr "Label background"
+
+msgctxt "Languages::ttc_ab__ut_mwi.label_background"
+msgid "ttc_ab__ut_mwi.label_background"
+msgstr "Label background"
+
+msgctxt "Languages::block_ut_advanced_subcategories_menu"
+msgid "block_ab__ut_advanced_subcategories_menu"
+msgstr "AB: Advanced block \"Subcategories menu\""
+
+msgctxt "Languages::abt_advanced_subcategories_menu"
+msgid "abt_advanced_subcategories_menu"
+msgstr "AB: Advanced block \"Subcategories menu\""
+
+msgctxt "Languages::privilege_sections.abt__unitheme"
+msgid "privilege_sections.abt__unitheme"
+msgstr "AB: UniTheme"
+
+msgctxt "Languages::privileges.abt__ut.settings.manage"
+msgid "privileges.abt__ut.settings.manage"
+msgstr "Manage theme settings"
+
+msgctxt "Languages::privileges.abt__ut.settings.view"
+msgid "privileges.abt__ut.settings.view"
+msgstr "View theme settings"
+
+msgctxt "Languages::privileges.abt__ut.buy_together_generate"
+msgid "privileges.abt__ut.buy_together_generate"
+msgstr "AB: \"BuyTogether\" generator"

@@ -1,0 +1,29 @@
+msgid ""
+msgstr "Project-Id-Version: tygh"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: English\n"
+"Language: en_US"
+
+msgctxt "Addons::name::bb_autosuggest_search"
+msgid "BB AutoSuggest Search"
+msgstr "BB AutoSuggest Search"
+
+msgctxt "Addons::description::bb_autosuggest_search"
+msgid "Adds the "AutoSuggest" feature to the search box."
+msgstr "Adds the "AutoSuggest" feature to the search box."
+
+msgctxt "Languages::no_matching_products"
+msgid "There are no matching product"
+msgstr "There are no matching product"
+
+msgctxt "Languages::showing"
+msgid "Showing"
+msgstr "Showing"
+
+msgctxt "Languages::resulting"
+msgid "results from a total of"
+msgstr "results from a total of"
+
+msgctxt "Languages::matches"
+msgid "matches."
+msgstr "matches."

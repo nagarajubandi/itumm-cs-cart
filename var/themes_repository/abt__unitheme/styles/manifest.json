@@ -1,0 +1,13 @@
+{
+    "default_style": "Sunny",
+    "default": {
+        "Sunny": true,
+        "Classic": true,
+        "Flame": true,
+        "Lighting": true,
+        "Green": true,
+        "Blue": true,
+        "Black": true,
+        "Fiolent": true
+    }
+}

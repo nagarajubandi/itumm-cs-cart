@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<addon scheme="3.0">
+    <id>payment_order_limit</id>
+    <name>Payment dependency on order total</name>
+    <version>1.0</version>
+    <priority>54654654</priority>
+    <position>3547354</position>
+    <default_language>en</default_language>
+    <auto_install>MULTIVENDOR,ULTIMATE</auto_install>
+    <queries>             
+        <item>ALTER TABLE `?:payments` ADD `min_order_limit` decimal(12,2) NOT NULL default '0.0'</item>
+        <item>ALTER TABLE `?:payments` ADD `max_order_limit` decimal(12,2) NOT NULL default '0.0'</item>
+        <item for="uninstall">ALTER TABLE `?:payments` DROP `min_order_limit`</item>
+        <item for="uninstall">ALTER TABLE `?:payments` DROP `max_order_limit`</item>
+    </queries>  
+</addon>

@@ -1,0 +1,126 @@
+msgid ""
+msgstr "Project-Id-Version: tygh"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: English\n"
+"Language: en_US"
+
+msgctxt "Addons::name::sd_vendor_products_database"
+msgid "Simtech Development: Master products"
+msgstr "Simtech Development: Master products"
+
+msgctxt "Addons::description::sd_vendor_products_database"
+msgid "Allows vendors to sell products from a single database with their own prices. <a href=\"https://www.simtechdev.com/\" target=\"_blank\">Support</a>"
+msgstr "Allows vendors to sell products from a single database with their own prices. <a href=\"https://www.simtechdev.com/\" target=\"_blank\">Support</a>"
+
+msgctxt "Languages::addons.sd_vendor_products_database.buy"
+msgid "addons.sd_vendor_products_database.buy"
+msgstr "Buy"
+
+msgctxt "Languages::addons.sd_vendor_products_database.all_products"
+msgid "addons.sd_vendor_products_database.all_products"
+msgstr "All products"
+
+msgctxt "Languages::addons.sd_vendor_products_database.all_products_menu_description"
+msgid "addons.sd_vendor_products_database.all_products_menu_description"
+msgstr "Show all products of the store (except for those that you already sell)."
+
+msgctxt "Languages::addons.sd_vendor_products_database.sell_selected"
+msgid "addons.sd_vendor_products_database.sell_selected"
+msgstr "Sell selected"
+
+msgctxt "Languages::addons.sd_vendor_products_database.sell"
+msgid "addons.sd_vendor_products_database.sell"
+msgstr "Sell"
+
+msgctxt "SettingsOptions::sd_vendor_products_database::allow_vendors_create_products"
+msgid "Allow vendors to create products"
+msgstr "Allow vendors to create products"
+
+msgctxt "SettingsTooltips::sd_vendor_products_database::allow_vendors_create_products"
+msgid "If enabled vendors can create their own products."
+msgstr "If enabled vendors can create their own products."
+
+msgctxt "SettingsOptions::sd_vendor_products_database::share_vendor_products"
+msgid "Allow to share vendor products"
+msgstr "Allow to share vendor products"
+
+msgctxt "SettingsTooltips::sd_vendor_products_database::share_vendor_products"
+msgid "If enabled vendor products are available for selling by another vendors."
+msgstr "If enabled vendor products are available for selling by another vendors."
+
+msgctxt "Languages::addons.sd_vendor_products_database.allow_vendors_create_product"
+msgid "Allow vendors to create products"
+msgstr "Allow vendors to create products"
+
+msgctxt "Languages::addons.sd_vendor_products_database.allow_vendors_to_sell_common_products"
+msgid "Allow vendors to sell common products"
+msgstr "Allow vendors to sell common products"
+
+msgctxt "Languages::addons.sd_vendor_products_database.title"
+msgid "Master products"
+msgstr "Master products"
+
+msgctxt "SettingsOptions::sd_vendor_products_database::plan_change_action"
+msgid "Plan change action"
+msgstr "Plan change action"
+
+msgctxt "SettingsTooltips::sd_vendor_products_database::plan_change_action"
+msgid "The setting specifies what should be done with products if the vendor has been transferred to the plan where possibilities to create/share products are disabled."
+msgstr "The setting specifies what should be done with products if the vendor has been transferred to the plan where possibilities to create/share products are disabled."
+
+msgctxt "SettingsVariants::sd_vendor_products_database::plan_change_action::show"
+msgid "Show"
+msgstr "Show"
+
+msgctxt "SettingsVariants::sd_vendor_products_database::plan_change_action::hide"
+msgid "Hide"
+msgstr "Hide"
+
+msgctxt "Languages::addons.sd_vendor_products_database.allow_sharing"
+msgid "Allow sharing"
+msgstr "Allow sharing"
+
+msgctxt "Languages::sd_vendor_products_database.export_all_products"
+msgid "Export all products"
+msgstr "Export all products"
+
+msgctxt "Languages::text_export_all_products"
+msgid "If disabled, only the products that belong to you will be exported."
+msgstr "If disabled, only the products that belong to you will be exported."
+
+msgctxt "Languages::addons.sd_vendor_products_database.hide_price"
+msgid "Hide the price column"
+msgstr "Hide the price column"
+
+msgctxt "Languages::addons.sd_vendor_products_database.hide_price_tooltip"
+msgid "If enabled, the Price column will be hidden from the Vendor offers block on the detailed product page."
+msgstr "If enabled, the Price column will be hidden from the Vendor offers block on the detailed product page."
+
+msgctxt "Languages::addons.sd_vendor_products_database.show_visit_dealer_button"
+msgid "Display Visit dealer button"
+msgstr "Display Visit dealer button"
+
+msgctxt "Languages::addons.sd_vendor_products_database.show_visit_dealer_button_tooltip"
+msgid "If enabled, the Visit vendor link will be shown in the Vendor offers block on the detailed product page."
+msgstr "If enabled, the Visit vendor link will be shown in the Vendor offers block on the detailed product page."
+
+msgctxt "Languages::addons.sd_vendor_products_database.visit_dealer"
+msgid "Visit dealer"
+msgstr "Visit dealer"
+
+msgctxt "SettingsOptions::sd_vendor_products_database::sort_vendor_offers"
+msgid "Sort vendor offers by default"
+msgstr "Sort vendor offers by default"
+
+msgctxt "SettingsVariants::sd_vendor_products_database::sort_vendor_offers::none"
+msgid "Do not sort"
+msgstr "Do not sort"
+
+msgctxt "SettingsVariants::sd_vendor_products_database::sort_vendor_offers::asc"
+msgid "By price, ascending"
+msgstr "By price, ascending"
+
+msgctxt "SettingsVariants::sd_vendor_products_database::sort_vendor_offers::desc"
+msgid "By price, descending"
+msgstr "By price, descending"
+

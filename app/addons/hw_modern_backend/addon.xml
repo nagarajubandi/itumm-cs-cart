@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<addon scheme="3.0">
+   <id>hw_modern_backend</id>
+   <version>1.2</version>
+   <priority>700</priority>
+   <position>0</position>
+   <status>active</status>
+   <default_language>en</default_language>
+   <auto_install>MULTIVENDOR,ULTIMATE</auto_install>
+    <queries>
+        <item>DROP TABLE IF EXISTS ?:hwmb;</item>
+        <item>
+          CREATE TABLE `?:hwmb` (
+            `id` int(11) NOT NULL AUTO_INCREMENT,
+            `type` varchar(10) NOT NULL,
+            `name` varchar(150) NOT NULL,
+            `value` text NOT NULL,
+            `status` varchar(1) NOT NULL DEFAULT 'A',
+            `activated` tinyint(1) NOT NULL DEFAULT '0',
+            `position` int(11) NOT NULL DEFAULT '0',
+            PRIMARY KEY (`id`)
+          ) ENGINE=MyISAM AUTO_INCREMENT=1 DEFAULT CHARSET=utf8;
+        </item>
+        <item editions="MULTIVENDOR,ULTIMATE">REPLACE INTO ?:privileges (privilege, is_default, section_id) VALUES ('view_modern_backend', 'Y', 'design');</item>
+        <item editions="MULTIVENDOR,ULTIMATE">REPLACE INTO ?:privileges (privilege, is_default, section_id) VALUES ('manage_modern_backend', 'Y', 'design');</item>
+        <item editions="MULTIVENDOR,ULTIMATE">REPLACE INTO ?:usergroup_privileges (usergroup_id, privilege) VALUES ('4', 'view_modern_backend');</item>
+        <item editions="MULTIVENDOR,ULTIMATE">REPLACE INTO ?:usergroup_privileges (usergroup_id, privilege) VALUES ('4', 'manage_modern_backend');</item>
+         <item type="file">database/data.sql</item>
+        <item for="uninstall" editions="MULTIVENDOR,ULTIMATE">DELETE FROM ?:privileges WHERE privilege IN ('view_modern_backend', 'manage_modern_backend')</item>
+        <item for="uninstall" editions="MULTIVENDOR,ULTIMATE">DELETE FROM ?:usergroup_privileges WHERE privilege IN ('view_modern_backend', 'manage_modern_backend')</item>
+         <item for="uninstall">DROP TABLE IF EXISTS ?:hwmb;</item>
+    </queries>
+</addon>

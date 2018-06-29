@@ -1,0 +1,425 @@
+msgid ""
+msgstr "Project-Id-Version: tygh\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: English\n"
+"Language: en_US"
+
+msgctxt "Addons::name::otp_verification"
+msgid "OTP Verification"
+msgstr "OTP Verification"
+
+msgctxt "Addons::description::otp_verification"
+msgid "Enables verification of genuine users via OTP."
+msgstr "Enables verification of genuine users via OTP."
+
+msgctxt "Languages::user_guide"
+msgid "Please Follow the <a href='https://webkul.com/blog/cs-cart-otp-verification/' target='_blank'> User Guide</a> link for detailed description of OTP Verification Add-on"
+msgstr "Please Follow the <a href='https://webkul.com/blog/cs-cart-otp-verification/' target='_blank'> User Guide</a> link for detailed description of OTP Verification Add-on"
+
+msgctxt "SettingsOptions::otp_verification::otp_twilio_phone_number"
+msgid "Twilio Phone number"
+msgstr "Twilio Phone number"
+
+msgctxt "SettingsOptions::otp_verification::otp_twilio_settings"
+msgid "Twilio Setting"
+msgstr "Twilio Setting"
+
+msgctxt "SettingsOptions::otp_verification::otp_admin_phone_number"
+msgid "Store Admin Phone number"
+msgstr "Store Admin Phone number"
+
+msgctxt "SettingsOptions::otp_verification::otp_elm_twilio_settings"
+msgid "Twilio settings"
+msgstr "Twilio settings"
+
+msgctxt "SettingsOptions::otp_verification::otp_twilio_account_sid"
+msgid "Account Sid"
+msgstr "Account Sid"
+
+msgctxt "SettingsOptions::otp_verification::otp_twilio_access_token"
+msgid "Auth Token"
+msgstr "Auth Token"
+
+msgctxt "SettingsOptions::otp_verification::login_via_otp"
+msgid "Enable Login via OTP"
+msgstr "Enable Login via OTP"
+
+msgctxt "SettingsTooltips::otp_verification::login_via_otp"
+msgid "Enable user to login via OTP."
+msgstr "Enable user to login via OTP."
+
+msgctxt "SettingsOptions::otp_verification::enable_otp_on_register"
+msgid "Enable OTP during registration"
+msgstr "Enable OTP during registration"
+
+msgctxt "SettingsTooltips::otp_verification::enable_otp_on_register"
+msgid "Check to enable OTP verification during registration."
+msgstr "Check to enable OTP verification during registration."
+
+msgctxt "SettingsOptions::otp_verification::login_via_phone_or_email"
+msgid "Enable Login with phone/email"
+msgstr "Enable Login with phone/email"
+
+msgctxt "SettingsTooltips::otp_verification::login_via_phone_or_email"
+msgid "Enable user to login via email or phone."
+msgstr "Enable user to login via email or phone."
+
+msgctxt "SettingsOptions::otp_verification::otp_send_payments"
+msgid "Only for these payment methods"
+msgstr "Only for these payment methods"
+
+msgctxt "SettingsOptions::otp_verification::otp_otp_verification_only_for"
+msgid "Send OTP Verification"
+msgstr "Send OTP Verification"
+
+msgctxt "SettingsOptions::otp_verification::otp_otp_setting"
+msgid "OTP Setting"
+msgstr "OTP Setting"
+
+msgctxt "SettingsOptions::otp_verification::otp_otp_save_phone_no"
+msgid "Save OTP Verification phone number"
+msgstr "Save OTP Verification phone number"
+
+msgctxt "SettingsTooltips::otp_verification::otp_otp_save_phone_no"
+msgid "Check to store phone number on Order Detail page"
+msgstr "Check to store phone number on Order Detail page"
+
+msgctxt "SettingsOptions::otp_verification::otp_otp_retry_chance"
+msgid "Maximum number of Retry"
+msgstr "Maximum number of Retry"
+
+msgctxt "SettingsTooltips::otp_verification::otp_otp_retry_chance"
+msgid "Select how many times user can resend OTP Verification for Single phone number, until user re-enters another number. Select 0 for unlimited times of retry."
+msgstr "Select how many times user can resend OTP Verification for Single phone number, until user re-enters another number. Select 0 for unlimited times of retry."
+
+msgctxt "SettingsVariants::otp_verification::otp_otp_retry_chance::otp_retry_0"
+msgid "0"
+msgstr "0"
+
+msgctxt "SettingsVariants::otp_verification::otp_otp_retry_chance::otp_retry_1"
+msgid "1"
+msgstr "1"
+
+msgctxt "SettingsVariants::otp_verification::otp_otp_retry_chance::otp_retry_2"
+msgid "2"
+msgstr "2"
+
+msgctxt "SettingsVariants::otp_verification::otp_otp_retry_chance::otp_retry_3"
+msgid "3"
+msgstr "3"
+
+msgctxt "SettingsVariants::otp_verification::otp_otp_retry_chance::otp_retry_4"
+msgid "4"
+msgstr "4"
+
+msgctxt "SettingsVariants::otp_verification::otp_otp_retry_chance::otp_retry_5"
+msgid "5"
+msgstr "5"
+
+msgctxt "SettingsVariants::otp_verification::otp_otp_retry_chance::otp_retry_6"
+msgid "6"
+msgstr "6"
+
+msgctxt "SettingsVariants::otp_verification::otp_otp_retry_chance::otp_retry_7"
+msgid "7"
+msgstr "7"
+
+msgctxt "SettingsVariants::otp_verification::otp_otp_retry_chance::otp_retry_8"
+msgid "8"
+msgstr "8"
+
+msgctxt "SettingsVariants::otp_verification::otp_otp_retry_chance::otp_retry_9"
+msgid "9"
+msgstr "9"
+
+msgctxt "SettingsVariants::otp_verification::otp_otp_retry_chance::otp_retry_10"
+msgid "10"
+msgstr "10"
+
+msgctxt "SettingsOptions::otp_verification::otp_otp_time_of_expiration_of_otp_code"
+msgid "Minutes to expire OTP"
+msgstr "Minutes to expire OTP"
+
+msgctxt "SettingsTooltips::otp_verification::otp_otp_time_of_expiration_of_otp_code"
+msgid "Select expiration minutes for OTP Verification for every new OTP generated, until user resends another OTP code."
+msgstr "Select expiration minutes for OTP Verification for every new OTP generated, until user resends another OTP code."
+
+msgctxt "SettingsVariants::otp_verification::otp_otp_time_of_expiration_of_otp_code::otp_expire_0"
+msgid "0"
+msgstr "0"
+
+msgctxt "SettingsVariants::otp_verification::otp_otp_time_of_expiration_of_otp_code::otp_expire_1"
+msgid "1"
+msgstr "1"
+
+msgctxt "SettingsVariants::otp_verification::otp_otp_time_of_expiration_of_otp_code::otp_expire_2"
+msgid "2"
+msgstr "2"
+
+msgctxt "SettingsVariants::otp_verification::otp_otp_time_of_expiration_of_otp_code::otp_expire_3"
+msgid "3"
+msgstr "3"
+
+msgctxt "SettingsVariants::otp_verification::otp_otp_time_of_expiration_of_otp_code::otp_expire_4"
+msgid "4"
+msgstr "4"
+
+msgctxt "SettingsVariants::otp_verification::otp_otp_time_of_expiration_of_otp_code::otp_expire_5"
+msgid "5"
+msgstr "5"
+
+msgctxt "SettingsVariants::otp_verification::otp_otp_time_of_expiration_of_otp_code::otp_expire_6"
+msgid "6"
+msgstr "6"
+
+msgctxt "SettingsVariants::otp_verification::otp_otp_time_of_expiration_of_otp_code::otp_expire_7"
+msgid "7"
+msgstr "7"
+
+msgctxt "SettingsVariants::otp_verification::otp_otp_time_of_expiration_of_otp_code::otp_expire_8"
+msgid "8"
+msgstr "8"
+
+msgctxt "SettingsVariants::otp_verification::otp_otp_time_of_expiration_of_otp_code::otp_expire_9"
+msgid "9"
+msgstr "9"
+
+msgctxt "SettingsVariants::otp_verification::otp_otp_time_of_expiration_of_otp_code::otp_expire_10"
+msgid "10"
+msgstr "10"
+
+msgctxt "SettingsOptions::otp_verification::otp_phone_mask"
+msgid "Phone mask"
+msgstr "Phone mask"
+
+msgctxt "SettingsTooltips::otp_verification::otp_phone_mask"
+msgid "Leave empty to use automatic country-based phone pattern, or type in a custom pattern. You can use spaces, commas, +, -, and digits. Note that 9 represents any digit; if you need a 9, type \\\\9. Examples: +9 (999) 999 99 99, 99999999, 999 999 99 or +99-99-9999-9999."
+msgstr "Leave empty to use automatic country-based phone pattern, or type in a custom pattern. You can use spaces, commas, +, -, and digits. Note that 9 represents any digit; if you need a 9, type \\\\9. Examples: +9 (999) 999 99 99, 99999999, 999 999 99 or +99-99-9999-9999."
+
+msgctxt "SettingsOptions::otp_verification::otp_otp_length"
+msgid "OTP length"
+msgstr "OTP length"
+
+msgctxt "SettingsTooltips::otp_verification::otp_otp_length"
+msgid "Leave empty to use default length 4, or type in a custom length."
+msgstr "Leave empty to use default length 4, or type in a custom length."
+
+msgctxt "SettingsOptions::otp_verification::otp_otp_characters"
+msgid "OTP Characters type"
+msgstr "OTP Characters type"
+
+msgctxt "SettingsTooltips::otp_verification::otp_otp_characters"
+msgid "Select All to use all the patterns. By Default code will be combination of all."
+msgstr "Select All to use all the patterns. By Default code will be combination of all."
+
+msgctxt "SettingsVariants::otp_verification::otp_otp_characters::otp_all_chars"
+msgid "All"
+msgstr "All"
+
+msgctxt "SettingsVariants::otp_verification::otp_otp_characters::otp_numeral"
+msgid "Digits"
+msgstr "Digits"
+
+msgctxt "SettingsVariants::otp_verification::otp_otp_characters::otp_alphabet_small"
+msgid "Alphabets lowercase"
+msgstr "Alphabets lowercase"
+
+msgctxt "SettingsVariants::otp_verification::otp_otp_characters::otp_alphabet_caps"
+msgid "Alphabets uppercase"
+msgstr "Alphabets uppercase"
+
+msgctxt "SettingsVariants::otp_verification::otp_otp_characters::otp_special_char"
+msgid "Special Characters"
+msgstr "Special Characters"
+
+msgctxt "SettingsOptions::otp_verification::otp_info_for_otp_special_char"
+msgid "Info for OTP Characters type: Special Characters"
+msgstr "Info for OTP Characters type: Special Characters"
+
+msgctxt "Languages::otp_special_characters_info"
+msgid "<strong>Note: </strong> Characters Description for OTP Characters type <br>Alphabets: Uppercase and lowercase English letters (a-z, A-Z) <br>Digits: 0 to 9 <br> Special Characters: ! # $ % & * + - / = ? ^ _ { | } ~"
+msgstr "<strong>Note: </strong> Characters Description for OTP Characters type <br>Alphabets: Uppercase and lowercase English letters (a-z, A-Z) <br>Digits: 0 to 9 <br> Special Characters: ! # $ % & * + - / = ? ^ _ { | } ~"
+
+msgctxt "Languages::your_resend_tries_have_extended"
+msgid "Your resend tries have exceeded. Please re-enter your phone number"
+msgstr "Your resend tries have exceeded. Please re-enter your phone number"
+
+msgctxt "Languages::ask_admin_to_configure_otp_verification"
+msgid "Ask Admin to configure OTP Verification"
+msgstr "Ask Admin to configure OTP Verification"
+
+msgctxt "Languages::otp_prefix_code"
+msgid "OTP prefix code"
+msgstr "OTP prefix code"
+
+msgctxt "Languages::please_verify_your_number_to_use_this_feature"
+msgid "Please verify your number to use this feature"
+msgstr "Please verify your number to use this feature"
+
+msgctxt "Languages::please_change_you_phone_no"
+msgid "Please change you phone number"
+msgstr "Please change you phone number"
+
+msgctxt "Languages::please_verify_your_number"
+msgid "Please verify your number"
+msgstr "Please verify your number"
+
+msgctxt "Languages::your_otp_is_send_to"
+msgid "Your OTP  is sent to "
+msgstr "Your OTP  is sent to "
+
+msgctxt "Languages::please_note_your_otp_code_will_expire"
+msgid "Please note your OTP code will expire in [expire_time] minutes."
+msgstr "Please note your OTP code will expire in [expire_time] minutes."
+
+msgctxt "Languages::otp_incorrect"
+msgid "Sorry OTP key incorrect"
+msgstr "Sorry OTP key incorrect"
+
+msgctxt "Languages::please_verify_your_otp"
+msgid "Please Verify your OTP"
+msgstr "Please Verify your OTP"
+
+msgctxt "Languages::otp_send_successfully"
+msgid "OTP sent successfully"
+msgstr "OTP sent successfully"
+
+msgctxt "Languages::correct"
+msgid "OTP has been verified successfully"
+msgstr "OTP has been verified successfully"
+
+msgctxt "Languages::incorrect"
+msgid "Incorrect OTP"
+msgstr "Incorrect OTP"
+
+msgctxt "Languages::sorry_your_otp_expired"
+msgid "Sorry your OTP has expired"
+msgstr "Sorry your OTP has expired"
+
+msgctxt "Languages::otp_information"
+msgid "OTP Information"
+msgstr "OTP Information"
+
+msgctxt "Languages::otp_verification"
+msgid "OTP Verification"
+msgstr "OTP Verification"
+
+msgctxt "Languages::send_otp"
+msgid "Send OTP"
+msgstr "Send OTP"
+
+msgctxt "Languages::otp_key"
+msgid "Enter OTP"
+msgstr "Enter OTP"
+
+msgctxt "Languages::verify"
+msgid "Verify"
+msgstr "Verify"
+
+msgctxt "Languages::change_no"
+msgid "Change number"
+msgstr "Change number"
+
+msgctxt "Languages::otp_verified"
+msgid "OTP Verified"
+msgstr "OTP Verified"
+
+msgctxt "Languages::enter_your_mobile_number"
+msgid "Enter your phone number along with country code"
+msgstr "Enter your phone number along with country code"
+
+msgctxt "Languages::an_otp_has_been_send_to_your_mobile_number_please_enter_within_time_limit"
+msgid "An OTP has been sent to your mobile number.Please try to enter within time limit."
+msgstr "An OTP has been sent to your mobile number.Please try to enter within time limit."
+
+msgctxt "Languages::enter_otp"
+msgid "Enter OTP"
+msgstr "Enter OTP"
+
+msgctxt "Languages::start_over"
+msgid "Start Over"
+msgstr "Start Over"
+
+msgctxt "Languages::verify_your_number"
+msgid "Verify Phone Number"
+msgstr "Verify Phone Number"
+
+msgctxt "Languages::your_mobile_no"
+msgid "<b>Your Mobile Number:</b>"
+msgstr "<b>Your Mobile Number:</b>"
+
+msgctxt "Languages::_you_can_change_your_number_here_and_otp_will_be_send_on_updated_number"
+msgid "Please enter your new number with country code,OTP will be sent on updated number."
+msgstr "Please enter your new number with country code,OTP will be sent on updated number."
+
+msgctxt "Languages::enter_your_new_number"
+msgid "Enter Your New Number"
+msgstr "Enter Your New Number"
+
+msgctxt "Languages::resend"
+msgid "Resend"
+msgstr "Resend"
+
+msgctxt "Languages::number_field_not_found"
+msgid "Please fill number field so that otp can be sent to your number."
+msgstr "Please fill number field so that otp can be sent to your number."
+
+msgctxt "Languages::pre_no"
+msgid "Previous number:"
+msgstr "Previous number:"
+
+msgctxt "Languages::login_with_otp"
+msgid "Login via OTP"
+msgstr "Login via OTP"
+
+msgctxt "SettingsTooltips::otp_verification::login_with_otp"
+msgid "Enable login with OTP on the registered number."
+msgstr "Enable login with OTP on the registered number."
+
+msgctxt "Languages::email_or_phone"
+msgid "Email/Phone"
+msgstr "Email/Phone"
+
+msgctxt "Languages::not_verified"
+msgid "Not verified"
+msgstr "Not verified"
+
+msgctxt "Languages::verified"
+msgid "Verified"
+msgstr "Verified"
+
+msgctxt "Languages::phone_number_already_registered"
+msgid "Phone number already registered"
+msgstr "Phone number already registered"
+
+msgctxt "Languages::user_already_exist"
+msgid "User already exist"
+msgstr "User already exist"
+
+msgctxt "SettingsOptions::otp_verification::enable_checkout_for_non_verified_user"
+msgid "Enable checkout for non verified users"
+msgstr "Enable checkout for non verified users"
+
+msgctxt "SettingsTooltips::otp_verification::enable_checkout_for_non_verified_user"
+msgid "check to enable checkout for the non verified users."
+msgstr "check to enable checkout for the non verified users."
+
+msgctxt "SettingsOptions::otp_verification::enable_reset_password_by_otp"
+msgid "Enable reset password via OTP"
+msgstr "Enable reset password via OTP"
+
+msgctxt "SettingsTooltips::otp_verification::enable_reset_password_by_otp"
+msgid "Allow users to reset password via OTP."
+msgstr "Allow users to reset password via OTP."
+
+msgctxt "SettingsTooltips::otp_verification::otp_send_payments"
+msgid "Choose payment methods for which OTP will be send for non-verified users."
+msgstr "Choose payment methods for which OTP will be send for non-verified users."
+
+msgctxt "Languages::reset_via_otp"
+msgid "Reset via OTP"
+msgstr "Reset via OTP"
+
+msgctxt "Languages::phone_number_is_not_registered_with_this_email"
+msgid "Phone number is not registered with this email"
+msgstr "Phone number is not registered with this email"

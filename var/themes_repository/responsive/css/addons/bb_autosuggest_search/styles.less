@@ -1,0 +1,159 @@
+
+//container for ul.
+#autosuggest { 
+    background-color: @general_bg_color;
+    position: absolute;
+    display: none;
+    z-index: 150;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    height:auto;
+}
+
+.result-row {
+    display: block;
+}
+
+.result-row-image-container {
+    display: table-cell;
+    min-width: 80px;
+}
+
+div.result-row-image-container img {
+    margin: 5px 5px 5px 10px;
+    max-width: 80px;
+}
+
+.result-row-text-container {
+    display: table-cell;
+    width: auto;
+    vertical-align: middle;
+    padding-top: 6px;
+    padding-right: 10px;
+    color: @primary_button;
+}
+
+
+//ul class
+ul.autosuggest {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: auto;
+}
+
+ul.autosuggest li a {
+    margin: 0px;
+    text-decoration: none;
+    white-space: pre-line;
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+ul.autosuggest li {
+    padding: 0;
+    border-bottom: 1px dotted #e3e3e3;
+    transition: all .3s ease-out;
+}
+
+ul.autosuggest li div {
+    transition: all .5s ease-out;
+}
+
+ul.autosuggest li.autosuggest-selected div {
+    background-color: #F0F0F0;
+    transition: all .5s ease-out;
+}
+
+ul.autosuggest li.no-search-results {
+    height: 35px;
+    line-height: 35px;
+    text-align: center;
+    background-color: #F0F0F0;
+    color: @primary_button;
+}
+
+ul.autosuggest li.search-results-extra {
+    height: 35px;
+    line-height: 35px;
+    text-align: center;
+    background-color: @primary_button;
+    color: #FFF;
+    border-bottom: none;
+}
+
+.search-by-pcode-container {
+    width: 33px;
+    height: 33px;
+    display: none;
+    float: left;
+    background-color: @secondary_button;
+    position: relative;
+    line-height: 31px;
+    text-align: center;
+    margin-left: -33px;
+}
+
+.search-by-pcode-container input[type="checkbox"] {
+    margin: 0;
+
+}
+
+.search-by-pcode-container label {
+    cursor: pointer;
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    top: 8px;
+    left: 9px;
+    border-radius: 3px;
+
+    -webkit-box-shadow: inset 0px 1px 1px white, 0px 1px 3px rgba(0,0,0,0.5);
+    -moz-box-shadow: inset 0px 1px 1px white, 0px 1px 3px rgba(0,0,0,0.5);
+    box-shadow: inset 0px 1px 1px white, 0px 1px 3px rgba(0,0,0,0.5);
+    background: #fcfff4;
+
+    background: -webkit-linear-gradient(top, #fcfff4 0%, #dfe5d7 40%, #b3bead 100%);
+    background: -moz-linear-gradient(top, #fcfff4 0%, #dfe5d7 40%, #b3bead 100%);
+    background: -o-linear-gradient(top, #fcfff4 0%, #dfe5d7 40%, #b3bead 100%);
+    background: -ms-linear-gradient(top, #fcfff4 0%, #dfe5d7 40%, #b3bead 100%);
+    background: linear-gradient(top, #fcfff4 0%, #dfe5d7 40%, #b3bead 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fcfff4', endColorstr='#b3bead',GradientType=0 );
+}
+
+.search-by-pcode-container label:after {
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    filter: alpha(opacity=0);
+    opacity: 0;
+    content: '';
+    position: absolute;
+    width: 7px;
+    height: 3px;
+    background: transparent;
+    top: 4px;
+    left: 3px;
+    border: 3px solid #333;
+    border-top: none;
+    border-right: none;
+
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+}
+
+.search-by-pcode-container label:hover::after {
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=30)";
+    filter: alpha(opacity=30);
+    opacity: 0.5;
+}
+
+.search-by-pcode-container input[type=checkbox]:checked + label:after {
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+    filter: alpha(opacity=100);
+    opacity: 1;
+}
+

@@ -1,0 +1,364 @@
+msgid ""
+msgstr "Project-Id-Version: tygh"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Russian\n"
+"Language: ru_RU\n"
+
+msgctxt "Addons::name::csc_live_search"
+msgid "cs-commerce.com - Модуль Живой поиск"
+msgstr "cs-commerce.com - Модуль Живой поиск"
+
+msgctxt "Addons::description::csc_live_search"
+msgid "Модуль живой поиск от <b><a href="http://www.cs-commerce.com" target="_blank">www.cs-commerce.com</a></b>"
+msgstr "Модуль живой поиск от <b><a href="http://www.cs-commerce.com" target="_blank">www.cs-commerce.com</a></b>"
+
+msgctxt "SettingsSections::csc_live_search::general"
+msgid "Основные настройки"
+msgstr "Основные настройки"
+
+msgctxt "SettingsSections::csc_live_search::storefronts"
+msgid "Витрины"
+msgstr "Витрины"
+
+msgctxt "SettingsSections::csc_live_search::styles"
+msgid "Внешний вид"
+msgstr "Внешний вид"
+
+msgctxt "SettingsOptions::csc_live_search::search_on_name"
+msgid "Искать в названии товара"
+msgstr "Искать в названии товара"
+
+msgctxt "SettingsOptions::csc_live_search::search_on_keywords"
+msgid "Искать в ключевых словах товара"
+msgstr "Искать в ключевых словах товара"
+
+msgctxt "SettingsOptions::csc_live_search::search_on_metakeywords"
+msgid "Искать в meta keywords товара"
+msgstr "Искать в meta keywords товара"
+
+msgctxt "SettingsOptions::csc_live_search::search_on_metatitle"
+msgid "Искать в meta title товара"
+msgstr "Искать в meta title товара"
+
+msgctxt "SettingsOptions::csc_live_search::search_on_metadesc"
+msgid "Искать в meta description товара"
+msgstr "Искать в meta description товара"
+
+msgctxt "SettingsOptions::csc_live_search::search_on_pcode"
+msgid "Ищем по артикулу товара"
+msgstr "Ищем по артикулу товара"
+
+msgctxt "SettingsOptions::csc_live_search::search_on_description"
+msgid "Ищем по описанию товара"
+msgstr "Ищем по описанию товара"
+
+msgctxt "SettingsOptions::csc_live_search::search_on_short_description"
+msgid "Ищем по краткому описанию товара"
+msgstr "Ищем по краткому описанию товара"
+
+msgctxt "SettingsOptions::csc_live_search::search_on_features"
+msgid "Искать в характеристиках товара"
+msgstr "Искать в характеристиках товара"
+
+msgctxt "SettingsOptions::csc_live_search::search_on_options"
+msgid "Искать в опциях товара"
+msgstr "Искать в опциях товара"
+
+msgctxt "SettingsOptions::csc_live_search::sort_options"
+msgid "Параметры сортировки товаров"
+msgstr "Параметры сортировки товаров"
+
+msgctxt "SettingsOptions::csc_live_search::use_stop_words"
+msgid "Учитывать стоп-слова"
+msgstr "Учитывать стоп-слова"
+
+msgctxt "SettingsOptions::csc_live_search::sort_by"
+msgid "Сортировать товары по"
+msgstr "Сортировать товары по"
+
+msgctxt "SettingsOptions::csc_live_search::increase_popularity"
+msgid "Increase product popularity per phrase automatically"
+msgstr "Автоматически добавлять популярность товару по поисковой фразе"
+
+msgctxt "SettingsOptions::csc_live_search::sort_order"
+msgid "Тип сортировки"
+msgstr "Тип сортировки"
+
+msgctxt "SettingsOptions::csc_live_search::limit"
+msgid "Товаров за один запрос"
+msgstr "Товаров за один запрос"
+
+msgctxt "SettingsOptions::csc_live_search::characters_limit"
+msgid "Мин. кол-во символов"
+msgstr "Мин. кол-во символов"
+
+msgctxt "SettingsOptions::csc_live_search::search_categories"
+msgid "Искать категории"
+msgstr "Искать категории"
+
+msgctxt "SettingsOptions::csc_live_search::show_parent_category"
+msgid "Отображать название родительской категории"
+msgstr "Отображать название родительской категории"
+
+msgctxt "SettingsOptions::csc_live_search::search_brands"
+msgid "Искать бренды"
+msgstr "Искать бренды"
+
+msgctxt "SettingsOptions::csc_live_search::serch_on_storefronts"
+msgid "Поиск в других витринах"
+msgstr "Поиск в других витринах"
+
+msgctxt "SettingsOptions::csc_live_search::search_storefront_categories"
+msgid "Предлагать категории из других витрин"
+msgstr "Предлагать категории из других витрин"
+
+msgctxt "SettingsOptions::csc_live_search::allow_storefronts"
+msgid "Выберите витрины, в которых нужно осуществлять поиск"
+msgstr "Выберите витрины, в которых нужно осуществлять поиск"
+
+msgctxt "SettingsOptions::csc_live_search::out_stock_end"
+msgid "Товары не в наличии показывать в конце поиска"
+msgstr "Товары не в наличии показывать в конце поиска"
+
+msgctxt "SettingsOptions::csc_live_search::serch_options"
+msgid "Параметры поиска"
+msgstr "Параметры поиска"
+
+msgctxt "SettingsOptions::csc_live_search::serch_on"
+msgid "Что мы ищем?"
+msgstr "Что мы ищем?"
+
+msgctxt "SettingsOptions::csc_live_search::search_products"
+msgid "Искать товары"
+msgstr "Искать товары"
+
+msgctxt "SettingsOptions::csc_live_search::search_vendors"
+msgid "Искать продавцов (Multivendor edition)" 
+msgstr "Искать продавцов (Multivendor edition)"
+
+msgctxt "SettingsOptions::csc_live_search::image_width"
+msgid "Ширина картинки (px)"
+msgstr "Ширина картинки (px)"
+
+msgctxt "SettingsOptions::csc_live_search::image_height"
+msgid "Высота картинки (px)"
+msgstr "Высота картинки (px)"
+
+msgctxt "SettingsOptions::csc_live_search::show_category"
+msgid "Показывать категории товаров в виде лейбла"
+msgstr "Показывать категории товаров в виде лейбла"
+
+msgctxt "SettingsOptions::csc_live_search::show_category_gradient"
+msgid "Выводить цвет лейбла категории с градиентом"
+msgstr "Выводить цвет лейбла категории с градиентом"
+
+
+msgctxt "SettingsOptions::csc_live_search::color_type"
+msgid "Метод генерации цвета лейбла категории"
+msgstr "Метод генерации цвета лейбла категории"
+
+msgctxt "SettingsVariants::csc_live_search::color_type::M"
+msgid "Выводить из 10-ти предустановленных"
+msgstr "Выводить из 10-ти предустановленных"
+
+msgctxt "SettingsVariants::csc_live_search::color_type::A"
+msgid "Генерировать уникальный цвет для каждой категории"
+msgstr "Генерировать уникальный цвет для каждой категории"
+
+msgctxt "SettingsVariants::csc_live_search::color_type::E"
+msgid "Единый цвет для всех, указанный ниже"
+msgstr "Единый цвет для всех, указанный ниже"
+
+msgctxt "SettingsOptions::csc_live_search::clr_category_e"
+msgid "Единый цвет лейбла категорий"
+msgstr "Единый цвет лейбла категорий"
+
+msgctxt "SettingsOptions::csc_live_search::margin"
+msgid "Отступ сверху (px)"
+msgstr "Отступ сверху (px)"
+
+msgctxt "SettingsOptions::csc_live_search::border_radius"
+msgid "Радиус скругления блока (px)"
+msgstr "Радиус скругления блока (px)"
+
+msgctxt "SettingsOptions::csc_live_search::clr_border"
+msgid "Цвет границы"
+msgstr "Цвет границы"
+
+msgctxt "SettingsOptions::csc_live_search::clr_top_bg"
+msgid "Фон верхнего блока"
+msgstr "Фон верхнего блока"
+
+msgctxt "SettingsOptions::csc_live_search::clr_hover"
+msgid "Фон при наведении на товар"
+msgstr "Фон при наведении на товар"
+
+msgctxt "SettingsOptions::csc_live_search::clr_links"
+msgid "Цвет ссылок"
+msgstr "Цвет ссылок"
+
+msgctxt "SettingsOptions::csc_live_search::clr_links_hover"
+msgid "Цвет ссылок при наведении"
+msgstr "Цвет ссылок при наведении"
+
+msgctxt "SettingsOptions::csc_live_search::show_more_styles"
+msgid "Настройки нижней кнопки"
+msgstr "Настройки нижней кнопки"
+
+msgctxt "SettingsOptions::csc_live_search::btn_radius"
+msgid "Радиус скругления (px)"
+msgstr "Радиус скругления (px)"
+
+msgctxt "SettingsOptions::csc_live_search::clr_btn_border"
+msgid "Цвет границы"
+msgstr "Цвет границы"
+
+msgctxt "SettingsOptions::csc_live_search::clr_btn_border_hover"
+msgid "Цвет границы при наведении"
+msgstr "Цвет границы при наведении"
+
+msgctxt "SettingsOptions::csc_live_search::clr_btn_text"
+msgid "Цвет текста"
+msgstr "Цвет текста"
+
+msgctxt "SettingsOptions::csc_live_search::clr_btn_text_hover"
+msgid "Цвет текста при наведении"
+msgstr "Цвет текста при наведении"
+
+msgctxt "SettingsOptions::csc_live_search::clr_btn_bg"
+msgid "Фон кнопки"
+msgstr "Фон кнопки"
+
+msgctxt "SettingsOptions::csc_live_search::clr_btn_bg_hover"
+msgid "Фон кнопки при наведении"
+msgstr "Фон кнопки при наведении"
+
+
+msgctxt "Languages::cls_not_found"
+msgid "По Вашему заросу ничего не найдено..."
+msgstr "По Вашему заросу ничего не найдено..."
+
+msgctxt "Languages::cls_found"
+msgid "Всего нашлось"
+msgstr "Всего нашлось"
+
+msgctxt "Languages::sort_by_cls_relevance_asc"
+msgid "По релевантности"
+msgstr "По релевантности"
+
+msgctxt "Languages::sort_by_cls_relevance_desc"
+msgid "По релевантности"
+msgstr "По релевантности"
+
+msgctxt "Languages::sort_by_cls_relevance_with_popularity_desc"
+msgid "Sort by popularity"
+msgstr "По популярности поиска"
+
+msgctxt "Languages::sort_by_cls_relevance_with_popularity_asc"
+msgid "Sort by popularity"
+msgstr "По популярности поиска"
+
+msgctxt "Languages::cls_products"
+msgid "товар|товара|товаров"
+msgstr "товар|товара|товаров"
+
+
+msgctxt "Languages::cls_show_more"
+msgid "Показать еще"
+msgstr "Показать еще"
+
+msgctxt "Languages::storefronts_categories"
+msgid "Категории из других наших магазинов"
+msgstr "Категории из других наших магазинов"
+
+
+
+
+
+
+
+msgctxt "Languages::relevance_with_popularity"
+msgid "Product popularity per phrase with relevant"
+msgstr "По популярности к каждой поисковой фразе с релевантностью"
+
+msgctxt "Languages::cs_live_history"
+msgid "Search history"
+msgstr "История поиска"
+
+msgctxt "Languages::cs_live_search_settings"
+msgid "Live search settings"
+msgstr "Настройки поиска"
+
+msgctxt "Languages::ls.search_word"
+msgid "Search phrase"
+msgstr "Поисковая фраза"
+
+msgctxt "Languages::ls.requests_count"
+msgid "Requests count"
+msgstr "Количество запросов"
+
+msgctxt "Languages::ls.products_clicks"
+msgid "Products clicks"
+msgstr "Кликов на товары"
+
+msgctxt "Languages::ls.product_popularity"
+msgid "Product popularity for search phrase"
+msgstr "Популярность товара к поисковой фразе"
+
+msgctxt "Languages::ls.add_phrases_for_popularity"
+msgid "Add phrases to product"
+msgstr "Добавить поисковые фразы с популярностью товара"
+
+msgctxt "Languages::ls.add_products_to_popularity"
+msgid "Add products popularity to search phrase"
+msgstr "Добавить товары с популярностью"
+
+msgctxt "Languages::enter_search_phrase"
+msgid "Enter search phrase"
+msgstr "Введите поисковую фразу"
+
+msgctxt "Languages::cls_stop_words"
+msgid "Stop words on search"
+msgstr "Стоп слова для поиска"
+
+msgctxt "Languages::cls.search_history"
+msgid "Search history"
+msgstr "История поиска"
+
+msgctxt "Languages::cls.search_history_menu_description"
+msgid "Search history and search statistics for each search request"
+msgstr "Статистика поиска по поисковым фразам, настройка популярности товара к каждой поисковой фразе"
+
+msgctxt "Languages::clicked_products"
+msgid "Clicked products"
+msgstr "Кликов на товары"
+
+msgctxt "Languages::ls.per_word"
+msgid "Group per search phrase"
+msgstr "Группировать по поисковой фразе"
+
+msgctxt "Languages::ls.per_request"
+msgid "All requests"
+msgstr "Весь список запросов"
+
+msgctxt "Languages::search_words_deleted_success"
+msgid "Search requests was deleted success!"
+msgstr "Поисковые запросы успешно удалены!"
+
+msgctxt "Languages::ls.requests"
+msgid "Requests"
+msgstr "Запросы"
+
+msgctxt "Languages::search_histore_deleted_success"
+msgid "Search history was cleared success"
+msgstr "История поиска успешно очищена"
+
+msgctxt "Languages::cls.desc"
+msgid "Descending"
+msgstr "По убыванию"
+
+msgctxt "Languages::cls.asc"
+msgid "Ascending"
+msgstr "По возрастанию"
+
+

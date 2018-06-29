@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<addon scheme="3.0" edition_type="ROOT,ULT:VENDOR">
+<id>ab__advanced_banners</id>
+<version>1.6</version>
+<priority>2900</priority>
+<position>100</position>
+<status>active</status>
+<dependencies/>
+<default_language>en</default_language>
+<authors>
+<author>
+<name>AlexBranding</name>
+<email>info@alexbranding.com</email>
+<url>https://alexbranding.com</url>
+</author>
+</authors>
+<supplier>AlexBranding</supplier>
+<supplier_link>https://cs-cart.alexbranding.com</supplier_link>
+<compatibility>
+<conflicts></conflicts>
+<dependencies>banners</dependencies>
+<core_version><min>4.3.4</min></core_version>
+<core_edition>ULTIMATE,MULTIVENDOR</core_edition>
+</compatibility>
+<settings edition_type="ROOT,ULT:VENDOR">
+<sections>
+<section id="settings" edition_type="ROOT,ULT:VENDOR">
+<items>
+<item id="code"><type>hidden</type><default_value>ABA-Tq32CM8hKJYMHaNlxkbJy</default_value></item>
+<item id="build"><type>hidden</type><default_value>239</default_value></item>
+</items>
+</section>
+</sections>
+</settings>
+<functions>
+<item for="install">fn_ab__advanced_banners_install</item>
+</functions>
+</addon>

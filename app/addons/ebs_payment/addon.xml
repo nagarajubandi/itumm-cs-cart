@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<addon scheme="3.0">
+    <id>ebs_payment</id>
+    <version>1.1</version>
+    <priority>14381</priority>
+    <position>120</position>
+    <has_icon>Y</has_icon>
+    <default_language>en</default_language>
+    <supplier>Webkul</supplier>
+    <supplier_link>https://store.webkul.com/CS-Cart.html</supplier_link>
+    <status>active</status>
+    <authors>
+        <author>
+            <name>Webkul</name>
+            <email>support@webkul.com</email>
+            <url>https://webkul.com/</url>
+            <phone>India (+91)-9650486699 </phone>
+            <phone>USA (+1)-8667772047</phone>
+            <phone>UK (+44)-7937415639</phone>
+        </author>
+        <author>
+            <name>Developer - Vivek Gupta</name>
+        </author>
+    </authors>
+    <auto_install>MULTIVENDOR,ULTIMATE</auto_install>
+    <functions>
+        <item for="install">fn_ebs_install</item>
+        <item for="uninstall">fn_ebs_uninstall</item>
+    </functions>
+</addon>

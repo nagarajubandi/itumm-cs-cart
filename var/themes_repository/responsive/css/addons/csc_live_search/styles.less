@@ -1,0 +1,217 @@
+/* ==========================================================================
+csc_live_search
+========================================================================== */
+.csc_live_search_css{	
+	position:absolute;
+	z-index:10000;	
+	top:0;
+	min-width:400px;		
+	.ls-container{		
+		overflow:hidden;
+	}
+	ul{
+		padding:0;
+	}
+	
+	::-webkit-scrollbar {
+		width: 5px;	
+	}	 
+	::-webkit-scrollbar-track {	  
+		border-radius: 5px;	
+		background-color:#dfe0e1;
+		width: 5px;	
+	} 
+	::-webkit-scrollbar-thumb {
+		border-radius: 5px;
+		background-color:#959da0;	
+	}
+	
+}
+.csc_live_search_total{	
+	display:block;
+	overflow:hidden;	
+	a{
+		padding:7px 0;
+		text-align: center;
+		display:block;
+		float:left;
+		width:calc(~"100% - 30px");
+	}
+	.ls_closer{
+		float: right;
+		display: block;
+		width: 30px;
+		line-height: 32px;
+		top: 0;
+		font-style: normal;
+		text-align:center;
+		cursor:pointer;	
+		&:before{
+			font-family: glyphs;
+			content: "\e009";			
+		}
+	}
+}
+
+
+
+/*arrow*/
+.csc_snize-dropdown-arrow {
+    position: absolute;
+    top: -13px;
+    left: 30px;
+    float: left;
+    overflow: hidden;
+    width: 21px;
+    height: 14px;	
+}
+.csc_snize-arrow-outer,
+.csc_snize-arrow-inner {
+    position: absolute;
+    top: 1px;
+    left: 0;
+    display: inline-block;
+    margin-left: -2px;
+}
+.csc_snize-arrow-outer {
+    border-right: 11px solid rgba(255, 255, 255, 0);
+    border-left: 11px solid rgba(255, 255, 255, 0);
+}
+.csc_snize-arrow-inner {
+    top: 2px;
+    left: 2px;
+    display: inline-block;
+    border-right: 9px solid rgba(255, 255, 255, 0);
+    border-left: 9px solid rgba(255, 255, 255, 0);    
+}
+.csc_snize-arrow-inner .csc_snize-arrow-inner-label {
+    border-bottom: 13px solid #f7f7f7;
+}
+/**/
+	
+	
+
+/*products*/
+
+.cls_search_result{
+	overflow:auto;
+	max-height:500px;
+}
+.csc_no_transition{
+	transition: none !important;
+}
+
+.csc_template-small__item{
+	padding: 10px 0;
+	width:100%;
+	display:table;
+	.csc_template-small__item-img{
+		vertical-align: top;
+		padding-left:10px;
+		display:table-cell;
+	}	
+	.csc_template-p-description{
+		display:table-cell;
+		padding:0 10px;	
+		position:relative;
+	}
+	.csc_template-item-price{
+		font-weight:bold;
+		.tax{
+			font-weight:normal;
+		}
+	}
+}
+ 
+/*trees*/
+ul.csc_live_search_tree{
+    padding-bottom:15px;
+	padding-left:3px;
+}
+.csc_live_search_tree:hover{
+	text-decoration:none
+}
+.csc_live_search_tree li{
+     text-decoration: none;
+     display: block; 
+     margin: 0 0 0 1.2em;     
+     background-color: #fff;
+     border: dotted silver; 
+     border-width: 0 0 1px 1px; 
+     padding:0;
+}
+.csc_live_search_tree li:hover{      
+     background-color: transparent;    
+}
+.csc_live_search_tree li div{
+     display: block;
+      position: relative;
+      bottom: -0.8em; 
+      background-color: #fff;
+      margin: 0 0 .2em .7em;
+      padding: 0 0.3em;      
+}
+.csc_root_tree_element{
+    margin:10px 0 0 14px;
+	text-align: left;
+}
+
+.css_live_no_found{
+	height:40px;
+	text-align:center;	
+	padding-top: 20px;
+}
+body .ty-tygh form input.csc_live_search_loading{
+	background: url(data:image/gif;base64,R0lGODlhFgAGAKIHANPT09DQ0JCQkIuLi8zMzJmZmf///wAAACH/C05FVFNDQVBFMi4wAwEAAAAh+QQFDQAHACwAAAAAFgAGAAADIWi6d/QPtELrYg4Seaq9RqNtk1eAYQZx5gmKGmui8Fp6CQAh+QQFDQAHACwAAAAAFgAGAAADIFiqcmcwOkLrYi7KU+1tj2ZMHXEVoDhy5ZmKZOdmMNslACH5BAUNAAcALAAAAAAWAAYAAAMiSKpxVxAOZ6pdzEVJbcVE82zT4X2YuBXlaYAq2XmwJptnAgAh+QQFDQAHACwAAAAAFgAGAAADIWi6d/QPtELrYg4Seaq9RqNtk1eAYQZx5gmKGmui8Fp6CQAh+QQFDQAHACwAAAAAFgAGAAADIFiqcmcwOkLrYi7KU+1tj2ZMHXEVoDhy5ZmKZOdmMNslACH5BAUNAAcALAAAAAAWAAYAAAMiSKpxVxAOZ6pdzEVJbcVE82zT4X2YuBXlaYAq2XmwJptnAgA7) no-repeat #fff center !important;	
+}
+/*trees*/
+
+.cs-label-block{
+	float:right;	
+	text-align:right;
+	white-space: nowrap;
+	.lvs-category-label{	
+		top: 0;
+		right: 0;
+		border-radius: 2px;
+		padding: 1px 7px;
+		color: #fff;
+		font-size:11px;		
+	}
+	a.lvs-category-label:hover{
+		opacity:1;
+		color: #fff;
+	}
+}
+.csc_no_line{
+   b{
+	  text-decoration: underline;
+   }
+}
+
+.ls-show-more-block{
+	padding:0;	
+	text-align:center;
+	a{
+		display:block;		
+		margin: 5px 15px 15px 15px;
+		cursor:pointer;		
+		position:relative;
+		overflow:hidden;
+		span{
+			line-height: 30px;
+		}
+	}   
+}
+@media (max-width: 479px) {
+	.csc_live_search_css{
+		min-width:100%;
+	}
+}
+@media screen and (max-height: 600px) {
+	.cls_search_result{
+		max-height:calc(~"100vh - 100px");
+	}
+}
+
+/* /csc_live_search */

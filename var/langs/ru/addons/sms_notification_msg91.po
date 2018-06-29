@@ -1,0 +1,251 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-sms_notification_msg91\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Russian\n"
+"Language: ru_RU\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: webkul.com\n"
+"X-Crowdin-Project: cs-cart-sms_notification_msg91\n"
+"X-Crowdin-Language: ru\n"
+"X-Crowdin-File: /addons/sms_notofication_msg91.po\n"
+"Last-Translator: webkul <support@webkul.com>\n"
+"PO-Revision-Date: 2017-10-26 08:00-0400\n"
+
+msgctxt "LanguageName"
+msgid "Localized language name"
+msgstr "Russian Federation"
+
+msgctxt "Addons::name::sms_notification_msg91"
+msgid "SMS Notifications (MSG91)"
+msgstr "Уведомления SMS (MSG91)"
+
+msgctxt "Addons::description::sms_notification_msg91"
+msgid "Allows admin to set up administrator/customer sms notifications"
+msgstr "Позволяет администратору настраивать уведомления администратора / клиента sms <br> <a href='https://webkul.uvdesk.com/en/customer/create-ticket/' target='_blank'>поддержка</a> | <a href=' https://webkul.com/blog/cs-cart-msg91-sms-notification/' target='_blank'>Гид пользователя</a>"
+
+msgctxt "SettingsSections::sms_notification_msg91::credentials"
+msgid "API Credentials"
+msgstr "Учетные данные API"
+
+msgctxt "SettingsSections::sms_notification_msg91::settings"
+msgid "Configuration"
+msgstr "конфигурация"
+
+msgctxt "SettingsSections::sms_notification_msg91::template"
+msgid "Template"
+msgstr "шаблон"
+
+msgctxt "SettingsOptions::sms_notification_msg91::authkey"
+msgid "Auth Key"
+msgstr "Ключ аутентификации"
+
+msgctxt "SettingsTooltips::sms_notification_msg91::authkey"
+msgid "Write auth key of your account"
+msgstr "Записать ключ авторизации вашей учетной записи"
+
+msgctxt "SettingsOptions::sms_notification_msg91::client_id"
+msgid "Sender id"
+msgstr "Удостоверение личности отправителя"
+
+msgctxt "SettingsTooltips::sms_notification_msg91::client_id"
+msgid "Write client id here or leave blank for random client id"
+msgstr "Введите идентификатор клиента здесь или оставьте пустым для идентификатора случайного клиента"
+
+msgctxt "SettingsOptions::sms_notification_msg91::route"
+msgid "Route"
+msgstr "маршрут"
+
+msgctxt "SettingsTooltips::sms_notification_msg91::route"
+msgid "Write you sms route here (default for promotional route)"
+msgstr "Напишите вам sms-маршрут здесь (по умолчанию для рекламного маршрута)"
+
+msgctxt "SettingsOptions::sms_notification_msg91::sms_new_cusomer_registered"
+msgid "User Registration"
+msgstr "Регистрация пользователя"
+
+msgctxt "SettingsOptions::sms_notification_msg91::sms_new_order_placed"
+msgid "Order Placement"
+msgstr "Размещение заказа"
+
+msgctxt "SettingsOptions::sms_notification_msg91::sms_shipment_status"
+msgid "Shipment Creation"
+msgstr "Создание отгрузки"
+
+msgctxt "SettingsOptions::sms_notification_msg91::sms_forget_password"
+msgid "Forget Password"
+msgstr "Забыть пароль"
+
+msgctxt "SettingsOptions::sms_notification_msg91::sms_new_cusomer_registered_template"
+msgid "User Registration"
+msgstr "Регистрация пользователя"
+
+msgctxt "SettingsOptions::sms_notification_msg91::sms_new_order_placed_template"
+msgid "Order Placement"
+msgstr "Размещение заказа"
+
+msgctxt "SettingsOptions::sms_notification_msg91::sms_shipment_status_template"
+msgid "Shipment Creation"
+msgstr "Создание отгрузки"
+
+msgctxt "SettingsOptions::sms_notification_msg91::sms_forget_password_template"
+msgid "Forget Password"
+msgstr "Забыть пароль"
+
+msgctxt "SettingsOptions::sms_notification_msg91::setting_admin"
+msgid "Admin SMS Setting"
+msgstr "Настройка SMS-сообщений администратора"
+
+msgctxt "SettingsOptions::sms_notification_msg91::setting_vendor"
+msgid "Vendor SMS Setting"
+msgstr "Настройка SMS поставщика"
+
+msgctxt "SettingsOptions::sms_notification_msg91::sms_new_cusomer_registered_admin"
+msgid "User Registration"
+msgstr "Регистрация пользователя"
+
+msgctxt "SettingsOptions::sms_notification_msg91::sms_new_order_placed_admin"
+msgid "Order Placement"
+msgstr "Размещение заказа"
+
+msgctxt "SettingsOptions::sms_notification_msg91::sms_new_order_placed_vendor"
+msgid "Order Placement"
+msgstr "Размещение заказа"
+
+msgctxt "SettingsOptions::sms_notification_msg91::sms_shipment_status_admin"
+msgid "Shipment Creation"
+msgstr "Создание отгрузки"
+
+msgctxt "SettingsOptions::sms_notification_msg91::sms_shipment_status_vendor"
+msgid "Shipment Creation"
+msgstr "Создание отгрузки"
+
+msgctxt "SettingsOptions::sms_notification_msg91::sms_vendor_status_admin"
+msgid "Vendor Status Change"
+msgstr "Изменение статуса поставщика"
+
+msgctxt "SettingsOptions::sms_notification_msg91::sms_vendor_status_vendor"
+msgid "Vendor Status Change"
+msgstr "Изменение статуса поставщика"
+
+msgctxt "SettingsOptions::sms_notification_msg91::sms_low_stock_admin"
+msgid "Low Stock"
+msgstr "Низкий запас"
+
+msgctxt "SettingsOptions::sms_notification_msg91::sms_low_stock_vendor"
+msgid "Low Stock"
+msgstr "Низкий запас"
+
+msgctxt "SettingsOptions::sms_notification_msg91::setting_admin_template"
+msgid "Admin SMS Template"
+msgstr "Шаблон администрирования SMS"
+
+msgctxt "SettingsOptions::sms_notification_msg91::setting_vendor_template"
+msgid "Vendor SMS Template"
+msgstr "Шаблон SMS для поставщика"
+
+msgctxt "SettingsOptions::sms_notification_msg91::sms_shipment_status_admin_template"
+msgid "Shipment Creation"
+msgstr "Создание отгрузки"
+
+msgctxt "SettingsOptions::sms_notification_msg91::sms_shipment_status_vendor_template"
+msgid "Shipment Creation"
+msgstr "Создание отгрузки"
+
+msgctxt "SettingsOptions::sms_notification_msg91::sms_vendor_status_admin_template"
+msgid "Vendor Status Change"
+msgstr "Изменение статуса поставщика"
+
+msgctxt "SettingsOptions::sms_notification_msg91::sms_vendor_status_vendor_template"
+msgid "Vendor Status Change"
+msgstr "Изменение статуса поставщика"
+
+msgctxt "SettingsOptions::sms_notification_msg91::sms_new_order_placed_admin_template"
+msgid "Order Placement"
+msgstr "Размещение заказа"
+
+msgctxt "SettingsOptions::sms_notification_msg91::sms_new_order_placed_vendor_template"
+msgid "Order Placement"
+msgstr "Размещение заказа"
+
+msgctxt "SettingsOptions::sms_notification_msg91::sms_new_cusomer_registered_admin_template"
+msgid "User Registration"
+msgstr "Регистрация пользователя"
+
+msgctxt "SettingsOptions::sms_notification_msg91::sms_low_stock_admin_template"
+msgid "Low Stock"
+msgstr "Низкий запас"
+
+msgctxt "SettingsOptions::sms_notification_msg91::sms_low_stock_vendor_template"
+msgid "Low Stock"
+msgstr "Низкий запас"
+
+msgctxt "SettingsOptions::sms_notification_msg91::setting_customer_template"
+msgid "Customer SMS Template"
+msgstr "Шаблон SMS для клиентов"
+
+msgctxt "SettingsOptions::sms_notification_msg91::admin_phone"
+msgid "Admin Phone""
+msgid "Low Stock"
+msgstr "Низкий запас"
+
+msgctxt "SettingsOptions::sms_notification_msg91::setting_customer_template"
+msgid "Customer SMS Template"
+msgstr "Шаблон SMS для клиентов"
+
+msgctxt "SettingsOptions::sms_notification_msg91::admin_phone"
+msgid "Admin Phone"
+msgstr "Телефон администратора"
+
+msgctxt "SettingsOptions::sms_notification_msg91::setting_template_help"
+msgid "Placeholder"
+msgstr "Заполнитель"
+
+msgctxt "Languages::msg_shipment_creation"
+msgid "Shipment Creation"
+msgstr "Создание отгрузки"
+
+msgctxt "Languages::msg_order_placement"
+msgid "Order Placement"
+msgstr "Размещение заказа"
+
+msgctxt "Languages::msg_user_registration"
+msgid "User Registration"
+msgstr "Регистрация пользователя"
+
+msgctxt "Languages::msg_user_registration"
+msgid "User Registration"
+msgstr "Регистрация пользователя"
+
+msgctxt "Languages::msg_low_inventory"
+msgid "Low Inventory"
+msgstr "Низкий инвентарь"
+
+msgctxt "Languages::msg_company_status_change"
+msgid "Vendor Status Change"
+msgstr "Изменение статуса поставщика"
+
+msgctxt "SettingsOptions::sms_notification_msg91::setting_customer"
+msgid "Customer SMS Setting"
+msgstr "Настройка SMS-клиентов"
+
+msgctxt "SettingsOptions::sms_notification_msg91::sms_user_status"
+msgid "User Status Change"
+msgstr "Изменение статуса пользователя"
+
+msgctxt "SettingsOptions::sms_notification_msg91::sms_vendor_status"
+msgid "Vendor Status Change"
+msgstr "Изменение статуса поставщика"
+
+
+msgctxt "SettingsOptions::sms_notification_msg91::sms_user_status_template"
+msgid "User Status Change"
+msgstr "Изменение статуса пользователя"
+
+msgctxt "SettingsOptions::sms_notification_msg91::sms_vendor_status_template"
+msgid "Vendor Status Change"
+msgstr "Изменение статуса поставщика"
+
+msgctxt "Languages::msg_user_status_change"
+msgid "User status change"
+msgstr "Изменение статуса пользователя"

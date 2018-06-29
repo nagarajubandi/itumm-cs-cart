@@ -1,0 +1,134 @@
+<?xml version="1.0"?>
+<addon scheme="3.0">
+    <id>bb_autosuggest_search</id>
+    <name>Auto Suggest Search Feature</name>
+    <description>Adds the "AutoSuggest" feature to the search box.</description>
+    <version>1.0</version>
+    <priority>4900000200</priority>
+    <status>active</status>
+    <default_language>en</default_language>
+    <auto_install>MULTIVENDOR,ULTIMATE</auto_install>
+    <dependencies></dependencies>
+    <settings edition_type="ROOT,ULT:VENDOR">
+        <sections>
+            <section id="general">
+                <name>General Settings</name>
+                <items>
+                    <item id="bb_as_api_license">
+                        <name>Add-on license key</name>
+                        <type>input</type>
+                        <translations/>
+                        <variants/>
+                    </item>
+                    <item id="products_in_dropdown">
+                        <name>Max number of products in the dropdown</name>
+                        <type>input</type>
+                        <default_value>30</default_value>
+                        <translations/>
+                    </item>
+                    <item id="match_type">
+                        <name>Match type</name>
+                        <type>selectbox</type>
+                        <default_value>exact</default_value>
+                        <variants>
+                            <item id="any">
+                                <name>Any of the search words</name>
+                                <translations/>
+                            </item>
+                            <item id="all">
+                                <name>All of the search words</name>
+                                <translations/>
+                            </item>
+                            <item id="exact">
+                                <name>The exact phrase</name>
+                                <translations/>
+                            </item>
+                        </variants>
+                        <translations/>
+                    </item>
+                    <item id="elm_search_in">
+                        <name>Search In</name>
+                        <type>header</type>
+                        <handler></handler>
+                        <translations/>
+                    </item>
+                    <item id="search_in_pname">
+                        <name>Product name</name>
+                        <type>checkbox</type>
+                        <default_value>Y</default_value>
+                        <translations/>
+                    </item>
+                    <item id="search_in_pshort">
+                        <name>Short description</name>
+                        <type>checkbox</type>
+                        <default_value>N</default_value>
+                        <translations/>
+                    </item>
+                    <item id="search_in_pfull">
+                        <name>Full description</name>
+                        <type>checkbox</type>
+                        <default_value>N</default_value>
+                        <translations/>
+                    </item>
+                    <item id="search_in_pkeywords">
+                        <name>Keywords</name>
+                        <type>checkbox</type>
+                        <default_value>Y</default_value>
+                        <translations/>
+                    </item>
+                    <item id="elm_appearance">
+                        <name>Appearance</name>
+                        <type>header</type>
+                        <handler></handler>
+                        <translations/>
+                    </item>
+                    <item id="limit_result_lenght">
+                        <name>Limit Maximum Characters Per Result Line</name>
+                        <type>checkbox</type>
+                        <default_value>Y</default_value>
+                        <translations/>
+                    </item>
+                    <item id="max_characters">
+                        <name>Maximum Characters Per Result Line</name>
+                        <type>input</type>
+                        <default_value>60</default_value>
+                        <translations/>
+                    </item>
+                    <item id="thumbnails">
+                        <name>Thumbnails</name>
+                        <type>header</type>
+                        <handler></handler>
+                        <translations/>
+                    </item>
+                    <item id="show_thumbnails">
+                        <name>Show thumbnails</name>
+                        <type>checkbox</type>
+                        <default_value>Y</default_value>
+                        <translations/>
+                    </item>
+                    <item id="thumbnail_width">
+                        <name>Thumbnail width</name>
+                        <type>input</type>
+                        <default_value>25</default_value>
+                        <translations/>
+                    </item>
+                    <item id="thumbnail_height">
+                        <name>Thumbnail height</name>
+                        <type>input</type>
+                        <default_value>25</default_value>
+                        <translations/>
+                    </item>
+                </items>
+            </section>
+        </sections>
+    </settings>
+    <queries>
+            <item>DROP TABLE IF EXISTS ?:bb_autosuggest_search;</item>
+            <item>
+            CREATE TABLE `?:bb_autosuggest_search` (
+                `license` text NULL default NULL
+            ) Engine=MyISAM DEFAULT CHARSET UTF8;
+            </item>
+            <item for="uninstall">DROP TABLE IF EXISTS ?:bb_autosuggest_search;</item>
+    </queries>
+</addon>

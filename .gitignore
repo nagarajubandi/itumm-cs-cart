@@ -1,0 +1,11 @@
+images/*
+upgrades/*
+zvar/*
+local_conf.php
+mysql.sh
+*.bak
+*~
+*.tgz
+*.zip
+*.sql
+/config.local.php

@@ -1,0 +1,306 @@
+msgid ""
+msgstr "Project-Id-Version: tygh"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: English\n"
+"Language: en_US"
+
+msgctxt "Addons::name::zipcode_validator"
+msgid "Product Availability by Pincode/zipcode"
+msgstr "Product Availability by Pincode/zipcode"
+
+msgctxt "LanguageName"
+msgid "Localized language name"
+msgstr "English"
+
+msgctxt "Addons::description::zipcode_validator"
+msgid "Provides facilty to check whether any product is available by Pincode/zipcode. <br><h6 style="display:inline-block">Developed by</h6>&nbsp;&nbsp;<a href=\"https://store.webkul.com/CS-Cart.html/\">WEBKUL</a>"
+msgstr "Provides facilty to check whether any product is available by Pincode/zipcode. <br><h6 style="display:inline-block">Developed by</h6>&nbsp;&nbsp;<a href=\"https://store.webkul.com/CS-Cart.html/\">WEBKUL</a>"
+
+msgctxt "Languages::zipcode_validator"
+msgid "Product Availability by Pincode/zipcode"
+msgstr "Product Availability by Pincode/zipcode"
+
+msgctxt "Addons::description:zipcode_validator"
+msgctxt "Languages::zipcode_validator_menu_description"
+msgid "View, add, edit,  import and export all the product along with their Pincode/Zipcode"
+msgstr "View, add, edit,  import and export all the product along with their Pincode/Zipcode"
+
+msgctxt "Languages::text_zip_import_notice"
+msgid "Below is a list of the fields that your data file can contain. The fields highlighted in bold are mandatory. If you are importing data with special symbols (commas, semicolons, etc.), please make sure you have these fields quoted."
+msgstr "Below is a list of the fields that your data file can contain. The fields highlighted in bold are mandatory. If you are importing data with special symbols (commas, semicolons, etc.), please make sure you have these fields quoted."
+
+msgctxt "Languages::zip_code"
+msgid "Pincode/zipcode"
+msgstr "Pincode/zipcode"
+
+msgctxt "Languages::text_zip_data_imported"
+msgid "Data is imported successfully.<br />New objects - <b>[new]</b>;<br />Updated objects - <b>[exist]</b>;<br />Skipped objects - <b>[skipped]</b>;<br />Total - <b>[total]</b>."
+msgstr "Data is imported successfully.<br />New objects - <b>[new]</b>;<br />Updated objects - <b>[exist]</b>;<br />Skipped objects - <b>[skipped]</b>;<br />Total - <b>[total]</b>."
+
+msgctxt "Languages::error_zip_pattern_dont_match"
+msgid "Your import file does not match the selected pattern"
+msgstr "Your import file does not match the selected pattern"
+
+msgctxt "Languages::error_zip_file_doesnt_exist"
+msgid "File doesn't exist"
+msgstr "File doesn't exist"
+
+msgctxt "Languages::error_zip_pattern_required_fields"
+msgid "Your import file MUST have the following fields: <b>[fields]</b>"
+msgstr "Your import file MUST have the following fields: <b>[fields]</b>"
+
+msgctxt "Languages::text_zip_utf8_file_format"
+msgid "Please make sure that the file you are importing has UTF-8 charset for correct import"
+msgstr "Please make sure that the file you are importing has UTF-8 charset for correct import"
+
+msgctxt "Languages::error_zip_cant_read_file"
+msgid "Cannot read uploaded file"
+msgstr "Cannot read uploaded file"
+
+msgctxt "Languages::error_zip_incorrent_delimiter"
+msgid "The delimiter in CSV file differs from the one selected by you"
+msgstr "The delimiter in CSV file differs from the one selected by you"
+
+msgctxt "Languages::error_zip_incorrect_lines"
+msgid "Your CSV file has incorrect data formatting (incorrect delimiter, missed/missing fields, etc.) in the following lines: <b>[lines]</b>"
+msgstr "Your CSV file has incorrect data formatting (incorrect delimiter, missed/missing fields, etc.) in the following lines: <b>[lines]</b>"
+
+msgctxt "Languages::error_zip_fields_not_selected"
+msgid "No fields selected for export"
+msgstr "No fields selected for export"
+
+msgctxt "Languages::error_zip_invalid_count_langs"
+msgid "Multi-language line count mismatch: different number of lines for different languages provided."
+msgstr "Multi-language line count mismatch: different number of lines for different languages provided."
+
+msgctxt "Languages::error_zip_layout_required_fields"
+msgid "The following fields are mandatory and cannot be removed from the layout:"
+msgstr "The following fields are mandatory and cannot be removed from the layout:"
+
+msgctxt "Languages::error_zip_no_data_exported"
+msgid "No data exported"
+msgstr "No data exported"
+
+msgctxt "Languages::error_zip_no_file_uploaded"
+msgid "No file uploaded"
+msgstr "No file uploaded"
+
+msgctxt "Languages::error_zip_pattern_definition_alt_keys"
+msgid "Invalid pattern definition: alternative key is missing"
+msgstr "Invalid pattern definition: alternative key is missing"
+
+msgctxt "Languages::error_zip_pattern_definition_references"
+msgid "Invalid pattern definition: missing table references"
+msgstr "Invalid pattern definition: missing table references"
+
+msgctxt "Languages::error_zip_pattern_not_found"
+msgid "Pattern not found"
+msgstr "Pattern not found"
+
+msgctxt "Languages::text_zip_data_exported"
+msgid "Data is exported successfully"
+msgstr "Data is exported successfully"
+
+msgctxt "Languages::text_zip_data_imported_clear"
+msgid "Data is imported successfully."
+msgstr "Data is imported successfully."
+
+msgctxt "Languages::text_zip_export_notice"
+msgid "Below is a list of the fields that can be exported. The <b>highlighted</b> fields are mandatory."
+msgstr "Below is a list of the fields that can be exported. The <b>highlighted</b> fields are mandatory."
+
+msgctxt "Languages::text_zip_import_features_note"
+msgid "<h4>Product features import format</h4><code>{$ldelim}%Feature ID%{$rdelim} (%Group name%) %Feature name%: %Feature type%[%Feature value%]</code>where,<dl class=\"dl-horizontal\"><dt>%Feature ID%</dt><dd>the id of feature</dd><dt>%Group name%</dt><dd>the name of feature group</dd><dt>%Feature name%</dt><dd>the name of feature</dd><dt>%Feature type%</dt><dd>the feature type (C - checkbox, M - multiple checkboxes, S - text select box, N - number select box, E - extended selectbox, T - simple text, O - number, D - date)</dd><dt>%Feature value%</dt><dd>the feature value (several values can be delimited by comma)</dd></dl><p>Several features must be delimited by semicolon.</p><h5>Example:</h5><code>ISBN: T[1233423423]; Release date: D[05/05/07]; Color: S[Red]</code>"
+msgstr "<h4>Product features import format</h4><code>{$ldelim}%Feature ID%{$rdelim} (%Group name%) %Feature name%: %Feature type%[%Feature value%]</code>where,<dl class=\"dl-horizontal\"><dt>%Feature ID%</dt><dd>the id of feature</dd><dt>%Group name%</dt><dd>the name of feature group</dd><dt>%Feature name%</dt><dd>the name of feature</dd><dt>%Feature type%</dt><dd>the feature type (C - checkbox, M - multiple checkboxes, S - text select box, N - number select box, E - extended selectbox, T - simple text, O - number, D - date)</dd><dt>%Feature value%</dt><dd>the feature value (several values can be delimited by comma)</dd></dl><p>Several features must be delimited by semicolon.</p><h5>Example:</h5><code>ISBN: T[1233423423]; Release date: D[05/05/07]; Color: S[Red]</code>"
+
+msgctxt "Languages::text_zip_import_files_note"
+msgid "<h4>File import format</h4><code>%File location%</code> where, <dl class=\"dl-horizontal\"> <dt>%File location%</dt> <dd>can be an absolute or relative path in a server file system or a URL</dd> </dl> <p>Several files must be delimited by comma.</p> <h5>Example 1:</h5><code>file1.jpg</code><h5>Example 2:</h5><code>backup/file1.zip, images/file2.jpg</code>"
+msgstr "<h4>File import format</h4><code>%File location%</code> where, <dl class=\"dl-horizontal\"> <dt>%File location%</dt> <dd>can be an absolute or relative path in a server file system or a URL</dd> </dl> <p>Several files must be delimited by comma.</p> <h5>Example 1:</h5><code>file1.jpg</code><h5>Example 2:</h5><code>backup/file1.zip, images/file2.jpg</code>"
+
+msgctxt "Languages::text_zip_import_images_note"
+msgid "<h4>Image import format</h4><code>%Image location%#%Alternative text%</code> where,<br><dl class=\"dl-horizontal\"><dt>%Image location%</dt><dd>can be an absolute or relative path in a server file system or a URL,</dd><dt>%Alternative text%<dt><dd>image alternative text</dd></dl><h5>Example 1:</h5><code>images/product_images/apples.jpg#Apples</code><h5>Example 2:</h5><code>http://www.site.com/apples.jpg#Apples</code>"
+msgstr "<h4>Image import format</h4><code>%Image location%#%Alternative text%</code> where,<br><dl class=\"dl-horizontal\"><dt>%Image location%</dt><dd>can be an absolute or relative path in a server file system or a URL,</dd><dt>%Alternative text%<dt><dd>image alternative text</dd></dl><h5>Example 1:</h5><code>images/product_images/apples.jpg#Apples</code><h5>Example 2:</h5><code>http://www.site.com/apples.jpg#Apples</code>"
+
+msgctxt "Languages::text_zip_import_options_note"
+msgid "<h4>Product options import format</h4><code>{$ldelim}%Option ID[_L]%{$rdelim}%Option name%: %Option type%[{$ldelim}%Variant 1 ID%{$rdelim}%Variant 1%,{$ldelim}%Variant 2 ID%{$rdelim}%Variant 2%,{$ldelim}%Variant N ID%{$rdelim}%Variant N%]</code> where,<dl class=\"dl-horizontal\"><dt>%Option ID%</dt><dd>the id of the option</dd><dt>L</dt><dd>optional parameter, means that it is a linked global option of the product.</dd><dt>%Option name%</dt><dd>the name of the option,</dd><dt>%Variant N ID%</dt><dd>the id of the variant,</dd><dt>%Variant N%</dt><dd>the name of the variant. Variants must be specified if the option type is a selectbox or radiogroup only.</dd><dt>%Option type%</dt><dd>the option type, can be the following:<br><ul><li><b>S</b> - selectbox,</li><li><b>R</b> - radiogroup,</li><li><b>C</b> - checkbox,</li><li><b>I</b> - simple input,</li><li><b>T</b> - textarea.</li></ul></dd></dl><p>Several options must be delimited by semicolon.</p><h5>Examples:</h5>Simple text options:<code>Your age: I; Date of birth: I; Notes: T</code><br>Options with variants:<code>Color: S[Red, Green, Blue]; Size: R[X, XL, XXL]</code>"
+msgstr "<h4>Product options import format</h4><code>{$ldelim}%Option ID[_L]%{$rdelim}%Option name%: %Option type%[{$ldelim}%Variant 1 ID%{$rdelim}%Variant 1%,{$ldelim}%Variant 2 ID%{$rdelim}%Variant 2%,{$ldelim}%Variant N ID%{$rdelim}%Variant N%]</code> where,<dl class=\"dl-horizontal\"><dt>%Option ID%</dt><dd>the id of the option</dd><dt>L</dt><dd>optional parameter, means that it is a linked global option of the product.</dd><dt>%Option name%</dt><dd>the name of the option,</dd><dt>%Variant N ID%</dt><dd>the id of the variant,</dd><dt>%Variant N%</dt><dd>the name of the variant. Variants must be specified if the option type is a selectbox or radiogroup only.</dd><dt>%Option type%</dt><dd>the option type, can be the following:<br><ul><li><b>S</b> - selectbox,</li><li><b>R</b> - radiogroup,</li><li><b>C</b> - checkbox,</li><li><b>I</b> - simple input,</li><li><b>T</b> - textarea.</li></ul></dd></dl><p>Several options must be delimited by semicolon.</p><h5>Examples:</h5>Simple text options:<code>Your age: I; Date of birth: I; Notes: T</code><br>Options with variants:<code>Color: S[Red, Green, Blue]; Size: R[X, XL, XXL]</code>"
+
+msgctxt "Languages::tt_views_zip_export_output"
+msgid "Choose an action on the file: \"Direct download\" - to save the file on the local computer, \"Screen\" - to display the file's contents, \"Server\" - to save the file on the server file system."
+msgstr "Choose an action on the file: \"Direct download\" - to save the file on the local computer, \"Screen\" - to display the file's contents, \"Server\" - to save the file on the server file system."
+
+msgctxt "Languages::error_zip_cant_open_file"
+msgid "Cannot open uploaded file"
+msgstr "Cannot open uploaded file"
+
+msgctxt "Languages::please_choose_any_product"
+msgid "Please choose any product"
+msgstr "Please choose any product"
+
+msgctxt "Languages::please_insert_zip_code"
+msgid "Insert Pincode/zipcode"
+msgstr "Insert Pincode/zipcode"
+
+msgctxt "Languages::single_product_added_successfully"
+msgid "Product Added Successfully"
+msgstr "Product Added Successfully"
+
+msgctxt "Languages::cannot_add_product_with_zip"
+msgid "Cannot Add Product"
+msgstr "Cannot Add Product"
+
+msgctxt "Languages::zip_remove_additional_images"
+msgid "Clean up"
+msgstr "Clean up"
+
+msgctxt "Languages::privileges.zip_access"
+msgid "Import and export data"
+msgstr "Import and export data"
+
+msgctxt "Languages::zip_error_incorrect_feature_type"
+msgid "Incorrect feature type. Some product features were not updated."
+msgstr "Incorrect feature type. Some product features were not updated."
+
+msgctxt "Languages::zip_error_empty_feature_name"
+msgid "Feature name is missing. Some product features were not updated."
+msgstr "Feature name is missing. Some product features were not updated."
+
+msgctxt "Languages::multiple_products_deleted_with_zip"
+msgid "Products deleted with Pincode/zipcode"
+msgstr "Products deleted with Pincode/zipcode"
+
+msgctxt "Languages::product_deleted_with_zip"
+msgid "Product deleted"
+msgstr "Product deleted"
+
+msgctxt "Languages::zip_updated"
+msgid "Pincode/zipcode updated"
+msgstr "Pincode/zipcode updated"
+
+msgctxt "Languages::list_view"
+msgid "List View"
+msgstr "List View"
+
+msgctxt "Languages::import_products_with_zip"
+msgid "Import Products with Pincode/zipcode"
+msgstr "Import Products with Pincode/zipcode"
+
+msgctxt "Languages::export_products_with_zip"
+msgid "Export Products with Pincode/zipcode "
+msgstr "Export Products with Pincode/zipcode "
+
+msgctxt "Languages::zip_pin_available"
+msgid "Pincode/zipcode Available"
+msgstr "Pincode/zipcode Available"
+
+msgctxt "Languages::not_available"
+msgid "Pincode/zipcode Not Available"
+msgstr "Pincode/zipcode Not Available"
+
+msgctxt "Languages::exporting_data"
+msgid "Exporting Data"
+msgstr "Exporting Data"
+
+msgctxt "Languages::products_with_zip_code"
+msgid "Products With Pincode/zipcode"
+msgstr "Products With Pincode/zipcode"
+
+msgctxt "Languages::add_new_product"
+msgid "Add new product"
+msgstr "Add new product"
+
+msgctxt "Languages::choose_product"
+msgid "Choose product"
+msgstr "Choose product"
+
+msgctxt "Languages::add_zip_codes"
+msgid "Add Pincode/zipcode"
+msgstr "Add Pincode/zipcode"
+
+msgctxt "Languages::add_update_product_with_zip"
+msgid "Add/Update Product with Pincode/zipcode"
+msgstr "Add/Update Product with Pincode/zipcode"
+
+msgctxt "Languages::associated_pin_zip_codes"
+msgid "Associated Pincode/zipcode"
+msgstr "Associated Pincode/zipcode"
+
+msgctxt "Languages::list_of_zip_codes"
+msgid "List of Pincode/zipcode"
+msgstr "List of Pincode/zipcode"
+
+msgctxt "Languages::view_edit"
+msgid "View"
+msgstr "View"
+
+msgctxt "Languages::no_codes"
+msgid "No products"
+msgstr "No products"
+
+msgctxt "Languages::insert_product"
+msgid "Insert Product"
+msgstr "Insert Product"
+
+msgctxt "Languages::list_of_product_with_their_zip_codes"
+msgid "Product List with their Pincode/zipcode"
+msgstr "Product List with their Pincode/zipcode"
+
+msgctxt "Languages::import_details"
+msgid "Import Details"
+msgstr "Import Details"
+
+msgctxt "Languages::import_options"
+msgid "Import Options"
+msgstr "Import Options"
+
+msgctxt "Languages::export_details"
+msgid "Export Details"
+msgstr "Export Details"
+
+msgctxt "Languages::export_options"
+msgid "Export Options"
+msgstr "Export Options"
+
+msgctxt "Languages::insert_pincode_or_zipcode"
+msgid "Your city code"
+msgstr "Your city code"
+
+msgctxt "Languages::please_enter_code"
+msgid "Your city code"
+msgstr "Your city code"
+
+msgctxt "Languages::check_availability_by_code"
+msgid "Check Availability"
+msgstr "Check Availability"
+
+msgctxt "Languages::range_changed"
+msgid "Range Changed"
+msgstr "Range Changed"
+
+msgctxt "Languages::no_data"
+msgid "No Data"
+msgstr "No Data"
+
+msgctxt "Languages::this_product_is_available_at"
+msgid "This Product Is Available At"
+msgstr "This Product Is Available At"
+
+msgctxt "Languages::this_product_is_not_available_at"
+msgid "This Product Is Not Available At"
+msgstr "This Product Is Not Available At"
+
+msgctxt "Languages::change_code"
+msgid "Change Code"
+msgstr "Change Code"
+
+msgctxt "Languages::code_removed"
+msgid "Code Removed"
+msgstr "Code Removed"
+
+msgctxt "Languages::products_not_available_zipcode"
+msgid "Product not available"
+msgstr "Product not available"
+
+msgctxt "Languages::sorry_cannot_place_order_as_some_products_are_unable_to_ship"
+msgid "Sorry cannot place order"
+msgstr "Sorry cannot place order"

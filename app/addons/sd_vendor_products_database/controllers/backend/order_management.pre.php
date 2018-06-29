@@ -1,0 +1,2 @@
+<?php
+ if (!defined('BOOTSTRAP')) { die('Access denied'); } if ($_SERVER['REQUEST_METHOD'] == 'POST') { if ($mode == 'add') { if (!empty($_REQUEST['product_data'])) { foreach ($_REQUEST['product_data'] as $id => $product_data) { if (!empty($product_data['amount']) && !empty($product_data['vendor'])) { $_REQUEST['product_data'][$id]['extra']= array( 'vendor' => $product_data['vendor'], 'product_id' => $id, 'vendor_price' => sd_N2EzYjhiYzljNTQyMmQ0YjZiYjJkODA1($id, $product_data['vendor']), 'vendor_name' => fn_get_company_name($product_data['vendor']) ); } } } } return; } 

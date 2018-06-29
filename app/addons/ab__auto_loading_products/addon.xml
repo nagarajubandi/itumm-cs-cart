@@ -1,0 +1,65 @@
+<?xml version="1.0"?>
+<addon scheme="3.0">
+<id>ab__auto_loading_products</id>
+<version>1.3</version>
+<priority>200</priority>
+<position>0</position>
+<status>active</status>
+<default_language>en</default_language>
+<authors>
+<author>
+<name>Alexbranding</name>
+<email>info@alexbranding.com</email>
+<url>http://alexbranding.com</url>
+</author>
+</authors>
+<compatibility>
+<core_version>
+<min>4.3.3</min>
+</core_version>
+</compatibility>
+<settings edition_type="ROOT,ULT:VENDOR">
+<sections>
+<section id="general">
+<items>
+<item id="code"><type>hidden</type><default_value>ABA-awrAjjnLsTdN6vmCFgVEg</default_value></item>
+<item id="build"><type>hidden</type><default_value>19</default_value></item>
+<item id="type_loading">
+<type>selectbox</type>
+<default_value>auto</default_value>
+<variants>
+<item id="auto"> </item>
+<item id="manual"> </item>
+</variants>
+</item>
+<item id="before_end">
+<type>selectbox</type>
+<default_value>100</default_value>
+<variants>
+<item id="0">0</item>
+<item id="50">50</item>
+<item id="100">100</item>
+<item id="150">150</item>
+<item id="200">200</item>
+<item id="250">250</item>
+<item id="300">300</item>
+<item id="350">350</item>
+</variants>
+</item>
+<item id="troubleshooting_products_without_options">
+<type>checkbox</type>
+<default_value>Y</default_value>
+</item>
+<item id="animation">
+<type>selectbox</type>
+<default_value>css</default_value>
+<variants>
+<item id="css">css</item>
+<item id="gif">gif</item>
+</variants>
+</item>
+</items>
+</section>
+</sections>
+</settings>
+</addon>

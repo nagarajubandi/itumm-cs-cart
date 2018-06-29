@@ -1,0 +1,14 @@
+v1.5 February 13, 2018
+------------------------------------------------------------------------
++ added compatibility with YOUPI - premium theme for CS-Cart (https://cs-cart.alexbranding.com/en/youpi-premium-theme.html);
+
+v1.4 August 26, 2017
+------------------------------------------------------------------------
++ added compatibility with Multiple category descriptions addon (https://cs-cart.alexbranding.com/en/category-multi-descriptions.html)
+~ fixed bug showing only active menu items
+
+v1.3 June 13, 2017
+------------------------------------------------------------------------
++ added the ability to build [AB: Categories] using the menu
++ added the ability to build the structure of the Landing category using the menu
+~ Images on landing categories and on the categories catalog [AB: Categories] now as links

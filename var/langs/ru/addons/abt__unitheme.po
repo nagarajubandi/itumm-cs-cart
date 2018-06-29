@@ -1,0 +1,470 @@
+msgid ""
+msgstr "Project-Id-Version: tygh\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Russian\n"
+"Language: ru_RU\n"
+
+msgctxt "Addons::name::abt__unitheme"
+msgid "abt__unitheme"
+msgstr "AB: UniTheme"
+
+msgctxt "Addons::description::abt__unitheme"
+msgid "abt__unitheme_description"
+msgstr "Модуль добавляет файлы шаблона Cs-Cart премиум темы - UniTheme"
+"<br><a href='https://cs-cart.alexbranding.com' target='_blank'>cs-cart.alexbranding.com</a>"
+
+msgctxt "Languages::abt__unitheme"
+msgid "abt__unitheme"
+msgstr "AB: UniTheme"
+
+msgctxt "Languages::developer"
+msgid "developer"
+msgstr "На базе премиум шаблона - <a href=\"https://cs-cart.alexbranding.com/ru/shablon-unitheme.html\" rel=\"nofollow\" onclick=\"window.open(this.href); return false\">© UniTheme</a>"
+
+msgctxt "Languages::dropdown_third_level_view"
+msgid "dropdown_third_level_view"
+msgstr "Количество не скрытых элементов третьего уровня"
+
+msgctxt "Languages::tmpl_top_buttons"
+msgid "tmpl_top_buttons"
+msgstr "Верхние кнопки (AB)"
+
+msgctxt "Languages::tmpl_rt_subscription_advanced"
+msgid "tmpl_rt_subscription_advanced"
+msgstr "Расширенная подписка (AB)"
+
+msgctxt "Languages::blog.recent_posts_advanced"
+msgid "blog.recent_posts_advanced"
+msgstr "Блог: вывод галереей"
+
+msgctxt "Languages::tmpl_scroller_advanced"
+msgid "Scroller (advanced)"
+msgstr "Скроллер (дополнительно)"
+
+msgctxt "Languages::tmpl_payment_icons_rus"
+msgid "payment_icons_rus"
+msgstr "Иконки способов оплаты (Рус)"
+
+msgctxt "Languages::tmpl_subscription_advanced"
+msgid "subscription_advanced"
+msgstr "Рассылка (дополнительно)"
+
+msgctxt "Languages::my_account_links_advanced"
+msgid "my_account_links_advanced"
+msgstr "Ссылки моего аккаунта (дополнительно)"
+
+msgctxt "Languages::add_to_cart"
+msgid "add_to_cart"
+msgstr "Купить"
+
+msgctxt "Languages::cart_is_empty"
+msgid "cart_is_empty"
+msgstr "Корзина"
+
+msgctxt "Languages::compare_list"
+msgid "compare_list"
+msgstr "Список сравнения"
+
+msgctxt "Languages::select_options"
+msgid "select_options"
+msgstr "Опции"
+
+msgctxt "Languages::add_to_comparison_list"
+msgid "add_to_comparison_list"
+msgstr "Сравнить"
+
+msgctxt "Languages::working_hours"
+msgid "working_hours"
+msgstr "Без выходных"
+
+msgctxt "Languages::call_requests.request_call"
+msgid "call_requests.request_call"
+msgstr "Перезвонить"
+
+msgctxt "Languages::ab__onclick_dropdown"
+msgid "ab__onclick_dropdown"
+msgstr "Выпадающий по клику список (AB)"
+
+msgctxt "Languages::mainbox_general_no_h1"
+msgid "mainbox_general_no_h1"
+msgstr "Обычный основной контейнер (SEO)"
+
+msgctxt "Languages::extender"
+msgid "extender"
+msgstr "Расширенный"
+
+msgctxt "Languages::full_extender"
+msgid "full_extender"
+msgstr "На всю ширину"
+
+msgctxt "Languages::hidden_filters"
+msgid "hidden_filters"
+msgstr "Скрыть колонку с фильтрами"
+
+msgctxt "Languages::tabbed_blocks"
+msgid "tabbed_blocks"
+msgstr "Вывести вкладками"
+
+msgctxt "Languages::continue_shopping"
+msgid "continue_shopping"
+msgstr "Закрыть"
+
+msgctxt "Languages::clear_wishlist"
+msgid "clear_wishlist"
+msgstr "Очистить список"
+
+msgctxt "Languages::view_wishlist"
+msgid "view_wishlist"
+msgstr "Отложенные товары"
+
+msgctxt "Languages::share"
+msgid "share"
+msgstr "Поделиться"
+
+msgctxt "Languages::adv_items_in_cart"
+msgid "adv_items_in_cart"
+msgstr "В корзине"
+
+msgctxt "Languages::your"
+msgid "your"
+msgstr "Ваша"
+
+msgctxt "Languages::your_personal"
+msgid "your_personal"
+msgstr "Ваш личный"
+
+msgctxt "Languages::contacts"
+msgid "contacts"
+msgstr "Контакты"
+
+msgctxt "Languages::sort_by_bestsellers_asc"
+msgid "sort_by_bestsellers_asc"
+msgstr "Наименее покупаемые"
+
+msgctxt "Languages::sort_by_bestsellers_desc"
+msgid "sort_by_bestsellers_desc"
+msgstr "По покупаемости"
+
+msgctxt "Languages::sort_by_on_sale_asc"
+msgid "sort_by_on_sale_asc"
+msgstr "Высокие скидки в конце"
+
+msgctxt "Languages::sort_by_on_sale_desc"
+msgid "sort_by_on_sale_desc"
+msgstr "Высокие скидки в начале"
+
+msgctxt "Languages::sort_by_popularity_asc"
+msgid "sort_by_popularity_asc"
+msgstr "Менее популярные ниже"
+
+msgctxt "Languages::sort_by_popularity_desc"
+msgid "sort_by_popularity_desc"
+msgstr "Популярные выше"
+
+msgctxt "Languages::sort_by_position_asc"
+msgid "sort_by_position_asc"
+msgstr "Низкие позиции"
+
+msgctxt "Languages::sort_by_position_desc"
+msgid "sort_by_position_desc"
+msgstr "Высокие позиции"
+
+msgctxt "Languages::sort_by_price_asc"
+msgid "sort_by_price_asc"
+msgstr "Дешевые выше"
+
+msgctxt "Languages::sort_by_price_desc"
+msgid "sort_by_price_desc"
+msgstr "Дорогие выше"
+
+msgctxt "Languages::sort_by_product_asc"
+msgid "sort_by_product_asc"
+msgstr "от А до Я"
+
+msgctxt "Languages::sort_by_product_desc"
+msgid "sort_by_product_desc"
+msgstr "от Я до А"
+
+msgctxt "Languages::sort_by_rating_asc"
+msgid "sort_by_rating_asc"
+msgstr "Рейтинг по возрастанию"
+
+msgctxt "Languages::sort_by_rating_desc"
+msgid "sort_by_rating_desc"
+msgstr "По рейтингу"
+
+msgctxt "Languages::sort_by_timestamp_asc"
+msgid "sort_by_timestamp_asc"
+msgstr "Новинки ниже"
+
+msgctxt "Languages::sort_by_timestamp_desc"
+msgid "sort_by_timestamp_desc"
+msgstr "Новинки выше"
+
+msgctxt "Languages::hover_to_enlarge"
+msgid "hover_to_enlarge"
+msgstr "Наведите на картинку для увеличения"
+
+msgctxt "Languages::theme_editor.sale_color25"
+msgid "theme_editor.sale_color25"
+msgstr "Лейбл со скидкой < 25%"
+
+msgctxt "Languages::theme_editor.sale_color50"
+msgid "theme_editor.sale_color50"
+msgstr "Лейбл со скидкой < 50%"
+
+msgctxt "Languages::theme_editor.sale_color100"
+msgid "theme_editor.sale_color100"
+msgstr "Лейбл со скидкой > 50%"
+
+msgctxt "Languages::theme_editor.dark_ellements_type"
+msgid "theme_editor.dark_ellements_type"
+msgstr "Темный стиль меню"
+
+msgctxt "Languages::catalog_products"
+msgid "catalog_products"
+msgstr "Каталог товаров"
+
+msgctxt "Languages::ab__grid_tabs.ab__use_ajax"
+msgid "ab__grid_tabs.ab__use_ajax"
+msgstr "Использовать Ajax"
+
+msgctxt "Languages::ab__grid_tabs.ab__show_in_tabs"
+msgid "ab__grid_tabs.ab__show_in_tabs"
+msgstr "Показывать блоки во вкладках"
+
+msgctxt "Languages::abt__ut.help"
+msgid "abt__ut.help"
+msgstr "Справка"
+
+msgctxt "Languages::abt__ut.help.docs"
+msgid "abt__ut.help.docs"
+msgstr "Ознакомиться с <a target='_blank' href='https://cs-cart.alexbranding.com/ru/abt__unitheme.doc'>документацией</a>."
+
+msgctxt "Languages::abt__ut.demo_data"
+msgid "abt__ut.demo_data"
+msgstr "Демо данные"
+
+msgctxt "Languages::abt__ut.demo_data.head"
+msgid "abt__ut.demo_data.head"
+msgstr "Установка демо данных для UniTheme"
+
+msgctxt "Languages::abt__ut.demo_data.table.description"
+msgid "abt__ut.demo_data.table.description"
+msgstr "Вид демо данных"
+
+msgctxt "Languages::abt__ut.demo_data.table.action"
+msgid "abt__ut.demo_data.table.action"
+msgstr "Действия над демо данными"
+
+msgctxt "Languages::abt__ut.demo_data.actions.add_banners"
+msgid "abt__ut.demo_data.actions.add_banners"
+msgstr "Добавить демо баннеры"
+
+msgctxt "Languages::abt__ut.demo_data.errors.ab__advanced_banners_not_installed"
+msgid "abt__ut.demo_data.errors.ab__advanced_banners_not_installed"
+msgstr "Демо данные не могут быть установлены, так как модуль AB: Расширенные баннеры не установлен"
+
+msgctxt "Languages::abt__ut.microdata"
+msgid "abt__ut.microdata"
+msgstr "Микроразметка организации"
+
+msgctxt "SettingsOptions::abt__unitheme::brand_feature_id"
+msgid "brand_feature_id"
+msgstr "ID характеристики Бренд"
+
+msgctxt "Languages::abt__ut.settings"
+msgid "abt__ut.settings"
+msgstr "Настройки темы"
+
+msgctxt "Languages::abt__ut.setting.hide_product_description"
+msgid "abt__ut.setting.hide_product_description"
+msgstr "Скрывать в карточке товара Полное описание (кнопка Еще)"
+
+msgctxt "Languages::abt__ut.setting.hide_product_description__tooltip"
+msgid "abt__ut.setting.hide_product_description"
+msgstr "Укажите высоту в px или очистите значение для отключения"
+
+msgctxt "Languages::abt__ut.setting.hide_feature_descriptions"
+msgid "abt__ut.setting.hide_feature_descriptions"
+msgstr "Скрывать в карточке товара Список характеристик (кнопка Еще)"
+
+msgctxt "Languages::abt__ut.setting.hide_feature_descriptions__tooltip"
+msgid "abt__ut.setting.hide_feature_descriptions__tooltip"
+msgstr "Укажите высоту в px или очистите значение для отключения"
+
+msgctxt "Languages::abt__ut.setting.show_short_desc_in_multicolumns_list"
+msgid "abt__ut.setting.show_short_desc_in_multicolumns_list"
+msgstr "Отображать в списке товаров плиткой Краткое описание товара"
+
+msgctxt "Languages::abt__ut.setting.show_short_desc_in_multicolumns_list__tooltip"
+msgid "abt__ut.setting.show_short_desc_in_multicolumns_list__tooltip"
+msgstr "Разрешает отображение в списке товаров плиткой Краткое описание товара"
+
+msgctxt "Languages::abt__ut.setting.hide_short_features_in_product_list"
+msgid "abt__ut.setting.hide_short_features_in_product_list"
+msgstr "Скрыть характеристики товара в расширенном списке товаров"
+
+msgctxt "Languages::abt__ut.setting.hide_short_features_in_product_list__tooltip"
+msgid "abt__ut.setting.hide_short_features_in_product_list__tooltip"
+msgstr "Скрывать краткие характеристики товара в расширенном виде списка товаров (Список без опций)"
+
+msgctxt "Languages::abt__ut.setting.show_short_desc_in_product"
+msgid "abt__ut.setting.show_short_desc_in_product"
+msgstr "Отображать в карточке товара Краткое описание"
+
+msgctxt "Languages::abt__ut.setting.show_short_desc_in_product__tooltip"
+msgid "abt__ut.setting.show_short_desc_in_product__tooltip"
+msgstr "Разрешает отображение в карточке товара Краткое описание"
+
+msgctxt "Languages::abt__ut.setting.show_features_in_product"
+msgid "abt__ut.setting.show_features_in_product"
+msgstr "Отображать в карточке товара Список характеристик"
+
+msgctxt "Languages::abt__ut.setting.show_features_in_product__tooltip"
+msgid "abt__ut.setting.show_features_in_product__tooltip"
+msgstr "Разрешает отображение в карточке товара Список характеристик"
+
+msgctxt "Languages::abt__ut.setting.show_block_in_product"
+msgid "abt__ut.setting.show_block_in_product"
+msgstr "Отображать в карточке товара содержимое Блока"
+
+msgctxt "Languages::abt__ut.setting.show_block_in_product__tooltip"
+msgid "abt__ut.setting.show_block_in_product__tooltip"
+msgstr "Разрешает отображение в карточке товара содержимое Блока. Просто укажите ID требуемого блока"
+
+msgctxt "Languages::abt__ut.setting.show_button_buy_in_product_lists"
+msgid "abt__ut.setting.show_button_buy_in_product_lists"
+msgstr "Отображать в списках товаров кнопку Купить"
+
+msgctxt "Languages::abt__ut.setting.show_button_buy_in_product_lists__tooltip"
+msgid "abt__ut.setting.show_button_buy_in_product_lists__tooltip"
+msgstr "Разрешает отображение в списках товаров кнопку Купить"
+
+msgctxt "Languages::abt__ut.setting.hide_subcategories_in_category"
+msgid "abt__ut.setting.hide_subcategories_in_category"
+msgstr "Скрывать подкатегории в категории"
+
+msgctxt "Languages::abt__ut.setting.hide_subcategories_in_category__tooltip"
+msgid "abt__ut.setting.hide_subcategories_in_category__tooltip"
+msgstr "Разрешает скрытие списка подкатегорий в категории"
+
+msgctxt "Languages::dropdown_horizontal_ab__un_mwi"
+msgid "dropdown_horizontal_ab__un_mwi"
+msgstr "AB: Выпадающий список с иконками"
+
+msgctxt "Languages::no_hidden_elements_second_level_view"
+msgid "no_hidden_elements_second_level_view"
+msgstr "Кол-во отображаемых элементов 2-х уровневого меню"
+
+msgctxt "Languages::elements_per_column_third_level_view"
+msgid "elements_per_column_third_level_view"
+msgstr "Кол-во элементов в каждой колонке 3-х уровневого меню (выпадающим списком)"
+
+msgctxt "Languages::abt_menu_ajax_load"
+msgid "abt_menu_ajax_load"
+msgstr "Использовать Ajax-загрузку для второго (и т.д.) уровня меню"
+
+msgctxt "Languages::abt__ut.menu_with_icons.tab"
+msgid "abt__ut.menu_with_icons.tab"
+msgstr "AB: Режим с иконками"
+
+msgctxt "Languages::ab__ut_mwi.status"
+msgid "ab__ut_mwi.status"
+msgstr "AB: Режим с иконкой"
+
+msgctxt "Languages::ttc_ab__ut_mwi.status"
+msgid "ttc_ab__ut_mwi.status"
+msgstr "Активировать режим настройки пункта меню с иконкой"
+
+msgctxt "Languages::ab__ut_mwi.icon"
+msgid "ab__ut_mwi.icon"
+msgstr "Иконка"
+
+msgctxt "Languages::ttc_ab__ut_mwi.icon"
+msgid "ttc_ab__ut_mwi.icon"
+msgstr "Иконка пункта меню"
+
+msgctxt "Languages::ab__ut_mwi.dropdown"
+msgid "ab__ut_mwi.dropdown"
+msgstr "Режим 3-х уровневого меню (выпадающим списком)"
+
+msgctxt "Languages::ttc_ab__ut_mwi.dropdown"
+msgid "ttc_ab__ut_mwi.dropdown"
+msgstr "Активировать режим 3-х уровневого меню (выпадающим списком)"
+
+msgctxt "Languages::ab__ut_mwi.text"
+msgid "ab__ut_mwi.text"
+msgstr "Текст"
+
+msgctxt "Languages::ttc_ab__ut_mwi.text"
+msgid "ttc_ab__ut_mwi.text"
+msgstr "Html-текст отображаемый в этом пункте меню"
+
+msgctxt "Languages::ab__ut_mwi.text_position"
+msgid "ab__ut_mwi.text_position"
+msgstr "Положение текста"
+
+msgctxt "Languages::ttc_ab__ut_mwi.text_position"
+msgid "ttc_ab__ut_mwi.text_position"
+msgstr "Положение html-текста отображаемого в этом пункте меню"
+
+msgctxt "Languages::ab__ut_mwi.text_position.bottom"
+msgid "ab__ut_mwi.text_position.bottom"
+msgstr "внизу"
+
+msgctxt "Languages::ab__ut_mwi.text_position.right_bottom"
+msgid "ab__ut_mwi.text_position.right_bottom"
+msgstr "справа внизу"
+
+msgctxt "Languages::ab__ut_mwi.text_position.right_top"
+msgid "ab__ut_mwi.text_position.right_top"
+msgstr "справа вверху"
+
+msgctxt "Languages::ab__ut_mwi.label"
+msgid "ab__ut_mwi.label"
+msgstr "Маркер"
+
+msgctxt "Languages::ttc_ab__ut_mwi.label"
+msgid "ttc_ab__ut_mwi.label"
+msgstr "Маркер пункта меню"
+
+msgctxt "Languages::ab__ut_mwi.label_color"
+msgid "ab__ut_mwi.label_color"
+msgstr "Цвет маркера"
+
+msgctxt "Languages::ttc_ab__ut_mwi.label_color"
+msgid "ttc_ab__ut_mwi.label_color"
+msgstr "Цвет маркера пункта меню"
+
+msgctxt "Languages::ab__ut_mwi.label_background"
+msgid "ab__ut_mwi.label_background"
+msgstr "Фон маркера"
+
+msgctxt "Languages::ttc_ab__ut_mwi.label_background"
+msgid "ttc_ab__ut_mwi.label_background"
+msgstr "Фон маркера пункта меню"
+
+msgctxt "Languages::block_ut_advanced_subcategories_menu"
+msgid "block_ut_advanced_subcategories_menu"
+msgstr "AB: Расширенный блок \"Меню подкатегорий\""
+
+msgctxt "Languages::abt_advanced_subcategories_menu"
+msgid "abt_advanced_subcategories_menu"
+msgstr "AB: Расширенный блок \"Меню подкатегорий\""
+
+msgctxt "Languages::privilege_sections.abt__unitheme"
+msgid "privilege_sections.abt__unitheme"
+msgstr "AB: UniTheme"
+
+msgctxt "Languages::privileges.abt__ut.settings.manage"
+msgid "privileges.abt__ut.settings.manage"
+msgstr "Управление настройками темы"
+
+msgctxt "Languages::privileges.abt__ut.settings.view"
+msgid "privileges.abt__ut.settings.view"
+msgstr "Просмотр настроек темы"
+
+msgctxt "Languages::privileges.abt__ut.buy_together_generate"
+msgid "privileges.abt__ut.buy_together_generate"
+msgstr "AB: Генератор \"Комбинации товаров\""

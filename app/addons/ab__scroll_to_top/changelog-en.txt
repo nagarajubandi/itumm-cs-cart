@@ -1,0 +1,4 @@
+v1.2 April, 13 2018
+--------------------------------------------------------------------------------
+[~] Added setting: Do not display the button if the input is from a mobile device;
+[+] Added setting: Show button in admin panel;

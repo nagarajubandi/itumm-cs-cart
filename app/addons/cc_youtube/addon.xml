@@ -1,0 +1,58 @@
+<?xml version="1.0"?>
+<addon scheme="3.0">
+    <id>cc_youtube</id>
+    <version>1.0</version>
+    <priority>50000</priority>
+    <position>1</position>
+    <status>active</status>
+    <default_language>en</default_language>
+    <settings>
+        <sections>
+            <section id="general">
+                <items>
+                    <item id="show_player_controls">
+                        <type>checkbox</type>
+                        <default_value>Y</default_value>
+                    </item>
+                    <item id="show_title_and_actions">
+                        <type>checkbox</type>
+                        <default_value>Y</default_value>
+                    </item>
+                </items>
+            </section>
+        </sections>
+    </settings>
+    <queries>
+        <item>
+            ALTER TABLE `?:products`
+            ADD COLUMN `youtube_link` varchar(255),
+            ADD COLUMN `is_has_youtube_link` char(1) NOT NULL default 'N',
+            ADD KEY `youtube_link` (`youtube_link`);
+        </item>
+        <item>
+            ALTER TABLE `?:products`
+            ADD COLUMN `show_youtube_video` varchar(1);
+        </item>
+        <item>
+            CREATE TABLE IF NOT EXISTS `?:product_videos` (
+                `video_id` mediumint(8) unsigned NOT NULL auto_increment,
+                `product_id` int(10) unsigned NOT NULL DEFAULT '0',
+                `comment` varchar(255) CHARACTER SET utf8,
+                `youtube_link` varchar(255) CHARACTER SET utf8 NOT NULL,
+                PRIMARY KEY (`video_id`)
+            ) Engine=MyISAM DEFAULT CHARSET UTF8;
+        </item>
+        <item for="uninstall">
+            ALTER TABLE `?:products` DROP `youtube_link`;
+        </item>
+        <item for="uninstall">
+            ALTER TABLE `?:products` DROP `is_has_youtube_link`;
+        </item>
+        <item for="uninstall">
+            ALTER TABLE `?:products` DROP `show_youtube_video`;
+        </item>
+        <item for="uninstall">
+            DROP TABLE IF EXISTS ?:product_videos
+        </item>
+    </queries>
+</addon>

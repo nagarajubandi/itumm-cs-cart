@@ -1,0 +1,249 @@
+msgid ""
+msgstr "Project-Id-Version: tygh"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: English\n"
+"Language: en_US"
+
+msgctxt "LanguageName"
+msgid "Localized language name"
+msgstr "English"
+
+msgctxt "Addons::name::hw_modern_backend"
+msgid "SellerHub theme"
+msgstr "SellerHub theme"
+
+msgctxt "Addons::description::hw_modern_backend"
+msgid "Allows you to create a new modern and unique CS-Cart backend.."
+msgstr "Allows you to create a new modern and unique CS-Cart backend."
+
+msgctxt "Languages::hwmb_layouts"
+msgid "Layout"
+msgstr "Layout"
+
+msgctxt "Languages::hwmb_layoutss"
+msgid "Layouts"
+msgstr "Layouts"
+
+msgctxt "Languages::hwmb_colors"
+msgid "Theme Color"
+msgstr "Theme Color"
+
+msgctxt "Languages::hwmb_colorss"
+msgid "Theme Colors"
+msgstr "Theme Colors"
+
+msgctxt "Languages::hwmb_bgs"
+msgid "Background"
+msgstr "Background"
+
+msgctxt "Languages::hwmb_bgss"
+msgid "Backgrounds"
+msgstr "Backgrounds"
+
+msgctxt "Languages::hwmb_fonts"
+msgid "Font"
+msgstr "Font"
+
+msgctxt "Languages::hwmb_fontss"
+msgid "Fonts"
+msgstr "Fonts"
+
+msgctxt "Languages::hw_modern_backend"
+msgid "Modern Backend"
+msgstr "Modern Backend"
+
+msgctxt "Languages::hwmb_add_color"
+msgid "Add new color"
+msgstr "Add new color"
+
+msgctxt "Languages::hwmb_edit_color"
+msgid "Edit color"
+msgstr "Edit color"
+
+msgctxt "Languages::hwmb_add_bg"
+msgid "Add new background"
+msgstr "Add new background"
+
+msgctxt "Languages::hwmb_edit_bg"
+msgid "Edit background"
+msgstr "Edit background"
+
+msgctxt "Languages::hwmb_add_font"
+msgid "Add new font"
+msgstr "Add new font"
+
+msgctxt "Languages::hwmb_edit_font"
+msgid "Edit font"
+msgstr "Edit font"
+
+msgctxt "Languages::hwmd_name"
+msgid "Name"
+msgstr "Name"
+
+msgctxt "Languages::hwmd_slug"
+msgid "Slug"
+msgstr "Slug"
+
+msgctxt "Languages::hwmd_body_colors"
+msgid "Body"
+msgstr "Body"
+
+msgctxt "Languages::hwmb_color_body"
+msgid "Background color"
+msgstr "Background color"
+
+msgctxt "Languages::hwmb_color_links"
+msgid "Links color"
+msgstr "Links color"
+
+msgctxt "Languages::hwmd_navbar_colors"
+msgid "Top navigation"
+msgstr "Top navigation"
+
+msgctxt "Languages::hwmb_color_navbar"
+msgid "Top nav background"
+msgstr "Top nav background"
+
+msgctxt "Languages::hwmb_color_navbar_links"
+msgid "Top nav links"
+msgstr "Top nav links"
+
+msgctxt "Languages::hwmb_color_navbar_hover_bg"
+msgid "Top nav hover background"
+msgstr "Top nav hover background"
+
+msgctxt "Languages::hwmb_color_navbar_hover_links"
+msgid "Top nav hover links"
+msgstr "Top nav hover links"
+
+msgctxt "Languages::hwmd_subnav_colors"
+msgid "Top subnavigation"
+msgstr "Top subnavigation"
+
+msgctxt "Languages::hwmb_color_subnav"
+msgid "Top subnav background"
+msgstr "Top subnav background"
+
+msgctxt "Languages::hwmb_color_subnav_links"
+msgid "Top subnav links"
+msgstr "Top subnav links"
+
+msgctxt "Languages::hwmd_dashboard_colors"
+msgid "Dashboard cards colors"
+msgstr "Dashboard cards colors"
+
+msgctxt "Languages::hwmb_color_dashboard_card_orders_title"
+msgid "Order title background"
+msgstr "Order title background"
+
+msgctxt "Languages::hwmb_color_dashboard_card_orders_content"
+msgid "Order content background"
+msgstr "Order content background"
+
+msgctxt "Languages::hwmb_color_dashboard_card_orders_color"
+msgid "Order text color"
+msgstr "Order text color"
+
+msgctxt "Languages::hwmb_color_dashboard_card_sales_title"
+msgid "Sales title color"
+msgstr "Sales title color"
+
+msgctxt "Languages::hwmb_color_dashboard_card_sales_content"
+msgid "Sales content background"
+msgstr "Sales content background"
+
+msgctxt "Languages::hwmb_color_dashboard_card_sales_color"
+msgid "Sales text color"
+msgstr "Sales text color"
+
+msgctxt "Languages::hwmb_color_dashboard_card_taxes_title"
+msgid "Taxes title background"
+msgstr "Taxes title background"
+
+msgctxt "Languages::hwmb_color_dashboard_card_taxes_content"
+msgid "Taxes content background"
+msgstr "Taxes content background"
+
+msgctxt "Languages::hwmb_color_dashboard_card_taxes_color"
+msgid "Taxes text color"
+msgstr "Taxes text color"
+
+msgctxt "Languages::hwmb_color_btn_primary_color"
+msgid "Primary button color"
+msgstr "Primary button color"
+
+msgctxt "Languages::hwmb_color_btn_primary_bg"
+msgid "Primary button background"
+msgstr "Primary button background"
+
+msgctxt "Languages::hwmb_color_navbar_brand"
+msgid "Logo color"
+msgstr "Logo color"
+
+msgctxt "Languages::hwmb_color_btn_group"
+msgid "Group button background"
+msgstr "Group button background"
+
+msgctxt "Languages::hwmd_how_to_add_fonts"
+msgid "Please go to <a href='https://www.google.com/fonts' target='_blank'>google.com/fonts</a> and copy only the name of the font desired"
+msgstr "Please go to <a href='https://www.google.com/fonts' target='_blank'>google.com/fonts</a> and copy only the name of the font desired"
+
+msgctxt "Languages::hwmd_bg_image"
+msgid "Background image"
+msgstr "Background image"
+
+msgctxt "Languages::hwmb_color_color"
+msgid "Background color"
+msgstr "Background color"
+
+msgctxt "Languages::hwmd_bg_center"
+msgid "Background center"
+msgstr "Background center"
+
+msgctxt "Languages::hwmd_activated"
+msgid "Activated"
+msgstr "Activated"
+
+msgctxt "Languages::hwmb_disable_settings_panel"
+msgid "Disable settings panel"
+msgstr "Disable settings panel"
+
+msgctxt "Languages::hwmb_activate_settings_panel"
+msgid "Enable settings panel"
+msgstr "Enable settings panel"
+
+msgctxt "Languages::hwmd_actions_colors"
+msgid "Actions navigation"
+msgstr "Actions navigation"
+
+msgctxt "Languages::hwmb_settings"
+msgid "<strong>Modern backend</strong> settings"
+msgstr "<strong>Modern backend</strong> settings"
+
+msgctxt "Languages::hwmb_color_actions"
+msgid "Actions background color"
+msgstr "Actions background color"
+
+msgctxt "Languages::hwmb_color_actions_links"
+msgid "Actions text color"
+msgstr "Actions text color"
+
+msgctxt "Languages::hwmd_you_cannot_edit_none"
+msgid "You cannot edit NONE background"
+msgstr "You cannot edit NONE background"
+
+msgctxt "Languages::privileges.manage_modern_backend"
+msgid "Manage modern backend"
+msgstr "Manage modern backend"
+
+msgctxt "Languages::privileges.view_modern_backend"
+msgid "Change modern backend"
+msgstr "Change modern backend"
+
+msgctxt "Languages::hwmb_install_theme_text"
+msgid "Uploading and installing a new theme color is a great way to personalize your backend. You can upload a theme by picking a xml format and clicking Upload."
+msgstr "Uploading and installing a new theme color is a great way to personalize your backend. You can upload a theme by picking a xml format and clicking Upload."
+
+msgctxt "Languages::hwmb_theme_install_done"
+msgid "Theme color <strong>[name]</strong> has been installed successfully!"
+msgstr "Theme color <strong>[name]</strong> has been installed successfully!"

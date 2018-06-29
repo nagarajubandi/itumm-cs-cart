@@ -1,0 +1,51 @@
+<?xml version="1.0"?>
+<addon scheme="3.0" edition_type="ROOT,ULT:VENDOR">
+<id>ab__landing_categories</id>
+<version>1.5</version>
+<priority>2017</priority>
+<position>0</position>
+<status>active</status>
+<default_language>en</default_language>
+<authors>
+<author>
+<name>AlexBranding</name>
+<email>info@alexbranding.com</email>
+<url>https://alexbranding.com</url>
+</author>
+</authors>
+<supplier>AlexBranding</supplier>
+<supplier_link>https://cs-cart.alexbranding.com</supplier_link>
+<compatibility>
+<core_version><min>4.3.4</min></core_version>
+<core_edition>ULTIMATE,MULTIVENDOR</core_edition>
+</compatibility>
+<settings edition_type="ROOT,ULT:VENDOR">
+<sections>
+<section id="settings" edition_type="ROOT,ULT:VENDOR">
+<items>
+<item id="code"><type>hidden</type><default_value>ABA-wD0cq4ZYytE6n3Fe5KX6M</default_value></item>
+<item id="build"><type>hidden</type><default_value>255</default_value></item>
+<item id="add_catalog_to_breadcrumbs">
+<type>checkbox</type>
+<default_value>N</default_value>
+</item>
+<item id="maximum_number_of_displayed_items">
+<type>input</type>
+<default_value>5</default_value>
+</item>
+<item id="catalog_menu">
+<type>input</type>
+<default_value>0</default_value>
+</item>
+<item id="link">
+<type>info</type>
+<handler>fn_ab__lc_link</handler>
+</item>
+</items>
+</section>
+</sections>
+</settings>
+<functions>
+<item for="install">fn_ab__lc_install</item>
+</functions>
+</addon>

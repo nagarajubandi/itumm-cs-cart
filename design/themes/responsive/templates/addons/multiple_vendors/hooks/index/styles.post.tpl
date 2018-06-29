@@ -1,0 +1,1 @@
+{style src="addons/multiple_vendors/style.less"}

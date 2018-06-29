@@ -1,0 +1,1 @@
+<div id="csc_livesearch_{$block.snapping_id}" data-ls-block-id="{$block.snapping_id}" data-ls-min="{$addons.csc_live_search.characters_limit}" class="csc_live_search_css"><!--csc_livesearch_{$block.snapping_id}--></div>

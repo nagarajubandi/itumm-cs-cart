@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<addon scheme="3.0">
+    <id>cc_cpu</id>
+    <name>Customized product update page</name>
+    <version>1.0</version>
+    <priority>9999999999</priority>
+</addon>

@@ -1,0 +1,314 @@
+msgid ""
+msgstr "Project-Id-Version: tygh"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: English\n"
+"Language: en_US\n"
+
+msgctxt "Addons::name::ab__deal_of_the_day"
+msgid "ab__deal_of_the_day"
+msgstr "AB: Deal of the day"
+
+msgctxt "Addons::description::ab__deal_of_the_day"
+msgid "ab__deal_of_the_day_description"
+msgstr "Addon adds block with deal of the day products, and countdown timer at the product page"
+"<br><a href='https://cs-cart.alexbranding.com' target='_blank'>cs-cart.alexbranding.com</a>"
+
+msgctxt "Languages::ab__deal_of_the_day"
+msgid "ab__deal_of_the_day"
+msgstr "AB: Deal of the day"
+
+msgctxt "Languages::block_ab__deal_of_the_day"
+msgid "block_ab__deal_of_the_day"
+msgstr "AB: Deal of the day"
+
+msgctxt "Languages::ab__dotd_time_left"
+msgid "ab__dotd_time_left"
+msgstr "To promotion end left"
+
+msgctxt "Languages::ab_dotd_product_label"
+msgid "ab_dotd_product_label"
+msgstr "Promotion"
+
+msgctxt "SettingsOptions::ab__deal_of_the_day::count_to"
+msgid "count_to"
+msgstr "Countdown to"
+
+msgctxt "SettingsTooltips::ab__deal_of_the_day::count_to"
+msgid "count_to"
+msgstr "What time will be used as end time for countdown"
+
+msgctxt "SettingsVariants::ab__deal_of_the_day::count_to::end_of_the_day"
+msgid "end_of_the_day"
+msgstr "End of the day"
+
+msgctxt "SettingsVariants::ab__deal_of_the_day::count_to::end_of_the_promotion"
+msgid "end_of_the_promotion"
+msgstr "End of the promotion"
+
+msgctxt "SettingsOptions::ab__deal_of_the_day::max_height"
+msgid "max_height"
+msgstr "Description max height in px"
+
+msgctxt "SettingsTooltips::ab__deal_of_the_day::max_height"
+msgid "max_height"
+msgstr "The maximum height of the promotion descriptions in px. If the block of the promotion descriptions will take place more than a specified value, then the rest of one will be hidden. Name of link is language variable - <code>ab__dotd.more</code> and <code>ab__dotd.less</code>"
+
+msgctxt "Languages::ab__dotd.more"
+msgid "ab__dotd.more"
+msgstr "More"
+
+msgctxt "Languages::ab__dotd.less"
+msgid "ab__dotd.less"
+msgstr "Less"
+
+msgctxt "Languages::ab__dotd.form.h1"
+msgid "H1 tag"
+msgstr "H1 tag"
+
+msgctxt "Languages::ab__dotd.form.page_title"
+msgid "Page title"
+msgstr "Page title"
+
+msgctxt "Languages::ab__dotd.form.meta_description"
+msgid "Meta-description"
+msgstr "Meta-description"
+
+msgctxt "Languages::ab__dotd.form.meta_keywords"
+msgid "Meta-keywords"
+msgstr "Meta-keywords"
+
+msgctxt "Languages::ab__dotd.form.page_image"
+msgid "Image for promotion page"
+msgstr "Image for promotion page"
+
+msgctxt "Languages::ab__dotd.form.list_image"
+msgid "Image for promotions list"
+msgstr "Image for promotions list"
+
+msgctxt "Languages::ab__dotd.form.filter"
+msgid "Filter"
+msgstr "Use filter by category"
+
+msgctxt "Languages::ab__dotd.from"
+msgid "from"
+msgstr "from"
+
+msgctxt "Languages::ab__dotd.to"
+msgid "to"
+msgstr "to"
+
+msgctxt "Languages::ab__dotd.page_action_period"
+msgid "page_action_period"
+msgstr "Action period:"
+
+msgctxt "Languages::ab__dotd.days_left"
+msgid "days_left"
+msgstr "<span>[n]</span> day left|<span>[n]</span> days left"
+
+msgctxt "Languages::ab__dotd.help"
+msgid "ab__dotd.help"
+msgstr "Help"
+
+msgctxt "Languages::ab__dotd_help.docs"
+msgid "ab__dotd_help.docs"
+msgstr "Read <a target='_blank' href='https://cs-cart.alexbranding.com/en/ab__deal_of_the_day.doc'>the documentation</a>."
+
+msgctxt "Languages::ab__dotd.clear_filter"
+msgid "ab__dotd.clear_filter"
+msgstr "Clear filter"
+
+msgctxt "Languages::ab__dotd.detailed"
+msgid "ab__dotd.detailed"
+msgstr "More about promotion"
+
+msgctxt "Languages::ab__promotions_list"
+msgid "ab__promotions_list"
+msgstr "AB: Promotions list"
+
+msgctxt "Languages::ab__promotions_view"
+msgid "ab__promotions_view"
+msgstr "AB: Promotion page"
+
+msgctxt "Languages::block_ab__promotions"
+msgid "block_ab__promotions"
+msgstr "AB: Promotions"
+
+msgctxt "Languages::block_ab__promotions_description"
+msgid "block_ab__promotions_description"
+msgstr "Store promotions"
+
+msgctxt "Languages::ab__dotd.add_promotions_and_close"
+msgid "ab__dotd.add_promotions_and_close"
+msgstr "Add promotions and close"
+
+msgctxt "Languages::ab__dotd.add_promotions"
+msgid "ab__dotd.add_promotions"
+msgstr "Add promotions"
+
+msgctxt "Languages::ab__dotd_scroller"
+msgid "ab__dotd_scroller"
+msgstr "Promotions scroller"
+
+msgctxt "Languages::ab__dotd_sorted_promotions"
+msgid "ab__dotd_sorted_promotions"
+msgstr "Sorted promotions"
+
+msgctxt "Languages::ab__dotd.sort.created"
+msgid "ab__dotd.sort.created"
+msgstr "created date"
+
+msgctxt "Languages::ab__dotd.sort.to_date"
+msgid "ab__dotd.sort.to_date"
+msgstr "ending date"
+
+msgctxt "Languages::ab__dotd.sort.priority"
+msgid "ab__dotd.sort.priority"
+msgstr "priority"
+
+msgctxt "Languages::ab__dotd.sort.name"
+msgid "ab__dotd.sort.name"
+msgstr "name"
+
+msgctxt "Languages::sort_order"
+msgid "sort_order"
+msgstr "Sort order"
+
+msgctxt "Languages::ab__dotd.choose_promotion"
+msgid "ab__dotd.choose_promotion"
+msgstr "Choose promotion"
+
+msgctxt "Languages::ab__deal_of_the_day_title_product"
+msgid "ab__deal_of_the_day_title_product"
+msgstr "Promotions"
+
+msgctxt "Languages::ab__dotd.all_promotions"
+msgid "ab__dotd.all_promotions"
+msgstr "Also in promos"
+
+msgctxt "Languages::ab__dotd.all_promotions.title"
+msgid "ab__dotd.all_promotions.title"
+msgstr "Take a look another promos with this product"
+
+msgctxt "Languages::ab__show_additional_product_images"
+msgid "ab__show_additional_product_images"
+msgstr "Show additional products images"
+
+msgctxt "Languages::ab__dotd.counter.years"
+msgid "years"
+msgstr "years"
+
+msgctxt "Languages::ab__dotd.counter.months"
+msgid "months"
+msgstr "months"
+
+msgctxt "Languages::ab__dotd.counter.days"
+msgid "days"
+msgstr "days"
+
+msgctxt "Languages::ab__dotd.counter.hours"
+msgid "hours"
+msgstr "hours"
+
+msgctxt "Languages::ab__dotd.counter.minutes"
+msgid "minutes"
+msgstr "minutes"
+
+msgctxt "Languages::ab__dotd.counter.seconds"
+msgid "seconds"
+msgstr "seconds"
+
+msgctxt "Languages::ab__dotd.promotion_expired"
+msgid "ab__dotd.promotion_expired"
+msgstr "Promotion expired"
+
+msgctxt "Languages::privilege_sections.ab__deal_of_the_day"
+msgid "privilege_sections.ab__deal_of_the_day"
+msgstr "AB: Deal of the day"
+
+msgctxt "Languages::privileges.ab__dotd_manage_seodata"
+msgid "privileges.ab__dotd_manage_seodata"
+msgstr "Manage promotions seo-data"
+
+msgctxt "Languages::privileges.ab__dotd_view_seodata"
+msgid "privileges.ab__dotd_view_seodata"
+msgstr "View promotions seo-data"
+
+msgctxt "Languages::ab__dotd.get_more_combinations"
+msgid "ab__dotd.get_more_combinations"
+msgstr "Show more [n] combination|Show more [n] combinations"
+
+msgctxt "Languages::ab__dotd.showed_combitations"
+msgid "ab__dotd.showed_combitations"
+msgstr "Showed [n] from [total]"
+
+msgctxt "Languages::ab__dotd.chains_list.title"
+msgid "ab__dotd.chains_list.title"
+msgstr "Buy together"
+
+msgctxt "SettingsOptions::ab__deal_of_the_day::promotions_per_page"
+msgid "promotions_per_page"
+msgstr "Promotions per page"
+
+msgctxt "SettingsTooltips::ab__deal_of_the_day::promotions_per_page"
+msgid "promotions_per_page"
+msgstr "The number of promotions per page of the list. To disable the pagination, enter <code> 0 </ code>"
+
+msgctxt "SettingsOptions::ab__deal_of_the_day::chains_per_page"
+msgid "chains_per_page"
+msgstr "Combinations per step"
+
+msgctxt "SettingsTooltips::ab__deal_of_the_day::chains_per_page"
+msgid "chains_per_page"
+msgstr "The number of combinations of the \"Buy together\" addon per step on the promotions list page. To display all on page loading, enter <code> 0 </ code>"
+
+msgctxt "Languages::ab__dotd.today_only"
+msgid "ab__dotd.today_only"
+msgstr "Today only"
+
+msgctxt "SettingsOptions::ab__deal_of_the_day::highlight_when_left"
+msgid "highlight_when_left"
+msgstr "Highlight promotion days left"
+
+msgctxt "SettingsTooltips::ab__deal_of_the_day::highlight_when_left"
+msgid "highlight_when_left"
+msgstr "Highlight promotion days left, when left"
+
+msgctxt "SettingsVariants::ab__deal_of_the_day::highlight_when_left::0"
+msgid "0"
+msgstr "Do not highlight"
+
+msgctxt "SettingsVariants::ab__deal_of_the_day::highlight_when_left::1"
+msgid "1"
+msgstr "1 day"
+
+msgctxt "SettingsVariants::ab__deal_of_the_day::highlight_when_left::2"
+msgid "2"
+msgstr "2 days"
+
+msgctxt "SettingsVariants::ab__deal_of_the_day::highlight_when_left::3"
+msgid "3"
+msgstr "3 days"
+
+msgctxt "SettingsVariants::ab__deal_of_the_day::highlight_when_left::4"
+msgid "4"
+msgstr "4 days"
+
+msgctxt "SettingsVariants::ab__deal_of_the_day::highlight_when_left::5"
+msgid "5"
+msgstr "5 days"
+
+msgctxt "SettingsVariants::ab__deal_of_the_day::highlight_when_left::6"
+msgid "6"
+msgstr "6 days"
+
+msgctxt "SettingsVariants::ab__deal_of_the_day::highlight_when_left::7"
+msgid "7"
+msgstr "7 days"
+
+msgctxt "SettingsOptions::ab__deal_of_the_day::ab__as"
+msgid "ab__as"
+msgstr "AB: Advanced sitemap"
+
+msgctxt "SettingsOptions::ab__deal_of_the_day::ab__as_add_to_sitemap"
+msgid "ab__as_add_to_sitemap"
+msgstr "Add promotions pages to the xml-sitemap"

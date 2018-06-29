@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<addon scheme="2.0" >
+    <id>hdfc</id>
+    <version>1.0</version>
+    <default_language>en</default_language>
+    <priority>100</priority>
+    <status>active</status>
+    <name>HDFC Payment Gateway</name>
+
+    <queries>
+		<item for="install">
+			CREATE TABLE IF NOT EXISTS `?:hdfc` (
+			`id` int(20) NOT NULL AUTO_INCREMENT,
+			  `order_id` varchar(51) NOT NULL,
+			  `response` text NOT NULL,
+			  PRIMARY KEY (`id`)
+			)
+		</item>
+		<item>
+			REPLACE INTO ?:payment_processors (`processor_id`, `processor`, `processor_script`, `processor_template`, `admin_template`, `callback`, `type`, `addon`) VALUES (1100, 'HDFC', 'hdfc.php', 'views/orders/components/payments/cc_outside.tpl', 'hdfc.tpl', 'N', 'P', 'hdfc');
+		</item>
+	</queries>
+</addon>

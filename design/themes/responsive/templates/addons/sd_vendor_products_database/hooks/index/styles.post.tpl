@@ -1,0 +1,1 @@
+{style src="addons/sd_vendor_products_database/styles.less"}

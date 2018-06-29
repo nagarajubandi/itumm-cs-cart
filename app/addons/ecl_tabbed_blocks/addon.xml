@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<addon scheme="2.0">
+    <id>ecl_tabbed_blocks</id>
+    <status>active</status>
+    <name>[eCom Labs] Tabbed Blocks</name>
+    <description>Allows to add the blocks to tabs</description>
+    <version>1.4</version>
+    <priority>4294967294</priority>
+    <position>0</position>
+    <supplier>eCom Labs</supplier>
+    <supplier_link>https://www.ecom-labs.com</supplier_link>
+    <auto_install>MULTIVENDOR,ULTIMATE</auto_install>
+    <default_language>en</default_language>
+    <authors>
+        <author>
+            <name>eCom Labs</name>
+            <email>contact@ecom-labs.com</email>
+            <url>https://www.ecom-labs.com</url>
+            <phone>+7 963 234 30 03</phone>
+        </author>
+    </authors>
+    <translations>
+        <item for="description" lang="ru">Позволяет объединить несколько блоков в один с вкладками</item>
+        <item for="name" lang="ru">[eCom Labs] Блоки Во Вкладках</item>
+    </translations>
+    <language_variables>
+        <item lang="en" id="tabbed_blocks">Tabbed blocks</item>
+        <item lang="ru" id="tabbed_blocks">Блоки Во Вкладках</item>
+    </language_variables>
+    <queries>
+        <item for="install">
+            ALTER TABLE `?:bm_grids` ADD `is_tabbed` CHAR (1) NOT NULL DEFAULT 'N'
+        </item>
+    </queries>
+</addon>

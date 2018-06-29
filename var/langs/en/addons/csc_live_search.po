@@ -1,0 +1,370 @@
+msgid ""
+msgstr "Project-Id-Version: tygh"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: English\n"
+"Language: en_US"
+
+msgctxt "Addons::name::csc_live_search"
+msgid "cs-commerce.com - Live search add-on"
+msgstr "cs-commerce.com - Live search add-on"
+
+msgctxt "Addons::description::csc_live_search"
+msgid "Live search add-on developed by <b><a href="http://www.cs-commerce.com" target="_blank">www.cs-commerce.com</a></b>"
+msgstr "Live search add-on developed by <b><a href="http://www.cs-commerce.com" target="_blank">www.cs-commerce.com</a></b>"
+
+msgctxt "SettingsSections::csc_live_search::general"
+msgid "General"
+msgstr "General"
+
+msgctxt "SettingsSections::csc_live_search::storefronts"
+msgid "Storefronts"
+msgstr "Storefronts"
+
+msgctxt "SettingsSections::csc_live_search::styles"
+msgid "Styles"
+msgstr "Styles"
+
+msgctxt "SettingsOptions::csc_live_search::search_on_name"
+msgid "Search on product name"
+msgstr "Search on product name"
+
+msgctxt "SettingsOptions::csc_live_search::search_on_keywords"
+msgid "Search on product keywords"
+msgstr "Search on product keywords"
+
+msgctxt "SettingsOptions::csc_live_search::search_on_metakeywords"
+msgid "Search on product Meta-keywords"
+msgstr "Search on product Meta-keywords"
+
+msgctxt "SettingsOptions::csc_live_search::search_on_metatitle"
+msgid "Search on product Meta-title"
+msgstr "Search on product Meta-title"
+
+msgctxt "SettingsOptions::csc_live_search::search_on_metadesc"
+msgid "Search on product Meta-description"
+msgstr "Search on product Meta-description"
+
+msgctxt "SettingsOptions::csc_live_search::search_on_pcode"
+msgid "Search on product code"
+msgstr "Search on product code"
+
+msgctxt "SettingsOptions::csc_live_search::search_on_description"
+msgid "Search on product description"
+msgstr "Search on product description"
+
+msgctxt "SettingsOptions::csc_live_search::search_on_short_description"
+msgid "Search on product short description"
+msgstr "Search on product short description"
+
+msgctxt "SettingsOptions::csc_live_search::search_on_features"
+msgid "Search on product features"
+msgstr "Search on product features"
+
+msgctxt "SettingsOptions::csc_live_search::search_on_options"
+msgid "Search on product options"
+msgstr "Search on product options"
+
+msgctxt "SettingsOptions::csc_live_search::limit"
+msgid "Show products limit"
+msgstr "Show products limit"
+
+msgctxt "SettingsOptions::csc_live_search::characters_limit"
+msgid "Characters limit"
+msgstr "Characters limit"
+
+msgctxt "SettingsOptions::csc_live_search::search_categories"
+msgid "Search categories"
+msgstr "Search categories"
+
+msgctxt "SettingsOptions::csc_live_search::show_parent_category"
+msgid "Show category with parent category"
+msgstr "Show category with parent category"
+
+msgctxt "SettingsOptions::csc_live_search::search_brands"
+msgid "Search Brands"
+msgstr "Search Brands"
+
+msgctxt "SettingsOptions::csc_live_search::serch_on_storefronts"
+msgid "Search on other storefronts"
+msgstr "Search on other storefronts"
+
+msgctxt "SettingsOptions::csc_live_search::search_storefront_categories"
+msgid "Search categories on other storefronts"
+msgstr "Search categories on other storefronts"
+
+msgctxt "SettingsOptions::csc_live_search::allow_storefronts"
+msgid "Suggest categories from storefronts"
+msgstr "Suggest categories from storefronts"
+
+msgctxt "SettingsOptions::csc_live_search::out_stock_end"
+msgid "Show products out of stock at the end of serach"
+msgstr "Show products out of stock at the end of serach"
+
+msgctxt "SettingsOptions::csc_live_search::serch_options"
+msgid "Search options"
+msgstr "Search options"
+
+msgctxt "SettingsOptions::csc_live_search::use_stop_words"
+msgid "Use stop words"
+msgstr "Use stop words"
+
+msgctxt "SettingsOptions::csc_live_search::sort_by"
+msgid "Sort by"
+msgstr "Sort by"
+
+msgctxt "SettingsOptions::csc_live_search::increase_popularity"
+msgid "Increase product popularity per phrase automatically"
+msgstr "Increase product popularity per phrase automatically"
+
+
+msgctxt "SettingsOptions::csc_live_search::sort_order"
+msgid "Sort order"
+msgstr "Sort order"
+
+msgctxt "SettingsOptions::csc_live_search::sort_options"
+msgid "Sorting options"
+msgstr "Sorting options"
+
+msgctxt "SettingsOptions::csc_live_search::serch_on"
+msgid "What we need to search?"
+msgstr "What we need to search?"
+
+msgctxt "SettingsOptions::csc_live_search::search_products"
+msgid "Search products"
+msgstr "Search products"
+
+msgctxt "SettingsOptions::csc_live_search::search_vendors"
+msgid "Search vendors (only Multivendor edition)" 
+msgstr "Search vendors (only Multivendor edition)"
+
+msgctxt "SettingsOptions::csc_live_search::image_width"
+msgid "Image width (px)"
+msgstr "Image width (px)"
+
+msgctxt "SettingsOptions::csc_live_search::image_height"
+msgid "Image height (px)"
+msgstr "Image height (px)"
+
+msgctxt "SettingsOptions::csc_live_search::show_category"
+msgid "Show product category on label"
+msgstr "Show product category on label"
+
+msgctxt "SettingsOptions::csc_live_search::show_category_gradient"
+msgid "Show gradient on category label"
+msgstr "Show gradient on category label"
+
+
+msgctxt "SettingsOptions::csc_live_search::color_type"
+msgid "Category label color"
+msgstr "Category label color"
+
+msgctxt "SettingsVariants::csc_live_search::color_type::M"
+msgid "Set random 1 of 10 colors"
+msgstr "Set random 1 of 10 colors"
+
+msgctxt "SettingsVariants::csc_live_search::color_type::A"
+msgid "Generate unique color for every category"
+msgstr "Generate unique color for every category"
+
+msgctxt "SettingsVariants::csc_live_search::color_type::E"
+msgid "One color set below"
+msgstr "One color set below"
+
+msgctxt "SettingsOptions::csc_live_search::clr_category_e"
+msgid "Single category label color"
+msgstr "Single category label color"
+
+msgctxt "SettingsOptions::csc_live_search::margin"
+msgid "Top margin (px)"
+msgstr "Top margin (px)"
+
+msgctxt "SettingsOptions::csc_live_search::border_radius"
+msgid "Border radius (px)"
+msgstr "Border radius (px)"
+
+msgctxt "SettingsOptions::csc_live_search::clr_border"
+msgid "Border color"
+msgstr "Border color"
+
+msgctxt "SettingsOptions::csc_live_search::clr_top_bg"
+msgid "Top background color"
+msgstr "Top background color"
+
+msgctxt "SettingsOptions::csc_live_search::clr_hover"
+msgid "Product on hover background"
+msgstr "Product on hover background"
+
+msgctxt "SettingsOptions::csc_live_search::clr_links"
+msgid "Links colors"
+msgstr "Links colors"
+
+msgctxt "SettingsOptions::csc_live_search::clr_links_hover"
+msgid "Links color on hover"
+msgstr "Links color on hover"
+
+msgctxt "SettingsOptions::csc_live_search::show_more_styles"
+msgid "Show more button settings"
+msgstr "Show more button settings"
+
+msgctxt "SettingsOptions::csc_live_search::btn_radius"
+msgid "Button border radius (px)"
+msgstr "Button border radius (px)"
+
+msgctxt "SettingsOptions::csc_live_search::clr_btn_border"
+msgid "Button border color"
+msgstr "Button border color"
+
+msgctxt "SettingsOptions::csc_live_search::clr_btn_border_hover"
+msgid "Button border color on hover"
+msgstr "Button border color on hover"
+
+msgctxt "SettingsOptions::csc_live_search::clr_btn_text"
+msgid "Button text color"
+msgstr "Button text color"
+
+msgctxt "SettingsOptions::csc_live_search::clr_btn_text_hover"
+msgid "Button text color on hover"
+msgstr "Button text color on hover"
+
+msgctxt "SettingsOptions::csc_live_search::clr_btn_bg"
+msgid "Button background color"
+msgstr "Button background color"
+
+msgctxt "SettingsOptions::csc_live_search::clr_btn_bg_hover"
+msgid "Button background color on hover"
+msgstr "Button background color on hover"
+
+msgctxt "Languages::cls_not_found"
+msgid "No elements found"
+msgstr "No elements found"
+
+msgctxt "Languages::cls_found"
+msgid "Total found:"
+msgstr "Total found:"
+
+msgctxt "Languages::sort_by_cls_relevance_asc"
+msgid "Sort by relevance"
+msgstr "Sort by relevance"
+
+msgctxt "Languages::sort_by_cls_relevance_desc"
+msgid "Sort by relevance"
+msgstr "Sort by relevance"
+
+msgctxt "Languages::sort_by_cls_relevance_with_popularity_desc"
+msgid "Sort by search popularity"
+msgstr "Sort by search popularity"
+
+msgctxt "Languages::sort_by_cls_relevance_with_popularity_asc"
+msgid "Sort by search popularity"
+msgstr "Sort by search popularity"
+
+msgctxt "Languages::cls_products"
+msgid "product|products"
+msgstr "product|products"
+
+msgctxt "Languages::cls_show_more"
+msgid "Show next"
+msgstr "Show next"
+
+msgctxt "Languages::storefronts_categories"
+msgid "Categories from other websites"
+msgstr "Categories from other websites"
+
+
+
+
+
+
+
+msgctxt "Languages::relevance_with_popularity"
+msgid "Product popularity per phrase with relevant"
+msgstr "Product popularity per phrase with relevant"
+
+msgctxt "Languages::cs_live_history"
+msgid "Search history"
+msgstr "Search history"
+
+msgctxt "Languages::cs_live_search_settings"
+msgid "Live search settings"
+msgstr "Live search settings"
+
+msgctxt "Languages::ls.search_word"
+msgid "Search phrase"
+msgstr "Search phrase"
+
+msgctxt "Languages::ls.requests_count"
+msgid "Requests count"
+msgstr "Requests count"
+
+msgctxt "Languages::ls.products_clicks"
+msgid "Products clicks"
+msgstr "Products clicks"
+
+msgctxt "Languages::ls.product_popularity"
+msgid "Product popularity for search phrase"
+msgstr "Product popularity for search phrase"
+
+msgctxt "Languages::ls.add_phrases_for_popularity"
+msgid "Add phrases to product"
+msgstr "Add phrases to product"
+
+msgctxt "Languages::ls.add_products_to_popularity"
+msgid "Add products popularity to search phrase"
+msgstr "Add products popularity to search phrase"
+
+msgctxt "Languages::enter_search_phrase"
+msgid "Enter search phrase"
+msgstr "Enter search phrase"
+
+msgctxt "Languages::cls_stop_words"
+msgid "Stop words on search"
+msgstr "Stop words on search"
+
+msgctxt "Languages::cls.search_history"
+msgid "Search history"
+msgstr "Search history"
+
+msgctxt "Languages::cls.search_history_menu_description"
+msgid "Search history and search statistics for each search request"
+msgstr "Search history and search statistics for each search request"
+
+msgctxt "Languages::clicked_products"
+msgid "Clicked products"
+msgstr "Clicked products"
+
+msgctxt "Languages::ls.per_word"
+msgid "Group by search phrase"
+msgstr "Group by search phrase"
+
+msgctxt "Languages::ls.per_request"
+msgid "All requests"
+msgstr "All requests"
+
+msgctxt "Languages::search_words_deleted_success"
+msgid "Search requests was deleted success!"
+msgstr "Search requests was deleted success!"
+
+msgctxt "Languages::ls.requests"
+msgid "Requests"
+msgstr "Requests"
+
+msgctxt "Languages::search_histore_deleted_success"
+msgid "Search history was cleared success"
+msgstr "Search history was cleared success"
+
+msgctxt "Languages::cls.desc"
+msgid "Descending"
+msgstr "Descending"
+
+msgctxt "Languages::cls.asc"
+msgid "Ascending"
+msgstr "Ascending"
+
+
+
+
+
+
+
+
+

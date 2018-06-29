@@ -1,0 +1,244 @@
+msgid ""
+msgstr "Project-Id-Version: tygh"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: English\n"
+"Language: en_US\n"
+
+msgctxt "Addons::name::ab__category_banners"
+msgid "ab__category_banners"
+msgstr "AB: Category banners"
+
+msgctxt "Addons::description::ab__category_banners"
+msgid "ab__category_banners_description"
+msgstr "Addon allows to add a banner among category products"
+"<br><a href='https://cs-cart.alexbranding.com' target='_blank'>cs-cart.alexbranding.com</a>"
+
+msgctxt "Languages::ab__category_banners"
+msgid "ab__category_banners"
+msgstr "AB: Category banners"
+
+msgctxt "Languages::ab__addons"
+msgid "ab__addons"
+msgstr "AB: Addons"
+
+msgctxt "Languages::ab__category_banners.add"
+msgid "ab__category_banners.add"
+msgstr "Add category banner"
+
+msgctxt "Languages::ab__category_banners.adding"
+msgid "ab__category_banners.adding"
+msgstr "Adding category banner"
+
+msgctxt "Languages::ab__category_banners.editing"
+msgid "ab__category_banners.editing"
+msgstr "Editing category banner"
+
+msgctxt "Languages::ab__cb.form.include_subcategories"
+msgid "ab__cb.form.include_subcategories"
+msgstr "Show in subcategories"
+
+msgctxt "Languages::ab__cb.form.url"
+msgid "ab__cb.form.url"
+msgstr "Link"
+
+msgctxt "Languages::ab__cb.form.position"
+msgid "ab__cb.form.position"
+msgstr "Position"
+
+msgctxt "Languages::ab__cb.form.rand_position"
+msgid "ab__cb.form.rand_position"
+msgstr "Shuffle positions list"
+
+msgctxt "Languages::ab__cb.form.target_blank"
+msgid "ab__cb.form.target_blank"
+msgstr "Open link in new window"
+
+msgctxt "Languages::ab__cb.form.from_date"
+msgid "ab__cb.form.from_date"
+msgstr "Active from date/time"
+
+msgctxt "Languages::ab__cb.form.to_date"
+msgid "ab__cb.form.to_date"
+msgstr "Active to date/time"
+
+msgctxt "Languages::ab__cb.form.monday"
+msgid "ab__cb.form.monday"
+msgstr "Monday"
+
+msgctxt "Languages::ab__cb.form.tuesday"
+msgid "ab__cb.form.tuesday"
+msgstr "Tuesday"
+
+msgctxt "Languages::ab__cb.form.wednesday"
+msgid "ab__cb.form.wednesday"
+msgstr "Wednesday"
+
+msgctxt "Languages::ab__cb.form.thursday"
+msgid "ab__cb.form.thursday"
+msgstr "Thursday"
+
+msgctxt "Languages::ab__cb.form.friday"
+msgid "ab__cb.form.friday"
+msgstr "Friday"
+
+msgctxt "Languages::ab__cb.form.saturday"
+msgid "ab__cb.form.saturday"
+msgstr "Saturday"
+
+msgctxt "Languages::ab__cb.form.sunday"
+msgid "ab__cb.form.sunday"
+msgstr "Sunday"
+
+msgctxt "Languages::tt_addons_ab__category_banners_views_ab__category_banners_update_image"
+msgid "tt_addons_ab__category_banners_views_ab__category_banners_update_image"
+msgstr "Image displaying as is, without any resize"
+
+msgctxt "Languages::tt_addons_ab__category_banners_views_ab__category_banners_update_ab__cb.form.url"
+msgid "tt_addons_ab__category_banners_views_ab__category_banners_update_ab__cb.form.url"
+msgstr "Controller link format is recommended (for example, products.view?product_id=12121)"
+
+msgctxt "Languages::tt_addons_ab__category_banners_views_ab__category_banners_update_ab__cb.form.position"
+msgid "tt_addons_ab__category_banners_views_ab__category_banners_update_ab__cb.form.position"
+msgstr "Position of the banner, which can be specified in the following ways<br />"
+"<ul>"
+"<li><code>7</code> - single position</li>"
+"<li><code>1,5,7,9</code> - multiple positions</li>"
+"<li><code>1-10</code> - range of positions</li>"
+"</ul>"
+"You can use combinations of these options. For example: <br />"
+"<code>1-5,7-9,11,13</code> - the banner will be shown in one of the positions: 1, 2, 3, 4, 5, 7, 8, 9, 11, 13"
+
+msgctxt "Languages::tt_addons_ab__category_banners_views_ab__category_banners_update_ab__cb.form.rand_position"
+msgid "tt_addons_ab__category_banners_views_ab__category_banners_update_ab__cb.form.rand_position"
+msgstr "If checked, the banner position is selected from the specified positions randomly, otherwise it follows the specified order"
+
+msgctxt "Languages::tt_addons_ab__category_banners_views_ab__category_banners_update_ab__cb.form.monday"
+msgid "tt_addons_ab__category_banners_views_ab__category_banners_update_ab__cb.form.monday"
+msgstr "Specify the banner active time for this day 'form' and 'till'.<br>"
+"If start time not specified, then it is equal 00:00<br>"
+"If end time not specified, then it is equal 24:00<br>"
+"If both values not specified, then banner displayed from 00:00 till 24:00"
+
+msgctxt "Languages::tt_addons_ab__category_banners_views_ab__category_banners_update_ab__cb.form.tuesday"
+msgid "tt_addons_ab__category_banners_views_ab__category_banners_update_ab__cb.form.tuesday"
+msgstr "Specify the banner active time for this day 'form' and 'till'.<br>"
+"If start time not specified, then it is equal 00:00<br>"
+"If end time not specified, then it is equal 24:00<br>"
+"If both values not specified, then banner displayed from 00:00 till 24:00"
+
+msgctxt "Languages::tt_addons_ab__category_banners_views_ab__category_banners_update_ab__cb.form.wednesday"
+msgid "tt_addons_ab__category_banners_views_ab__category_banners_update_ab__cb.form.wednesday"
+msgstr "Specify the banner active time for this day 'form' and 'till'.<br>"
+"If start time not specified, then it is equal 00:00<br>"
+"If end time not specified, then it is equal 24:00<br>"
+"If both values not specified, then banner displayed from 00:00 till 24:00"
+
+msgctxt "Languages::tt_addons_ab__category_banners_views_ab__category_banners_update_ab__cb.form.thursday"
+msgid "tt_addons_ab__category_banners_views_ab__category_banners_update_ab__cb.form.thursday"
+msgstr "Specify the banner active time for this day 'form' and 'till'.<br>"
+"If start time not specified, then it is equal 00:00<br>"
+"If end time not specified, then it is equal 24:00<br>"
+"If both values not specified, then banner displayed from 00:00 till 24:00"
+
+msgctxt "Languages::tt_addons_ab__category_banners_views_ab__category_banners_update_ab__cb.form.friday"
+msgid "tt_addons_ab__category_banners_views_ab__category_banners_update_ab__cb.form.friday"
+msgstr "Specify the banner active time for this day 'form' and 'till'.<br>"
+"If start time not specified, then it is equal 00:00<br>"
+"If end time not specified, then it is equal 24:00<br>"
+"If both values not specified, then banner displayed from 00:00 till 24:00"
+
+msgctxt "Languages::tt_addons_ab__category_banners_views_ab__category_banners_update_ab__cb.form.saturday"
+msgid "tt_addons_ab__category_banners_views_ab__category_banners_update_ab__cb.form.saturday"
+msgstr "Specify the banner active time for this day 'form' and 'till'.<br>"
+"If start time not specified, then it is equal 00:00<br>"
+"If end time not specified, then it is equal 24:00<br>"
+"If both values not specified, then banner displayed from 00:00 till 24:00"
+
+msgctxt "Languages::tt_addons_ab__category_banners_views_ab__category_banners_update_ab__cb.form.sunday"
+msgid "tt_addons_ab__category_banners_views_ab__category_banners_update_ab__cb.form.sunday"
+msgstr "Specify the banner active time for this day 'form' and 'till'.<br>"
+"If start time not specified, then it is equal 00:00<br>"
+"If end time not specified, then it is equal 24:00<br>"
+"If both values not specified, then banner displayed from 00:00 till 24:00"
+
+msgctxt "SettingsOptions::ab__category_banners::item_nth"
+msgid "item_nth"
+msgstr "Banners position in a category"
+
+msgctxt "SettingsTooltips::ab__category_banners::item_nth"
+msgid "item_nth"
+msgstr "Default position of banners, which can be specified in the following ways<br />"
+"<ul>"
+"<li><code>7</code> - single position</li>"
+"<li><code>1,5,7,9</code> - multiple positions</li>"
+"<li><code>1-10</code> - range of positions</li>"
+"</ul>"
+"You can use combinations of these options. For example: <br />"
+"<code>1-5,7-9,11,13</code> - a banner will be shown in one of the positions: 1, 2, 3, 4, 5, 7, 8, 9, 11, 13"
+
+msgctxt "SettingsOptions::ab__category_banners::decrease_items_per_page"
+msgid "decrease_items_per_page"
+msgstr "Replace one product"
+
+msgctxt "SettingsTooltips::ab__category_banners::decrease_items_per_page"
+msgid "decrease_items_per_page"
+msgstr "Decrease products by 1, for saving products grid"
+
+msgctxt "SettingsOptions::ab__category_banners::cron_key"
+msgid "cron_key"
+msgstr "CRON key"
+
+msgctxt "SettingsTooltips::ab__category_banners::cron_key"
+msgid "cron_key"
+msgstr "Auto update requires cron key. Length must be between 10 and 20 chars (only latin letters and nums) "
+
+msgctxt "Languages::ab__cb.errors.cron_key"
+msgid "ab__cb.errors.cron_key"
+msgstr "<p>Warning! CRON Key does not meet the safety requirements</p>"
+
+msgctxt "Languages::ab__cb.cron_links"
+msgid "ab__cb.cron_links"
+msgstr "<p>Use one of following links to deactivate expired banners by CRON:<br>"
+"<br><code>[cron_cmd]</code>"
+"<br>or"
+"<br><code>[cron_url]</code></p>"
+
+msgctxt "Languages::ab__category_banners_menu_description"
+msgid "ab__category_banners_menu_description"
+msgstr "Creating, updating and deleting banners for categories pages"
+
+msgctxt "Languages::ab__category_banners.manage"
+msgid "ab__category_banners.manage"
+msgstr "Manage banners"
+
+msgctxt "Languages::ab__category_banners.help"
+msgid "ab__category_banners.help"
+msgstr "Help"
+
+msgctxt "Languages::ab__cb.help.cron.title"
+msgid "ab__cb.help.cron.title"
+msgstr "Auto deactivating expired banners"
+
+msgctxt "Languages::ab__cb.form.m_turn_on"
+msgid "ab__cb.form.m_turn_on"
+msgstr "Activate selected"
+
+msgctxt "Languages::ab__cb.form.m_turn_off"
+msgid "ab__cb.form.m_turn_off"
+msgstr "Deactivate selected"
+
+msgctxt "Languages::privilege_sections.ab__category_banners"
+msgid "privilege_sections.ab__category_banners"
+msgstr "AB: Category banners"
+
+msgctxt "Languages::privileges.ab__cb_manage_banners"
+msgid "privileges.ab__cb_manage_banners"
+msgstr "Manage category banners"
+
+msgctxt "Languages::privileges.ab__cb_view_banners"
+msgid "privileges.ab__cb_view_banners"
+msgstr "View category banners"
+
+msgctxt "Languages::ab__cb_help.docs"
+msgid "ab__cb_help.docs"
+msgstr "Read <a target='_blank' href='https://cs-cart.alexbranding.com/en/ab__category_banners.doc'>the documentation</a>."

@@ -1,0 +1,1 @@
+{script src="js/addons/hw_modern_backend/func.js"}

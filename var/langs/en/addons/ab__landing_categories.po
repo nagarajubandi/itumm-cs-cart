@@ -1,0 +1,167 @@
+msgid ""
+msgstr "Project-Id-Version: tygh"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: English\n"
+"Language: en_US\n"
+
+msgctxt "Addons::name::ab__landing_categories"
+msgid "ab__landing_categories"
+msgstr "AB: Landing pages for categories"
+
+msgctxt "Addons::description::ab__landing_categories"
+msgid "ab__landing_categories"
+msgstr "Adds possibility to create landings for categories pages"
+"<br><a href='https://cs-cart.alexbranding.com' target='_blank'>cs-cart.alexbranding.com</a>"
+
+msgctxt "Languages::ab__landing_categories"
+msgid "ab__landing_categories"
+msgstr "AB: Landing pages for categories"
+
+msgctxt "Languages::ab__lc_catalog"
+msgid "ab__lc_catalog"
+msgstr "AB: Categories"
+
+msgctxt "Languages::ab__lc.breadcrumb_catalog"
+msgid "ab__lc.breadcrumb_catalog"
+msgstr "Categories"
+
+msgctxt "Languages::ab__lc.catalog.image_control"
+msgid "ab__lc.catalog.image_control"
+msgstr "Category image management"
+
+msgctxt "Languages::ttc_ab__lc.catalog.image_control"
+msgid "ttc_ab__lc.catalog.image_control"
+msgstr "For [Category image on the top] will be used the size from Settings - Thumbnails - Categories list thumbnail width (height).<br>"
+"For [Mini-icons on the left] size 32px*32px will be used."
+
+msgctxt "Languages::ab__lc.catalog.image_control.none"
+msgid "ab__lc.catalog.image_control.none"
+msgstr "do not show"
+
+msgctxt "Languages::ab__lc.catalog.image_control.top"
+msgid "ab__lc.catalog.image_control.top"
+msgstr "show category image on the top of the category name"
+
+msgctxt "Languages::ab__lc.catalog.image_control.left"
+msgid "ab__lc.catalog.image_control.left"
+msgstr "show mini-icon on the left of category name"
+
+msgctxt "Languages::ab__lc.catalog.icon"
+msgid "ab__lc.catalog.icon"
+msgstr "Category mini-icon"
+
+msgctxt "Languages::ttc_ab__lc.catalog.icon"
+msgid "ttc_ab__lc.catalog.icon"
+msgstr "Category mini-icon, shown on the page [AB: Categories] on the left from the category name"
+
+msgctxt "Languages::ab__lc.catalog.show_more"
+msgid "ab__lc.catalog.show_more"
+msgstr "More"
+
+msgctxt "Languages::ab__lc_landing_category"
+msgid "ab__lc_landing_category"
+msgstr "AB: Category landing"
+
+msgctxt "Languages::ab__lc.landing_category.landing"
+msgid "ab__lc.landing_category.landing"
+msgstr "Category as landing page"
+
+msgctxt "Languages::ttc_ab__lc.landing_category.landing"
+msgid "ttc_ab__lc.landing_category.landing"
+msgstr "Category page will be shown as a landing page. You will see structure of subcategories for 2 level below without product list."
+
+msgctxt "Languages::ab__lc.landing_category.subsubcategories"
+msgid "ab__lc.landing_category.subsubcategories"
+msgstr "Sub-subcategories amount"
+
+msgctxt "Languages::ttc_ab__lc.landing_category.subsubcategories"
+msgid "ttc_ab__lc.landing_category.subsubcategories"
+msgstr "Max number of sub-subcategories to be shown. If this field is empty or has value 0, then subcategories will not be shown."
+
+msgctxt "Languages::ab__lc.landing_category.show_more"
+msgid "ab__lc.landing_category.show_more"
+msgstr "More"
+
+msgctxt "Languages::ab__lc.control_subcategory_structure"
+msgid "ab__lc.control_subcategory_structure"
+msgstr "AB: Control the sub-category structure on [AB: Category landing]"
+
+msgctxt "Languages::ab__lc.control_subcategory_structure.menu_id"
+msgid "ab__lc.control_subcategory_structure.menu_id"
+msgstr "ID menu"
+
+msgctxt "Languages::ttc_ab__lc.control_subcategory_structure.menu_id"
+msgid "ttc_ab__lc.control_subcategory_structure.menu_id"
+msgstr "Specify the menu ID if you want to build a Landing category using the menu"
+
+msgctxt "Languages::ab__lc.control_subcategory_structure.add_menu"
+msgid "ab__lc.control_subcategory_structure.add_menu"
+msgstr "Add and/or associate Menu with this category"
+
+msgctxt "Languages::ab__lc.control_subcategory_structure.add_menu.info"
+msgid "ab__lc.control_subcategory_structure.add_menu.info"
+msgstr "The landing category menu is created only if necessary, as the menu is searched for by code [ABLC-xxx:], xxx - category_id"
+
+msgctxt "Languages::ab__lc.control_subcategory_structure.add_menu.info.multiplestore"
+msgid "ab__lc.control_subcategory_structure.add_menu.info.multiplestore"
+msgstr "Before creating the Landing category menu, select [Store]"
+
+msgctxt "Languages::ab__lc.control_subcategory_structure.add_menu.added_new_menu"
+msgid "ab__lc.control_subcategory_structure.add_menu.added_new_menu"
+msgstr "The landing category menu has been successfully created and is associated with the current category!"
+
+msgctxt "Languages::ab__lc.control_subcategory_structure.add_menu.used_existing_menu"
+msgid "ab__lc.control_subcategory_structure.add_menu.used_existing_menu"
+msgstr "The landing category menu already existed and was associated with the current category!"
+
+msgctxt "Languages::ab__lc.control_subcategory_structure.how_to_use_menu"
+msgid "ab__lc.control_subcategory_structure.how_to_use_menu"
+msgstr "How to use the menu"
+
+msgctxt "Languages::ab__lc.control_subcategory_structure.how_to_use_menu.not_to_use"
+msgid "ab__lc.control_subcategory_structure.how_to_use_menu.not_to_use"
+msgstr "not to use"
+
+msgctxt "Languages::ab__lc.control_subcategory_structure.how_to_use_menu.prepend"
+msgid "ab__lc.control_subcategory_structure.how_to_use_menu.prepend"
+msgstr "complement the current sub-category structure above"
+
+msgctxt "Languages::ab__lc.control_subcategory_structure.how_to_use_menu.append"
+msgid "ab__lc.control_subcategory_structure.how_to_use_menu.append"
+msgstr "complement the current sub-category structure below"
+
+msgctxt "Languages::ab__lc.control_subcategory_structure.how_to_use_menu.replace"
+msgid "ab__lc.control_subcategory_structure.how_to_use_menu.replace"
+msgstr "replace the current sub-category structure"
+
+msgctxt "Languages::ab__lc.control_subcategory_structure.inherit_control"
+msgid "ab__lc.control_subcategory_structure.inherit_control"
+msgstr "Inherit_control"
+
+msgctxt "Languages::ttc_ab__lc.control_subcategory_structure.inherit_control"
+msgid "ttc_ab__lc.control_subcategory_structure.inherit_control"
+msgstr "If checked, then each item of the subcategory will be built according to its settings from <b>AB: Control the sub-category structure on [AB: Category landing]</b>"
+
+msgctxt "Languages::ab__lc.add_menu.added_new_menu"
+msgid "ab__lc.add_menu.added_new_menu"
+msgstr "Created a new Menu"
+
+msgctxt "Languages::ab__lc.add_menu.used_existing_menu"
+msgid "ab__lc.add_menu.used_existing_menu"
+msgstr "Use existing Menu"
+
+msgctxt "SettingsOptions::ab__landing_categories::add_catalog_to_breadcrumbs"
+msgid "add_catalog_to_breadcrumbs"
+msgstr "Add [AB: Categories] in breadcrumbs"
+
+msgctxt "SettingsOptions::ab__landing_categories::maximum_number_of_displayed_items"
+msgid "maximum_number_of_displayed_items"
+msgstr "Max number of subcategories to be shown on the page [AB: Categories]"
+
+msgctxt "SettingsOptions::ab__landing_categories::catalog_menu"
+msgid "catalog_menu"
+msgstr "ID menu"
+
+msgctxt "SettingsTooltips::ab__landing_categories::catalog_menu"
+msgid "catalog_menu"
+msgstr "Set ID menu, if you want to build [AB: Categories] by menu, else set 0, to build [AB: Categories] by category tree"

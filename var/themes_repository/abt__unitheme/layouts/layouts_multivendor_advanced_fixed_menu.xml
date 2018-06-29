@@ -1,0 +1,3319 @@
+<?xml version="1.0"?>
+<block_scheme scheme="1.0">
+  <settings>
+    <default_language>en</default_language>
+  </settings>
+  <layout edition="MULTIVENDOR">
+    <name>UniTheme - fixed menu</name>
+    <is_default></is_default>
+    <width>16</width>
+    <layout_width>fluid</layout_width>
+    <min_width>280</min_width>
+    <max_width>1180</max_width>
+    <style_id>Sunny</style_id>
+  </layout>
+  <location dispatch="default" is_default="1" layout_id="6" object_ids="" custom_html="" position="10" lang_code="en" name="Default" title="UniTheme - premium template for cs-cart" meta_description="UniTheme - premium template for cs-cart" meta_keywords="UniTheme, template, cs-cart">
+    <containers>
+      <container container_id="901" location_id="226" position="TOP_PANEL" width="16" user_class="top-grid" linked_to_default="Y" status="A" company_id="0">
+        <grid width="3" user_class="top-links-grid ty-top-grid_float" linked_to_default="Y" status="A" company_id="0" offset="0" omega="0" alpha="1" wrapper="" content_align="LEFT" html_element="div" clear="0" extended="0" ab__show_in_tabs="N" ab__use_ajax="N">
+          <blocks>
+            <block>
+              <type><![CDATA[languages]]></type>
+              <properties>
+                <template><![CDATA[blocks/languages.tpl]]></template>
+                <text><![CDATA[]]></text>
+                <format><![CDATA[icon]]></format>
+                <dropdown_limit><![CDATA[0]]></dropdown_limit>
+              </properties>
+              <lang_code><![CDATA[en]]></lang_code>
+              <name><![CDATA[Languages]]></name>
+              <object_id><![CDATA[0]]></object_id>
+              <object_type><![CDATA[]]></object_type>
+              <content><![CDATA[]]></content>
+              <object_ids><![CDATA[]]></object_ids>
+              <wrapper><![CDATA[]]></wrapper>
+              <user_class><![CDATA[top-languages]]></user_class>
+              <order><![CDATA[0]]></order>
+              <status><![CDATA[A]]></status>
+              <translations/>
+              <contents/>
+            </block>
+            <block>
+              <type><![CDATA[currencies]]></type>
+              <properties>
+                <template><![CDATA[blocks/currencies.tpl]]></template>
+                <text><![CDATA[]]></text>
+                <format><![CDATA[symbol]]></format>
+                <dropdown_limit><![CDATA[3]]></dropdown_limit>
+              </properties>
+              <lang_code><![CDATA[en]]></lang_code>
+              <name><![CDATA[Currencies]]></name>
+              <object_id><![CDATA[0]]></object_id>
+              <object_type><![CDATA[]]></object_type>
+              <content><![CDATA[]]></content>
+              <object_ids><![CDATA[]]></object_ids>
+              <wrapper><![CDATA[]]></wrapper>
+              <user_class><![CDATA[top-currencies]]></user_class>
+              <order><![CDATA[1]]></order>
+              <status><![CDATA[A]]></status>
+              <translations/>
+              <contents/>
+            </block>
+          </blocks>
+        </grid>
+        <grid width="13" user_class="top-links-grid hidden-phone" linked_to_default="Y" status="A" company_id="0" offset="0" omega="1" alpha="0" wrapper="" content_align="RIGHT" html_element="div" clear="1" extended="0" ab__show_in_tabs="N" ab__use_ajax="N">
+          <blocks>
+            <block>
+              <type><![CDATA[menu]]></type>
+              <properties>
+                <template><![CDATA[blocks/menu/text_links.tpl]]></template>
+                <show_items_in_line><![CDATA[Y]]></show_items_in_line>
+              </properties>
+              <lang_code><![CDATA[en]]></lang_code>
+              <name><![CDATA[Quick links]]></name>
+              <object_id><![CDATA[0]]></object_id>
+              <object_type><![CDATA[]]></object_type>
+              <content>
+                <menu><![CDATA[1]]></menu>
+              </content>
+              <object_ids><![CDATA[]]></object_ids>
+              <wrapper><![CDATA[]]></wrapper>
+              <user_class><![CDATA[top-quick-links hidden-phone]]></user_class>
+              <order><![CDATA[0]]></order>
+              <status><![CDATA[A]]></status>
+              <translations/>
+              <contents/>
+            </block>
+          </blocks>
+        </grid>
+      </container>
+      <container container_id="902" location_id="226" position="HEADER" width="16" user_class="header-grid" linked_to_default="Y" status="A" company_id="0">
+        <grid width="16" user_class="" linked_to_default="Y" status="A" company_id="0" offset="0" omega="1" alpha="1" wrapper="" content_align="FULL_WIDTH" html_element="div" clear="1" extended="E" ab__show_in_tabs="N" ab__use_ajax="N">
+          <grid width="4" user_class="top-logo-grid" linked_to_default="Y" status="A" company_id="0" offset="0" omega="0" alpha="1" wrapper="" content_align="FULL_WIDTH" html_element="div" clear="0" extended="0" ab__show_in_tabs="N" ab__use_ajax="N">
+            <blocks>
+              <block>
+                <type><![CDATA[template]]></type>
+                <properties>
+                  <template><![CDATA[blocks/static_templates/logo.tpl]]></template>
+                </properties>
+                <lang_code><![CDATA[en]]></lang_code>
+                <name><![CDATA[Logo]]></name>
+                <object_id><![CDATA[0]]></object_id>
+                <object_type><![CDATA[]]></object_type>
+                <content><![CDATA[]]></content>
+                <object_ids><![CDATA[]]></object_ids>
+                <wrapper><![CDATA[]]></wrapper>
+                <user_class><![CDATA[top-logo]]></user_class>
+                <order><![CDATA[2]]></order>
+                <status><![CDATA[A]]></status>
+                <translations/>
+                <contents/>
+              </block>
+            </blocks>
+          </grid>
+          <grid width="7" user_class="top-links-menu-grid" linked_to_default="Y" status="A" company_id="0" offset="0" omega="0" alpha="0" wrapper="" content_align="FULL_WIDTH" html_element="div" clear="0" extended="0" ab__show_in_tabs="N" ab__use_ajax="N">
+            <blocks>
+              <block>
+                <type><![CDATA[menu]]></type>
+                <properties>
+                  <template><![CDATA[blocks/menu/dropdown_horizontal.tpl]]></template>
+                  <dropdown_second_level_elements><![CDATA[0]]></dropdown_second_level_elements>
+                  <dropdown_third_level_elements><![CDATA[0]]></dropdown_third_level_elements>
+                  <dropdown_third_level_view><![CDATA[5]]></dropdown_third_level_view>
+                </properties>
+                <lang_code><![CDATA[en]]></lang_code>
+                <name><![CDATA[Top menu]]></name>
+                <object_id><![CDATA[0]]></object_id>
+                <object_type><![CDATA[]]></object_type>
+                <content>
+                  <menu><![CDATA[5]]></menu>
+                </content>
+                <object_ids><![CDATA[]]></object_ids>
+                <wrapper><![CDATA[]]></wrapper>
+                <user_class><![CDATA[]]></user_class>
+                <order><![CDATA[2]]></order>
+                <status><![CDATA[A]]></status>
+                <translations/>
+                <contents/>
+              </block>
+            </blocks>
+          </grid>
+          <grid width="5" user_class="top-phones-grid" linked_to_default="Y" status="A" company_id="0" offset="0" omega="1" alpha="0" wrapper="" content_align="RIGHT" html_element="div" clear="1" extended="0" ab__show_in_tabs="N" ab__use_ajax="N">
+            <blocks>
+              <block>
+                <type><![CDATA[smarty_block]]></type>
+                <properties>
+                  <template><![CDATA[blocks/smarty_block.tpl]]></template>
+                </properties>
+                <lang_code><![CDATA[en]]></lang_code>
+                <name><![CDATA[Call requests]]></name>
+                <object_id><![CDATA[0]]></object_id>
+                <object_type><![CDATA[]]></object_type>
+                <content>
+                  <content><![CDATA[<div class="ty-cr-phone-number">
+<!-- <div class="ty-cr-work">{__("working_hours")}</div> -->
+<div class="ty-cr-phone"><a href="tel:+88000000000">+8(800) 0000000</a><br><a href="tel:+88000000000">+8(800) 0000000</a></div>
+<div class="ty-cr-phone-number-link">
+<div class="ty-cr-link"><a href="{"pages.view&page_id=20"|fn_url}">{__("Contacts")}</a></div>
+{if $addons.call_requests.status == "A"}<div class="ty-cr-link">{abt__ut_call_request}</div>{/if}
+</div>
+</div>]]></content>
+                </content>
+                <object_ids><![CDATA[]]></object_ids>
+                <wrapper><![CDATA[]]></wrapper>
+                <user_class><![CDATA[]]></user_class>
+                <order><![CDATA[0]]></order>
+                <status><![CDATA[A]]></status>
+                <translations/>
+                <contents/>
+              </block>
+              <block>
+                <type><![CDATA[template]]></type>
+                <properties>
+                  <template><![CDATA[blocks/static_templates/top_buttons.tpl]]></template>
+                </properties>
+                <lang_code><![CDATA[en]]></lang_code>
+                <name><![CDATA[Top buttons Wishlist - Compare]]></name>
+                <object_id><![CDATA[0]]></object_id>
+                <object_type><![CDATA[]]></object_type>
+                <content><![CDATA[]]></content>
+                <object_ids><![CDATA[]]></object_ids>
+                <wrapper><![CDATA[]]></wrapper>
+                <user_class><![CDATA[]]></user_class>
+                <order><![CDATA[0]]></order>
+                <status><![CDATA[A]]></status>
+                <translations/>
+                <contents/>
+              </block>
+            </blocks>
+          </grid>
+        </grid>
+        <grid width="16" user_class="top-menu-grid  small-grid top-menu" linked_to_default="Y" status="A" company_id="0" offset="0" omega="1" alpha="1" wrapper="" content_align="FULL_WIDTH" html_element="div" clear="1" extended="O" ab__show_in_tabs="N" ab__use_ajax="N">
+          <grid width="4" user_class="vertical-menu-grid" linked_to_default="Y" status="A" company_id="0" offset="0" omega="0" alpha="1" wrapper="" content_align="FULL_WIDTH" html_element="div" clear="0" extended="0" ab__show_in_tabs="N" ab__use_ajax="N">
+            <blocks>
+              <block>
+                <type><![CDATA[categories]]></type>
+                <properties>
+                  <template><![CDATA[blocks/categories/categories_dropdown_horizontal.tpl]]></template>
+                  <dropdown_second_level_elements><![CDATA[30]]></dropdown_second_level_elements>
+                  <dropdown_third_level_elements><![CDATA[30]]></dropdown_third_level_elements>
+                  <dropdown_third_level_view><![CDATA[5]]></dropdown_third_level_view>
+                </properties>
+                <lang_code><![CDATA[en]]></lang_code>
+                <name><![CDATA[Product Categories]]></name>
+                <object_id><![CDATA[0]]></object_id>
+                <object_type><![CDATA[]]></object_type>
+                <content>
+                  <items>
+                    <filling><![CDATA[full_tree_cat]]></filling>
+                    <parent_category_id><![CDATA[]]></parent_category_id>
+                    <sort_by><![CDATA[position]]></sort_by>
+                  </items>
+                </content>
+                <object_ids><![CDATA[]]></object_ids>
+                <wrapper><![CDATA[blocks/wrappers/onclick_dropdown.tpl]]></wrapper>
+                <user_class><![CDATA[cat-menu-vertical]]></user_class>
+                <order><![CDATA[0]]></order>
+                <status><![CDATA[D]]></status>
+                <translations/>
+                <contents/>
+              </block>
+              <block>
+                <type><![CDATA[menu]]></type>
+                <properties>
+                  <template><![CDATA[blocks/menu/dropdown_horizontal_ab__un_mwi.tpl]]></template>
+                  <dropdown_second_level_elements><![CDATA[30]]></dropdown_second_level_elements>
+                  <dropdown_third_level_elements><![CDATA[30]]></dropdown_third_level_elements>
+                  <no_hidden_elements_second_level_view><![CDATA[5]]></no_hidden_elements_second_level_view>
+                  <elements_per_column_third_level_view><![CDATA[15]]></elements_per_column_third_level_view>
+                </properties>
+                <lang_code><![CDATA[en]]></lang_code>
+                <name><![CDATA[Product Categories]]></name>
+                <object_id><![CDATA[0]]></object_id>
+                <object_type><![CDATA[]]></object_type>
+                <content>
+                  <menu><![CDATA[2]]></menu>
+                </content>
+                <object_ids><![CDATA[]]></object_ids>
+                <wrapper><![CDATA[blocks/wrappers/ab__onclick_dropdown.tpl]]></wrapper>
+                <user_class><![CDATA[cat-menu-vertical]]></user_class>
+                <order><![CDATA[0]]></order>
+                <status><![CDATA[A]]></status>
+                <translations/>
+                <contents/>
+              </block>
+            </blocks>
+          </grid>
+          <grid width="7" user_class="search-block-grid" linked_to_default="Y" status="A" company_id="0" offset="0" omega="0" alpha="0" wrapper="" content_align="FULL_WIDTH" html_element="div" clear="0" extended="0" ab__show_in_tabs="N" ab__use_ajax="N">
+            <blocks>
+              <block>
+                <type><![CDATA[template]]></type>
+                <properties>
+                  <template><![CDATA[blocks/static_templates/search.tpl]]></template>
+                </properties>
+                <lang_code><![CDATA[en]]></lang_code>
+                <name><![CDATA[Search]]></name>
+                <object_id><![CDATA[0]]></object_id>
+                <object_type><![CDATA[]]></object_type>
+                <content><![CDATA[]]></content>
+                <object_ids><![CDATA[]]></object_ids>
+                <wrapper><![CDATA[]]></wrapper>
+                <user_class><![CDATA[top-search]]></user_class>
+                <order><![CDATA[0]]></order>
+                <status><![CDATA[A]]></status>
+                <translations/>
+                <contents/>
+              </block>
+            </blocks>
+          </grid>
+          <grid width="5" user_class="cart-content-grid" linked_to_default="Y" status="A" company_id="0" offset="0" omega="1" alpha="0" wrapper="" content_align="RIGHT" html_element="div" clear="1" extended="0" ab__show_in_tabs="N" ab__use_ajax="N">
+            <blocks>
+              <block>
+                <type><![CDATA[cart_content]]></type>
+                <properties>
+                  <template><![CDATA[blocks/cart_content.tpl]]></template>
+                  <display_bottom_buttons><![CDATA[Y]]></display_bottom_buttons>
+                  <display_delete_icons><![CDATA[Y]]></display_delete_icons>
+                  <products_links_type><![CDATA[thumb]]></products_links_type>
+                </properties>
+                <lang_code><![CDATA[en]]></lang_code>
+                <name><![CDATA[Cart content]]></name>
+                <object_id><![CDATA[0]]></object_id>
+                <object_type><![CDATA[]]></object_type>
+                <content><![CDATA[]]></content>
+                <object_ids><![CDATA[]]></object_ids>
+                <wrapper><![CDATA[]]></wrapper>
+                <user_class><![CDATA[top-cart-content]]></user_class>
+                <order><![CDATA[0]]></order>
+                <status><![CDATA[A]]></status>
+                <translations/>
+                <contents/>
+              </block>
+              <block>
+                <type><![CDATA[my_account]]></type>
+                <properties>
+                  <template><![CDATA[blocks/my_account.tpl]]></template>
+                </properties>
+                <lang_code><![CDATA[en]]></lang_code>
+                <name><![CDATA[Account]]></name>
+                <object_id><![CDATA[0]]></object_id>
+                <object_type><![CDATA[]]></object_type>
+                <content><![CDATA[]]></content>
+                <object_ids><![CDATA[]]></object_ids>
+                <wrapper><![CDATA[blocks/wrappers/onclick_dropdown.tpl]]></wrapper>
+                <user_class><![CDATA[top-my-account]]></user_class>
+                <order><![CDATA[1]]></order>
+                <status><![CDATA[A]]></status>
+                <translations/>
+                <contents/>
+              </block>
+              <block>
+                <type><![CDATA[smarty_block]]></type>
+                <properties>
+                  <template><![CDATA[blocks/smarty_block.tpl]]></template>
+                </properties>
+                <lang_code><![CDATA[en]]></lang_code>
+                <name><![CDATA[Search button from mobile]]></name>
+                <object_id><![CDATA[0]]></object_id>
+                <object_type><![CDATA[]]></object_type>
+                <content>
+                  <content><![CDATA[<a class="search-button-mobile" onclick="ShowSearch()"><i class="ty-icon-search"></i></a>
+<a class="close-button-mobile hidden" onclick="HideSearch()"><i class="uni-close"></i></a>]]></content>
+                </content>
+                <object_ids><![CDATA[]]></object_ids>
+                <wrapper><![CDATA[]]></wrapper>
+                <user_class><![CDATA[hidden search-button-grid]]></user_class>
+                <order><![CDATA[2]]></order>
+                <status><![CDATA[A]]></status>
+                <translations/>
+                <contents/>
+              </block>
+            </blocks>
+          </grid>
+        </grid>
+      </container>
+      <container container_id="903" location_id="226" position="CONTENT" width="16" user_class="content-grid" linked_to_default="Y" status="A" company_id="0">
+        <grid width="16" user_class="breadcrumbs-grid" linked_to_default="Y" status="A" company_id="0" offset="0" omega="1" alpha="1" wrapper="" content_align="FULL_WIDTH" html_element="div" clear="1" extended="E" ab__show_in_tabs="N" ab__use_ajax="N">
+          <blocks>
+            <block>
+              <type><![CDATA[breadcrumbs]]></type>
+              <properties>
+                <template><![CDATA[common/breadcrumbs.tpl]]></template>
+              </properties>
+              <lang_code><![CDATA[en]]></lang_code>
+              <name><![CDATA[Breadcrumbs]]></name>
+              <object_id><![CDATA[0]]></object_id>
+              <object_type><![CDATA[]]></object_type>
+              <content><![CDATA[]]></content>
+              <object_ids><![CDATA[]]></object_ids>
+              <wrapper><![CDATA[]]></wrapper>
+              <user_class><![CDATA[]]></user_class>
+              <order><![CDATA[0]]></order>
+              <status><![CDATA[A]]></status>
+              <translations/>
+              <contents/>
+            </block>
+          </blocks>
+        </grid>
+        <grid width="16" user_class="main-content-grid" linked_to_default="Y" status="A" company_id="0" offset="0" omega="1" alpha="1" wrapper="" content_align="FULL_WIDTH" html_element="div" clear="1" extended="O" ab__show_in_tabs="N" ab__use_ajax="N">
+          <blocks>
+            <block>
+              <type><![CDATA[main]]></type>
+              <properties><![CDATA[]]></properties>
+              <lang_code><![CDATA[en]]></lang_code>
+              <name><![CDATA[Main Content]]></name>
+              <object_id><![CDATA[0]]></object_id>
+              <object_type><![CDATA[]]></object_type>
+              <content><![CDATA[]]></content>
+              <object_ids><![CDATA[]]></object_ids>
+              <wrapper><![CDATA[]]></wrapper>
+              <user_class><![CDATA[]]></user_class>
+              <order><![CDATA[0]]></order>
+              <status><![CDATA[A]]></status>
+              <translations/>
+              <contents/>
+            </block>
+          </blocks>
+        </grid>
+      </container>
+      <container container_id="904" location_id="226" position="FOOTER" width="16" user_class="ty-footer-grid" linked_to_default="Y" status="A" company_id="0">
+        <grid width="16" user_class="ty-footer-grid__full-width ty-footer-menu" linked_to_default="Y" status="A" company_id="0" offset="0" omega="1" alpha="1" wrapper="" content_align="FULL_WIDTH" html_element="div" clear="1" extended="E" ab__show_in_tabs="N" ab__use_ajax="N">
+          <grid width="4" user_class="my-account-grid" linked_to_default="Y" status="A" company_id="0" offset="0" omega="0" alpha="1" wrapper="" content_align="LEFT" html_element="div" clear="0" extended="0" ab__show_in_tabs="N" ab__use_ajax="N">
+            <blocks>
+              <block>
+                <type><![CDATA[template]]></type>
+                <properties>
+                  <template><![CDATA[blocks/static_templates/my_account_links_advanced.tpl]]></template>
+                </properties>
+                <lang_code><![CDATA[en]]></lang_code>
+                <name><![CDATA[Bottom my account]]></name>
+                <object_id><![CDATA[0]]></object_id>
+                <object_type><![CDATA[]]></object_type>
+                <content><![CDATA[]]></content>
+                <object_ids><![CDATA[]]></object_ids>
+                <wrapper><![CDATA[blocks/wrappers/footer_general.tpl]]></wrapper>
+                <user_class><![CDATA[]]></user_class>
+                <order><![CDATA[0]]></order>
+                <status><![CDATA[A]]></status>
+                <translations/>
+                <contents/>
+              </block>
+            </blocks>
+          </grid>
+          <grid width="4" user_class="footer-store-grid" linked_to_default="Y" status="A" company_id="0" offset="0" omega="0" alpha="0" wrapper="" content_align="LEFT" html_element="div" clear="0" extended="0" ab__show_in_tabs="N" ab__use_ajax="N">
+            <blocks>
+              <block>
+                <type><![CDATA[menu]]></type>
+                <properties>
+                  <template><![CDATA[blocks/menu/text_links.tpl]]></template>
+                  <show_items_in_line><![CDATA[N]]></show_items_in_line>
+                </properties>
+                <lang_code><![CDATA[en]]></lang_code>
+                <name><![CDATA[Shop]]></name>
+                <object_id><![CDATA[0]]></object_id>
+                <object_type><![CDATA[]]></object_type>
+                <content>
+                  <menu><![CDATA[3]]></menu>
+                </content>
+                <object_ids><![CDATA[]]></object_ids>
+                <wrapper><![CDATA[blocks/wrappers/footer_general.tpl]]></wrapper>
+                <user_class><![CDATA[footer-menu-shop]]></user_class>
+                <order><![CDATA[0]]></order>
+                <status><![CDATA[A]]></status>
+                <translations/>
+                <contents/>
+              </block>
+            </blocks>
+          </grid>
+          <grid width="4" user_class="customer-service-grid" linked_to_default="Y" status="A" company_id="0" offset="0" omega="0" alpha="0" wrapper="" content_align="LEFT" html_element="div" clear="0" extended="0" ab__show_in_tabs="N" ab__use_ajax="N">
+            <blocks>
+              <block>
+                <type><![CDATA[menu]]></type>
+                <properties>
+                  <template><![CDATA[blocks/menu/text_links.tpl]]></template>
+                  <show_items_in_line><![CDATA[N]]></show_items_in_line>
+                </properties>
+                <lang_code><![CDATA[en]]></lang_code>
+                <name><![CDATA[Create order]]></name>
+                <object_id><![CDATA[0]]></object_id>
+                <object_type><![CDATA[]]></object_type>
+                <content>
+                  <menu><![CDATA[4]]></menu>
+                </content>
+                <object_ids><![CDATA[]]></object_ids>
+                <wrapper><![CDATA[blocks/wrappers/footer_general.tpl]]></wrapper>
+                <user_class><![CDATA[footer-menu-create-orders]]></user_class>
+                <order><![CDATA[0]]></order>
+                <status><![CDATA[A]]></status>
+                <translations/>
+                <contents/>
+              </block>
+            </blocks>
+          </grid>
+          <grid width="4" user_class="about-grid" linked_to_default="Y" status="A" company_id="0" offset="0" omega="1" alpha="0" wrapper="" content_align="LEFT" html_element="div" clear="1" extended="0" ab__show_in_tabs="N" ab__use_ajax="N">
+            <blocks>
+              <block>
+                <type><![CDATA[smarty_block]]></type>
+                <properties>
+                  <template><![CDATA[blocks/smarty_block.tpl]]></template>
+                </properties>
+                <lang_code><![CDATA[en]]></lang_code>
+                <name><![CDATA[About us]]></name>
+                <object_id><![CDATA[0]]></object_id>
+                <object_type><![CDATA[]]></object_type>
+                <content>
+                  <content><![CDATA[<ul>
+    <li>1600 Pennsylvania Avenue NW, Washington</li>
+    <li>8-800-000-00-00 (free toll)</li>
+    <li>Mon-Fri 9 am-6 pm</li>
+    <li><a class="ty-exception__links-a greeny" href="mailto:sales@demostore.ru">sales@demostore.ru</a></li>
+    <li><a href="{"pages.view?page_id=20"|fn_url}" class="ty-exception__links-a">View on map</a></li>
+</ul>]]></content>
+                </content>
+                <object_ids><![CDATA[]]></object_ids>
+                <wrapper><![CDATA[blocks/wrappers/footer_general.tpl]]></wrapper>
+                <user_class><![CDATA[footer-no-wysiwyg footer-contacts]]></user_class>
+                <order><![CDATA[0]]></order>
+                <status><![CDATA[A]]></status>
+                <translations/>
+                <contents/>
+              </block>
+            </blocks>
+          </grid>
+        </grid>
+        <grid width="16" user_class="ty-footer-grid__full-width footer-copyright" linked_to_default="Y" status="A" company_id="0" offset="0" omega="1" alpha="1" wrapper="" content_align="FULL_WIDTH" html_element="div" clear="1" extended="E" ab__show_in_tabs="N" ab__use_ajax="N">
+          <grid width="8" user_class="" linked_to_default="Y" status="A" company_id="0" offset="0" omega="0" alpha="1" wrapper="" content_align="FULL_WIDTH" html_element="div" clear="0" extended="0" ab__show_in_tabs="N" ab__use_ajax="N">
+            <blocks>
+              <block>
+                <type><![CDATA[template]]></type>
+                <properties>
+                  <template><![CDATA[blocks/static_templates/copyright.tpl]]></template>
+                </properties>
+                <lang_code><![CDATA[en]]></lang_code>
+                <name><![CDATA[Copyright]]></name>
+                <object_id><![CDATA[0]]></object_id>
+                <object_type><![CDATA[]]></object_type>
+                <content><![CDATA[]]></content>
+                <object_ids><![CDATA[]]></object_ids>
+                <wrapper><![CDATA[]]></wrapper>
+                <user_class><![CDATA[]]></user_class>
+                <order><![CDATA[0]]></order>
+                <status><![CDATA[A]]></status>
+                <translations/>
+                <contents/>
+              </block>
+            </blocks>
+          </grid>
+          <grid width="8" user_class="" linked_to_default="Y" status="A" company_id="0" offset="0" omega="1" alpha="0" wrapper="" content_align="RIGHT" html_element="div" clear="1" extended="0" ab__show_in_tabs="N" ab__use_ajax="N">
+            <blocks>
+              <block>
+                <type><![CDATA[template]]></type>
+                <properties>
+                  <template><![CDATA[blocks/static_templates/payment_icons.tpl]]></template>
+                </properties>
+                <lang_code><![CDATA[en]]></lang_code>
+                <name><![CDATA[Payment icons]]></name>
+                <object_id><![CDATA[0]]></object_id>
+                <object_type><![CDATA[]]></object_type>
+                <content><![CDATA[]]></content>
+                <object_ids><![CDATA[]]></object_ids>
+                <wrapper><![CDATA[]]></wrapper>
+                <user_class><![CDATA[]]></user_class>
+                <order><![CDATA[0]]></order>
+                <status><![CDATA[A]]></status>
+                <translations/>
+                <contents/>
+              </block>
+            </blocks>
+          </grid>
+        </grid>
+      </container>
+    </containers>
+    <translations/>
+  </location>
+  <location dispatch="index.index" is_default="0" layout_id="6" object_ids="" custom_html="" position="20" lang_code="en" name="Homepage" title="UniTheme - premium template for cs-cart" meta_description="UniTheme - premium template for cs-cart" meta_keywords="UniTheme, template, cs-cart">
+    <containers>
+      <container container_id="906" location_id="227" position="HEADER" width="16" user_class="header-grid" linked_to_default="N" status="A" company_id="0">
+        <grid width="16" user_class="" linked_to_default="N" status="A" company_id="0" offset="0" omega="1" alpha="1" wrapper="" content_align="FULL_WIDTH" html_element="div" clear="1" extended="0" ab__show_in_tabs="N" ab__use_ajax="N">
+          <grid width="4" user_class="top-logo-grid" linked_to_default="N" status="A" company_id="0" offset="0" omega="0" alpha="1" wrapper="" content_align="FULL_WIDTH" html_element="div" clear="0" extended="0" ab__show_in_tabs="N" ab__use_ajax="N">
+            <blocks>
+              <block>
+                <type><![CDATA[template]]></type>
+                <properties>
+                  <template><![CDATA[blocks/static_templates/logo.tpl]]></template>
+                </properties>
+                <lang_code><![CDATA[en]]></lang_code>
+                <name><![CDATA[Logo]]></name>
+                <object_id><![CDATA[0]]></object_id>
+                <object_type><![CDATA[]]></object_type>
+                <content><![CDATA[]]></content>
+                <object_ids><![CDATA[]]></object_ids>
+                <wrapper><![CDATA[]]></wrapper>
+                <user_class><![CDATA[top-logo]]></user_class>
+                <order><![CDATA[2]]></order>
+                <status><![CDATA[A]]></status>
+                <translations/>
+                <contents/>
+              </block>
+            </blocks>
+          </grid>
+          <grid width="7" user_class="top-links-menu-grid" linked_to_default="N" status="A" company_id="0" offset="0" omega="0" alpha="0" wrapper="" content_align="FULL_WIDTH" html_element="div" clear="0" extended="0" ab__show_in_tabs="N" ab__use_ajax="N">
+            <blocks>
+              <block>
+                <type><![CDATA[menu]]></type>
+                <properties>
+                  <template><![CDATA[blocks/menu/dropdown_horizontal.tpl]]></template>
+                  <dropdown_second_level_elements><![CDATA[0]]></dropdown_second_level_elements>
+                  <dropdown_third_level_elements><![CDATA[0]]></dropdown_third_level_elements>
+                  <dropdown_third_level_view><![CDATA[5]]></dropdown_third_level_view>
+                </properties>
+                <lang_code><![CDATA[en]]></lang_code>
+                <name><![CDATA[Top menu]]></name>
+                <object_id><![CDATA[0]]></object_id>
+                <object_type><![CDATA[]]></object_type>
+                <content>
+                  <menu><![CDATA[5]]></menu>
+                </content>
+                <object_ids><![CDATA[]]></object_ids>
+                <wrapper><![CDATA[]]></wrapper>
+                <user_class><![CDATA[]]></user_class>
+                <order><![CDATA[2]]></order>
+                <status><![CDATA[A]]></status>
+                <translations/>
+                <contents/>
+              </block>
+            </blocks>
+          </grid>
+          <grid width="5" user_class="top-phones-grid" linked_to_default="N" status="A" company_id="0" offset="0" omega="1" alpha="0" wrapper="" content_align="RIGHT" html_element="div" clear="1" extended="0" ab__show_in_tabs="N" ab__use_ajax="N">
+            <blocks>
+              <block>
+                <type><![CDATA[smarty_block]]></type>
+                <properties>
+                  <template><![CDATA[blocks/smarty_block.tpl]]></template>
+                </properties>
+                <lang_code><![CDATA[en]]></lang_code>
+                <name><![CDATA[Call requests]]></name>
+                <object_id><![CDATA[0]]></object_id>
+                <object_type><![CDATA[]]></object_type>
+                <content>
+                  <content><![CDATA[<div class="ty-cr-phone-number">
+<!-- <div class="ty-cr-work">{__("working_hours")}</div> -->
+<div class="ty-cr-phone"><a href="tel:+88000000000">+8(800) 0000000</a><br><a href="tel:+88000000000">+8(800) 0000000</a></div>
+<div class="ty-cr-phone-number-link">
+<div class="ty-cr-link"><a href="{"pages.view&page_id=20"|fn_url}">{__("Contacts")}</a></div>
+{if $addons.call_requests.status == "A"}<div class="ty-cr-link">{abt__ut_call_request}</div>{/if}
+</div>
+</div>]]></content>
+                </content>
+                <object_ids><![CDATA[]]></object_ids>
+                <wrapper><![CDATA[]]></wrapper>
+                <user_class><![CDATA[]]></user_class>
+                <order><![CDATA[2]]></order>
+                <status><![CDATA[A]]></status>
+                <translations/>
+                <contents/>
+              </block>
+              <block>
+                <type><![CDATA[template]]></type>
+                <properties>
+                  <template><![CDATA[blocks/static_templates/top_buttons.tpl]]></template>
+                </properties>
+                <lang_code><![CDATA[en]]></lang_code>
+                <name><![CDATA[Top buttons Wishlist - Compare]]></name>
+                <object_id><![CDATA[0]]></object_id>
+                <object_type><![CDATA[]]></object_type>
+                <content><![CDATA[]]></content>
+                <object_ids><![CDATA[]]></object_ids>
+                <wrapper><![CDATA[]]></wrapper>
+                <user_class><![CDATA[]]></user_class>
+                <order><![CDATA[3]]></order>
+                <status><![CDATA[A]]></status>
+                <translations/>
+                <contents/>
+              </block>
+            </blocks>
+          </grid>
+        </grid>
+        <grid width="16" user_class="top-menu-grid  small-grid top-menu" linked_to_default="N" status="A" company_id="0" offset="0" omega="1" alpha="1" wrapper="" content_align="FULL_WIDTH" html_element="div" clear="1" extended="O" ab__show_in_tabs="N" ab__use_ajax="N">
+          <grid width="4" user_class="vertical-menu-grid" linked_to_default="N" status="A" company_id="0" offset="0" omega="0" alpha="1" wrapper="" content_align="FULL_WIDTH" html_element="div" clear="0" extended="0" ab__show_in_tabs="N" ab__use_ajax="N">
+            <blocks>
+              <block>
+                <type><![CDATA[menu]]></type>
+                <properties>
+                  <template><![CDATA[blocks/menu/dropdown_horizontal_ab__un_mwi.tpl]]></template>
+                  <dropdown_second_level_elements><![CDATA[20]]></dropdown_second_level_elements>
+                  <dropdown_third_level_elements><![CDATA[20]]></dropdown_third_level_elements>
+                  <no_hidden_elements_second_level_view><![CDATA[5]]></no_hidden_elements_second_level_view>
+                  <elements_per_column_third_level_view><![CDATA[15]]></elements_per_column_third_level_view>
+                </properties>
+                <lang_code><![CDATA[en]]></lang_code>
+                <name><![CDATA[Product Categories]]></name>
+                <object_id><![CDATA[0]]></object_id>
+                <object_type><![CDATA[]]></object_type>
+                <content>
+                  <menu><![CDATA[2]]></menu>
+                </content>
+                <object_ids><![CDATA[]]></object_ids>
+                <wrapper><![CDATA[blocks/wrappers/ab__onclick_dropdown.tpl]]></wrapper>
+                <user_class><![CDATA[cat-menu-vertical hpo-menu open-menu]]></user_class>
+                <order><![CDATA[0]]></order>
+                <status><![CDATA[A]]></status>
+                <translations/>
+                <contents/>
+              </block>
+            </blocks>
+          </grid>
+          <grid width="7" user_class="search-block-grid" linked_to_default="N" status="A" company_id="0" offset="0" omega="0" alpha="0" wrapper="" content_align="FULL_WIDTH" html_element="div" clear="0" extended="0" ab__show_in_tabs="N" ab__use_ajax="N">
+            <blocks>
+              <block>
+                <type><![CDATA[template]]></type>
+                <properties>
+                  <template><![CDATA[blocks/static_templates/search.tpl]]></template>
+                </properties>
+                <lang_code><![CDATA[en]]></lang_code>
+                <name><![CDATA[Search]]></name>
+                <object_id><![CDATA[0]]></object_id>
+                <object_type><![CDATA[]]></object_type>
+                <content><![CDATA[]]></content>
+                <object_ids><![CDATA[]]></object_ids>
+                <wrapper><![CDATA[]]></wrapper>
+                <user_class><![CDATA[top-search]]></user_class>
+                <order><![CDATA[0]]></order>
+                <status><![CDATA[A]]></status>
+                <translations/>
+                <contents/>
+              </block>
+            </blocks>
+          </grid>
+          <grid width="5" user_class="cart-content-grid" linked_to_default="N" status="A" company_id="0" offset="0" omega="1" alpha="0" wrapper="" content_align="RIGHT" html_element="div" clear="1" extended="0" ab__show_in_tabs="N" ab__use_ajax="N">
+            <blocks>
+              <block>
+                <type><![CDATA[cart_content]]></type>
+                <properties>
+                  <template><![CDATA[blocks/cart_content.tpl]]></template>
+                  <display_bottom_buttons><![CDATA[Y]]></display_bottom_buttons>
+                  <display_delete_icons><![CDATA[Y]]></display_delete_icons>
+                  <products_links_type><![CDATA[thumb]]></products_links_type>
+                </properties>
+                <lang_code><![CDATA[en]]></lang_code>
+                <name><![CDATA[Cart content]]></name>
+                <object_id><![CDATA[0]]></object_id>
+                <object_type><![CDATA[]]></object_type>
+                <content><![CDATA[]]></content>
+                <object_ids><![CDATA[]]></object_ids>
+                <wrapper><![CDATA[]]></wrapper>
+                <user_class><![CDATA[top-cart-content]]></user_class>
+                <order><![CDATA[0]]></order>
+                <status><![CDATA[A]]></status>
+                <translations/>
+                <contents/>
+              </block>
+              <block>
+                <type><![CDATA[my_account]]></type>
+                <properties>
+                  <template><![CDATA[blocks/my_account.tpl]]></template>
+                </properties>
+                <lang_code><![CDATA[en]]></lang_code>
+                <name><![CDATA[Account]]></name>
+                <object_id><![CDATA[0]]></object_id>
+                <object_type><![CDATA[]]></object_type>
+                <content><![CDATA[]]></content>
+                <object_ids><![CDATA[]]></object_ids>
+                <wrapper><![CDATA[blocks/wrappers/onclick_dropdown.tpl]]></wrapper>
+                <user_class><![CDATA[top-my-account]]></user_class>
+                <order><![CDATA[1]]></order>
+                <status><![CDATA[A]]></status>
+                <translations/>
+                <contents/>
+              </block>
+              <block>
+                <type><![CDATA[smarty_block]]></type>
+                <properties>
+                  <template><![CDATA[blocks/smarty_block.tpl]]></template>
+                </properties>
+                <lang_code><![CDATA[en]]></lang_code>
+                <name><![CDATA[Search button from mobile]]></name>
+                <object_id><![CDATA[0]]></object_id>
+                <object_type><![CDATA[]]></object_type>
+                <content>
+                  <content><![CDATA[<a class="search-button-mobile" onclick="ShowSearch()"><i class="ty-icon-search"></i></a>
+<a class="close-button-mobile hidden" onclick="HideSearch()"><i class="uni-close"></i></a>]]></content>
+                </content>
+                <object_ids><![CDATA[]]></object_ids>
+                <wrapper><![CDATA[]]></wrapper>
+                <user_class><![CDATA[hidden search-button-grid]]></user_class>
+                <order><![CDATA[2]]></order>
+                <status><![CDATA[A]]></status>
+                <translations/>
+                <contents/>
+              </block>
+            </blocks>
+          </grid>
+        </grid>
+      </container>
+      <container container_id="907" location_id="227" position="CONTENT" width="16" user_class="content-grid" linked_to_default="Y" status="A" company_id="0">
+        <grid width="16" user_class="" linked_to_default="Y" status="A" company_id="0" offset="0" omega="1" alpha="1" wrapper="" content_align="FULL_WIDTH" html_element="div" clear="1" extended="O" ab__show_in_tabs="N" ab__use_ajax="N">
+          <grid width="16" user_class="hpo-banner open-menu-hpage-banners" linked_to_default="Y" status="A" company_id="0" offset="0" omega="1" alpha="1" wrapper="" content_align="FULL_WIDTH" html_element="div" clear="1" extended="0" ab__show_in_tabs="N" ab__use_ajax="N">
+            <blocks>
+              <block>
+                <type><![CDATA[banners]]></type>
+                <properties>
+                  <template><![CDATA[addons/ab__advanced_banners/blocks/abab_carousel_combined.tpl]]></template>
+                  <valign><![CDATA[center]]></valign>
+                  <align><![CDATA[left]]></align>
+                  <full_width_content><![CDATA[N]]></full_width_content>
+                  <margin><![CDATA[10px 0px 0px 0px]]></margin>
+                  <padding><![CDATA[40px]]></padding>
+                  <title_h><![CDATA[div]]></title_h>
+                  <title_font_size><![CDATA[30px]]></title_font_size>
+                  <shadow_title><![CDATA[Y]]></shadow_title>
+                  <desc_font_size><![CDATA[13px]]></desc_font_size>
+                  <conent_tr_bg><![CDATA[N]]></conent_tr_bg>
+                  <desc_mark_color><![CDATA[transparent]]></desc_mark_color>
+                  <min_height><![CDATA[400px]]></min_height>
+                  <navigation><![CDATA[D]]></navigation>
+                  <delay><![CDATA[3]]></delay>
+                </properties>
+                <lang_code><![CDATA[en]]></lang_code>
+                <name><![CDATA[The main banner is narrow (homepage)]]></name>
+                <object_id><![CDATA[0]]></object_id>
+                <object_type><![CDATA[]]></object_type>
+                <content>
+                  <items>
+                    <filling><![CDATA[manually]]></filling>
+                    <item_ids><![CDATA[20,21,22]]></item_ids>
+                  </items>
+                </content>
+                <object_ids><![CDATA[]]></object_ids>
+                <wrapper><![CDATA[]]></wrapper>
+                <user_class><![CDATA[]]></user_class>
+                <order><![CDATA[0]]></order>
+                <status><![CDATA[A]]></status>
+                <translations/>
+                <contents/>
+              </block>
+            </blocks>
+          </grid>
+        </grid>
+        <grid width="16" user_class="pd-all tabs-wrap" linked_to_default="Y" status="A" company_id="0" offset="0" omega="1" alpha="1" wrapper="" content_align="FULL_WIDTH" html_element="div" clear="1" extended="O" ab__show_in_tabs="N" ab__use_ajax="N">
+          <grid width="16" user_class="" linked_to_default="Y" status="A" company_id="0" offset="0" omega="1" alpha="1" wrapper="" content_align="FULL_WIDTH" html_element="div" clear="1" extended="0" ab__show_in_tabs="N" ab__use_ajax="N">
+            <blocks>
+              <block>
+                <type><![CDATA[html_block]]></type>
+                <properties>
+                  <template><![CDATA[blocks/html_block.tpl]]></template>
+                </properties>
+                <lang_code><![CDATA[en]]></lang_code>
+                <name><![CDATA[Hits / Best-sellers]]></name>
+                <object_id><![CDATA[0]]></object_id>
+                <object_type><![CDATA[]]></object_type>
+                <content>
+                  <content><![CDATA[ ]]></content>
+                </content>
+                <object_ids><![CDATA[]]></object_ids>
+                <wrapper><![CDATA[blocks/wrappers/mainbox_general_no_h1.tpl]]></wrapper>
+                <user_class><![CDATA[]]></user_class>
+                <order><![CDATA[0]]></order>
+                <status><![CDATA[A]]></status>
+                <translations/>
+                <contents/>
+              </block>
+            </blocks>
+          </grid>
+          <grid width="16" user_class="" linked_to_default="Y" status="A" company_id="0" offset="0" omega="1" alpha="1" wrapper="" content_align="FULL_WIDTH" html_element="div" clear="1" extended="0" ab__show_in_tabs="Y" ab__use_ajax="Y">
+            <blocks>
+              <block>
+                <type><![CDATA[products]]></type>
+                <properties>
+                  <template><![CDATA[blocks/products/products_scroller_advanced.tpl]]></template>
+                  <not_scroll_automatically><![CDATA[Y]]></not_scroll_automatically>
+                  <scroll_per_page><![CDATA[Y]]></scroll_per_page>
+                  <speed><![CDATA[400]]></speed>
+                  <pause_delay><![CDATA[5]]></pause_delay>
+                  <item_quantity><![CDATA[5]]></item_quantity>
+                  <hide_add_to_cart_button><![CDATA[Y]]></hide_add_to_cart_button>
+                </properties>
+                <lang_code><![CDATA[en]]></lang_code>
+                <name><![CDATA[Sale]]></name>
+                <object_id><![CDATA[0]]></object_id>
+                <object_type><![CDATA[]]></object_type>
+                <content>
+                  <items>
+                    <filling><![CDATA[on_sale]]></filling>
+                    <limit><![CDATA[10]]></limit>
+                    <cid><![CDATA[]]></cid>
+                  </items>
+                </content>
+                <object_ids><![CDATA[]]></object_ids>
+                <wrapper><![CDATA[]]></wrapper>
+                <user_class><![CDATA[]]></user_class>
+                <order><![CDATA[0]]></order>
+                <status><![CDATA[A]]></status>
+                <translations/>
+                <contents/>
+              </block>
+              <block>
+                <type><![CDATA[products]]></type>
+                <properties>
+                  <template><![CDATA[blocks/products/products_scroller_advanced.tpl]]></template>
+                  <not_scroll_automatically><![CDATA[Y]]></not_scroll_automatically>
+                  <scroll_per_page><![CDATA[Y]]></scroll_per_page>
+                  <speed><![CDATA[400]]></speed>
+                  <pause_delay><![CDATA[5]]></pause_delay>
+                  <item_quantity><![CDATA[5]]></item_quantity>
+                  <hide_add_to_cart_button><![CDATA[Y]]></hide_add_to_cart_button>
+                </properties>
+                <lang_code><![CDATA[en]]></lang_code>
+                <name><![CDATA[Most Popular]]></name>
+                <object_id><![CDATA[0]]></object_id>
+                <object_type><![CDATA[]]></object_type>
+                <content>
+                  <items>
+                    <filling><![CDATA[most_popular]]></filling>
+                    <limit><![CDATA[10]]></limit>
+                    <cid><![CDATA[]]></cid>
+                  </items>
+                </content>
+                <object_ids><![CDATA[]]></object_ids>
+                <wrapper><![CDATA[]]></wrapper>
+                <user_class><![CDATA[]]></user_class>
+                <order><![CDATA[1]]></order>
+                <status><![CDATA[A]]></status>
+                <translations/>
+                <contents/>
+              </block>
+              <block>
+                <type><![CDATA[products]]></type>
+                <properties>
+                  <template><![CDATA[blocks/products/products_scroller_advanced.tpl]]></template>
+                  <not_scroll_automatically><![CDATA[Y]]></not_scroll_automatically>
+                  <scroll_per_page><![CDATA[Y]]></scroll_per_page>
+                  <speed><![CDATA[400]]></speed>
+                  <pause_delay><![CDATA[5]]></pause_delay>
+                  <item_quantity><![CDATA[5]]></item_quantity>
+                  <hide_add_to_cart_button><![CDATA[Y]]></hide_add_to_cart_button>
+                </properties>
+                <lang_code><![CDATA[en]]></lang_code>
+                <name><![CDATA[Bestsellers]]></name>
+                <object_id><![CDATA[0]]></object_id>
+                <object_type><![CDATA[]]></object_type>
+                <content>
+                  <items>
+                    <filling><![CDATA[bestsellers]]></filling>
+                    <limit><![CDATA[10]]></limit>
+                    <cid><![CDATA[]]></cid>
+                  </items>
+                </content>
+                <object_ids><![CDATA[]]></object_ids>
+                <wrapper><![CDATA[]]></wrapper>
+                <user_class><![CDATA[]]></user_class>
+                <order><![CDATA[2]]></order>
+                <status><![CDATA[A]]></status>
+                <translations/>
+                <contents/>
+              </block>
+            </blocks>
+          </grid>
+        </grid>
+        <grid width="16" user_class="pd-bottom" linked_to_default="Y" status="A" company_id="0" offset="0" omega="1" alpha="1" wrapper="" content_align="FULL_WIDTH" html_element="div" clear="1" extended="O" ab__show_in_tabs="N" ab__use_ajax="N">
+          <blocks>
+            <block>
+              <type><![CDATA[ab__deal_of_the_day]]></type>
+              <properties>
+                <template><![CDATA[addons/ab__deal_of_the_day/blocks/ab__deal_of_the_day.tpl]]></template>
+                <show_price><![CDATA[Y]]></show_price>
+                <enable_quick_view><![CDATA[N]]></enable_quick_view>
+                <not_scroll_automatically><![CDATA[Y]]></not_scroll_automatically>
+                <scroll_per_page><![CDATA[N]]></scroll_per_page>
+                <speed><![CDATA[400]]></speed>
+                <pause_delay><![CDATA[3]]></pause_delay>
+                <item_quantity><![CDATA[3]]></item_quantity>
+                <thumbnail_width><![CDATA[80]]></thumbnail_width>
+                <outside_navigation><![CDATA[Y]]></outside_navigation>
+                <ab__show_additional_product_images><![CDATA[N]]></ab__show_additional_product_images>
+              </properties>
+              <lang_code><![CDATA[en]]></lang_code>
+              <name><![CDATA[Product of the day]]></name>
+              <object_id><![CDATA[0]]></object_id>
+              <object_type><![CDATA[]]></object_type>
+              <content>
+                <promotion>
+                  <filling><![CDATA[manually]]></filling>
+                  <item_ids><![CDATA[2]]></item_ids>
+                </promotion>
+              </content>
+              <object_ids><![CDATA[]]></object_ids>
+              <wrapper><![CDATA[]]></wrapper>
+              <user_class><![CDATA[]]></user_class>
+              <order><![CDATA[0]]></order>
+              <status><![CDATA[A]]></status>
+              <translations/>
+              <contents/>
+            </block>
+          </blocks>
+        </grid>
+        <grid width="16" user_class="pd-bottom" linked_to_default="Y" status="A" company_id="0" offset="0" omega="1" alpha="1" wrapper="" content_align="FULL_WIDTH" html_element="div" clear="1" extended="O" ab__show_in_tabs="N" ab__use_ajax="N">
+          <blocks>
+            <block>
+              <type><![CDATA[products]]></type>
+              <properties>
+                <template><![CDATA[blocks/products/products_multicolumns.tpl]]></template>
+                <item_number><![CDATA[N]]></item_number>
+                <number_of_columns><![CDATA[5]]></number_of_columns>
+                <hide_add_to_cart_button><![CDATA[Y]]></hide_add_to_cart_button>
+              </properties>
+              <lang_code><![CDATA[en]]></lang_code>
+              <name><![CDATA[Newest products]]></name>
+              <object_id><![CDATA[0]]></object_id>
+              <object_type><![CDATA[]]></object_type>
+              <content>
+                <items>
+                  <filling><![CDATA[newest]]></filling>
+                  <period><![CDATA[A]]></period>
+                  <last_days><![CDATA[1]]></last_days>
+                  <limit><![CDATA[5]]></limit>
+                  <cid><![CDATA[]]></cid>
+                </items>
+              </content>
+              <object_ids><![CDATA[]]></object_ids>
+              <wrapper><![CDATA[blocks/wrappers/mainbox_general_no_h1.tpl]]></wrapper>
+              <user_class><![CDATA[]]></user_class>
+              <order><![CDATA[2]]></order>
+              <status><![CDATA[A]]></status>
+              <translations/>
+              <contents/>
+            </block>
+          </blocks>
+        </grid>
+        <grid width="16" user_class="advanced-banners-grid b-top pd-all small-grid" linked_to_default="Y" status="A" company_id="0" offset="0" omega="1" alpha="1" wrapper="" content_align="FULL_WIDTH" html_element="div" clear="1" extended="E" ab__show_in_tabs="N" ab__use_ajax="N">
+          <grid width="8" user_class="" linked_to_default="Y" status="A" company_id="0" offset="0" omega="0" alpha="1" wrapper="" content_align="FULL_WIDTH" html_element="div" clear="0" extended="0" ab__show_in_tabs="N" ab__use_ajax="N">
+            <blocks>
+              <block>
+                <type><![CDATA[banners]]></type>
+                <properties>
+                  <template><![CDATA[addons/ab__advanced_banners/blocks/abab_combined.tpl]]></template>
+                  <valign><![CDATA[bottom]]></valign>
+                  <align><![CDATA[left]]></align>
+                  <full_width_content><![CDATA[Y]]></full_width_content>
+                  <margin><![CDATA[0px 0px 10px 0px]]></margin>
+                  <padding><![CDATA[20px 20px 20px 20px]]></padding>
+                  <title_h><![CDATA[div]]></title_h>
+                  <title_font_size><![CDATA[22px]]></title_font_size>
+                  <shadow_title><![CDATA[Y]]></shadow_title>
+                  <desc_font_size><![CDATA[14px]]></desc_font_size>
+                  <conent_tr_bg><![CDATA[N]]></conent_tr_bg>
+                  <desc_mark_color><![CDATA[#000000]]></desc_mark_color>
+                  <min_height><![CDATA[280px]]></min_height>
+                </properties>
+                <lang_code><![CDATA[en]]></lang_code>
+                <name><![CDATA[Banner #1]]></name>
+                <object_id><![CDATA[0]]></object_id>
+                <object_type><![CDATA[]]></object_type>
+                <content>
+                  <items>
+                    <filling><![CDATA[manually]]></filling>
+                    <item_ids><![CDATA[23]]></item_ids>
+                  </items>
+                </content>
+                <object_ids><![CDATA[]]></object_ids>
+                <wrapper><![CDATA[]]></wrapper>
+                <user_class><![CDATA[]]></user_class>
+                <order><![CDATA[2]]></order>
+                <status><![CDATA[A]]></status>
+                <translations/>
+                <contents/>
+              </block>
+            </blocks>
+          </grid>
+          <grid width="4" user_class="" linked_to_default="Y" status="A" company_id="0" offset="0" omega="0" alpha="0" wrapper="" content_align="FULL_WIDTH" html_element="div" clear="0" extended="0" ab__show_in_tabs="N" ab__use_ajax="N">
+            <blocks>
+              <block>
+                <type><![CDATA[banners]]></type>
+                <properties>
+                  <template><![CDATA[addons/ab__advanced_banners/blocks/abab_combined.tpl]]></template>
+                  <valign><![CDATA[bottom]]></valign>
+                  <align><![CDATA[left]]></align>
+                  <full_width_content><![CDATA[Y]]></full_width_content>
+                  <margin><![CDATA[0px 0px 0px 0px]]></margin>
+                  <padding><![CDATA[20px 20px 20px 20px]]></padding>
+                  <title_h><![CDATA[div]]></title_h>
+                  <title_font_size><![CDATA[22px]]></title_font_size>
+                  <shadow_title><![CDATA[Y]]></shadow_title>
+                  <desc_font_size><![CDATA[14px]]></desc_font_size>
+                  <conent_tr_bg><![CDATA[Y]]></conent_tr_bg>
+                  <desc_mark_color><![CDATA[transparent]]></desc_mark_color>
+                  <min_height><![CDATA[280px]]></min_height>
+                </properties>
+                <lang_code><![CDATA[en]]></lang_code>
+                <name><![CDATA[Banner #2]]></name>
+                <object_id><![CDATA[0]]></object_id>
+                <object_type><![CDATA[]]></object_type>
+                <content>
+                  <items>
+                    <filling><![CDATA[manually]]></filling>
+                    <item_ids><![CDATA[24]]></item_ids>
+                  </items>
+                </content>
+                <object_ids><![CDATA[]]></object_ids>
+                <wrapper><![CDATA[]]></wrapper>
+                <user_class><![CDATA[]]></user_class>
+                <order><![CDATA[2]]></order>
+                <status><![CDATA[A]]></status>
+                <translations/>
+                <contents/>
+              </block>
+            </blocks>
+          </grid>
+          <grid width="4" user_class="" linked_to_default="Y" status="A" company_id="0" offset="0" omega="1" alpha="0" wrapper="" content_align="FULL_WIDTH" html_element="div" clear="1" extended="0" ab__show_in_tabs="N" ab__use_ajax="N">
+            <blocks>
+              <block>
+                <type><![CDATA[banners]]></type>
+                <properties>
+                  <template><![CDATA[addons/ab__advanced_banners/blocks/abab_combined.tpl]]></template>
+                  <valign><![CDATA[bottom]]></valign>
+                  <align><![CDATA[left]]></align>
+                  <full_width_content><![CDATA[Y]]></full_width_content>
+                  <margin><![CDATA[0px 0px 0px 0px]]></margin>
+                  <padding><![CDATA[20px 20px 20px 20px]]></padding>
+                  <title_h><![CDATA[div]]></title_h>
+                  <title_font_size><![CDATA[22px]]></title_font_size>
+                  <shadow_title><![CDATA[Y]]></shadow_title>
+                  <desc_font_size><![CDATA[14px]]></desc_font_size>
+                  <conent_tr_bg><![CDATA[Y]]></conent_tr_bg>
+                  <desc_mark_color><![CDATA[transparent]]></desc_mark_color>
+                  <min_height><![CDATA[280px]]></min_height>
+                </properties>
+                <lang_code><![CDATA[en]]></lang_code>
+                <name><![CDATA[Banner #3]]></name>
+                <object_id><![CDATA[0]]></object_id>
+                <object_type><![CDATA[]]></object_type>
+                <content>
+                  <items>
+                    <filling><![CDATA[manually]]></filling>
+                    <item_ids><![CDATA[25]]></item_ids>
+                  </items>
+                </content>
+                <object_ids><![CDATA[]]></object_ids>
+                <wrapper><![CDATA[]]></wrapper>
+                <user_class><![CDATA[]]></user_class>
+                <order><![CDATA[2]]></order>
+                <status><![CDATA[A]]></status>
+                <translations/>
+                <contents/>
+              </block>
+            </blocks>
+          </grid>
+          <grid width="4" user_class="" linked_to_default="Y" status="A" company_id="0" offset="0" omega="0" alpha="1" wrapper="" content_align="FULL_WIDTH" html_element="div" clear="0" extended="0" ab__show_in_tabs="N" ab__use_ajax="N">
+            <blocks>
+              <block>
+                <type><![CDATA[banners]]></type>
+                <properties>
+                  <template><![CDATA[addons/ab__advanced_banners/blocks/abab_combined.tpl]]></template>
+                  <valign><![CDATA[bottom]]></valign>
+                  <align><![CDATA[left]]></align>
+                  <full_width_content><![CDATA[Y]]></full_width_content>
+                  <margin><![CDATA[0px 0px 0px 0px]]></margin>
+                  <padding><![CDATA[20px 20px 20px 20px]]></padding>
+                  <title_h><![CDATA[div]]></title_h>
+                  <title_font_size><![CDATA[22px]]></title_font_size>
+                  <shadow_title><![CDATA[Y]]></shadow_title>
+                  <desc_font_size><![CDATA[14px]]></desc_font_size>
+                  <conent_tr_bg><![CDATA[N]]></conent_tr_bg>
+                  <desc_mark_color><![CDATA[#000000]]></desc_mark_color>
+                  <min_height><![CDATA[280px]]></min_height>
+                </properties>
+                <lang_code><![CDATA[en]]></lang_code>
+                <name><![CDATA[Banner #4]]></name>
+                <object_id><![CDATA[0]]></object_id>
+                <object_type><![CDATA[]]></object_type>
+                <content>
+                  <items>
+                    <filling><![CDATA[manually]]></filling>
+                    <item_ids><![CDATA[26]]></item_ids>
+                  </items>
+                </content>
+                <object_ids><![CDATA[]]></object_ids>
+                <wrapper><![CDATA[]]></wrapper>
+                <user_class><![CDATA[]]></user_class>
+                <order><![CDATA[2]]></order>
+                <status><![CDATA[A]]></status>
+                <translations/>
+                <contents/>
+              </block>
+            </blocks>
+          </grid>
+          <grid width="4" user_class="" linked_to_default="Y" status="A" company_id="0" offset="0" omega="0" alpha="0" wrapper="" content_align="FULL_WIDTH" html_element="div" clear="0" extended="0" ab__show_in_tabs="N" ab__use_ajax="N">
+            <blocks>
+              <block>
+                <type><![CDATA[banners]]></type>
+                <properties>
+                  <template><![CDATA[addons/ab__advanced_banners/blocks/abab_combined.tpl]]></template>
+                  <valign><![CDATA[bottom]]></valign>
+                  <align><![CDATA[left]]></align>
+                  <full_width_content><![CDATA[Y]]></full_width_content>
+                  <margin><![CDATA[0px 0px 0px 0px]]></margin>
+                  <padding><![CDATA[20px 20px 20px 20px]]></padding>
+                  <title_h><![CDATA[div]]></title_h>
+                  <title_font_size><![CDATA[22px]]></title_font_size>
+                  <shadow_title><![CDATA[Y]]></shadow_title>
+                  <desc_font_size><![CDATA[14px]]></desc_font_size>
+                  <conent_tr_bg><![CDATA[Y]]></conent_tr_bg>
+                  <desc_mark_color><![CDATA[transparent]]></desc_mark_color>
+                  <min_height><![CDATA[280px]]></min_height>
+                </properties>
+                <lang_code><![CDATA[en]]></lang_code>
+                <name><![CDATA[Banner #5]]></name>
+                <object_id><![CDATA[0]]></object_id>
+                <object_type><![CDATA[]]></object_type>
+                <content>
+                  <items>
+                    <filling><![CDATA[manually]]></filling>
+                    <item_ids><![CDATA[27]]></item_ids>
+                  </items>
+                </content>
+                <object_ids><![CDATA[]]></object_ids>
+                <wrapper><![CDATA[]]></wrapper>
+                <user_class><![CDATA[]]></user_class>
+                <order><![CDATA[2]]></order>
+                <status><![CDATA[A]]></status>
+                <translations/>
+                <contents/>
+              </block>
+            </blocks>
+          </grid>
+          <grid width="8" user_class="" linked_to_default="Y" status="A" company_id="0" offset="0" omega="1" alpha="0" wrapper="" content_align="FULL_WIDTH" html_element="div" clear="1" extended="0" ab__show_in_tabs="N" ab__use_ajax="N">
+            <blocks>
+              <block>
+                <type><![CDATA[banners]]></type>
+                <properties>
+                  <template><![CDATA[addons/ab__advanced_banners/blocks/abab_combined.tpl]]></template>
+                  <valign><![CDATA[bottom]]></valign>
+                  <align><![CDATA[left]]></align>
+                  <full_width_content><![CDATA[Y]]></full_width_content>
+                  <margin><![CDATA[0px 0px 0px 0px]]></margin>
+                  <padding><![CDATA[20px 20px 20px 20px]]></padding>
+                  <title_h><![CDATA[div]]></title_h>
+                  <title_font_size><![CDATA[22px]]></title_font_size>
+                  <shadow_title><![CDATA[Y]]></shadow_title>
+                  <desc_font_size><![CDATA[14px]]></desc_font_size>
+                  <conent_tr_bg><![CDATA[N]]></conent_tr_bg>
+                  <desc_mark_color><![CDATA[#000000]]></desc_mark_color>
+                  <min_height><![CDATA[280px]]></min_height>
+                </properties>
+                <lang_code><![CDATA[en]]></lang_code>
+                <name><![CDATA[Banner #6]]></name>
+                <object_id><![CDATA[0]]></object_id>
+                <object_type><![CDATA[]]></object_type>
+                <content>
+                  <items>
+                    <filling><![CDATA[manually]]></filling>
+                    <item_ids><![CDATA[28]]></item_ids>
+                  </items>
+                </content>
+                <object_ids><![CDATA[]]></object_ids>
+                <wrapper><![CDATA[]]></wrapper>
+                <user_class><![CDATA[]]></user_class>
+                <order><![CDATA[2]]></order>
+                <status><![CDATA[A]]></status>
+                <translations/>
+                <contents/>
+              </block>
+            </blocks>
+          </grid>
+        </grid>
+        <grid width="16" user_class="extendet-reviews pd-all gray-block" linked_to_default="Y" status="A" company_id="0" offset="0" omega="1" alpha="1" wrapper="" content_align="FULL_WIDTH" html_element="div" clear="1" extended="E" ab__show_in_tabs="N" ab__use_ajax="N">
+          <blocks>
+            <block>
+              <type><![CDATA[blog]]></type>
+              <properties>
+                <template><![CDATA[addons/blog/blocks/recent_posts_advanced.tpl]]></template>
+              </properties>
+              <lang_code><![CDATA[en]]></lang_code>
+              <name><![CDATA[Reviews news]]></name>
+              <object_id><![CDATA[0]]></object_id>
+              <object_type><![CDATA[]]></object_type>
+              <content>
+                <items>
+                  <filling><![CDATA[blog.recent_posts_scroller]]></filling>
+                  <parent_page_id><![CDATA[]]></parent_page_id>
+                  <period><![CDATA[A]]></period>
+                </items>
+              </content>
+              <object_ids><![CDATA[]]></object_ids>
+              <wrapper><![CDATA[blocks/wrappers/mainbox_general_no_h1.tpl]]></wrapper>
+              <user_class><![CDATA[]]></user_class>
+              <order><![CDATA[2]]></order>
+              <status><![CDATA[A]]></status>
+              <translations/>
+              <contents/>
+            </block>
+          </blocks>
+        </grid>
+        <grid width="16" user_class="stok-promo-grid pd-all" linked_to_default="Y" status="A" company_id="0" offset="0" omega="1" alpha="1" wrapper="" content_align="FULL_WIDTH" html_element="div" clear="1" extended="E" ab__show_in_tabs="N" ab__use_ajax="N">
+          <blocks>
+            <block>
+              <type><![CDATA[blog]]></type>
+              <properties>
+                <template><![CDATA[addons/blog/blocks/recent_posts_scroller.tpl]]></template>
+                <limit><![CDATA[10]]></limit>
+                <not_scroll_automatically><![CDATA[Y]]></not_scroll_automatically>
+                <speed><![CDATA[400]]></speed>
+                <pause_delay><![CDATA[5]]></pause_delay>
+                <item_quantity><![CDATA[5]]></item_quantity>
+                <outside_navigation><![CDATA[Y]]></outside_navigation>
+              </properties>
+              <lang_code><![CDATA[en]]></lang_code>
+              <name><![CDATA[Our news]]></name>
+              <object_id><![CDATA[0]]></object_id>
+              <object_type><![CDATA[]]></object_type>
+              <content>
+                <items>
+                  <filling><![CDATA[blog.recent_posts_scroller]]></filling>
+                  <parent_page_id><![CDATA[48]]></parent_page_id>
+                  <period><![CDATA[A]]></period>
+                </items>
+              </content>
+              <object_ids><![CDATA[]]></object_ids>
+              <wrapper><![CDATA[blocks/wrappers/mainbox_general_no_h1.tpl]]></wrapper>
+              <user_class><![CDATA[]]></user_class>
+              <order><![CDATA[0]]></order>
+              <status><![CDATA[D]]></status>
+              <translations/>
+              <contents/>
+            </block>
+            <block>
+              <type><![CDATA[ab__promotions]]></type>
+              <properties>
+                <template><![CDATA[addons/ab__deal_of_the_day/blocks/promotions/ab__dotd_scroller.tpl]]></template>
+                <not_scroll_automatically><![CDATA[Y]]></not_scroll_automatically>
+                <speed><![CDATA[400]]></speed>
+                <pause_delay><![CDATA[3]]></pause_delay>
+                <item_quantity><![CDATA[4]]></item_quantity>
+                <outside_navigation><![CDATA[Y]]></outside_navigation>
+              </properties>
+              <lang_code><![CDATA[en]]></lang_code>
+              <name><![CDATA[Active promotions]]></name>
+              <object_id><![CDATA[0]]></object_id>
+              <object_type><![CDATA[]]></object_type>
+              <content>
+                <items>
+                  <filling><![CDATA[ab__dotd_sorted_promotions]]></filling>
+                  <sort_by><![CDATA[]]></sort_by>
+                  <sort_order><![CDATA[desc]]></sort_order>
+                  <limit><![CDATA[8]]></limit>
+                </items>
+              </content>
+              <object_ids><![CDATA[]]></object_ids>
+              <wrapper><![CDATA[blocks/wrappers/mainbox_general_no_h1.tpl]]></wrapper>
+              <user_class><![CDATA[]]></user_class>
+              <order><![CDATA[1]]></order>
+              <status><![CDATA[A]]></status>
+              <translations/>
+              <contents/>
+            </block>
+          </blocks>
+        </grid>
+        <grid width="16" user_class="pd-top" linked_to_default="Y" status="A" company_id="0" offset="0" omega="1" alpha="1" wrapper="" content_align="FULL_WIDTH" html_element="div" clear="1" extended="E" ab__show_in_tabs="N" ab__use_ajax="N">
+          <blocks>
+            <block>
+              <type><![CDATA[html_block]]></type>
+              <properties>
+                <template><![CDATA[blocks/html_block.tpl]]></template>
+              </properties>
+              <lang_code><![CDATA[en]]></lang_code>
+              <name><![CDATA[About company]]></name>
+              <object_id><![CDATA[0]]></object_id>
+              <object_type><![CDATA[]]></object_type>
+              <content>
+                <content><![CDATA[<p>A site that sells products online. Allows users to create a purchase order, choose a payment method and deliver the order on the Internet. Having chosen the necessary goods or services, the user usually has the opportunity to select a method of payment and delivery on the site right away.</p><p>The main difference between the Internet store and the traditional one is in the type of the trading platform. A typical store needs a trading hall, shop windows, price tags, as well as sellers, cashiers and experienced consultants, the online store has the entire infrastructure implemented programmatically.</p>]]></content>
+              </content>
+              <object_ids><![CDATA[]]></object_ids>
+              <wrapper><![CDATA[blocks/wrappers/mainbox_general_no_h1.tpl]]></wrapper>
+              <user_class><![CDATA[about-company-desc]]></user_class>
+              <order><![CDATA[2]]></order>
+              <status><![CDATA[A]]></status>
+              <translations/>
+              <contents/>
+            </block>
+          </blocks>
+        </grid>
+        <grid width="16" user_class="footer-stay-connected pd-top" linked_to_default="Y" status="A" company_id="0" offset="0" omega="1" alpha="1" wrapper="" content_align="FULL_WIDTH" html_element="div" clear="1" extended="O" ab__show_in_tabs="N" ab__use_ajax="N">
+          <grid width="8" user_class="ty-grid" linked_to_default="Y" status="A" company_id="0" offset="0" omega="0" alpha="1" wrapper="" content_align="FULL_WIDTH" html_element="div" clear="0" extended="0" ab__show_in_tabs="N" ab__use_ajax="N">
+            <blocks>
+              <block>
+                <type><![CDATA[template]]></type>
+                <properties>
+                  <template><![CDATA[blocks/static_templates/subscribe_advanced.tpl]]></template>
+                </properties>
+                <lang_code><![CDATA[en]]></lang_code>
+                <name><![CDATA[Subscribe]]></name>
+                <object_id><![CDATA[0]]></object_id>
+                <object_type><![CDATA[]]></object_type>
+                <content><![CDATA[]]></content>
+                <object_ids><![CDATA[]]></object_ids>
+                <wrapper><![CDATA[]]></wrapper>
+                <user_class><![CDATA[]]></user_class>
+                <order><![CDATA[0]]></order>
+                <status><![CDATA[A]]></status>
+                <translations/>
+                <contents/>
+              </block>
+            </blocks>
+          </grid>
+          <grid width="8" user_class="ty-grid" linked_to_default="Y" status="A" company_id="0" offset="0" omega="1" alpha="0" wrapper="" content_align="FULL_WIDTH" html_element="div" clear="1" extended="0" ab__show_in_tabs="N" ab__use_ajax="N">
+            <blocks>
+              <block>
+                <type><![CDATA[smarty_block]]></type>
+                <properties>
+                  <template><![CDATA[blocks/smarty_block.tpl]]></template>
+                </properties>
+                <lang_code><![CDATA[en]]></lang_code>
+                <name><![CDATA[Social links]]></name>
+                <object_id><![CDATA[0]]></object_id>
+                <object_type><![CDATA[]]></object_type>
+                <content>
+                  <content><![CDATA[<div class="ty-social-link-block"><div class="ty-mainbox-title">{__("get_social")}</div>
+<div class="ty-uppercase ty-social-link__title">Join to our group <br>And the first to know all the interesting promotions and offers!</div>
+
+<div class="ty-social-link facebook">
+    <a target="_blank" href="/"><i class="uni-facebook"></i></a>
+</div>
+<div class="ty-social-link vk">
+    <a  target="_blank" href="/"><i class="uni-vk"></i></a>
+</div>
+<div class="ty-social-link twitter">
+    <a  target="_blank" href="/"><i class="uni-twitter"></i></a>
+</div>
+<div class="ty-social-link google-plus">
+    <a  target="_blank" href="/"><i class="uni-google-plus"></i></a>
+</div>
+<div class="ty-social-link youtube">
+    <a  target="_blank" href="/"><i class="uni-youtube"></i></a>
+</div>
+<div class="ty-social-link linkedin">
+    <a  target="_blank" href="/"><i class="uni-linkedin"></i></a>
+</div>
+<div class="ty-social-link telegram">
+    <a  target="_blank" href="/"><i class="uni-telegram"></i></a>
+</div>
+<div class="ty-social-link dribbble">
+    <a  target="_blank" href="/"><i class="uni-dribbble"></i></a>
+</div>
+
+</div>]]></content>
+                </content>
+                <object_ids><![CDATA[]]></object_ids>
+                <wrapper><![CDATA[]]></wrapper>
+                <user_class><![CDATA[]]></user_class>
+                <order><![CDATA[0]]></order>
+                <status><![CDATA[A]]></status>
+                <translations/>
+                <contents/>
+              </block>
+            </blocks>
+          </grid>
+        </grid>
+      </container>
+      <container container_id="908" location_id="227" position="FOOTER" width="16" user_class="" linked_to_default="Y" status="A" company_id="0"/>
+      <container container_id="905" location_id="227" position="TOP_PANEL" width="16" user_class="" linked_to_default="Y" status="A" company_id="0"/>
+    </containers>
+    <translations/>
+  </location>
+  <location dispatch="products.view" is_default="0" layout_id="6" object_ids="" custom_html="" position="30" lang_code="en" name="Products" title="" meta_description="" meta_keywords="">
+    <containers>
+      <container container_id="912" location_id="228" position="FOOTER" width="16" user_class="" linked_to_default="Y" status="A" company_id="0">
+        <grid width="16" user_class="" linked_to_default="Y" status="A" company_id="0" offset="0" omega="0" alpha="0" wrapper="" content_align="FULL_WIDTH" html_element="div" clear="0" extended="0" ab__show_in_tabs="N" ab__use_ajax="N"/>
+      </container>
+      <container container_id="911" location_id="228" position="CONTENT" width="16" user_class="content-grid" linked_to_default="Y" status="A" company_id="0">
+        <grid width="16" user_class="main-content-grid row-container" linked_to_default="Y" status="A" company_id="0" offset="0" omega="1" alpha="1" wrapper="" content_align="FULL_WIDTH" html_element="div" clear="1" extended="O" ab__show_in_tabs="N" ab__use_ajax="N">
+          <grid width="16" user_class="" linked_to_default="Y" status="A" company_id="0" offset="0" omega="1" alpha="1" wrapper="" content_align="FULL_WIDTH" html_element="div" clear="1" extended="0" ab__show_in_tabs="N" ab__use_ajax="N">
+            <blocks>
+              <block>
+                <type><![CDATA[main]]></type>
+                <properties><![CDATA[]]></properties>
+                <lang_code><![CDATA[en]]></lang_code>
+                <name><![CDATA[Main Content]]></name>
+                <object_id><![CDATA[0]]></object_id>
+                <object_type><![CDATA[]]></object_type>
+                <content><![CDATA[]]></content>
+                <object_ids><![CDATA[]]></object_ids>
+                <wrapper><![CDATA[]]></wrapper>
+                <user_class><![CDATA[]]></user_class>
+                <order><![CDATA[2]]></order>
+                <status><![CDATA[A]]></status>
+                <translations/>
+                <contents/>
+              </block>
+            </blocks>
+          </grid>
+        </grid>
+        <grid width="16" user_class="gray-block pd-all" linked_to_default="Y" status="A" company_id="0" offset="0" omega="1" alpha="1" wrapper="" content_align="FULL_WIDTH" html_element="div" clear="1" extended="E" ab__show_in_tabs="N" ab__use_ajax="N">
+          <grid width="16" user_class="" linked_to_default="Y" status="A" company_id="0" offset="0" omega="1" alpha="1" wrapper="" content_align="FULL_WIDTH" html_element="div" clear="1" extended="0" ab__show_in_tabs="N" ab__use_ajax="N">
+            <blocks>
+              <block>
+                <type><![CDATA[html_block]]></type>
+                <properties>
+                  <template><![CDATA[blocks/html_block.tpl]]></template>
+                </properties>
+                <lang_code><![CDATA[en]]></lang_code>
+                <name><![CDATA[Possibly you may be interested]]></name>
+                <object_id><![CDATA[0]]></object_id>
+                <object_type><![CDATA[]]></object_type>
+                <content>
+                  <content><![CDATA[&nbsp;]]></content>
+                </content>
+                <object_ids><![CDATA[]]></object_ids>
+                <wrapper><![CDATA[blocks/wrappers/mainbox_general_no_h1.tpl]]></wrapper>
+                <user_class><![CDATA[]]></user_class>
+                <order><![CDATA[2]]></order>
+                <status><![CDATA[A]]></status>
+                <translations/>
+                <contents/>
+              </block>
+            </blocks>
+          </grid>
+          <grid width="16" user_class="" linked_to_default="Y" status="A" company_id="0" offset="0" omega="1" alpha="1" wrapper="" content_align="FULL_WIDTH" html_element="div" clear="1" extended="0" ab__show_in_tabs="Y" ab__use_ajax="Y">
+            <blocks>
+              <block>
+                <type><![CDATA[products]]></type>
+                <properties>
+                  <template><![CDATA[blocks/products/products_scroller_advanced.tpl]]></template>
+                  <not_scroll_automatically><![CDATA[N]]></not_scroll_automatically>
+                  <scroll_per_page><![CDATA[N]]></scroll_per_page>
+                  <speed><![CDATA[400]]></speed>
+                  <pause_delay><![CDATA[5]]></pause_delay>
+                  <item_quantity><![CDATA[5]]></item_quantity>
+                  <hide_add_to_cart_button><![CDATA[Y]]></hide_add_to_cart_button>
+                </properties>
+                <lang_code><![CDATA[en]]></lang_code>
+                <name><![CDATA[Similar products]]></name>
+                <object_id><![CDATA[0]]></object_id>
+                <object_type><![CDATA[]]></object_type>
+                <content>
+                  <items>
+                    <filling><![CDATA[similar]]></filling>
+                    <limit><![CDATA[10]]></limit>
+                    <percent_range><![CDATA[]]></percent_range>
+                    <similar_category><![CDATA[Y]]></similar_category>
+                    <similar_subcats><![CDATA[N]]></similar_subcats>
+                    <similar_in_stock><![CDATA[Y]]></similar_in_stock>
+                  </items>
+                </content>
+                <object_ids><![CDATA[]]></object_ids>
+                <wrapper><![CDATA[]]></wrapper>
+                <user_class><![CDATA[]]></user_class>
+                <order><![CDATA[1]]></order>
+                <status><![CDATA[A]]></status>
+                <translations/>
+                <contents/>
+              </block>
+              <block>
+                <type><![CDATA[products]]></type>
+                <properties>
+                  <template><![CDATA[blocks/products/products_scroller_advanced.tpl]]></template>
+                  <not_scroll_automatically><![CDATA[Y]]></not_scroll_automatically>
+                  <scroll_per_page><![CDATA[N]]></scroll_per_page>
+                  <speed><![CDATA[400]]></speed>
+                  <pause_delay><![CDATA[5]]></pause_delay>
+                  <item_quantity><![CDATA[5]]></item_quantity>
+                  <hide_add_to_cart_button><![CDATA[Y]]></hide_add_to_cart_button>
+                </properties>
+                <lang_code><![CDATA[en]]></lang_code>
+                <name><![CDATA[Recently Viewed]]></name>
+                <object_id><![CDATA[0]]></object_id>
+                <object_type><![CDATA[]]></object_type>
+                <content>
+                  <items>
+                    <filling><![CDATA[recent_products]]></filling>
+                    <limit><![CDATA[10]]></limit>
+                  </items>
+                </content>
+                <object_ids><![CDATA[]]></object_ids>
+                <wrapper><![CDATA[]]></wrapper>
+                <user_class><![CDATA[]]></user_class>
+                <order><![CDATA[2]]></order>
+                <status><![CDATA[A]]></status>
+                <translations/>
+                <contents/>
+              </block>
+            </blocks>
+          </grid>
+        </grid>
+        <grid width="16" user_class="" linked_to_default="Y" status="A" company_id="0" offset="0" omega="1" alpha="1" wrapper="" content_align="FULL_WIDTH" html_element="div" clear="1" extended="O" ab__show_in_tabs="N" ab__use_ajax="N">
+          <grid width="16" user_class="" linked_to_default="Y" status="A" company_id="0" offset="0" omega="1" alpha="1" wrapper="" content_align="FULL_WIDTH" html_element="div" clear="1" extended="0" ab__show_in_tabs="N" ab__use_ajax="N">
+            <blocks>
+              <block>
+                <type><![CDATA[smarty_block]]></type>
+                <properties>
+                  <template><![CDATA[blocks/smarty_block.tpl]]></template>
+                </properties>
+                <lang_code><![CDATA[en]]></lang_code>
+                <name><![CDATA[Benefits]]></name>
+                <object_id><![CDATA[0]]></object_id>
+                <object_type><![CDATA[]]></object_type>
+                <content>
+                  <content><![CDATA[<div class="row-fluid benefits">
+    <div class="span5 benefit delivery">
+        <i class="uni-delivery-truck"></i>
+        <div class="content">
+            <header><a href="/oplata-i-dostavka/" rel="nofollow">Fast and high quality delivery</a></header>
+            <p>Our company makes delivery all over the country</p>
+        </div>
+    </div><div class="span6 benefit warranty">
+        <i class="uni-shield"></i>
+        <div class="content">
+            <header><a href="/garantiya-nizkoy-ceny/" rel="nofollow">Quality assurance and service</a></header>
+            <p>We offer only those goods, in which quality we are sure</p>
+        </div>
+    </div><div class="span5 benefit exchange">
+        <i class="uni-money"></i>
+        <div class="content">
+            <header><a href="/vozvrat//" rel="nofollow">Returns within 30 days</a></header>
+            <p>You have 30 days to test your purchase</p>
+        </div>
+    </div>
+</div>]]></content>
+                </content>
+                <object_ids><![CDATA[]]></object_ids>
+                <wrapper><![CDATA[]]></wrapper>
+                <user_class><![CDATA[]]></user_class>
+                <order><![CDATA[0]]></order>
+                <status><![CDATA[A]]></status>
+                <translations/>
+                <contents/>
+              </block>
+              <block>
+                <type><![CDATA[smarty_block]]></type>
+                <properties>
+                  <template><![CDATA[blocks/smarty_block.tpl]]></template>
+                </properties>
+                <lang_code><![CDATA[en]]></lang_code>
+                <name><![CDATA[Motivational block]]></name>
+                <object_id><![CDATA[0]]></object_id>
+                <object_type><![CDATA[]]></object_type>
+                <content>
+                  <content><![CDATA[<div class="ty-product-infoblock-dropdown">
+
+    <div id="sw_elm_delivery" class="pib-title cm-combination">
+        <i class="uni-icon uni-delivery-truck"></i><em>Delivery</em>
+    </div>
+
+    <div id="elm_delivery" class="pib-content cm-popup-box" style="display: none;">
+        <ul>
+            <li>For USA - $10</li>
+            <li>Worldwide - from $30</li>
+        </ul>
+    </div>
+
+    <div id="sw_elm_payments" class="pib-title cm-combination">
+        <i class="uni-icon uni-business"></i><em>Payment options</em>
+    </div>
+
+    <div id="elm_payments" class="pib-content cm-popup-box" style="display: none;">
+        <ul>
+            <li>Cash on delivery</li>
+            <li>Visa and MasterCard</li>
+            <li>Сashless payments</li>
+            <li>Invoices</li>
+        </ul>
+    </div>
+
+    <div id="sw_elm_benefits" class="pib-title cm-combination open active">
+        <em>Our advantages</em>
+    </div>
+
+    <div id="elm_benefits" class="pib-content cm-popup-box">
+        <p><i class="uni-icon uni-shield2"></i> <a class="cm-tooltip" title="Guarantee for all products in our store is 12 months">12 months warranty</a><span class="desktop-hidden">Guarantee for all purchased goods in our online store is 12 months</span></p>
+        <p><i class="uni-icon uni-smartphone"></i> <a class="cm-tooltip" title="You receive SMS messages about each stage of your order.">SMS notification</a><span class="desktop-hidden">You receive SMS messages about each stage of your order.</span></p>
+        <p><i class="uni-icon uni-refresh2"></i> <a class="cm-tooltip" title="You can return the items purchased within 14 days. The goods must be in normal condition and have all the factory packages.">Return and exchange - no problem</a><span class="desktop-hidden">Вы можете вернуть купленные товары в течение 14 дней. Товар должнен быть в нормальном состоянии и иметь все заводские упаковки.</span></p>
+        <p><i class="uni-icon uni-money2"></i> <a class="cm-tooltip" title="Pay orders in convenient ways: cash to the courier, by bank transfer on the receipt of the bank or by credit card right at the time of the order.">Different payment methods</a><span class="desktop-hidden">Pay orders in convenient ways: cash to the courier, by bank transfer on the receipt of the bank or by credit card right at the time of the order.</span></p>
+        <p><i class="uni-icon uni-big-star"></i> <a class="cm-tooltip" title="We are proud of our prices, hundreds of customers check them every day, which give a choice to our online store!">Best price</a><span class="desktop-hidden">We are proud of our prices, hundreds of customers check them every day, which give a choice to our online store!</span></p>
+    </div>
+
+</div>]]></content>
+                </content>
+                <object_ids><![CDATA[]]></object_ids>
+                <wrapper><![CDATA[]]></wrapper>
+                <user_class><![CDATA[]]></user_class>
+                <order><![CDATA[0]]></order>
+                <status><![CDATA[D]]></status>
+                <translations/>
+                <contents/>
+              </block>
+            </blocks>
+          </grid>
+        </grid>
+      </container>
+      <container container_id="909" location_id="228" position="TOP_PANEL" width="16" user_class="" linked_to_default="Y" status="A" company_id="0">
+        <grid width="16" user_class="" linked_to_default="Y" status="A" company_id="0" offset="0" omega="0" alpha="0" wrapper="" content_align="FULL_WIDTH" html_element="div" clear="0" extended="0" ab__show_in_tabs="N" ab__use_ajax="N"/>
+      </container>
+      <container container_id="910" location_id="228" position="HEADER" width="16" user_class="" linked_to_default="Y" status="A" company_id="0"/>
+    </containers>
+    <translations/>
+  </location>
+  <location dispatch="categories.view" is_default="0" layout_id="6" object_ids="" custom_html="" position="40" lang_code="en" name="Categories" title="" meta_description="" meta_keywords="">
+    <containers>
+      <container container_id="916" location_id="229" position="FOOTER" width="16" user_class="" linked_to_default="Y" status="A" company_id="0">
+        <grid width="16" user_class="" linked_to_default="Y" status="A" company_id="0" offset="0" omega="0" alpha="0" wrapper="" content_align="FULL_WIDTH" html_element="div" clear="0" extended="0" ab__show_in_tabs="N" ab__use_ajax="N"/>
+      </container>
+      <container container_id="915" location_id="229" position="CONTENT" width="16" user_class="content-grid categories_grid" linked_to_default="Y" status="A" company_id="0">
+        <grid width="16" user_class="" linked_to_default="Y" status="A" company_id="0" offset="0" omega="1" alpha="1" wrapper="" content_align="FULL_WIDTH" html_element="div" clear="1" extended="0" ab__show_in_tabs="N" ab__use_ajax="N">
+          <grid width="12" user_class="main-content-grid" linked_to_default="Y" status="A" company_id="0" offset="0" omega="0" alpha="1" wrapper="" content_align="FULL_WIDTH" html_element="div" clear="0" extended="0" ab__show_in_tabs="N" ab__use_ajax="N">
+            <blocks>
+              <block>
+                <type><![CDATA[main]]></type>
+                <properties><![CDATA[]]></properties>
+                <lang_code><![CDATA[en]]></lang_code>
+                <name><![CDATA[Main Content]]></name>
+                <object_id><![CDATA[0]]></object_id>
+                <object_type><![CDATA[]]></object_type>
+                <content><![CDATA[]]></content>
+                <object_ids><![CDATA[]]></object_ids>
+                <wrapper><![CDATA[blocks/wrappers/mainbox_general.tpl]]></wrapper>
+                <user_class><![CDATA[]]></user_class>
+                <order><![CDATA[4]]></order>
+                <status><![CDATA[A]]></status>
+                <translations/>
+                <contents/>
+              </block>
+            </blocks>
+          </grid>
+		  <grid width="4" user_class="side-grid cat-sub-col" linked_to_default="Y" status="A" offset="0" omega="1" alpha="0" wrapper="" content_align="FULL_WIDTH" html_element="div" clear="1" extended="O" ab__show_in_tabs="N" ab__use_ajax="N">
+	          <grid width="4" user_class="abt__ut__flying_block cat-menu-vertical" linked_to_default="Y" status="A" offset="0" omega="1" alpha="1" wrapper="" content_align="FULL_WIDTH" html_element="div" clear="1" extended="O" ab__show_in_tabs="N" ab__use_ajax="N">
+	            <blocks>
+	              <block>
+	                <type><![CDATA[ut_advanced_subcategories_menu]]></type>
+	                <properties>
+	                  <template><![CDATA[addons/abt__unitheme/blocks/abt_advanced_subcategories_menu.tpl]]></template>
+	                </properties>
+	                <lang_code><![CDATA[en]]></lang_code>
+	                <name><![CDATA[Subcategories menu]]></name>
+	                <object_id><![CDATA[0]]></object_id>
+	                <object_type><![CDATA[]]></object_type>
+	                <object_ids><![CDATA[]]></object_ids>
+	                <wrapper><![CDATA[blocks/wrappers/mainbox_general_no_h1.tpl]]></wrapper>
+	                  <user_class><![CDATA[subcategories-grid]]></user_class>
+	                <order><![CDATA[0]]></order>
+	                <status><![CDATA[A]]></status>
+	                <translations>
+	                  <translation lang_code="ru"><![CDATA[Уточнить категорию]]></translation>
+	                </translations>
+	                <contents>
+	                  <item>
+	                    <object_id><![CDATA[0]]></object_id>
+	                    <object_type><![CDATA[]]></object_type>
+	                    <lang_code><![CDATA[ru]]></lang_code>
+	                    <content>
+	                      <items>
+	                        <filling><![CDATA[manually]]></filling>
+	                        <item_ids><![CDATA[]]></item_ids>
+	                      </items>
+	                    </content>
+	                  </item>
+	                </contents>
+	              </block>
+	            </blocks>
+	          </grid>
+            <grid width="4" user_class="abt__ut__flying_block cat-product-filters" linked_to_default="Y" status="A" company_id="0" offset="0" omega="1" alpha="1" wrapper="" content_align="FULL_WIDTH" html_element="div" clear="1" extended="0" ab__show_in_tabs="N" ab__use_ajax="N">
+              <blocks>
+                <block>
+                  <type><![CDATA[product_filters]]></type>
+                  <properties>
+                    <template><![CDATA[blocks/product_filters/original.tpl]]></template>
+                  </properties>
+                  <lang_code><![CDATA[en]]></lang_code>
+                  <name><![CDATA[Product filters]]></name>
+                  <object_id><![CDATA[0]]></object_id>
+                  <object_type><![CDATA[]]></object_type>
+                  <content>
+                    <items>
+                      <filling><![CDATA[manually]]></filling>
+                      <item_ids><![CDATA[]]></item_ids>
+                    </items>
+                  </content>
+                  <object_ids><![CDATA[]]></object_ids>
+                  <wrapper><![CDATA[blocks/wrappers/mainbox_general_no_h1.tpl]]></wrapper>
+                  <user_class><![CDATA[]]></user_class>
+                  <order><![CDATA[2]]></order>
+                  <status><![CDATA[A]]></status>
+                  <translations/>
+                  <contents/>
+                </block>
+              </blocks>
+            </grid>
+            <grid width="4" user_class="" linked_to_default="Y" status="A" company_id="0" offset="0" omega="1" alpha="1" wrapper="" content_align="FULL_WIDTH" html_element="div" clear="1" extended="0" ab__show_in_tabs="N" ab__use_ajax="N">
+              <blocks>
+                <block>
+                  <type><![CDATA[products]]></type>
+                  <properties>
+                    <template><![CDATA[blocks/products/products_small_items.tpl]]></template>
+                    <item_number><![CDATA[Y]]></item_number>
+                    <hide_add_to_cart_button><![CDATA[Y]]></hide_add_to_cart_button>
+                  </properties>
+                  <lang_code><![CDATA[en]]></lang_code>
+                  <name><![CDATA[Bestsellers]]></name>
+                  <object_id><![CDATA[0]]></object_id>
+                  <object_type><![CDATA[]]></object_type>
+                  <content>
+                    <items>
+                      <filling><![CDATA[manually]]></filling>
+                      <item_ids><![CDATA[258,259,260,261,262]]></item_ids>
+                    </items>
+                  </content>
+                  <object_ids><![CDATA[]]></object_ids>
+                  <wrapper><![CDATA[blocks/wrappers/sidebox_general.tpl]]></wrapper>
+                  <user_class><![CDATA[]]></user_class>
+                  <order><![CDATA[0]]></order>
+                  <status><![CDATA[A]]></status>
+                  <translations/>
+                  <contents/>
+                </block>
+              </blocks>
+            </grid>
+          </grid>
+        </grid>
+      </container>
+      <container container_id="913" location_id="229" position="TOP_PANEL" width="16" user_class="" linked_to_default="Y" status="A" company_id="0">
+        <grid width="16" user_class="" linked_to_default="Y" status="A" company_id="0" offset="0" omega="0" alpha="0" wrapper="" content_align="FULL_WIDTH" html_element="div" clear="0" extended="0" ab__show_in_tabs="N" ab__use_ajax="N"/>
+      </container>
+      <container container_id="914" location_id="229" position="HEADER" width="16" user_class="" linked_to_default="Y" status="A" company_id="0"/>
+    </containers>
+    <translations/>
+  </location>
+  <location dispatch="checkout.cart" is_default="0" layout_id="6" object_ids="" custom_html="" position="50" lang_code="en" name="Cart" title="" meta_description="" meta_keywords="">
+    <containers>
+      <container container_id="917" location_id="230" position="TOP_PANEL" width="16" user_class="" linked_to_default="Y" status="A" company_id="0">
+        <grid width="16" user_class="" linked_to_default="Y" status="A" company_id="0" offset="0" omega="1" alpha="1" wrapper="" content_align="FULL_WIDTH" html_element="div" clear="0" extended="0" ab__show_in_tabs="N" ab__use_ajax="N"/>
+      </container>
+      <container container_id="918" location_id="230" position="HEADER" width="16" user_class="" linked_to_default="Y" status="A" company_id="0"/>
+      <container container_id="919" location_id="230" position="CONTENT" width="16" user_class="content-grid" linked_to_default="Y" status="A" company_id="0">
+        <grid width="16" user_class="breadcrumbs-grid" linked_to_default="Y" status="A" company_id="0" offset="0" omega="1" alpha="1" wrapper="" content_align="FULL_WIDTH" html_element="div" clear="1" extended="E" ab__show_in_tabs="N" ab__use_ajax="N">
+          <blocks>
+            <block>
+              <type><![CDATA[breadcrumbs]]></type>
+              <properties>
+                <template><![CDATA[common/breadcrumbs.tpl]]></template>
+              </properties>
+              <lang_code><![CDATA[en]]></lang_code>
+              <name><![CDATA[Breadcrumbs]]></name>
+              <object_id><![CDATA[0]]></object_id>
+              <object_type><![CDATA[]]></object_type>
+              <content><![CDATA[]]></content>
+              <object_ids><![CDATA[]]></object_ids>
+              <wrapper><![CDATA[]]></wrapper>
+              <user_class><![CDATA[]]></user_class>
+              <order><![CDATA[0]]></order>
+              <status><![CDATA[A]]></status>
+              <translations/>
+              <contents/>
+            </block>
+          </blocks>
+        </grid>
+        <grid width="16" user_class="main-content-grid" linked_to_default="Y" status="A" company_id="0" offset="0" omega="1" alpha="1" wrapper="" content_align="FULL_WIDTH" html_element="div" clear="1" extended="0" ab__show_in_tabs="N" ab__use_ajax="N">
+          <blocks>
+            <block>
+              <type><![CDATA[main]]></type>
+              <properties><![CDATA[]]></properties>
+              <lang_code><![CDATA[en]]></lang_code>
+              <name><![CDATA[Main Content]]></name>
+              <object_id><![CDATA[0]]></object_id>
+              <object_type><![CDATA[]]></object_type>
+              <content><![CDATA[]]></content>
+              <object_ids><![CDATA[]]></object_ids>
+              <wrapper><![CDATA[blocks/wrappers/mainbox_general.tpl]]></wrapper>
+              <user_class><![CDATA[]]></user_class>
+              <order><![CDATA[0]]></order>
+              <status><![CDATA[A]]></status>
+              <translations/>
+              <contents/>
+            </block>
+          </blocks>
+        </grid>
+      </container>
+      <container container_id="920" location_id="230" position="FOOTER" width="16" user_class="" linked_to_default="Y" status="A" company_id="0">
+        <grid width="16" user_class="" linked_to_default="Y" status="A" company_id="0" offset="0" omega="0" alpha="0" wrapper="" content_align="FULL_WIDTH" html_element="div" clear="0" extended="0" ab__show_in_tabs="N" ab__use_ajax="N"/>
+      </container>
+    </containers>
+    <translations/>
+  </location>
+  <location dispatch="checkout" is_default="0" layout_id="6" object_ids="" custom_html="" position="60" lang_code="en" name="Checkout" title="" meta_description="" meta_keywords="">
+    <containers>
+      <container container_id="921" location_id="231" position="TOP_PANEL" width="16" user_class="" linked_to_default="Y" status="A" company_id="0">
+        <grid width="16" user_class="" linked_to_default="Y" status="A" company_id="0" offset="0" omega="0" alpha="0" wrapper="" content_align="FULL_WIDTH" html_element="div" clear="0" extended="0" ab__show_in_tabs="N" ab__use_ajax="N"/>
+      </container>
+      <container container_id="922" location_id="231" position="HEADER" width="16" user_class="" linked_to_default="Y" status="A" company_id="0"/>
+      <container container_id="923" location_id="231" position="CONTENT" width="16" user_class="content-grid" linked_to_default="Y" status="A" company_id="0">
+        <grid width="12" user_class="main-content-grid" linked_to_default="Y" status="A" company_id="0" offset="0" omega="0" alpha="1" wrapper="" content_align="FULL_WIDTH" html_element="div" clear="0" extended="0" ab__show_in_tabs="N" ab__use_ajax="N">
+          <blocks>
+            <block>
+              <type><![CDATA[main]]></type>
+              <properties><![CDATA[]]></properties>
+              <lang_code><![CDATA[en]]></lang_code>
+              <name><![CDATA[Main Content]]></name>
+              <object_id><![CDATA[0]]></object_id>
+              <object_type><![CDATA[]]></object_type>
+              <content><![CDATA[]]></content>
+              <object_ids><![CDATA[]]></object_ids>
+              <wrapper><![CDATA[blocks/wrappers/mainbox_general.tpl]]></wrapper>
+              <user_class><![CDATA[]]></user_class>
+              <order><![CDATA[1]]></order>
+              <status><![CDATA[A]]></status>
+              <translations/>
+              <contents/>
+            </block>
+          </blocks>
+        </grid>
+        <grid width="4" user_class="side-grid" linked_to_default="Y" status="A" company_id="0" offset="0" omega="1" alpha="0" wrapper="" content_align="FULL_WIDTH" html_element="div" clear="1" extended="0" ab__show_in_tabs="N" ab__use_ajax="N">
+          <blocks>
+            <block>
+              <type><![CDATA[checkout]]></type>
+              <properties>
+                <template><![CDATA[blocks/checkout/summary.tpl]]></template>
+              </properties>
+              <lang_code><![CDATA[en]]></lang_code>
+              <name><![CDATA[Order summary]]></name>
+              <object_id><![CDATA[0]]></object_id>
+              <object_type><![CDATA[]]></object_type>
+              <content><![CDATA[]]></content>
+              <object_ids><![CDATA[]]></object_ids>
+              <wrapper><![CDATA[blocks/wrappers/sidebox_general.tpl]]></wrapper>
+              <user_class><![CDATA[ty-order-summary]]></user_class>
+              <order><![CDATA[0]]></order>
+              <status><![CDATA[A]]></status>
+              <translations/>
+              <contents/>
+            </block>
+            <block>
+              <type><![CDATA[checkout]]></type>
+              <properties>
+                <template><![CDATA[blocks/checkout/products_in_cart.tpl]]></template>
+              </properties>
+              <lang_code><![CDATA[en]]></lang_code>
+              <name><![CDATA[Products in your order]]></name>
+              <object_id><![CDATA[0]]></object_id>
+              <object_type><![CDATA[]]></object_type>
+              <content><![CDATA[]]></content>
+              <object_ids><![CDATA[]]></object_ids>
+              <wrapper><![CDATA[blocks/wrappers/sidebox_general.tpl]]></wrapper>
+              <user_class><![CDATA[order-products]]></user_class>
+              <order><![CDATA[0]]></order>
+              <status><![CDATA[A]]></status>
+              <translations/>
+              <contents/>
+            </block>
+            <block>
+              <type><![CDATA[checkout]]></type>
+              <properties>
+                <template><![CDATA[blocks/checkout/order_info.tpl]]></template>
+              </properties>
+              <lang_code><![CDATA[en]]></lang_code>
+              <name><![CDATA[Order information]]></name>
+              <object_id><![CDATA[0]]></object_id>
+              <object_type><![CDATA[]]></object_type>
+              <content><![CDATA[]]></content>
+              <object_ids><![CDATA[]]></object_ids>
+              <wrapper><![CDATA[blocks/wrappers/sidebox_general.tpl]]></wrapper>
+              <user_class><![CDATA[order-information]]></user_class>
+              <order><![CDATA[0]]></order>
+              <status><![CDATA[A]]></status>
+              <translations/>
+              <contents/>
+            </block>
+          </blocks>
+        </grid>
+      </container>
+      <container container_id="924" location_id="231" position="FOOTER" width="16" user_class="" linked_to_default="Y" status="A" company_id="0">
+        <grid width="16" user_class="" linked_to_default="Y" status="A" company_id="0" offset="0" omega="0" alpha="0" wrapper="" content_align="FULL_WIDTH" html_element="div" clear="0" extended="0" ab__show_in_tabs="N" ab__use_ajax="N"/>
+      </container>
+    </containers>
+    <translations/>
+  </location>
+  <location dispatch="auth" is_default="0" layout_id="6" object_ids="" custom_html="" position="70" lang_code="en" name="Auth" title="" meta_description="" meta_keywords="">
+    <containers>
+      <container container_id="925" location_id="232" position="TOP_PANEL" width="16" user_class="" linked_to_default="Y" status="A" company_id="0"/>
+      <container container_id="926" location_id="232" position="HEADER" width="16" user_class="" linked_to_default="Y" status="A" company_id="0"/>
+      <container container_id="927" location_id="232" position="CONTENT" width="16" user_class="content-grid" linked_to_default="Y" status="A" company_id="0">
+        <grid width="16" user_class="breadcrumbs-grid" linked_to_default="Y" status="A" company_id="0" offset="0" omega="1" alpha="1" wrapper="" content_align="FULL_WIDTH" html_element="div" clear="1" extended="E" ab__show_in_tabs="N" ab__use_ajax="N">
+          <blocks>
+            <block>
+              <type><![CDATA[breadcrumbs]]></type>
+              <properties>
+                <template><![CDATA[common/breadcrumbs.tpl]]></template>
+              </properties>
+              <lang_code><![CDATA[en]]></lang_code>
+              <name><![CDATA[Breadcrumbs]]></name>
+              <object_id><![CDATA[0]]></object_id>
+              <object_type><![CDATA[]]></object_type>
+              <content><![CDATA[]]></content>
+              <object_ids><![CDATA[]]></object_ids>
+              <wrapper><![CDATA[]]></wrapper>
+              <user_class><![CDATA[]]></user_class>
+              <order><![CDATA[0]]></order>
+              <status><![CDATA[A]]></status>
+              <translations/>
+              <contents/>
+            </block>
+          </blocks>
+        </grid>
+        <grid width="8" user_class="main-content-grid" linked_to_default="Y" status="A" company_id="0" offset="0" omega="0" alpha="1" wrapper="" content_align="FULL_WIDTH" html_element="div" clear="0" extended="0" ab__show_in_tabs="N" ab__use_ajax="N">
+          <blocks>
+            <block>
+              <type><![CDATA[main]]></type>
+              <properties><![CDATA[]]></properties>
+              <lang_code><![CDATA[en]]></lang_code>
+              <name><![CDATA[Main Content]]></name>
+              <object_id><![CDATA[0]]></object_id>
+              <object_type><![CDATA[]]></object_type>
+              <content><![CDATA[]]></content>
+              <object_ids><![CDATA[]]></object_ids>
+              <wrapper><![CDATA[blocks/wrappers/mainbox_general.tpl]]></wrapper>
+              <user_class><![CDATA[]]></user_class>
+              <order><![CDATA[0]]></order>
+              <status><![CDATA[A]]></status>
+              <translations/>
+              <contents/>
+            </block>
+          </blocks>
+        </grid>
+        <grid width="8" user_class="auth-information-grid" linked_to_default="Y" status="A" company_id="0" offset="0" omega="1" alpha="0" wrapper="" content_align="FULL_WIDTH" html_element="div" clear="1" extended="0" ab__show_in_tabs="N" ab__use_ajax="N">
+          <blocks>
+            <block>
+              <type><![CDATA[template]]></type>
+              <properties>
+                <template><![CDATA[blocks/static_templates/auth_info.tpl]]></template>
+              </properties>
+              <lang_code><![CDATA[en]]></lang_code>
+              <name><![CDATA[Auth information]]></name>
+              <object_id><![CDATA[0]]></object_id>
+              <object_type><![CDATA[]]></object_type>
+              <content><![CDATA[]]></content>
+              <object_ids><![CDATA[]]></object_ids>
+              <wrapper><![CDATA[]]></wrapper>
+              <user_class><![CDATA[]]></user_class>
+              <order><![CDATA[0]]></order>
+              <status><![CDATA[A]]></status>
+              <translations/>
+              <contents/>
+            </block>
+          </blocks>
+        </grid>
+      </container>
+      <container container_id="928" location_id="232" position="FOOTER" width="16" user_class="" linked_to_default="Y" status="A" company_id="0"/>
+    </containers>
+    <translations/>
+  </location>
+  <location dispatch="profiles" is_default="0" layout_id="6" object_ids="" custom_html="" position="80" lang_code="en" name="Profiles" title="" meta_description="" meta_keywords="">
+    <containers>
+      <container container_id="929" location_id="233" position="TOP_PANEL" width="16" user_class="" linked_to_default="Y" status="A" company_id="0"/>
+      <container container_id="930" location_id="233" position="HEADER" width="16" user_class="" linked_to_default="Y" status="A" company_id="0"/>
+      <container container_id="931" location_id="233" position="CONTENT" width="16" user_class="content-grid" linked_to_default="Y" status="A" company_id="0">
+        <grid width="16" user_class="breadcrumbs-grid" linked_to_default="Y" status="A" company_id="0" offset="0" omega="1" alpha="1" wrapper="" content_align="FULL_WIDTH" html_element="div" clear="1" extended="E" ab__show_in_tabs="N" ab__use_ajax="N">
+          <blocks>
+            <block>
+              <type><![CDATA[breadcrumbs]]></type>
+              <properties>
+                <template><![CDATA[common/breadcrumbs.tpl]]></template>
+              </properties>
+              <lang_code><![CDATA[en]]></lang_code>
+              <name><![CDATA[Breadcrumbs]]></name>
+              <object_id><![CDATA[0]]></object_id>
+              <object_type><![CDATA[]]></object_type>
+              <content><![CDATA[]]></content>
+              <object_ids><![CDATA[]]></object_ids>
+              <wrapper><![CDATA[]]></wrapper>
+              <user_class><![CDATA[]]></user_class>
+              <order><![CDATA[0]]></order>
+              <status><![CDATA[A]]></status>
+              <translations/>
+              <contents/>
+            </block>
+          </blocks>
+        </grid>
+        <grid width="8" user_class="main-content-grid" linked_to_default="Y" status="A" company_id="0" offset="0" omega="0" alpha="1" wrapper="" content_align="FULL_WIDTH" html_element="div" clear="0" extended="0" ab__show_in_tabs="N" ab__use_ajax="N">
+          <blocks>
+            <block>
+              <type><![CDATA[main]]></type>
+              <properties><![CDATA[]]></properties>
+              <lang_code><![CDATA[en]]></lang_code>
+              <name><![CDATA[Main Content]]></name>
+              <object_id><![CDATA[0]]></object_id>
+              <object_type><![CDATA[]]></object_type>
+              <content><![CDATA[]]></content>
+              <object_ids><![CDATA[]]></object_ids>
+              <wrapper><![CDATA[blocks/wrappers/mainbox_general.tpl]]></wrapper>
+              <user_class><![CDATA[]]></user_class>
+              <order><![CDATA[2]]></order>
+              <status><![CDATA[A]]></status>
+              <translations/>
+              <contents/>
+            </block>
+          </blocks>
+        </grid>
+        <grid width="8" user_class="profile-information-grid" linked_to_default="Y" status="A" company_id="0" offset="0" omega="1" alpha="0" wrapper="" content_align="FULL_WIDTH" html_element="div" clear="1" extended="0" ab__show_in_tabs="N" ab__use_ajax="N">
+          <blocks>
+            <block>
+              <type><![CDATA[template]]></type>
+              <properties>
+                <template><![CDATA[blocks/static_templates/profile_info.tpl]]></template>
+              </properties>
+              <lang_code><![CDATA[en]]></lang_code>
+              <name><![CDATA[Profile information]]></name>
+              <object_id><![CDATA[0]]></object_id>
+              <object_type><![CDATA[]]></object_type>
+              <content><![CDATA[]]></content>
+              <object_ids><![CDATA[]]></object_ids>
+              <wrapper><![CDATA[]]></wrapper>
+              <user_class><![CDATA[]]></user_class>
+              <order><![CDATA[0]]></order>
+              <status><![CDATA[A]]></status>
+              <translations/>
+              <contents/>
+            </block>
+          </blocks>
+        </grid>
+      </container>
+      <container container_id="932" location_id="233" position="FOOTER" width="16" user_class="" linked_to_default="Y" status="A" company_id="0"/>
+    </containers>
+    <translations/>
+  </location>
+  <location dispatch="profiles.success_add" is_default="0" layout_id="6" object_ids="" custom_html="" position="90" lang_code="en" name="Successful registration" title="" meta_description="" meta_keywords="">
+    <containers>
+      <container container_id="933" location_id="234" position="TOP_PANEL" width="16" user_class="" linked_to_default="Y" status="A" company_id="0"/>
+      <container container_id="934" location_id="234" position="HEADER" width="16" user_class="" linked_to_default="Y" status="A" company_id="0"/>
+      <container container_id="935" location_id="234" position="CONTENT" width="16" user_class="content-grid" linked_to_default="Y" status="A" company_id="0">
+        <grid width="16" user_class="main-content-grid" linked_to_default="Y" status="A" company_id="0" offset="0" omega="1" alpha="1" wrapper="" content_align="FULL_WIDTH" html_element="div" clear="1" extended="E" ab__show_in_tabs="N" ab__use_ajax="N">
+          <blocks>
+            <block>
+              <type><![CDATA[breadcrumbs]]></type>
+              <properties>
+                <template><![CDATA[common/breadcrumbs.tpl]]></template>
+              </properties>
+              <lang_code><![CDATA[en]]></lang_code>
+              <name><![CDATA[Breadcrumbs]]></name>
+              <object_id><![CDATA[0]]></object_id>
+              <object_type><![CDATA[]]></object_type>
+              <content><![CDATA[]]></content>
+              <object_ids><![CDATA[]]></object_ids>
+              <wrapper><![CDATA[]]></wrapper>
+              <user_class><![CDATA[]]></user_class>
+              <order><![CDATA[0]]></order>
+              <status><![CDATA[A]]></status>
+              <translations/>
+              <contents/>
+            </block>
+            <block>
+              <type><![CDATA[main]]></type>
+              <properties><![CDATA[]]></properties>
+              <lang_code><![CDATA[en]]></lang_code>
+              <name><![CDATA[Main Content]]></name>
+              <object_id><![CDATA[0]]></object_id>
+              <object_type><![CDATA[]]></object_type>
+              <content><![CDATA[]]></content>
+              <object_ids><![CDATA[]]></object_ids>
+              <wrapper><![CDATA[blocks/wrappers/mainbox_general.tpl]]></wrapper>
+              <user_class><![CDATA[]]></user_class>
+              <order><![CDATA[1]]></order>
+              <status><![CDATA[A]]></status>
+              <translations/>
+              <contents/>
+            </block>
+          </blocks>
+        </grid>
+      </container>
+      <container container_id="936" location_id="234" position="FOOTER" width="16" user_class="" linked_to_default="Y" status="A" company_id="0"/>
+    </containers>
+    <translations/>
+  </location>
+  <location dispatch="checkout.complete" is_default="0" layout_id="6" object_ids="" custom_html="" position="100" lang_code="en" name="Order landing page" title="" meta_description="" meta_keywords="">
+    <containers>
+      <container container_id="937" location_id="235" position="TOP_PANEL" width="16" user_class="" linked_to_default="Y" status="A" company_id="0">
+        <grid width="16" user_class="" linked_to_default="Y" status="A" company_id="0" offset="0" omega="0" alpha="0" wrapper="" content_align="FULL_WIDTH" html_element="div" clear="0" extended="0" ab__show_in_tabs="N" ab__use_ajax="N"/>
+      </container>
+      <container container_id="938" location_id="235" position="HEADER" width="16" user_class="" linked_to_default="Y" status="A" company_id="0"/>
+      <container container_id="939" location_id="235" position="CONTENT" width="16" user_class="content-grid" linked_to_default="Y" status="A" company_id="0">
+        <grid width="16" user_class="main-content-grid" linked_to_default="Y" status="A" company_id="0" offset="0" omega="1" alpha="1" wrapper="" content_align="FULL_WIDTH" html_element="div" clear="1" extended="E" ab__show_in_tabs="N" ab__use_ajax="N">
+          <blocks>
+            <block>
+              <type><![CDATA[breadcrumbs]]></type>
+              <properties>
+                <template><![CDATA[common/breadcrumbs.tpl]]></template>
+              </properties>
+              <lang_code><![CDATA[en]]></lang_code>
+              <name><![CDATA[Breadcrumbs]]></name>
+              <object_id><![CDATA[0]]></object_id>
+              <object_type><![CDATA[]]></object_type>
+              <content><![CDATA[]]></content>
+              <object_ids><![CDATA[]]></object_ids>
+              <wrapper><![CDATA[]]></wrapper>
+              <user_class><![CDATA[]]></user_class>
+              <order><![CDATA[0]]></order>
+              <status><![CDATA[A]]></status>
+              <translations/>
+              <contents/>
+            </block>
+            <block>
+              <type><![CDATA[main]]></type>
+              <properties><![CDATA[]]></properties>
+              <lang_code><![CDATA[en]]></lang_code>
+              <name><![CDATA[Main Content]]></name>
+              <object_id><![CDATA[0]]></object_id>
+              <object_type><![CDATA[]]></object_type>
+              <content><![CDATA[]]></content>
+              <object_ids><![CDATA[]]></object_ids>
+              <wrapper><![CDATA[blocks/wrappers/mainbox_general.tpl]]></wrapper>
+              <user_class><![CDATA[]]></user_class>
+              <order><![CDATA[1]]></order>
+              <status><![CDATA[A]]></status>
+              <translations/>
+              <contents/>
+            </block>
+          </blocks>
+        </grid>
+      </container>
+      <container container_id="940" location_id="235" position="FOOTER" width="16" user_class="" linked_to_default="Y" status="A" company_id="0">
+        <grid width="16" user_class="" linked_to_default="Y" status="A" company_id="0" offset="0" omega="0" alpha="0" wrapper="" content_align="FULL_WIDTH" html_element="div" clear="0" extended="0" ab__show_in_tabs="N" ab__use_ajax="N"/>
+      </container>
+    </containers>
+    <translations/>
+  </location>
+  <location dispatch="companies.products" is_default="0" layout_id="6" object_ids="" custom_html="" position="110" lang_code="en" name="Vendor store" title="" meta_description="" meta_keywords="">
+    <containers>
+      <container container_id="941" location_id="236" position="TOP_PANEL" width="16" user_class="top-grid" linked_to_default="Y" status="A" company_id="0">
+        <grid width="3" user_class="top-links-grid" linked_to_default="Y" status="A" company_id="0" offset="0" omega="0" alpha="1" wrapper="" content_align="LEFT" html_element="div" clear="0" extended="0" ab__show_in_tabs="N" ab__use_ajax="N">
+          <blocks>
+            <block>
+              <type><![CDATA[languages]]></type>
+              <properties>
+                <template><![CDATA[blocks/languages.tpl]]></template>
+                <text><![CDATA[]]></text>
+                <format><![CDATA[icon]]></format>
+                <dropdown_limit><![CDATA[0]]></dropdown_limit>
+              </properties>
+              <lang_code><![CDATA[en]]></lang_code>
+              <name><![CDATA[Languages]]></name>
+              <object_id><![CDATA[0]]></object_id>
+              <object_type><![CDATA[]]></object_type>
+              <content><![CDATA[]]></content>
+              <object_ids><![CDATA[]]></object_ids>
+              <wrapper><![CDATA[]]></wrapper>
+              <user_class><![CDATA[top-languages]]></user_class>
+              <order><![CDATA[2]]></order>
+              <status><![CDATA[A]]></status>
+              <translations/>
+              <contents/>
+            </block>
+            <block>
+              <type><![CDATA[currencies]]></type>
+              <properties>
+                <template><![CDATA[blocks/currencies.tpl]]></template>
+                <text><![CDATA[]]></text>
+                <format><![CDATA[symbol]]></format>
+                <dropdown_limit><![CDATA[3]]></dropdown_limit>
+              </properties>
+              <lang_code><![CDATA[en]]></lang_code>
+              <name><![CDATA[Currencies]]></name>
+              <object_id><![CDATA[0]]></object_id>
+              <object_type><![CDATA[]]></object_type>
+              <content><![CDATA[]]></content>
+              <object_ids><![CDATA[]]></object_ids>
+              <wrapper><![CDATA[]]></wrapper>
+              <user_class><![CDATA[top-currencies]]></user_class>
+              <order><![CDATA[3]]></order>
+              <status><![CDATA[A]]></status>
+              <translations/>
+              <contents/>
+            </block>
+          </blocks>
+        </grid>
+        <grid width="11" user_class="top-links-grid" linked_to_default="Y" status="A" company_id="0" offset="0" omega="0" alpha="0" wrapper="" content_align="LEFT" html_element="div" clear="0" extended="0" ab__show_in_tabs="N" ab__use_ajax="N">
+          <blocks>
+            <block>
+              <type><![CDATA[menu]]></type>
+              <properties>
+                <template><![CDATA[blocks/menu/text_links.tpl]]></template>
+                <show_items_in_line><![CDATA[Y]]></show_items_in_line>
+              </properties>
+              <lang_code><![CDATA[en]]></lang_code>
+              <name><![CDATA[Quick links]]></name>
+              <object_id><![CDATA[0]]></object_id>
+              <object_type><![CDATA[]]></object_type>
+              <content>
+                <menu><![CDATA[1]]></menu>
+              </content>
+              <object_ids><![CDATA[]]></object_ids>
+              <wrapper><![CDATA[]]></wrapper>
+              <user_class><![CDATA[top-quick-links hidden-phone]]></user_class>
+              <order><![CDATA[3]]></order>
+              <status><![CDATA[A]]></status>
+              <translations/>
+              <contents/>
+            </block>
+          </blocks>
+        </grid>
+        <grid width="2" user_class="" linked_to_default="Y" status="A" company_id="0" offset="0" omega="1" alpha="0" wrapper="" content_align="RIGHT" html_element="div" clear="0" extended="0" ab__show_in_tabs="N" ab__use_ajax="N">
+          <blocks>
+            <block>
+              <type><![CDATA[my_account]]></type>
+              <properties>
+                <template><![CDATA[blocks/my_account.tpl]]></template>
+              </properties>
+              <lang_code><![CDATA[en]]></lang_code>
+              <name><![CDATA[Account]]></name>
+              <object_id><![CDATA[0]]></object_id>
+              <object_type><![CDATA[]]></object_type>
+              <content><![CDATA[]]></content>
+              <object_ids><![CDATA[]]></object_ids>
+              <wrapper><![CDATA[blocks/wrappers/onclick_dropdown.tpl]]></wrapper>
+              <user_class><![CDATA[top-my-account]]></user_class>
+              <order><![CDATA[2]]></order>
+              <status><![CDATA[A]]></status>
+              <translations/>
+              <contents/>
+            </block>
+          </blocks>
+        </grid>
+      </container>
+      <container container_id="942" location_id="236" position="HEADER" width="16" user_class="" linked_to_default="N" status="A" company_id="0">
+        <grid width="16" user_class="" linked_to_default="N" status="A" company_id="0" offset="0" omega="1" alpha="1" wrapper="" content_align="FULL_WIDTH" html_element="div" clear="1" extended="0" ab__show_in_tabs="N" ab__use_ajax="N">
+          <grid width="4" user_class="top-logo-grid" linked_to_default="N" status="A" company_id="0" offset="0" omega="0" alpha="1" wrapper="" content_align="FULL_WIDTH" html_element="div" clear="0" extended="0" ab__show_in_tabs="N" ab__use_ajax="N">
+            <blocks>
+              <block>
+                <type><![CDATA[template]]></type>
+                <properties>
+                  <template><![CDATA[blocks/static_templates/logo.tpl]]></template>
+                </properties>
+                <lang_code><![CDATA[en]]></lang_code>
+                <name><![CDATA[Logo]]></name>
+                <object_id><![CDATA[0]]></object_id>
+                <object_type><![CDATA[]]></object_type>
+                <content><![CDATA[]]></content>
+                <object_ids><![CDATA[]]></object_ids>
+                <wrapper><![CDATA[]]></wrapper>
+                <user_class><![CDATA[top-logo]]></user_class>
+                <order><![CDATA[0]]></order>
+                <status><![CDATA[A]]></status>
+                <translations/>
+                <contents/>
+              </block>
+            </blocks>
+          </grid>
+          <grid width="7" user_class="top-links-menu-grid" linked_to_default="N" status="A" company_id="0" offset="0" omega="0" alpha="0" wrapper="" content_align="FULL_WIDTH" html_element="div" clear="0" extended="0" ab__show_in_tabs="N" ab__use_ajax="N">
+            <blocks>
+              <block>
+                <type><![CDATA[menu]]></type>
+                <properties>
+                  <template><![CDATA[blocks/menu/dropdown_horizontal.tpl]]></template>
+                  <dropdown_second_level_elements><![CDATA[0]]></dropdown_second_level_elements>
+                  <dropdown_third_level_elements><![CDATA[0]]></dropdown_third_level_elements>
+                  <dropdown_third_level_view><![CDATA[5]]></dropdown_third_level_view>
+                </properties>
+                <lang_code><![CDATA[en]]></lang_code>
+                <name><![CDATA[Top menu]]></name>
+                <object_id><![CDATA[0]]></object_id>
+                <object_type><![CDATA[]]></object_type>
+                <content>
+                  <menu><![CDATA[5]]></menu>
+                </content>
+                <object_ids><![CDATA[]]></object_ids>
+                <wrapper><![CDATA[]]></wrapper>
+                <user_class><![CDATA[]]></user_class>
+                <order><![CDATA[0]]></order>
+                <status><![CDATA[A]]></status>
+                <translations/>
+                <contents/>
+              </block>
+            </blocks>
+          </grid>
+          <grid width="5" user_class="" linked_to_default="N" status="A" company_id="0" offset="0" omega="1" alpha="0" wrapper="" content_align="RIGHT" html_element="div" clear="1" extended="0" ab__show_in_tabs="N" ab__use_ajax="N">
+            <blocks>
+              <block>
+                <type><![CDATA[smarty_block]]></type>
+                <properties>
+                  <template><![CDATA[blocks/smarty_block.tpl]]></template>
+                </properties>
+                <lang_code><![CDATA[en]]></lang_code>
+                <name><![CDATA[Call requests]]></name>
+                <object_id><![CDATA[0]]></object_id>
+                <object_type><![CDATA[]]></object_type>
+                <content>
+                  <content><![CDATA[<div class="ty-cr-phone-number">
+<!-- <div class="ty-cr-work">{__("working_hours")}</div> -->
+<div class="ty-cr-phone"><a href="tel:+88000000000">+8(800) 0000000</a><br><a href="tel:+88000000000">+8(800) 0000000</a></div>
+<div class="ty-cr-phone-number-link">
+<div class="ty-cr-link"><a href="{"pages.view&page_id=20"|fn_url}">{__("Contacts")}</a></div>
+{if $addons.call_requests.status == "A"}<div class="ty-cr-link">{abt__ut_call_request}</div>{/if}
+</div>
+</div>]]></content>
+                </content>
+                <object_ids><![CDATA[]]></object_ids>
+                <wrapper><![CDATA[]]></wrapper>
+                <user_class><![CDATA[]]></user_class>
+                <order><![CDATA[0]]></order>
+                <status><![CDATA[A]]></status>
+                <translations/>
+                <contents/>
+              </block>
+              <block>
+                <type><![CDATA[template]]></type>
+                <properties>
+                  <template><![CDATA[blocks/static_templates/top_buttons.tpl]]></template>
+                </properties>
+                <lang_code><![CDATA[en]]></lang_code>
+                <name><![CDATA[Top buttons Wishlist - Compare]]></name>
+                <object_id><![CDATA[0]]></object_id>
+                <object_type><![CDATA[]]></object_type>
+                <content><![CDATA[]]></content>
+                <object_ids><![CDATA[]]></object_ids>
+                <wrapper><![CDATA[]]></wrapper>
+                <user_class><![CDATA[]]></user_class>
+                <order><![CDATA[1]]></order>
+                <status><![CDATA[A]]></status>
+                <translations/>
+                <contents/>
+              </block>
+            </blocks>
+          </grid>
+        </grid>
+        <grid width="16" user_class="top-menu-grid  small-grid top-menu" linked_to_default="N" status="A" company_id="0" offset="0" omega="1" alpha="1" wrapper="" content_align="FULL_WIDTH" html_element="div" clear="1" extended="O" ab__show_in_tabs="N" ab__use_ajax="N">
+          <grid width="4" user_class="vertical-menu-grid" linked_to_default="N" status="A" company_id="0" offset="0" omega="0" alpha="1" wrapper="" content_align="FULL_WIDTH" html_element="div" clear="0" extended="0" ab__show_in_tabs="N" ab__use_ajax="N">
+            <blocks>
+              <block>
+                <type><![CDATA[vendor_categories]]></type>
+                <properties>
+                  <template><![CDATA[blocks/categories/categories_dropdown_horizontal.tpl]]></template>
+                  <dropdown_second_level_elements><![CDATA[30]]></dropdown_second_level_elements>
+                  <dropdown_third_level_elements><![CDATA[30]]></dropdown_third_level_elements>
+                  <dropdown_third_level_view><![CDATA[5]]></dropdown_third_level_view>
+                </properties>
+                <lang_code><![CDATA[en]]></lang_code>
+                <name><![CDATA[Vendor categories]]></name>
+                <object_id><![CDATA[0]]></object_id>
+                <object_type><![CDATA[]]></object_type>
+                <content>
+                  <items>
+                    <filling><![CDATA[full_tree_cat]]></filling>
+                    <parent_category_id><![CDATA[]]></parent_category_id>
+                    <sort_by><![CDATA[position]]></sort_by>
+                  </items>
+                </content>
+                <object_ids><![CDATA[]]></object_ids>
+                <wrapper><![CDATA[blocks/wrappers/onclick_dropdown.tpl]]></wrapper>
+                <user_class><![CDATA[cat-menu-vertical]]></user_class>
+                <order><![CDATA[0]]></order>
+                <status><![CDATA[A]]></status>
+                <translations/>
+                <contents/>
+              </block>
+            </blocks>
+          </grid>
+          <grid width="7" user_class="search-block-grid" linked_to_default="N" status="A" company_id="0" offset="0" omega="0" alpha="0" wrapper="" content_align="FULL_WIDTH" html_element="div" clear="0" extended="0" ab__show_in_tabs="N" ab__use_ajax="N">
+            <blocks>
+              <block>
+                <type><![CDATA[vendor_search]]></type>
+                <properties>
+                  <template><![CDATA[blocks/vendors/vendor_search.tpl]]></template>
+                </properties>
+                <lang_code><![CDATA[en]]></lang_code>
+                <name><![CDATA[Vendor search]]></name>
+                <object_id><![CDATA[0]]></object_id>
+                <object_type><![CDATA[]]></object_type>
+                <content><![CDATA[]]></content>
+                <object_ids><![CDATA[]]></object_ids>
+                <wrapper><![CDATA[]]></wrapper>
+                <user_class><![CDATA[top-search]]></user_class>
+                <order><![CDATA[0]]></order>
+                <status><![CDATA[A]]></status>
+                <translations/>
+                <contents/>
+              </block>
+            </blocks>
+          </grid>
+          <grid width="5" user_class="cart-content-grid" linked_to_default="N" status="A" company_id="0" offset="0" omega="1" alpha="0" wrapper="" content_align="RIGHT" html_element="div" clear="1" extended="0" ab__show_in_tabs="N" ab__use_ajax="N">
+            <blocks>
+              <block>
+                <type><![CDATA[cart_content]]></type>
+                <properties>
+                  <template><![CDATA[blocks/cart_content.tpl]]></template>
+                  <display_bottom_buttons><![CDATA[Y]]></display_bottom_buttons>
+                  <display_delete_icons><![CDATA[Y]]></display_delete_icons>
+                  <products_links_type><![CDATA[thumb]]></products_links_type>
+                </properties>
+                <lang_code><![CDATA[en]]></lang_code>
+                <name><![CDATA[Cart content]]></name>
+                <object_id><![CDATA[0]]></object_id>
+                <object_type><![CDATA[]]></object_type>
+                <content><![CDATA[]]></content>
+                <object_ids><![CDATA[]]></object_ids>
+                <wrapper><![CDATA[]]></wrapper>
+                <user_class><![CDATA[top-cart-content]]></user_class>
+                <order><![CDATA[0]]></order>
+                <status><![CDATA[A]]></status>
+                <translations/>
+                <contents/>
+              </block>
+              <block>
+                <type><![CDATA[my_account]]></type>
+                <properties>
+                  <template><![CDATA[blocks/my_account.tpl]]></template>
+                </properties>
+                <lang_code><![CDATA[en]]></lang_code>
+                <name><![CDATA[Account]]></name>
+                <object_id><![CDATA[0]]></object_id>
+                <object_type><![CDATA[]]></object_type>
+                <content><![CDATA[]]></content>
+                <object_ids><![CDATA[]]></object_ids>
+                <wrapper><![CDATA[blocks/wrappers/onclick_dropdown.tpl]]></wrapper>
+                <user_class><![CDATA[top-my-account]]></user_class>
+                <order><![CDATA[1]]></order>
+                <status><![CDATA[A]]></status>
+                <translations/>
+                <contents/>
+              </block>
+              <block>
+                <type><![CDATA[smarty_block]]></type>
+                <properties>
+                  <template><![CDATA[blocks/smarty_block.tpl]]></template>
+                </properties>
+                <lang_code><![CDATA[en]]></lang_code>
+                <name><![CDATA[Search button from mobile]]></name>
+                <object_id><![CDATA[0]]></object_id>
+                <object_type><![CDATA[]]></object_type>
+                <content>
+                  <content><![CDATA[<a class="search-button-mobile" onclick="ShowSearch()"><i class="ty-icon-search"></i></a>
+<a class="close-button-mobile hidden" onclick="HideSearch()"><i class="uni-close"></i></a>]]></content>
+                </content>
+                <object_ids><![CDATA[]]></object_ids>
+                <wrapper><![CDATA[]]></wrapper>
+                <user_class><![CDATA[hidden search-button-grid]]></user_class>
+                <order><![CDATA[2]]></order>
+                <status><![CDATA[A]]></status>
+                <translations/>
+                <contents/>
+              </block>
+            </blocks>
+          </grid>
+        </grid>
+      </container>
+      <container container_id="943" location_id="236" position="CONTENT" width="16" user_class="content-grid categories_grid" linked_to_default="Y" status="A" company_id="0">
+        <grid width="16" user_class="" linked_to_default="Y" status="A" company_id="0" offset="0" omega="1" alpha="1" wrapper="" content_align="FULL_WIDTH" html_element="div" clear="1" extended="0" ab__show_in_tabs="N" ab__use_ajax="N">
+          <grid width="12" user_class="main-content-grid" linked_to_default="Y" status="A" company_id="0" offset="0" omega="0" alpha="1" wrapper="" content_align="FULL_WIDTH" html_element="div" clear="0" extended="0" ab__show_in_tabs="N" ab__use_ajax="N">
+            <blocks>
+              <block>
+                <type><![CDATA[main]]></type>
+                <properties><![CDATA[]]></properties>
+                <lang_code><![CDATA[en]]></lang_code>
+                <name><![CDATA[Main Content]]></name>
+                <object_id><![CDATA[0]]></object_id>
+                <object_type><![CDATA[]]></object_type>
+                <content><![CDATA[]]></content>
+                <object_ids><![CDATA[]]></object_ids>
+                <wrapper><![CDATA[blocks/wrappers/mainbox_general.tpl]]></wrapper>
+                <user_class><![CDATA[]]></user_class>
+                <order><![CDATA[2]]></order>
+                <status><![CDATA[A]]></status>
+                <translations/>
+                <contents/>
+              </block>
+            </blocks>
+          </grid>
+          <grid width="4" user_class="side-grid cat-sub-col" linked_to_default="Y" status="A" company_id="0" offset="0" omega="1" alpha="0" wrapper="" content_align="FULL_WIDTH" html_element="div" clear="1" extended="0" ab__show_in_tabs="N" ab__use_ajax="N">
+            <grid width="4" user_class="vendor-info-blocks" linked_to_default="Y" status="A" company_id="0" offset="0" omega="1" alpha="1" wrapper="" content_align="FULL_WIDTH" html_element="div" clear="1" extended="0" ab__show_in_tabs="N" ab__use_ajax="N">
+              <blocks>
+                <block>
+                  <type><![CDATA[vendor_logo]]></type>
+                  <properties>
+                    <template><![CDATA[blocks/vendors/vendor_logo.tpl]]></template>
+                  </properties>
+                  <lang_code><![CDATA[en]]></lang_code>
+                  <name><![CDATA[Vendor logo]]></name>
+                  <object_id><![CDATA[0]]></object_id>
+                  <object_type><![CDATA[]]></object_type>
+                  <content><![CDATA[]]></content>
+                  <object_ids><![CDATA[]]></object_ids>
+                  <wrapper><![CDATA[]]></wrapper>
+                  <user_class><![CDATA[]]></user_class>
+                  <order><![CDATA[2]]></order>
+                  <status><![CDATA[A]]></status>
+                  <translations/>
+                  <contents/>
+                </block>
+                <block>
+                  <type><![CDATA[vendor_information]]></type>
+                  <properties>
+                    <template><![CDATA[blocks/vendors/vendor_information.tpl]]></template>
+                  </properties>
+                  <lang_code><![CDATA[en]]></lang_code>
+                  <name><![CDATA[Vendor information]]></name>
+                  <object_id><![CDATA[0]]></object_id>
+                  <object_type><![CDATA[]]></object_type>
+                  <content><![CDATA[]]></content>
+                  <object_ids><![CDATA[]]></object_ids>
+                  <wrapper><![CDATA[]]></wrapper>
+                  <user_class><![CDATA[]]></user_class>
+                  <order><![CDATA[3]]></order>
+                  <status><![CDATA[A]]></status>
+                  <translations/>
+                  <contents/>
+                </block>
+              </blocks>
+            </grid>
+            <grid width="4" user_class="abt__ut__flying_block cat-product-filters" linked_to_default="Y" status="A" company_id="0" offset="0" omega="1" alpha="1" wrapper="" content_align="FULL_WIDTH" html_element="div" clear="1" extended="0" ab__show_in_tabs="N" ab__use_ajax="N">
+              <blocks>
+                <block>
+                  <type><![CDATA[product_filters]]></type>
+                  <properties>
+                    <template><![CDATA[blocks/product_filters/original.tpl]]></template>
+                  </properties>
+                  <lang_code><![CDATA[en]]></lang_code>
+                  <name><![CDATA[Vendor filters]]></name>
+                  <object_id><![CDATA[0]]></object_id>
+                  <object_type><![CDATA[]]></object_type>
+                  <content>
+                    <items>
+                      <filling><![CDATA[manually]]></filling>
+                      <item_ids><![CDATA[]]></item_ids>
+                    </items>
+                  </content>
+                  <object_ids><![CDATA[]]></object_ids>
+                  <wrapper><![CDATA[blocks/wrappers/mainbox_general_no_h1.tpl]]></wrapper>
+                  <user_class><![CDATA[]]></user_class>
+                  <order><![CDATA[2]]></order>
+                  <status><![CDATA[A]]></status>
+                  <translations/>
+                  <contents/>
+                </block>
+              </blocks>
+            </grid>
+          </grid>
+        </grid>
+      </container>
+      <container container_id="944" location_id="236" position="FOOTER" width="16" user_class="" linked_to_default="Y" status="A" company_id="0"/>
+    </containers>
+    <translations/>
+  </location>
+  <location dispatch="companies.apply_for_vendor" is_default="0" layout_id="6" object_ids="" custom_html="" position="111" lang_code="en" name="Vendor account" title="" meta_description="" meta_keywords="">
+    <containers>
+      <container container_id="945" location_id="237" position="TOP_PANEL" width="16" user_class="" linked_to_default="Y" status="A" company_id="0"/>
+      <container container_id="946" location_id="237" position="HEADER" width="16" user_class="" linked_to_default="Y" status="A" company_id="0"/>
+      <container container_id="947" location_id="237" position="CONTENT" width="16" user_class="content-grid" linked_to_default="Y" status="A" company_id="0">
+        <grid width="16" user_class="breadcrumbs-grid" linked_to_default="Y" status="A" company_id="0" offset="0" omega="1" alpha="1" wrapper="" content_align="FULL_WIDTH" html_element="div" clear="1" extended="E" ab__show_in_tabs="N" ab__use_ajax="N">
+          <blocks>
+            <block>
+              <type><![CDATA[breadcrumbs]]></type>
+              <properties>
+                <template><![CDATA[common/breadcrumbs.tpl]]></template>
+              </properties>
+              <lang_code><![CDATA[en]]></lang_code>
+              <name><![CDATA[Breadcrumbs]]></name>
+              <object_id><![CDATA[0]]></object_id>
+              <object_type><![CDATA[]]></object_type>
+              <content><![CDATA[]]></content>
+              <object_ids><![CDATA[]]></object_ids>
+              <wrapper><![CDATA[]]></wrapper>
+              <user_class><![CDATA[]]></user_class>
+              <order><![CDATA[0]]></order>
+              <status><![CDATA[A]]></status>
+              <translations/>
+              <contents/>
+            </block>
+          </blocks>
+        </grid>
+        <grid width="8" user_class="main-content-grid" linked_to_default="Y" status="A" company_id="0" offset="0" omega="0" alpha="1" wrapper="" content_align="FULL_WIDTH" html_element="div" clear="0" extended="0" ab__show_in_tabs="N" ab__use_ajax="N">
+          <blocks>
+            <block>
+              <type><![CDATA[main]]></type>
+              <properties><![CDATA[]]></properties>
+              <lang_code><![CDATA[en]]></lang_code>
+              <name><![CDATA[Main Content]]></name>
+              <object_id><![CDATA[0]]></object_id>
+              <object_type><![CDATA[]]></object_type>
+              <content><![CDATA[]]></content>
+              <object_ids><![CDATA[]]></object_ids>
+              <wrapper><![CDATA[]]></wrapper>
+              <user_class><![CDATA[]]></user_class>
+              <order><![CDATA[0]]></order>
+              <status><![CDATA[A]]></status>
+              <translations/>
+              <contents/>
+            </block>
+          </blocks>
+        </grid>
+        <grid width="8" user_class="ty-vendor-account-information-grid" linked_to_default="Y" status="A" company_id="0" offset="0" omega="1" alpha="0" wrapper="" content_align="FULL_WIDTH" html_element="div" clear="1" extended="0" ab__show_in_tabs="N" ab__use_ajax="N">
+          <blocks>
+            <block>
+              <type><![CDATA[html_block]]></type>
+              <properties>
+                <template><![CDATA[blocks/html_block.tpl]]></template>
+              </properties>
+              <lang_code><![CDATA[en]]></lang_code>
+              <name><![CDATA[Vendor account information]]></name>
+              <object_id><![CDATA[0]]></object_id>
+              <object_type><![CDATA[]]></object_type>
+              <content>
+                <content><![CDATA[<div class="ty-company-info">
+<h4>Cтаньте вендором</h4>
+<ul>
+<li>Получите доступ к личной панели администратора</li>
+<li>Используйте общую витрину для продажи своих товаров</li>
+<li>Получайте свою долю прибыли</li>
+</ul>
+</div>]]></content>
+              </content>
+              <object_ids><![CDATA[]]></object_ids>
+              <wrapper><![CDATA[]]></wrapper>
+              <user_class><![CDATA[]]></user_class>
+              <order><![CDATA[0]]></order>
+              <status><![CDATA[A]]></status>
+              <translations/>
+              <contents/>
+            </block>
+          </blocks>
+        </grid>
+      </container>
+      <container container_id="948" location_id="237" position="FOOTER" width="16" user_class="" linked_to_default="Y" status="A" company_id="0"/>
+    </containers>
+    <translations/>
+  </location>
+  <location dispatch="companies.view" is_default="0" layout_id="6" object_ids="" custom_html="" position="115" lang_code="en" name="Vendor page" title="" meta_description="" meta_keywords="">
+    <containers>
+      <container container_id="949" location_id="238" position="TOP_PANEL" width="16" user_class="" linked_to_default="Y" status="A" company_id="0"/>
+      <container container_id="950" location_id="238" position="HEADER" width="16" user_class="" linked_to_default="Y" status="A" company_id="0"/>
+      <container container_id="951" location_id="238" position="CONTENT" width="16" user_class="" linked_to_default="Y" status="A" company_id="0">
+        <grid width="16" user_class="" linked_to_default="Y" status="A" company_id="0" offset="0" omega="1" alpha="1" wrapper="" content_align="FULL_WIDTH" html_element="div" clear="1" extended="0" ab__show_in_tabs="N" ab__use_ajax="N">
+          <blocks>
+            <block>
+              <type><![CDATA[breadcrumbs]]></type>
+              <properties>
+                <template><![CDATA[common/breadcrumbs.tpl]]></template>
+              </properties>
+              <lang_code><![CDATA[en]]></lang_code>
+              <name><![CDATA[Breadcrumbs]]></name>
+              <object_id><![CDATA[0]]></object_id>
+              <object_type><![CDATA[]]></object_type>
+              <content><![CDATA[]]></content>
+              <object_ids><![CDATA[]]></object_ids>
+              <wrapper><![CDATA[]]></wrapper>
+              <user_class><![CDATA[]]></user_class>
+              <order><![CDATA[0]]></order>
+              <status><![CDATA[A]]></status>
+              <translations/>
+              <contents/>
+            </block>
+          </blocks>
+        </grid>
+        <grid width="16" user_class="main-content-grid pd-all" linked_to_default="Y" status="A" company_id="0" offset="0" omega="1" alpha="1" wrapper="" content_align="FULL_WIDTH" html_element="div" clear="1" extended="O" ab__show_in_tabs="N" ab__use_ajax="N">
+          <blocks>
+            <block>
+              <type><![CDATA[main]]></type>
+              <properties><![CDATA[]]></properties>
+              <lang_code><![CDATA[en]]></lang_code>
+              <name><![CDATA[Main Content]]></name>
+              <object_id><![CDATA[0]]></object_id>
+              <object_type><![CDATA[]]></object_type>
+              <content><![CDATA[]]></content>
+              <object_ids><![CDATA[]]></object_ids>
+              <wrapper><![CDATA[]]></wrapper>
+              <user_class><![CDATA[]]></user_class>
+              <order><![CDATA[0]]></order>
+              <status><![CDATA[A]]></status>
+              <translations/>
+              <contents/>
+            </block>
+          </blocks>
+        </grid>
+        <grid width="16" user_class="ab-section gray-block pd-all no-buttons" linked_to_default="Y" status="A" company_id="0" offset="0" omega="1" alpha="1" wrapper="" content_align="FULL_WIDTH" html_element="div" clear="1" extended="E" ab__show_in_tabs="N" ab__use_ajax="N">
+          <blocks>
+            <block>
+              <type><![CDATA[products]]></type>
+              <properties>
+                <template><![CDATA[blocks/products/products_scroller_advanced.tpl]]></template>
+                <not_scroll_automatically><![CDATA[Y]]></not_scroll_automatically>
+                <scroll_per_page><![CDATA[N]]></scroll_per_page>
+                <speed><![CDATA[400]]></speed>
+                <pause_delay><![CDATA[5]]></pause_delay>
+                <item_quantity><![CDATA[5]]></item_quantity>
+                <hide_add_to_cart_button><![CDATA[Y]]></hide_add_to_cart_button>
+              </properties>
+              <lang_code><![CDATA[en]]></lang_code>
+              <name><![CDATA[Recently Viewed]]></name>
+              <object_id><![CDATA[0]]></object_id>
+              <object_type><![CDATA[]]></object_type>
+              <content>
+                <items>
+                  <filling><![CDATA[recent_products]]></filling>
+                  <limit><![CDATA[10]]></limit>
+                </items>
+              </content>
+              <object_ids><![CDATA[]]></object_ids>
+              <wrapper><![CDATA[blocks/wrappers/mainbox_general_no_h1.tpl]]></wrapper>
+              <user_class><![CDATA[ab-block]]></user_class>
+              <order><![CDATA[2]]></order>
+              <status><![CDATA[A]]></status>
+              <translations/>
+              <contents/>
+            </block>
+          </blocks>
+        </grid>
+      </container>
+      <container container_id="952" location_id="238" position="FOOTER" width="16" user_class="" linked_to_default="Y" status="A" company_id="0"/>
+    </containers>
+    <translations/>
+  </location>
+  <location dispatch="pages.view" is_default="0" layout_id="6" object_ids="" custom_html="" position="116" lang_code="en" name="Pages" title="" meta_description="" meta_keywords="">
+    <containers>
+      <container container_id="953" location_id="239" position="TOP_PANEL" width="16" user_class="" linked_to_default="Y" status="A" company_id="0">
+        <grid width="16" user_class="" linked_to_default="Y" status="A" company_id="0" offset="0" omega="0" alpha="0" wrapper="" content_align="FULL_WIDTH" html_element="div" clear="0" extended="0" ab__show_in_tabs="N" ab__use_ajax="N"/>
+      </container>
+      <container container_id="954" location_id="239" position="HEADER" width="16" user_class="" linked_to_default="Y" status="A" company_id="0"/>
+      <container container_id="955" location_id="239" position="CONTENT" width="16" user_class="content-grid" linked_to_default="Y" status="A" company_id="0">
+        <grid width="16" user_class="breadcrumbs-grid" linked_to_default="Y" status="A" company_id="0" offset="0" omega="1" alpha="1" wrapper="" content_align="FULL_WIDTH" html_element="div" clear="1" extended="E" ab__show_in_tabs="N" ab__use_ajax="N">
+          <blocks>
+            <block>
+              <type><![CDATA[breadcrumbs]]></type>
+              <properties>
+                <template><![CDATA[common/breadcrumbs.tpl]]></template>
+              </properties>
+              <lang_code><![CDATA[en]]></lang_code>
+              <name><![CDATA[Breadcrumbs]]></name>
+              <object_id><![CDATA[0]]></object_id>
+              <object_type><![CDATA[]]></object_type>
+              <content><![CDATA[]]></content>
+              <object_ids><![CDATA[]]></object_ids>
+              <wrapper><![CDATA[]]></wrapper>
+              <user_class><![CDATA[]]></user_class>
+              <order><![CDATA[0]]></order>
+              <status><![CDATA[A]]></status>
+              <translations/>
+              <contents/>
+            </block>
+          </blocks>
+        </grid>
+        <grid width="4" user_class="side-grid" linked_to_default="Y" status="D" company_id="0" offset="0" omega="0" alpha="1" wrapper="" content_align="FULL_WIDTH" html_element="div" clear="0" extended="0" ab__show_in_tabs="N" ab__use_ajax="N">
+          <blocks>
+            <block>
+              <type><![CDATA[my_account]]></type>
+              <properties>
+                <template><![CDATA[blocks/my_account.tpl]]></template>
+              </properties>
+              <lang_code><![CDATA[en]]></lang_code>
+              <name><![CDATA[Account]]></name>
+              <object_id><![CDATA[0]]></object_id>
+              <object_type><![CDATA[]]></object_type>
+              <content><![CDATA[]]></content>
+              <object_ids><![CDATA[]]></object_ids>
+              <wrapper><![CDATA[blocks/wrappers/sidebox_general.tpl]]></wrapper>
+              <user_class><![CDATA[]]></user_class>
+              <order><![CDATA[1]]></order>
+              <status><![CDATA[A]]></status>
+              <translations/>
+              <contents/>
+            </block>
+            <block>
+              <type><![CDATA[products]]></type>
+              <properties>
+                <template><![CDATA[blocks/products/products_scroller_advanced.tpl]]></template>
+                <not_scroll_automatically><![CDATA[Y]]></not_scroll_automatically>
+                <scroll_per_page><![CDATA[N]]></scroll_per_page>
+                <speed><![CDATA[400]]></speed>
+                <pause_delay><![CDATA[5]]></pause_delay>
+                <item_quantity><![CDATA[5]]></item_quantity>
+                <hide_add_to_cart_button><![CDATA[Y]]></hide_add_to_cart_button>
+              </properties>
+              <lang_code><![CDATA[en]]></lang_code>
+              <name><![CDATA[Recently Viewed]]></name>
+              <object_id><![CDATA[0]]></object_id>
+              <object_type><![CDATA[]]></object_type>
+              <content>
+                <items>
+                  <filling><![CDATA[recent_products]]></filling>
+                  <limit><![CDATA[10]]></limit>
+                </items>
+              </content>
+              <object_ids><![CDATA[]]></object_ids>
+              <wrapper><![CDATA[blocks/wrappers/sidebox_general.tpl]]></wrapper>
+              <user_class><![CDATA[]]></user_class>
+              <order><![CDATA[2]]></order>
+              <status><![CDATA[A]]></status>
+              <translations/>
+              <contents/>
+            </block>
+          </blocks>
+        </grid>
+        <grid width="12" user_class="main-content-grid" linked_to_default="Y" status="A" company_id="0" offset="0" omega="1" alpha="0" wrapper="" content_align="FULL_WIDTH" html_element="div" clear="1" extended="0" ab__show_in_tabs="N" ab__use_ajax="N">
+          <blocks>
+            <block>
+              <type><![CDATA[main]]></type>
+              <properties><![CDATA[]]></properties>
+              <lang_code><![CDATA[en]]></lang_code>
+              <name><![CDATA[Main Content]]></name>
+              <object_id><![CDATA[0]]></object_id>
+              <object_type><![CDATA[]]></object_type>
+              <content><![CDATA[]]></content>
+              <object_ids><![CDATA[]]></object_ids>
+              <wrapper><![CDATA[]]></wrapper>
+              <user_class><![CDATA[]]></user_class>
+              <order><![CDATA[0]]></order>
+              <status><![CDATA[A]]></status>
+              <translations/>
+              <contents/>
+            </block>
+          </blocks>
+        </grid>
+      </container>
+      <container container_id="956" location_id="239" position="FOOTER" width="16" user_class="" linked_to_default="Y" status="A" company_id="0">
+        <grid width="16" user_class="" linked_to_default="Y" status="A" company_id="0" offset="0" omega="0" alpha="0" wrapper="" content_align="FULL_WIDTH" html_element="div" clear="0" extended="0" ab__show_in_tabs="N" ab__use_ajax="N"/>
+      </container>
+    </containers>
+    <translations/>
+  </location>
+  <location dispatch="gift_certificates" is_default="0" layout_id="6" object_ids="" custom_html="" position="130" lang_code="en" name="Gift certificates" title="" meta_description="" meta_keywords="">
+    <containers>
+      <container container_id="957" location_id="240" position="TOP_PANEL" width="16" user_class="" linked_to_default="Y" status="A" company_id="0"/>
+      <container container_id="958" location_id="240" position="HEADER" width="16" user_class="" linked_to_default="Y" status="A" company_id="0"/>
+      <container container_id="959" location_id="240" position="CONTENT" width="16" user_class="content-grid" linked_to_default="Y" status="A" company_id="0">
+        <grid width="16" user_class="breadcrumbs-grid" linked_to_default="Y" status="A" company_id="0" offset="0" omega="1" alpha="1" wrapper="" content_align="FULL_WIDTH" html_element="div" clear="1" extended="0" ab__show_in_tabs="N" ab__use_ajax="N">
+          <blocks>
+            <block>
+              <type><![CDATA[breadcrumbs]]></type>
+              <properties>
+                <template><![CDATA[common/breadcrumbs.tpl]]></template>
+              </properties>
+              <lang_code><![CDATA[en]]></lang_code>
+              <name><![CDATA[Breadcrumbs]]></name>
+              <object_id><![CDATA[0]]></object_id>
+              <object_type><![CDATA[]]></object_type>
+              <content><![CDATA[]]></content>
+              <object_ids><![CDATA[]]></object_ids>
+              <wrapper><![CDATA[]]></wrapper>
+              <user_class><![CDATA[]]></user_class>
+              <order><![CDATA[0]]></order>
+              <status><![CDATA[A]]></status>
+              <translations/>
+              <contents/>
+            </block>
+          </blocks>
+        </grid>
+        <grid width="8" user_class="main-content-grid" linked_to_default="Y" status="A" company_id="0" offset="0" omega="0" alpha="1" wrapper="" content_align="FULL_WIDTH" html_element="div" clear="0" extended="0" ab__show_in_tabs="N" ab__use_ajax="N">
+          <blocks>
+            <block>
+              <type><![CDATA[main]]></type>
+              <properties><![CDATA[]]></properties>
+              <lang_code><![CDATA[en]]></lang_code>
+              <name><![CDATA[Main Content]]></name>
+              <object_id><![CDATA[0]]></object_id>
+              <object_type><![CDATA[]]></object_type>
+              <content><![CDATA[]]></content>
+              <object_ids><![CDATA[]]></object_ids>
+              <wrapper><![CDATA[blocks/wrappers/mainbox_general.tpl]]></wrapper>
+              <user_class><![CDATA[]]></user_class>
+              <order><![CDATA[0]]></order>
+              <status><![CDATA[A]]></status>
+              <translations/>
+              <contents/>
+            </block>
+          </blocks>
+        </grid>
+        <grid width="8" user_class="certificates-verify-grid" linked_to_default="Y" status="A" company_id="0" offset="0" omega="1" alpha="0" wrapper="" content_align="RIGHT" html_element="div" clear="0" extended="0" ab__show_in_tabs="N" ab__use_ajax="N">
+          <blocks>
+            <block>
+              <type><![CDATA[gift_certificates_verify]]></type>
+              <properties>
+                <template><![CDATA[addons/gift_certificates/blocks/gift_certificates_verify.tpl]]></template>
+              </properties>
+              <lang_code><![CDATA[en]]></lang_code>
+              <name><![CDATA[Gift certificate verification]]></name>
+              <object_id><![CDATA[0]]></object_id>
+              <object_type><![CDATA[]]></object_type>
+              <content><![CDATA[]]></content>
+              <object_ids><![CDATA[]]></object_ids>
+              <wrapper><![CDATA[]]></wrapper>
+              <user_class><![CDATA[]]></user_class>
+              <order><![CDATA[0]]></order>
+              <status><![CDATA[A]]></status>
+              <translations/>
+              <contents/>
+            </block>
+          </blocks>
+        </grid>
+      </container>
+      <container container_id="960" location_id="240" position="FOOTER" width="16" user_class="" linked_to_default="Y" status="A" company_id="0"/>
+    </containers>
+    <translations/>
+  </location>
+  <location dispatch="no_page" is_default="0" layout_id="6" object_ids="" custom_html="" position="160" lang_code="en" name="404" title="&#x421;&#x442;&#x440;&#x430;&#x43D;&#x438;&#x446;&#x430; &#x43D;&#x435; &#x43D;&#x430;&#x439;&#x434;&#x435;&#x43D;&#x430;" meta_description="" meta_keywords="">
+    <containers>
+      <container container_id="961" location_id="241" position="TOP_PANEL" width="16" user_class="" linked_to_default="Y" status="A" company_id="0"/>
+      <container container_id="962" location_id="241" position="HEADER" width="16" user_class="" linked_to_default="Y" status="A" company_id="0"/>
+      <container container_id="963" location_id="241" position="CONTENT" width="16" user_class="content-grid" linked_to_default="Y" status="A" company_id="0">
+        <grid width="16" user_class="main-content-grid" linked_to_default="Y" status="A" company_id="0" offset="0" omega="1" alpha="1" wrapper="" content_align="FULL_WIDTH" html_element="div" clear="1" extended="0" ab__show_in_tabs="N" ab__use_ajax="N">
+          <blocks>
+            <block>
+              <type><![CDATA[template]]></type>
+              <properties>
+                <template><![CDATA[blocks/static_templates/404.tpl]]></template>
+              </properties>
+              <lang_code><![CDATA[en]]></lang_code>
+              <name><![CDATA[404]]></name>
+              <object_id><![CDATA[0]]></object_id>
+              <object_type><![CDATA[]]></object_type>
+              <content><![CDATA[]]></content>
+              <object_ids><![CDATA[]]></object_ids>
+              <wrapper><![CDATA[]]></wrapper>
+              <user_class><![CDATA[]]></user_class>
+              <order><![CDATA[0]]></order>
+              <status><![CDATA[A]]></status>
+              <translations/>
+              <contents/>
+            </block>
+          </blocks>
+        </grid>
+      </container>
+      <container container_id="964" location_id="241" position="FOOTER" width="16" user_class="" linked_to_default="Y" status="A" company_id="0"/>
+    </containers>
+    <translations/>
+  </location>
+  <location dispatch="promotions.view" is_default="0" layout_id="6" object_ids="" custom_html="" position="170" lang_code="en" name="Promotion" title="Promotion" meta_description="" meta_keywords="">
+    <containers>
+      <container container_id="980" location_id="245" position="FOOTER" width="16" user_class="" linked_to_default="Y" status="A" company_id="0"/>
+      <container container_id="979" location_id="245" position="CONTENT" width="16" user_class="content-grid" linked_to_default="Y" status="A" company_id="0">
+        <grid width="16" user_class="" linked_to_default="Y" status="A" company_id="0" offset="0" omega="1" alpha="1" wrapper="" content_align="FULL_WIDTH" html_element="div" clear="1" extended="0" ab__show_in_tabs="N" ab__use_ajax="N">
+          <blocks>
+            <block>
+              <type><![CDATA[breadcrumbs]]></type>
+              <properties>
+                <template><![CDATA[common/breadcrumbs.tpl]]></template>
+              </properties>
+              <lang_code><![CDATA[en]]></lang_code>
+              <name><![CDATA[Breadcrumbs]]></name>
+              <object_id><![CDATA[0]]></object_id>
+              <object_type><![CDATA[]]></object_type>
+              <content><![CDATA[]]></content>
+              <object_ids><![CDATA[]]></object_ids>
+              <wrapper><![CDATA[]]></wrapper>
+              <user_class><![CDATA[]]></user_class>
+              <order><![CDATA[0]]></order>
+              <status><![CDATA[A]]></status>
+              <translations/>
+              <contents/>
+            </block>
+          </blocks>
+        </grid>
+        <grid width="16" user_class="" linked_to_default="Y" status="A" company_id="0" offset="0" omega="0" alpha="1" wrapper="" content_align="FULL_WIDTH" html_element="div" clear="0" extended="0" ab__show_in_tabs="N" ab__use_ajax="N">
+          <blocks>
+            <block>
+              <type><![CDATA[main]]></type>
+              <properties><![CDATA[]]></properties>
+              <lang_code><![CDATA[en]]></lang_code>
+              <name><![CDATA[Главное содержимое]]></name>
+              <object_id><![CDATA[0]]></object_id>
+              <object_type><![CDATA[]]></object_type>
+              <content><![CDATA[]]></content>
+              <object_ids><![CDATA[]]></object_ids>
+              <wrapper><![CDATA[blocks/wrappers/mainbox_general.tpl]]></wrapper>
+              <user_class><![CDATA[]]></user_class>
+              <order><![CDATA[0]]></order>
+              <status><![CDATA[A]]></status>
+              <translations/>
+              <contents/>
+            </block>
+          </blocks>
+        </grid>
+      </container>
+      <container container_id="977" location_id="245" position="TOP_PANEL" width="16" user_class="" linked_to_default="Y" status="A" company_id="0"/>
+      <container container_id="978" location_id="245" position="HEADER" width="16" user_class="" linked_to_default="Y" status="A" company_id="0"/>
+    </containers>
+    <translations/>
+  </location>
+  <location dispatch="pages.view?page_type=B" is_default="0" layout_id="6" object_ids="" custom_html="" position="170" lang_code="en" name="Blog" title="" meta_description="" meta_keywords="">
+    <containers>
+      <container container_id="973" location_id="244" position="TOP_PANEL" width="16" user_class="" linked_to_default="Y" status="A" company_id="0"/>
+      <container container_id="974" location_id="244" position="HEADER" width="16" user_class="" linked_to_default="Y" status="A" company_id="0"/>
+      <container container_id="975" location_id="244" position="CONTENT" width="16" user_class="" linked_to_default="Y" status="A" company_id="0">
+        <grid width="16" user_class="pd-bottom" linked_to_default="Y" status="A" company_id="0" offset="0" omega="1" alpha="1" wrapper="" content_align="FULL_WIDTH" html_element="div" clear="1" extended="0" ab__show_in_tabs="N" ab__use_ajax="N">
+          <blocks>
+            <block>
+              <type><![CDATA[breadcrumbs]]></type>
+              <properties>
+                <template><![CDATA[common/breadcrumbs.tpl]]></template>
+              </properties>
+              <lang_code><![CDATA[en]]></lang_code>
+              <name><![CDATA[Breadcrumbs]]></name>
+              <object_id><![CDATA[0]]></object_id>
+              <object_type><![CDATA[]]></object_type>
+              <content><![CDATA[]]></content>
+              <object_ids><![CDATA[]]></object_ids>
+              <wrapper><![CDATA[]]></wrapper>
+              <user_class><![CDATA[]]></user_class>
+              <order><![CDATA[0]]></order>
+              <status><![CDATA[A]]></status>
+              <translations/>
+              <contents/>
+            </block>
+          </blocks>
+        </grid>
+        <grid width="13" user_class="ty-blog-grid" linked_to_default="Y" status="A" company_id="0" offset="0" omega="0" alpha="1" wrapper="" content_align="FULL_WIDTH" html_element="div" clear="0" extended="0" ab__show_in_tabs="N" ab__use_ajax="N">
+          <blocks>
+            <block>
+              <type><![CDATA[main]]></type>
+              <properties><![CDATA[]]></properties>
+              <lang_code><![CDATA[en]]></lang_code>
+              <name><![CDATA[Main Content]]></name>
+              <object_id><![CDATA[0]]></object_id>
+              <object_type><![CDATA[]]></object_type>
+              <content><![CDATA[]]></content>
+              <object_ids><![CDATA[]]></object_ids>
+              <wrapper><![CDATA[blocks/wrappers/mainbox_general.tpl]]></wrapper>
+              <user_class><![CDATA[]]></user_class>
+              <order><![CDATA[0]]></order>
+              <status><![CDATA[A]]></status>
+              <translations/>
+              <contents/>
+            </block>
+          </blocks>
+        </grid>
+        <grid width="3" user_class="" linked_to_default="Y" status="A" company_id="0" offset="0" omega="1" alpha="0" wrapper="" content_align="FULL_WIDTH" html_element="div" clear="0" extended="0" ab__show_in_tabs="N" ab__use_ajax="N">
+          <blocks>
+            <block>
+              <type><![CDATA[blog]]></type>
+              <properties>
+                <template><![CDATA[addons/blog/blocks/recent_posts.tpl]]></template>
+              </properties>
+              <lang_code><![CDATA[en]]></lang_code>
+              <name><![CDATA[Recent posts]]></name>
+              <object_id><![CDATA[0]]></object_id>
+              <object_type><![CDATA[]]></object_type>
+              <content>
+                <items>
+                  <filling><![CDATA[blog.recent_posts]]></filling>
+                  <period><![CDATA[A]]></period>
+                  <last_days><![CDATA[1]]></last_days>
+                  <limit><![CDATA[10]]></limit>
+                </items>
+              </content>
+              <object_ids><![CDATA[]]></object_ids>
+              <wrapper><![CDATA[]]></wrapper>
+              <user_class><![CDATA[]]></user_class>
+              <order><![CDATA[0]]></order>
+              <status><![CDATA[A]]></status>
+              <translations/>
+              <contents/>
+            </block>
+          </blocks>
+        </grid>
+      </container>
+      <container container_id="976" location_id="244" position="FOOTER" width="16" user_class="" linked_to_default="Y" status="A" company_id="0"/>
+    </containers>
+    <translations/>
+  </location>
+  <location dispatch="products.search" is_default="0" layout_id="6" object_ids="" custom_html="" position="170" lang_code="en" name="Search results" title="" meta_description="" meta_keywords="">
+    <containers>
+      <container container_id="969" location_id="243" position="TOP_PANEL" width="16" user_class="" linked_to_default="Y" status="A" company_id="0"/>
+      <container container_id="970" location_id="243" position="HEADER" width="16" user_class="" linked_to_default="Y" status="A" company_id="0"/>
+      <container container_id="971" location_id="243" position="CONTENT" width="16" user_class="content-grid categories_grid" linked_to_default="Y" status="A" company_id="0">
+        <grid width="12" user_class="main-content-grid" linked_to_default="Y" status="A" company_id="0" offset="0" omega="0" alpha="1" wrapper="" content_align="FULL_WIDTH" html_element="div" clear="0" extended="O" ab__show_in_tabs="N" ab__use_ajax="N">
+          <blocks>
+            <block>
+              <type><![CDATA[main]]></type>
+              <properties><![CDATA[]]></properties>
+              <lang_code><![CDATA[en]]></lang_code>
+              <name><![CDATA[Main Content]]></name>
+              <object_id><![CDATA[0]]></object_id>
+              <object_type><![CDATA[]]></object_type>
+              <content><![CDATA[]]></content>
+              <object_ids><![CDATA[]]></object_ids>
+              <wrapper><![CDATA[blocks/wrappers/mainbox_general_no_h1.tpl]]></wrapper>
+              <user_class><![CDATA[]]></user_class>
+              <order><![CDATA[0]]></order>
+              <status><![CDATA[A]]></status>
+              <translations/>
+              <contents/>
+            </block>
+          </blocks>
+        </grid>
+        <grid width="4" user_class="side-grid cat-sub-col" linked_to_default="Y" status="A" company_id="0" offset="0" omega="1" alpha="0" wrapper="" content_align="FULL_WIDTH" html_element="div" clear="1" extended="0" ab__show_in_tabs="N" ab__use_ajax="N">
+          <blocks>
+            <block>
+              <type><![CDATA[product_filters]]></type>
+              <properties>
+                <template><![CDATA[blocks/product_filters/original.tpl]]></template>
+              </properties>
+              <lang_code><![CDATA[en]]></lang_code>
+              <name><![CDATA[Product filters]]></name>
+              <object_id><![CDATA[0]]></object_id>
+              <object_type><![CDATA[]]></object_type>
+              <content>
+                <items>
+                  <filling><![CDATA[manually]]></filling>
+                  <item_ids><![CDATA[]]></item_ids>
+                </items>
+              </content>
+              <object_ids><![CDATA[]]></object_ids>
+              <wrapper><![CDATA[blocks/wrappers/mainbox_general_no_h1.tpl]]></wrapper>
+              <user_class><![CDATA[abt__ut__flying_block cat-product-filters]]></user_class>
+              <order><![CDATA[2]]></order>
+              <status><![CDATA[A]]></status>
+              <translations/>
+              <contents/>
+            </block>
+          </blocks>
+        </grid>
+      </container>
+      <container container_id="972" location_id="243" position="FOOTER" width="16" user_class="" linked_to_default="Y" status="A" company_id="0"/>
+    </containers>
+    <translations/>
+  </location>
+  <location dispatch="paypal_adaptive.queue" is_default="0" layout_id="6" object_ids="" custom_html="" position="170" lang_code="en" name="PayPal Adaptive" title="" meta_description="" meta_keywords="">
+    <containers>
+      <container container_id="965" location_id="242" position="TOP_PANEL" width="16" user_class="" linked_to_default="Y" status="A" company_id="0"/>
+      <container container_id="966" location_id="242" position="HEADER" width="16" user_class="" linked_to_default="Y" status="A" company_id="0"/>
+      <container container_id="967" location_id="242" position="CONTENT" width="16" user_class="content-grid" linked_to_default="Y" status="A" company_id="0">
+        <grid width="11" user_class="" linked_to_default="Y" status="A" company_id="0" offset="0" omega="0" alpha="1" wrapper="" content_align="FULL_WIDTH" html_element="div" clear="0" extended="0" ab__show_in_tabs="N" ab__use_ajax="N">
+          <blocks>
+            <block>
+              <type><![CDATA[main]]></type>
+              <properties><![CDATA[]]></properties>
+              <lang_code><![CDATA[en]]></lang_code>
+              <name><![CDATA[Main Content]]></name>
+              <object_id><![CDATA[0]]></object_id>
+              <object_type><![CDATA[]]></object_type>
+              <content><![CDATA[]]></content>
+              <object_ids><![CDATA[]]></object_ids>
+              <wrapper><![CDATA[blocks/wrappers/mainbox_general.tpl]]></wrapper>
+              <user_class><![CDATA[]]></user_class>
+              <order><![CDATA[0]]></order>
+              <status><![CDATA[A]]></status>
+              <translations/>
+              <contents/>
+            </block>
+          </blocks>
+        </grid>
+        <grid width="5" user_class="" linked_to_default="Y" status="A" company_id="0" offset="0" omega="1" alpha="0" wrapper="" content_align="FULL_WIDTH" html_element="div" clear="0" extended="0" ab__show_in_tabs="N" ab__use_ajax="N">
+          <blocks>
+            <block>
+              <type><![CDATA[paypal_adaptive]]></type>
+              <properties>
+                <template><![CDATA[addons/paypal_adaptive/blocks/summary.tpl]]></template>
+              </properties>
+              <lang_code><![CDATA[en]]></lang_code>
+              <name><![CDATA[Order summary]]></name>
+              <object_id><![CDATA[0]]></object_id>
+              <object_type><![CDATA[]]></object_type>
+              <content><![CDATA[]]></content>
+              <object_ids><![CDATA[]]></object_ids>
+              <wrapper><![CDATA[blocks/wrappers/sidebox_important.tpl]]></wrapper>
+              <user_class><![CDATA[ty-order-summary]]></user_class>
+              <order><![CDATA[0]]></order>
+              <status><![CDATA[A]]></status>
+              <translations/>
+              <contents/>
+            </block>
+            <block>
+              <type><![CDATA[paypal_adaptive]]></type>
+              <properties>
+                <template><![CDATA[addons/paypal_adaptive/blocks/order_info.tpl]]></template>
+              </properties>
+              <lang_code><![CDATA[en]]></lang_code>
+              <name><![CDATA[Order Information]]></name>
+              <object_id><![CDATA[0]]></object_id>
+              <object_type><![CDATA[]]></object_type>
+              <content><![CDATA[]]></content>
+              <object_ids><![CDATA[]]></object_ids>
+              <wrapper><![CDATA[blocks/wrappers/sidebox_important.tpl]]></wrapper>
+              <user_class><![CDATA[order-information]]></user_class>
+              <order><![CDATA[1]]></order>
+              <status><![CDATA[A]]></status>
+              <translations/>
+              <contents/>
+            </block>
+          </blocks>
+        </grid>
+      </container>
+      <container container_id="968" location_id="242" position="FOOTER" width="16" user_class="" linked_to_default="Y" status="A" company_id="0"/>
+    </containers>
+    <translations/>
+  </location>
+  <location dispatch="companies.vendor_plans" is_default="0" layout_id="6" object_ids="" custom_html="" position="180" lang_code="en" name="Vendors plans" title="" meta_description="" meta_keywords="">
+    <containers>
+      <container container_id="982" location_id="246" position="HEADER" width="16" user_class="" linked_to_default="Y" status="A" company_id="0"/>
+      <container container_id="984" location_id="246" position="FOOTER" width="16" user_class="" linked_to_default="Y" status="A" company_id="0"/>
+      <container container_id="983" location_id="246" position="CONTENT" width="16" user_class="" linked_to_default="Y" status="A" company_id="0">
+        <grid width="16" user_class="" linked_to_default="Y" status="A" company_id="0" offset="0" omega="1" alpha="1" wrapper="" content_align="FULL_WIDTH" html_element="div" clear="1" extended="0" ab__show_in_tabs="N" ab__use_ajax="N">
+          <blocks>
+            <block>
+              <type><![CDATA[breadcrumbs]]></type>
+              <properties>
+                <template><![CDATA[common/breadcrumbs.tpl]]></template>
+              </properties>
+              <lang_code><![CDATA[en]]></lang_code>
+              <name><![CDATA[Breadcrumbs]]></name>
+              <object_id><![CDATA[0]]></object_id>
+              <object_type><![CDATA[]]></object_type>
+              <content><![CDATA[]]></content>
+              <object_ids><![CDATA[]]></object_ids>
+              <wrapper><![CDATA[]]></wrapper>
+              <user_class><![CDATA[]]></user_class>
+              <order><![CDATA[0]]></order>
+              <status><![CDATA[A]]></status>
+              <translations/>
+              <contents/>
+            </block>
+          </blocks>
+        </grid>
+        <grid width="16" user_class="" linked_to_default="Y" status="A" company_id="0" offset="0" omega="1" alpha="1" wrapper="" content_align="FULL_WIDTH" html_element="div" clear="0" extended="0" ab__show_in_tabs="N" ab__use_ajax="N">
+          <blocks>
+            <block>
+              <type><![CDATA[main]]></type>
+              <properties><![CDATA[]]></properties>
+              <lang_code><![CDATA[en]]></lang_code>
+              <name><![CDATA[Main Content]]></name>
+              <object_id><![CDATA[0]]></object_id>
+              <object_type><![CDATA[]]></object_type>
+              <content><![CDATA[]]></content>
+              <object_ids><![CDATA[]]></object_ids>
+              <wrapper><![CDATA[]]></wrapper>
+              <user_class><![CDATA[]]></user_class>
+              <order><![CDATA[2]]></order>
+              <status><![CDATA[A]]></status>
+              <translations/>
+              <contents/>
+            </block>
+          </blocks>
+        </grid>
+      </container>
+      <container container_id="981" location_id="246" position="TOP_PANEL" width="16" user_class="" linked_to_default="Y" status="A" company_id="0"/>
+    </containers>
+    <translations/>
+  </location>
+  <location dispatch="categories.ab__lc_catalog" is_default="0" layout_id="6" object_ids="" custom_html="" position="210" lang_code="en" name="AB: Categories" title="AB: Categories" meta_description="AB: Category catalog" meta_keywords="AB: Categories">
+    <containers>
+      <container container_id="988" location_id="247" position="FOOTER" width="16" user_class="" linked_to_default="Y" status="A" company_id="0"/>
+      <container container_id="987" location_id="247" position="CONTENT" width="16" user_class="" linked_to_default="Y" status="A" company_id="0">
+        <grid width="16" user_class="" linked_to_default="Y" status="A" company_id="0" offset="0" omega="1" alpha="1" wrapper="" content_align="FULL_WIDTH" html_element="div" clear="1" extended="0" ab__show_in_tabs="N" ab__use_ajax="N">
+          <grid width="16" user_class="" linked_to_default="Y" status="A" company_id="0" offset="0" omega="1" alpha="1" wrapper="" content_align="FULL_WIDTH" html_element="div" clear="0" extended="0" ab__show_in_tabs="N" ab__use_ajax="N">
+            <blocks>
+              <block>
+                <type><![CDATA[main]]></type>
+                <properties><![CDATA[]]></properties>
+                <lang_code><![CDATA[en]]></lang_code>
+                <name><![CDATA[Главное содержимое]]></name>
+                <object_id><![CDATA[0]]></object_id>
+                <object_type><![CDATA[]]></object_type>
+                <content><![CDATA[]]></content>
+                <object_ids><![CDATA[]]></object_ids>
+                <wrapper><![CDATA[blocks/wrappers/mainbox_general.tpl]]></wrapper>
+                <user_class><![CDATA[]]></user_class>
+                <order><![CDATA[1]]></order>
+                <status><![CDATA[A]]></status>
+                <translations/>
+                <contents/>
+              </block>
+            </blocks>
+          </grid>
+        </grid>
+      </container>
+      <container container_id="986" location_id="247" position="HEADER" width="16" user_class="" linked_to_default="Y" status="A" company_id="0"/>
+      <container container_id="985" location_id="247" position="TOP_PANEL" width="16" user_class="" linked_to_default="Y" status="A" company_id="0"/>
+    </containers>
+    <translations/>
+  </location>
+</block_scheme>

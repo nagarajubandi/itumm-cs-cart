@@ -1,0 +1,313 @@
+msgid ""
+msgstr "Project-Id-Version: tygh"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: English\n"
+"Language: en_US\n"
+
+msgctxt "Addons::name::ab__advanced_banners"
+msgid "ab__advanced_banners.addon_title"
+msgstr "AB: Advanced banners"
+
+msgctxt "Addons::description::ab__advanced_banners"
+msgid "ab__advanced_banners_description"
+msgstr "Allows to add a banner with advanced type (with a background image, title, text and buttons)"
+"<br><a href='https://cs-cart.alexbranding.com' target='_blank'>cs-cart.alexbranding.com</a>"
+
+msgctxt "Languages::ab__advanced_banners"
+msgid "ab__advanced_banners"
+msgstr "AB: Advanced banners"
+
+msgctxt "Languages::ab__advanced_banners_menu_description"
+msgid "ab__advanced_banners_menu_description"
+msgstr "Advanced banner type (with a background image, title, text and buttons)"
+
+
+msgctxt "Languages::abab.type"
+msgid "abab.type"
+msgstr "AB: Advanced"
+
+
+
+msgctxt "Languages::abab.color_scheme"
+msgid "abab.color_scheme"
+msgstr "Color scheme"
+
+msgctxt "Languages::ttc_abab.color_scheme"
+msgid "ttc_abab.color_scheme"
+msgstr "Specifies what color will be <b>Title</b> and <b>Description</b> of banner. For dark banner select <b>Light</b>, for light banner - <b>Dark</b>"
+
+msgctxt "Languages::abab.color_scheme.light"
+msgid "abab.color_scheme.light"
+msgstr "Light"
+
+msgctxt "Languages::abab.color_scheme.dark"
+msgid "abab.color_scheme.dark"
+msgstr "Dark"
+
+msgctxt "Languages::abab.title"
+msgid "abab.title"
+msgstr "Title of the banner"
+
+msgctxt "Languages::ttc_abab.title"
+msgid "ttc_abab.title"
+msgstr "You can use html-tags"
+
+msgctxt "Languages::abab.description"
+msgid "abab.description"
+msgstr "Description of the banner"
+
+msgctxt "Languages::ttc_abab.description"
+msgid "ttc_abab.description"
+msgstr "You can use html-tags"
+
+msgctxt "Languages::abab.button"
+msgid "abab.button"
+msgstr "Button"
+
+msgctxt "Languages::ttc_abab.button"
+msgid "ttc_abab.button"
+msgstr "You can use html-tags. The text name of the button on the banner, on which will be a transition, for example <b>I'm interested</b>. If left blank, the button will not be displayed and the entire area of the banner will be a link."
+
+msgctxt "Languages::abab.background_image"
+msgid "abab.background_image"
+msgstr "Background image"
+
+msgctxt "Languages::ttc_abab.background_image"
+msgid "ttc_abab.background_image"
+msgstr "The uploaded image will take up the entire area of the banner background and automatically be centered for mobile devices."
+
+msgctxt "Languages::abab.background_color"
+msgid "abab.background_color"
+msgstr "Background color <a href=\"https://material.google.com/style/color.html#color-color-palette\" target=\"_blank\">(choose)</a>"
+
+msgctxt "Languages::ttc_abab.background_color"
+msgid "ttc_abab.background_color"
+msgstr "Формат: <code>#000000</code>. Use this option only if you do not want to use <b>Background image</b> (to save resources, for example)"
+
+
+
+msgctxt "Languages::abab_carousel_combined"
+msgid "abab_carousel_combined"
+msgstr "AB: Carousel (Advanced)"
+
+msgctxt "Languages::abab_combined"
+msgid "abab_combined"
+msgstr "AB: Advanced"
+
+
+
+msgctxt "Languages::abab.option.align"
+msgid "abab.option.align"
+msgstr "Horizontal alignment"
+
+msgctxt "Languages::ttc_abab.option.align"
+msgid "ttc_abab.option.align"
+msgstr "Location of the content inside the banner by the horizontal"
+
+msgctxt "Languages::abab.option.align.left"
+msgid "abab.option.align.left"
+msgstr "On the left"
+
+msgctxt "Languages::abab.option.align.center"
+msgid "abab.option.align.center"
+msgstr "Centered"
+
+msgctxt "Languages::abab.option.align.right"
+msgid "abab.option.align.right"
+msgstr "On the right"
+
+
+
+msgctxt "Languages::abab.option.valign"
+msgid "abab.option.valign"
+msgstr "Vertical alignment"
+
+msgctxt "Languages::ttc_abab.option.valign"
+msgid "ttc_abab.option.valign"
+msgstr "Location of the content inside the banner by the vertical"
+
+msgctxt "Languages::abab.option.valign.top"
+msgid "abab.option.valign.top"
+msgstr "On the top"
+
+msgctxt "Languages::abab.option.valign.center"
+msgid "abab.option.valign.center"
+msgstr "Centered"
+
+msgctxt "Languages::abab.option.valign.bottom"
+msgid "abab.option.valign.bottom"
+msgstr "At the bottom"
+
+
+msgctxt "Languages::abab.option.full_width_content"
+msgid "abab.option.full_width_content"
+msgstr "Full width"
+
+msgctxt "Languages::ttc_abab.option.full_width_content"
+msgid "ttc_abab.option.full_width_content"
+msgstr "The width of the content block has a default width of 50%. Set this parameter and the width of the block content will be 100%"
+
+
+
+msgctxt "Languages::abab.option.margin"
+msgid "abab.option.margin"
+msgstr "External margin, px"
+
+msgctxt "Languages::ttc_abab.option.margin"
+msgid "ttc_abab.option.margin"
+msgstr "CSS <code>margin</code>. Spacing in pixels from the outside. It is useful, if you want place some banners in one section"
+
+
+
+msgctxt "Languages::abab.option.padding"
+msgid "abab.option.padding"
+msgstr "Internal paddings, px"
+
+msgctxt "Languages::ttc_abab.option.padding"
+msgid "ttc_abab.option.padding"
+msgstr "CSS <code>padding</code>. Spacing in pixels inside the banner. It is useful, to standardize the paddings of banner borders to the content"
+
+
+
+msgctxt "Languages::abab.option.title_tag"
+msgid "abab.option.title_tag"
+msgstr "Title tag"
+
+msgctxt "Languages::ttc_abab.option.title_tag"
+msgid "ttc_abab.option.title_tag"
+msgstr "Sometimes for SEO optimization you must specify a title tag (H1, H2, H3). By default, the header is wrapped in a tag DIV"
+
+msgctxt "Languages::abab.option.title_tag.div"
+msgid "abab.option.title_tag.div"
+msgstr "tag DIV"
+
+msgctxt "Languages::abab.option.title_tag.h1"
+msgid "abab.option.title_tag.h1"
+msgstr "tag H1"
+
+msgctxt "Languages::abab.option.title_tag.h2"
+msgid "abab.option.title_tag.h2"
+msgstr "tag H2"
+
+msgctxt "Languages::abab.option.title_tag.h3"
+msgid "abab.option.title_tag.h3"
+msgstr "tag H3"
+
+
+
+msgctxt "Languages::abab.option.title_font_size"
+msgid "abab.option.title_font_size"
+msgstr "The font size for the title, px"
+
+msgctxt "Languages::ttc_abab.option.title_font_size"
+msgid "ttc_abab.option.title_font_size"
+msgstr "CSS <code>font-size</code>"
+
+
+
+msgctxt "Languages::abab.option.shadow_title"
+msgid "abab.option.shadow_title"
+msgstr "Title shadow"
+
+msgctxt "Languages::ttc_abab.option.shadow_title"
+msgid "abab.option.shadow_title"
+msgstr "Add title shadow"
+
+
+
+msgctxt "Languages::abab.option.description_font_size"
+msgid "abab.option.description_font_size"
+msgstr "The font size for description, px"
+
+msgctxt "Languages::ttc_abab.option.description_font_size"
+msgid "ttc_abab.option.description_font_size"
+msgstr "CSS <code>font-size</code>"
+
+
+
+msgctxt "Languages::abab.option.description_background"
+msgid "abab.option.description_background"
+msgstr "The background color of the description block <a href=\"https://material.google.com/style/color.html#color-color-palette\" target=\"_blank\">(choose)</a>"
+
+msgctxt "Languages::ttc_abab.option.description_background"
+msgid "ttc_abab.option.description_background"
+msgstr "CSS <code>background</code>. If you want to select the color of the description background, then replace <code>transparent</code> to the desired color in format <code>#xxxxxx</code>"
+
+
+
+msgctxt "Languages::abab.option.conent_tr_bg"
+msgid "abab.option.conent_tr_bg"
+msgstr "Mask of content"
+
+msgctxt "Languages::ttc_abab.option.conent_tr_bg"
+msgid "ttc_abab.option.conent_tr_bg"
+msgstr "Under the description will appear semi-transparent background (the color depends on the color scheme), it will provide a better readability of text on motley background"
+
+
+
+msgctxt "Languages::abab.option.min_height"
+msgid "abab.option.min_height"
+msgstr "The minimum height of the banner, px"
+
+msgctxt "Languages::ttc_abab.option.min_height"
+msgid "ttc_abab.option.min_height"
+msgstr "It is the height of the banner, that  will not decrease less than this value for mobile devices"
+
+
+
+msgctxt "Languages::ab__ab.help"
+msgid "ab__ab.help"
+msgstr "Help"
+
+msgctxt "Languages::ab__ab.help.installation_completion.title"
+msgid "ab__ab.help.installation_completion.title"
+msgstr "Finishing the addon installation"
+
+msgctxt "Languages::ab__ab.help.installation_completion.text"
+msgid "ab__ab.help.installation_completion.text"
+msgstr "To complete the installation of the addon you need to add hook to the system file:"
+"<ol>"
+"    <li>файл <code>design/backend/templates/addons/banners/views/banners/manage.tpl</code><br>"
+"        <ul>"
+"           <li>Add a line of code <code>{hook name=\"banners:abab_status\"}</code></li>"
+"           <li>Add a line of code <code>{/hook}</code></li>"
+"        </ul>"
+"        As a result, should get the following:<br>"
+"        <div style='overflow-y: scroll'><img src='design/backend/media/images/addons/ab__advanced_banners/add_hook.png'/></div>"
+"        <br>"
+"    </li>"
+"</ol>"
+
+msgctxt "Languages::ab__ab.help.create_banner.title"
+msgid "ab__ab.help.create_banner.title"
+msgstr "Creating of advanced banner"
+
+msgctxt "Languages::ab__ab.help.create_banner.text"
+msgid "ab__ab.help.create_banner.text"
+msgstr ""
+"<ol>"
+"    <li>Create a new banner (Marketing / Banners [+]);</li>"
+"    <li>Specify the Name, Position and the Type of the banner - AB: Advanced;</li>"
+"    <li>If you want to use a composite banner, which consists of a background and image (for example, the advertised product), then upload a product photo (previously preparing a product image: trim background and adjust to the desired size);</li>"
+"    <li>Specify the color scheme of the banner. If the banner is light, choose a dark scheme (all texts will be black). If the banner will be dark, select light scheme (all texts will be white);</li>"
+"    <li>Enter the Title and Description of your offer. You can use html-tags;</li>"
+"    <li>Enter the text for the button on the banner by click on which will be a transition (eg, <b>I'm interested</b>). If left blank, the button will not be displayed and the entire area of the banner will be link;</li>"
+"    <li>Decide for yourself, whether to use a background image, or simply specify a background color for a more economical using of resources. Loaded background image will fill the entire area of the banner, will be automatically centered on mobile devices;</li>"
+"    <li>Provide a link to the advertised content, and you can set the checkbox to open the link in a new page;</li>"
+"    <li>Save the banner;</li>"
+"</ol>"
+
+msgctxt "Languages::ab__ab.help.show_banner.title"
+msgid "ab__ab.help.show_banner.title"
+msgstr "Creating a block for the advanced banner"
+
+msgctxt "Languages::ab__ab.help.show_banner.text"
+msgid "ab__ab.help.show_banner.text"
+msgstr ""
+"<ol>"
+"    <li>Create or select the appropriate section in the layouts (go to Administration panel - Design - Layouts) and create in it a new block with type <b>Banner</b> (You can use an already created a banner block);</li>"
+"    <li>When you add block <b>Banner</b> specify the Name and Type (AB: Carousel (Advanced) or AB: Advanced) and click the link that appears (Settings).</li>"
+"    <li>Specify the desired settings for banner display;</li>"
+"    <li>After completing the settings, go to the Content tab and select a previously created by you AB: Advanced banner or banners, if you are using AB: Carousel (Advanced);</li>"
+"    <li>Save block;</li>"
+"</ol>"

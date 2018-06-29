@@ -1,0 +1,309 @@
+<?xml version="1.0"?>
+<addon scheme="3.0">
+    <id>csc_live_search</id>
+    <version>5.1</version>
+    <priority>3100</priority>
+    <position>80</position>
+    <status>active</status>
+	<authors>
+        <author>
+            <name>CS-Commerce Software Solutions</name>
+            <email>info@cs-commerce.com</email>
+            <url>http://cs-commerce.com</url>            
+        </author>
+    </authors>	
+    <default_language>en</default_language>
+    <auto_install>MULTIVENDOR,ULTIMATE</auto_install>
+	<settings edition_type="ROOT,ULT:VENDOR">
+		<sections>
+		<section id="general">			
+			<items>
+				 <item id="serch_on">
+					<type>header</type>
+					<handler/>
+					<variants/>
+				</item>
+				<item id="search_products"> 
+					<default_value>Y</default_value>            
+					<type>checkbox</type>			
+				</item>
+				<item id="search_categories"> 
+					<default_value>Y</default_value>            
+					<type>checkbox</type>			
+				</item>
+				<item id="show_parent_category">             
+					<type>checkbox</type>
+					<default_value>N</default_value>		
+				</item>
+				<item id="search_brands">             
+					<type>checkbox</type>			
+				</item>
+				<item id="search_vendors">             
+					<type>checkbox</type>			
+				</item>
+					
+				 <item id="serch_options">
+					<type>header</type>
+					<handler/>
+					<variants/>
+				</item>
+				<item id="search_on_name">             
+					<type>checkbox</type>
+					<default_value>Y</default_value>		
+				</item>				
+				<item id="search_on_keywords">             
+					<type>checkbox</type>
+					<default_value>Y</default_value>		
+				</item>
+				<item id="search_on_metakeywords">             
+					<type>checkbox</type>
+					<default_value>N</default_value>
+				</item>
+				<item id="search_on_metatitle">             
+					<type>checkbox</type>
+					<default_value>N</default_value>					
+				</item>
+				<item id="search_on_metadesc">             
+					<type>checkbox</type>
+					<default_value>N</default_value>v					
+				</item>
+				<item id="search_on_pcode">             
+					<type>checkbox</type>
+					<default_value>N</default_value>					
+				</item>
+				<item id="search_on_description">             
+					<type>checkbox</type>
+					<default_value>N</default_value>					
+				</item>
+				<item id="search_on_short_description">             
+					<type>checkbox</type>
+					<default_value>N</default_value>					
+				</item>
+				<item id="search_on_features">             
+					<type>checkbox</type>
+					<default_value>N</default_value>					
+				</item>
+				<item id="search_on_options">             
+					<type>checkbox</type>
+					<default_value>N</default_value>					
+				</item>
+				<item id="use_stop_words">             
+					<type>checkbox</type>
+					<default_value>Y</default_value>					
+				</item>					
+				<item id="limit">             
+					<type>input</type>
+					<default_value>7</default_value>			
+				</item>
+				<item id="characters_limit">             
+					<type>input</type>
+					<default_value>3</default_value>			
+				</item>
+				<item id="sort_options">
+					<type>header</type>
+					<handler/>
+					<variants/>
+				</item>
+				<item id="out_stock_end">             
+					<type>checkbox</type>
+					<default_value>Y</default_value>		
+				</item>
+				<item id="increase_popularity">             
+					<type>checkbox</type>
+					<default_value>Y</default_value>		
+				</item>
+				
+				<item id="sort_by">             
+					<type>selectbox</type>
+					<default_value>cls_relevance_with_popularity</default_value>
+				</item>
+				<item id="sort_order">             
+					<type>selectbox</type>
+					<default_value>desc</default_value>
+				</item>										
+			</items>	
+		</section>
+		<section id="storefronts">			
+			<items>
+				 <item id="serch_on_storefronts">
+					<type>header</type>
+					<handler/>
+					<variants/>
+				</item>				
+				<item id="search_storefront_categories"> 
+					<default_value>Y</default_value>            
+					<type>checkbox</type>			
+				</item>
+				<item id="allow_storefronts">             
+					<type>multiple checkboxes</type>			
+				</item>			 			
+			</items>	
+		</section>
+		<section id="styles">			
+			<items>				 
+				<item id="image_width">             
+					<type>input</type>
+					<default_value>75</default_value>			
+				</item>
+				<item id="image_height">             
+					<type>input</type>
+					<default_value>75</default_value>			
+				</item>				
+				<item id="show_category">             
+					<type>checkbox</type>
+					<default_value>Y</default_value>		
+				</item>
+				<item id="show_category_gradient">             
+					<type>checkbox</type>
+					<default_value>N</default_value>		
+				</item>
+				<item id="color_type">             
+					<type>selectbox</type>
+					<default_value>M</default_value>
+					<variants>
+						<item id="M"></item>
+						<item id="A"></item>
+						<item id="E"></item>		
+					</variants>						
+				</item>
+				<item id="clr_category_e">             
+					<type>input</type>
+					<default_value>#DB4437</default_value>			
+				</item>
+				<item id="margin">             
+					<type>input</type>
+					<default_value>48</default_value>			
+				</item>
+				<item id="border_radius">             
+					<type>input</type>
+					<default_value>5</default_value>			
+				</item>	
+				<item id="clr_border">             
+					<type>input</type>
+					<default_value>#A5ACB2</default_value>			
+				</item>			
+				<item id="clr_top_bg">             
+					<type>input</type>
+					<default_value>#FAFAFA</default_value>			
+				</item>
+				<item id="clr_hover">             
+					<type>input</type>
+					<default_value>#F3F3F3</default_value>			
+				</item>
+				<item id="clr_links">             
+					<type>input</type>
+					<default_value>#334553</default_value>			
+				</item>
+				<item id="clr_links_hover">             
+					<type>input</type>
+					<default_value>#678ca9</default_value>			
+				</item>		
+				<item id="show_more_styles">
+					<type>header</type>
+					<handler/>
+					<variants/>
+				</item>
+				<item id="btn_radius">             
+					<type>input</type>
+					<default_value>2</default_value>			
+				</item>
+				<item id="clr_btn_border">             
+					<type>input</type>
+					<default_value>#a5acb2</default_value>			
+				</item>
+				<item id="clr_btn_border_hover">             
+					<type>input</type>
+					<default_value>#a5acb2</default_value>			
+				</item>
+				<item id="clr_btn_text">             
+					<type>input</type>
+					<default_value>#fff</default_value>			
+				</item>				
+				<item id="clr_btn_text_hover">             
+					<type>input</type>
+					<default_value>#334553</default_value>			
+				</item>
+				<item id="clr_btn_bg">             
+					<type>input</type>
+					<default_value>#a5acb2</default_value>			
+				</item>
+				<item id="clr_btn_bg_hover">             
+					<type>input</type>
+					<default_value>#fff</default_value>			
+				</item>			
+			</items>	
+		</section>
+		</sections>
+	</settings>
+	<queries>       
+		<item>
+			ALTER TABLE `?:product_feature_variant_descriptions` ADD INDEX `lsvariant` (`variant`);
+		</item>		
+		<item for="uninstall">
+			ALTER TABLE `?:product_feature_variant_descriptions` DROP INDEX `lsvariant`;
+		</item>		
+		<item >
+			ALTER TABLE `?:product_option_variants_descriptions` ADD INDEX `lsvariant_name` (`variant_name`);
+		</item>		
+		<item for="uninstall">
+			ALTER TABLE `?:product_option_variants_descriptions` DROP INDEX `lsvariant_name`;
+		</item>		
+		<item>
+			ALTER TABLE `?:product_descriptions` ADD `cls_stop_words` text COLLATE 'utf8_general_ci' NOT NULL DEFAULT '';
+		</item>		
+		<item for="uninstall">
+			ALTER TABLE `?:product_descriptions` DROP `cls_stop_words`;
+		</item>		
+		<item>
+			CREATE TABLE `?:ls_products_popularity` (
+			  `product_id` mediumint(8) NOT NULL,
+			  `q_id` mediumint(8) NOT NULL,
+			  `popularity` int(8) NOT NULL DEFAULT '0',
+			  UNIQUE KEY `product_id_q_id` (`product_id`,`q_id`),
+			  KEY `popularity` (`popularity`)
+			) ENGINE=MyISAM DEFAULT CHARSET=utf8;			
+		</item>		
+		<item for="uninstall">
+			DROP TABLE IF EXISTS `?:ls_products_popularity`;		
+		</item>		
+		<item>
+			CREATE TABLE `?:ls_q_base` (
+			  `q_id` mediumint(8) NOT NULL AUTO_INCREMENT,
+			  `q` varchar(128) NOT NULL,
+			  `lang_code` char(2) NOT NULL,
+			  PRIMARY KEY (`q_id`),
+			  KEY `q_lang_code` (`q`,`lang_code`)
+			) ENGINE=MyISAM DEFAULT CHARSET=utf8;			
+		</item>		
+		<item for="uninstall">
+			DROP TABLE IF EXISTS `?:ls_q_base`;		
+		</item>
+			
+		<item>
+			CREATE TABLE `?:ls_q_products` (
+			  `request_id` mediumint(8) NOT NULL,
+			  `product_id` mediumint(8) NOT NULL,
+			  UNIQUE KEY `request_id_product_id` (`request_id`,`product_id`)
+			) ENGINE=MyISAM DEFAULT CHARSET=utf8;			
+		</item>		
+		<item for="uninstall">
+			DROP TABLE IF EXISTS `?:ls_q_products`;		
+		</item>		
+		<item>
+			CREATE TABLE `?:ls_q_requests` (
+			  `request_id` mediumint(8) NOT NULL AUTO_INCREMENT,
+			  `q_id` mediumint(8) NOT NULL,
+			  `timestamp` int(11) NOT NULL,
+			  `user_ip` int(10) unsigned NOT NULL,
+			  `lang_code` char(2) NOT NULL,
+			  PRIMARY KEY (`request_id`),
+			  UNIQUE KEY `q_id_timestamp` (`q_id`,`timestamp`),
+			  KEY `lang_code` (`lang_code`),
+			  KEY `user_ip` (`user_ip`)
+			) ENGINE=MyISAM DEFAULT CHARSET=utf8;			
+		</item>		
+		<item for="uninstall">
+			DROP TABLE IF EXISTS `?:ls_q_requests`;		
+		</item>				
+    </queries>
+</addon>

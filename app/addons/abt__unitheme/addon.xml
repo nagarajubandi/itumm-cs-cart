@@ -1,0 +1,72 @@
+<?xml version="1.0"?>
+<addon scheme="3.0" edition_type="ROOT,ULT:VENDOR">
+<id>abt__unitheme</id>
+<version>47.6</version>
+<priority>10000</priority>
+<position>0</position>
+<status>active</status>
+<default_language>en</default_language>
+<authors>
+<author>
+<name>AlexBranding</name>
+<email>info@alexbranding.com</email>
+<url>https://alexbranding.com</url>
+</author>
+</authors>
+<supplier>AlexBranding</supplier>
+<supplier_link>https://cs-cart.alexbranding.com</supplier_link>
+<compatibility>
+<conflicts>rus_theme_style</conflicts>
+<core_version><min>4.4.1</min></core_version>
+<core_edition>ULTIMATE,MULTIVENDOR</core_edition>
+</compatibility>
+<settings edition_type="ROOT,ULT:VENDOR">
+<sections>
+<section id="settings" edition_type="ROOT,ULT:VENDOR">
+<items>
+<item id="brand_feature_id">
+<type>input</type>
+</item>
+<item id="code"><type>hidden</type><default_value>ABA-kl9KY0jL6JLj3EmmdaR6g</default_value></item>
+<item id="build"><type>hidden</type><default_value>238</default_value></item>
+</items>
+</section>
+</sections>
+</settings>
+<queries>
+<item for="uninstall">DELETE FROM ?:privileges WHERE section_id = 'abt__unitheme'</item>
+<item>REPLACE INTO ?:privileges (section_id, is_default, privilege)
+VALUES ('abt__unitheme', 'Y', 'abt__ut.settings.view')
+,('abt__unitheme', 'Y', 'abt__ut.settings.manage')
+,('abt__unitheme', 'Y', 'abt__ut.buy_together_generate');
+</item>
+<item>
+CREATE TABLE IF NOT EXISTS ?:abt__ut_microdata (
+`id` mediumint(8) unsigned NOT NULL AUTO_INCREMENT,
+`company_id` int(11) unsigned NOT NULL DEFAULT 0,
+`field` varchar(255) NOT NULL DEFAULT '',
+PRIMARY KEY (`id`)
+) DEFAULT CHARSET=utf8;
+</item>
+<item>
+CREATE TABLE IF NOT EXISTS ?:abt__ut_microdata_description (
+`id` mediumint(8) unsigned NOT NULL,
+`value` varchar(255) NOT NULL DEFAULT '',
+`lang_code` char(2) NOT NULL DEFAULT '',
+PRIMARY KEY (`id`, `lang_code`)
+) DEFAULT CHARSET=utf8;
+</item>
+<item>
+CREATE TABLE IF NOT EXISTS `?:abt__ut_settings` (
+`name` varchar(50) NOT NULL,
+`company_id` int(11) unsigned NOT NULL DEFAULT '0',
+`lang_code` char(2) NOT NULL DEFAULT '',
+`value` text NOT NULL,
+PRIMARY KEY (`name`,`company_id`,`lang_code`)
+) DEFAULT CHARSET=utf8;
+</item>
+</queries>
+<functions>
+<item for="install">fn_abt__ut_install</item>
+</functions>
+</addon>

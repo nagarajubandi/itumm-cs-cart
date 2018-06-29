@@ -1,0 +1,97 @@
+v1.15 April 24, 2018
+------------------------------------------------------------------------
++ Added integration with the addon "AB: Advanced sitemap";
+
+
+v1.14 December 20, 2017
+------------------------------------------------------------------------
++ added compatibility with hooks in cs-cart 4.7.x;
++ added setting "Highlight promotion days left";
+~ if less than a day left, then instead of the number of days, "Only today";
+~ the number of columns in the products grid on the promotion page is depends on the setting of the site "Number of columns in the product list";
+! fixed bug with combinations on the promotions list page when products tracking is on;
+
+
+v1.13 November 24, 2017
+------------------------------------------------------------------------
++ added setting "Combinations per step";
++ added setting "Promotions per page";
+! fixed bug in widget-mode;
+
+
+v1.12 September 26, 2017
+------------------------------------------------------------------------
++ added users permissions;
+~ fixed multilanguage counter for responsive theme;
+
+
+v1.11 August 9, 2017
+------------------------------------------------------------------------
++ added a setting "Show additional products images" of block "AB: Deal of the day";
++ added multilanguage support for counter;
+~ changed view of expired promotions pages;
+
+
+v1.10 July 13, 2017
+------------------------------------------------------------------------
+~ fixed bug with sorting by specified positions in promotions block;
+~ fixed bug with displaying expired promotions;
+
+
+v1.9 June 01, 2017
+------------------------------------------------------------------------
+~ fixed styles for new version v1.5 of Unitheme;
+
+
+v1.8 May 23, 2017
+------------------------------------------------------------------------
+~ fixed conflict with addon buy_together;
+
+
+v1.7 May 10, 2017
+------------------------------------------------------------------------
+~ improved layout;
+
+
+v1.6 April 28, 2017
+------------------------------------------------------------------------
++ added the ability to create blocks with promotions;
++ added product tab with active promotions (if product has more then one promotion);
+~ setting "Promotion ID" moved from addon settings to block settings;
+~ all products in categories marks with label Promotion;
+~ in product page displaying first active promotion;
+~ fixed bugs;
+
+
+v1.5 March 27, 2017
+------------------------------------------------------------------------
++ added compatibility with CS-Cart 4.5.1.SP1;
+
+
+v1.4 March 16, 2017
+------------------------------------------------------------------------
++ fixed bugs validator.w3.org;
+
+
+v1.3 December 22, 2016
+------------------------------------------------------------------------
++ added compatibility with the UniTheme;
+
+
+v1.2.1 December 2, 2016
+------------------------------------------------------------------------
+~ limited products in block;
+
+
+v1.2 December 1, 2016
+------------------------------------------------------------------------
+~ fixed translations;
+~ fixed promotion detailed link on the product page;
+
+
+v1.1 November 29, 2016
+------------------------------------------------------------------------
++ added link to promotion on a product page
++ added filter by category on a promotion page;
+~ fixed bugs;
+

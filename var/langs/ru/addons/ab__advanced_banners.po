@@ -1,0 +1,313 @@
+msgid ""
+msgstr "Project-Id-Version: tygh"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Russian\n"
+"Language: ru_RU\n"
+
+msgctxt "Addons::name::ab__advanced_banners"
+msgid "ab__advanced_banners.addon_title"
+msgstr "AB: Расширенные баннеры"
+
+msgctxt "Addons::description::ab__advanced_banners"
+msgid "ab__advanced_banners_description"
+msgstr "Позволяет добавить расширенный тип баннера (с фоновым изображением, заголовком, текстом и кнопкой)"
+"<br><a href='https://cs-cart.alexbranding.com' target='_blank'>cs-cart.alexbranding.com</a>"
+
+msgctxt "Languages::ab__advanced_banners"
+msgid "ab__advanced_banners"
+msgstr "AB: Расширенные баннеры"
+
+msgctxt "Languages::ab__advanced_banners_menu_description"
+msgid "ab__advanced_banners_menu_description"
+msgstr "Расширенный тип баннера (с фоновым изображением, заголовком, текстом и кнопкой)"
+
+
+msgctxt "Languages::abab.type"
+msgid "abab.type"
+msgstr "AB: Расширенный"
+
+
+
+msgctxt "Languages::abab.color_scheme"
+msgid "abab.color_scheme"
+msgstr "Цветовая схема"
+
+msgctxt "Languages::ttc_abab.color_scheme"
+msgid "ttc_abab.color_scheme"
+msgstr "Указывает какого цвета будет <b>Заголовок</b> и <b>Описание</b> баннера. Для темного фона баннера укажите <b>Светлый</b>, для светлого фона баннера - <b>Темный</b>"
+
+msgctxt "Languages::abab.color_scheme.light"
+msgid "abab.color_scheme.light"
+msgstr "Светлая"
+
+msgctxt "Languages::abab.color_scheme.dark"
+msgid "abab.color_scheme.dark"
+msgstr "Темная"
+
+msgctxt "Languages::abab.title"
+msgid "abab.title"
+msgstr "Заголовок баннера"
+
+msgctxt "Languages::ttc_abab.title"
+msgid "ttc_abab.title"
+msgstr "Можно использовать html-теги"
+
+msgctxt "Languages::abab.description"
+msgid "abab.description"
+msgstr "Описание баннера"
+
+msgctxt "Languages::ttc_abab.description"
+msgid "ttc_abab.description"
+msgstr "Можно использовать html-теги"
+
+msgctxt "Languages::abab.button"
+msgid "abab.button"
+msgstr "Кнопка"
+
+msgctxt "Languages::ttc_abab.button"
+msgid "ttc_abab.button"
+msgstr "Можно использовать html-теги. Название кнопки на баннере, по которой будет будет происходить переход, например <b>Мне это интересно</b>. Если оставить пустое значение, то кнопка выводится не будет и вся зона баннера будет ссылкой"
+
+msgctxt "Languages::abab.background_image"
+msgid "abab.background_image"
+msgstr "Фоновое изображение"
+
+msgctxt "Languages::ttc_abab.background_image"
+msgid "ttc_abab.background_image"
+msgstr "Загруженное изображение будет занимать всю фоновую область баннера и автоматически центрироваться под мобильные устройства"
+
+msgctxt "Languages::abab.background_color"
+msgid "abab.background_color"
+msgstr "Цвет фона <a href=\"https://material.google.com/style/color.html#color-color-palette\" target=\"_blank\">(подобрать)</a>"
+
+msgctxt "Languages::ttc_abab.background_color"
+msgid "ttc_abab.background_color"
+msgstr "Формат: <code>#000000</code>. Используйте этот параметр только в том случае, если вы не хотите использовать <b>Фоновое изображение</b> (например, для экономии ресурсов)"
+
+
+
+msgctxt "Languages::abab_carousel_combined"
+msgid "abab_carousel_combined"
+msgstr "AB: Карусель (Расширенный)"
+
+msgctxt "Languages::abab_combined"
+msgid "abab_combined"
+msgstr "AB: Расширенный"
+
+
+
+msgctxt "Languages::abab.option.align"
+msgid "abab.option.align"
+msgstr "Горизонтальное выравнивание"
+
+msgctxt "Languages::ttc_abab.option.align"
+msgid "ttc_abab.option.align"
+msgstr "Расположение контента внутри баннера по горизонтали"
+
+msgctxt "Languages::abab.option.align.left"
+msgid "abab.option.align.left"
+msgstr "Слева"
+
+msgctxt "Languages::abab.option.align.center"
+msgid "abab.option.align.center"
+msgstr "По центру"
+
+msgctxt "Languages::abab.option.align.right"
+msgid "abab.option.align.right"
+msgstr "Справа"
+
+
+
+msgctxt "Languages::abab.option.valign"
+msgid "abab.option.valign"
+msgstr "Вертикальное выравнивание"
+
+msgctxt "Languages::ttc_abab.option.valign"
+msgid "ttc_abab.option.valign"
+msgstr "Расположение контента внутри баннера по вертикали"
+
+msgctxt "Languages::abab.option.valign.top"
+msgid "abab.option.valign.top"
+msgstr "Сверху"
+
+msgctxt "Languages::abab.option.valign.center"
+msgid "abab.option.valign.center"
+msgstr "По центру"
+
+msgctxt "Languages::abab.option.valign.bottom"
+msgid "abab.option.valign.bottom"
+msgstr "Снизу"
+
+
+msgctxt "Languages::abab.option.full_width_content"
+msgid "abab.option.full_width_content"
+msgstr "Полная ширина блока"
+
+msgctxt "Languages::ttc_abab.option.full_width_content"
+msgid "ttc_abab.option.full_width_content"
+msgstr "Ширина блока с контентом имеет по умолчанию ширину 50% баннера, установив флажок ширина блока с контентом будет 100%"
+
+
+
+msgctxt "Languages::abab.option.margin"
+msgid "abab.option.margin"
+msgstr "Внешние отступы, px"
+
+msgctxt "Languages::ttc_abab.option.margin"
+msgid "ttc_abab.option.margin"
+msgstr "CSS <code>margin</code>. Отступы в пикселях снаружи. Полезно, если вы захотели разместить несколько баннеров в одной секции"
+
+
+
+msgctxt "Languages::abab.option.padding"
+msgid "abab.option.padding"
+msgstr "Внутренние отступы, px"
+
+msgctxt "Languages::ttc_abab.option.padding"
+msgid "ttc_abab.option.padding"
+msgstr "CSS <code>padding</code>. Отступы в пикселях внутри баннера. Полезно, чтобы стандартизировать отступы от границ баннера до контента"
+
+
+
+msgctxt "Languages::abab.option.title_tag"
+msgid "abab.option.title_tag"
+msgstr "Тег заголовка"
+
+msgctxt "Languages::ttc_abab.option.title_tag"
+msgid "ttc_abab.option.title_tag"
+msgstr "Иногда для СЕО оптимизации необходимо указать тег заголовка (H1, H2, H3). По умолчанию заголовок расположен в теге DIV"
+
+msgctxt "Languages::abab.option.title_tag.div"
+msgid "abab.option.title_tag.div"
+msgstr "тег DIV"
+
+msgctxt "Languages::abab.option.title_tag.h1"
+msgid "abab.option.title_tag.h1"
+msgstr "тег H1"
+
+msgctxt "Languages::abab.option.title_tag.h2"
+msgid "abab.option.title_tag.h2"
+msgstr "тег H2"
+
+msgctxt "Languages::abab.option.title_tag.h3"
+msgid "abab.option.title_tag.h3"
+msgstr "тег H3"
+
+
+
+msgctxt "Languages::abab.option.title_font_size"
+msgid "abab.option.title_font_size"
+msgstr "Размер шрифта для заголовка, px"
+
+msgctxt "Languages::ttc_abab.option.title_font_size"
+msgid "ttc_abab.option.title_font_size"
+msgstr "CSS <code>font-size</code>"
+
+
+
+msgctxt "Languages::abab.option.shadow_title"
+msgid "abab.option.shadow_title"
+msgstr "Тень от заголовка"
+
+msgctxt "Languages::ttc_abab.option.shadow_title"
+msgid "abab.option.shadow_title"
+msgstr "Добавляет тень для заголовка"
+
+
+
+msgctxt "Languages::abab.option.description_font_size"
+msgid "abab.option.description_font_size"
+msgstr "Размер шрифта для описания, px"
+
+msgctxt "Languages::ttc_abab.option.description_font_size"
+msgid "ttc_abab.option.description_font_size"
+msgstr "CSS <code>font-size</code>"
+
+
+
+msgctxt "Languages::abab.option.description_background"
+msgid "abab.option.description_background"
+msgstr "Цвет фона для описания <a href=\"https://material.google.com/style/color.html#color-color-palette\" target=\"_blank\">(подобрать)</a>"
+
+msgctxt "Languages::ttc_abab.option.description_background"
+msgid "ttc_abab.option.description_background"
+msgstr "CSS <code>background</code>. Если вы хотите выделить фон описания цветом, тогда замените <code>transparent</code> на желаемый цвет в формате <code>#xxxxxx</code>"
+
+
+
+msgctxt "Languages::abab.option.conent_tr_bg"
+msgid "abab.option.conent_tr_bg"
+msgstr "Маска для контента"
+
+msgctxt "Languages::ttc_abab.option.conent_tr_bg"
+msgid "ttc_abab.option.conent_tr_bg"
+msgstr "Под описанием появится полупрозрачный фон (цвет зависит от схемы), он обеспечит лучшую читаемость текста на пёстром фоне"
+
+
+
+msgctxt "Languages::abab.option.min_height"
+msgid "abab.option.min_height"
+msgstr "Минимальная высота баннера, px"
+
+msgctxt "Languages::ttc_abab.option.min_height"
+msgid "ttc_abab.option.min_height"
+msgstr "Это высота баннера, которая на мобильных устройствах не будет уменьшаться менее указанного значения"
+
+
+
+msgctxt "Languages::ab__ab.help"
+msgid "ab__ab.help"
+msgstr "Справка"
+
+msgctxt "Languages::ab__ab.help.installation_completion.title"
+msgid "ab__ab.help.installation_completion.title"
+msgstr "Завершение установки модуля"
+
+msgctxt "Languages::ab__ab.help.installation_completion.text"
+msgid "ab__ab.help.installation_completion.text"
+msgstr "Для завершения установки модуля необходимо добавить хуки в системные файлы:"
+"<ol>"
+"    <li>файл <code>design/backend/templates/addons/banners/views/banners/manage.tpl</code><br>"
+"        <ul>"
+"           <li>Добавить строку кода <code>{hook name=\"banners:abab_status\"}</code></li>"
+"           <li>Добавить строку кода <code>{/hook}</code></li>"
+"        </ul>"
+"        В результате должно получиться следующее:<br>"
+"        <div style='overflow-y: scroll'><img src='design/backend/media/images/addons/ab__advanced_banners/add_hook.png'/></div>"
+"        <br>"
+"    </li>"
+"</ol>"
+
+msgctxt "Languages::ab__ab.help.create_banner.title"
+msgid "ab__ab.help.create_banner.title"
+msgstr "Создание расширенного баннера"
+
+msgctxt "Languages::ab__ab.help.create_banner.text"
+msgid "ab__ab.help.create_banner.text"
+msgstr ""
+"<ol>"
+"    <li>Создаем новый баннер (Маркетинг / Баннеры [+]);</li>"
+"    <li>Указываем Название, Позицию и Тип баннера - AB: Расширенный;</li>"
+"    <li>Если вы хотите использовать сложный баннер, который состоит из фона и изображения (например, рекламируемый товар), то загрузите фото товара (предварительно подготовьте изображение товара: обрезать фон и подогнать к нужному размеру);</li>"
+"    <li>Укажите Цветовую схему баннера. Если баннер будет светлый, то выберите темную схему (все тексты баннера будут черные). Если баннер будет темный, то выберите светлую схему (все тексты баннера будут белые);</li>"
+"    <li>Укажите Заголовок и Описание вашего предложения или акции. Можно использовать html-теги;</li>"
+"    <li>Укажите название кнопки на баннере, по которой будет будет происходить переход (например, <b>Мне это интересно</b>). Если оставить пустое значение, то кнопка выводится не будет и вся зона баннера будет ссылкой;</li>"
+"    <li>Определите для себя использовать ли фоновое изображения или просто указать цвет фона для более экономного использования ресурсов. Загруженное вами фоновое изображение будет заполнять всю область баннера и будет автоматически центрироваться на мобильных устройствах;</li>"
+"    <li>Укажите ссылку на рекламируемый контент и можете установить флажок для открытия ссылки на новой странице;</li>"
+"    <li>Сохраните баннер;</li>"
+"</ol>"
+
+msgctxt "Languages::ab__ab.help.show_banner.title"
+msgid "ab__ab.help.show_banner.title"
+msgstr "Создание блока для вывода расширенного баннера"
+
+msgctxt "Languages::ab__ab.help.show_banner.text"
+msgid "ab__ab.help.show_banner.text"
+msgstr ""
+"<ol>"
+"    <li>Создайте или выберите подходящую секцию в нужной локализации (Административная панель - Дизайн - Макеты) и создайте в ней новый блок <b>Баннер</b> (можете использовать уже созданный блок баннера);</li>"
+"    <li>При добавлении блока <b>Баннеры</b> укажите его Название и Тип (AB: Карусель (Расширенный) или AB: Расширенный) и перейдите по появившейся ссылке (Настройки).</li>"
+"    <li>Укажите желаемые настройки отображаения баннера;</li>"
+"    <li>После заполнения настроек перейдите к вкладке Контент и выберите ранее созданный вами AB: Расширенный баннер или баннеры, если используете AB: Карусель (Расширенный);</li>"
+"    <li>Сохраните блок;</li>"
+"</ol>"

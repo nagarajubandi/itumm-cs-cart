@@ -1,0 +1,314 @@
+msgid ""
+msgstr "Project-Id-Version: tygh"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Russian\n"
+"Language: ru_RU\n"
+
+msgctxt "Addons::name::ab__deal_of_the_day"
+msgid "ab__deal_of_the_day"
+msgstr "AB: Товар дня"
+
+msgctxt "Addons::description::ab__deal_of_the_day"
+msgid "ab__deal_of_the_day_description"
+msgstr "Модуль добавляет блок с товарами дня, а также счётчик до конца акции на странице товара"
+"<br><a href='https://cs-cart.alexbranding.com' target='_blank'>cs-cart.alexbranding.com</a>"
+
+msgctxt "Languages::ab__deal_of_the_day"
+msgid "ab__deal_of_the_day"
+msgstr "AB: Товар дня"
+
+msgctxt "Languages::block_ab__deal_of_the_day"
+msgid "block_ab__deal_of_the_day"
+msgstr "AB: Товар дня"
+
+msgctxt "Languages::ab__dotd_time_left"
+msgid "ab__dotd_time_left"
+msgstr "До конца акции осталось"
+
+msgctxt "Languages::ab_dotd_product_label"
+msgid "ab_dotd_product_label"
+msgstr "Акция"
+
+msgctxt "SettingsOptions::ab__deal_of_the_day::count_to"
+msgid "count_to"
+msgstr "Вести отсчёт до"
+
+msgctxt "SettingsTooltips::ab__deal_of_the_day::count_to"
+msgid "count_to"
+msgstr "Какое время будет использовано как конечное в таймере"
+
+msgctxt "SettingsVariants::ab__deal_of_the_day::count_to::end_of_the_day"
+msgid "end_of_the_day"
+msgstr "Конец дня"
+
+msgctxt "SettingsVariants::ab__deal_of_the_day::count_to::end_of_the_promotion"
+msgid "end_of_the_promotion"
+msgstr "Конец промо-акции"
+
+msgctxt "SettingsOptions::ab__deal_of_the_day::max_height"
+msgid "max_height"
+msgstr "Максимальная высота описания в px"
+
+msgctxt "SettingsTooltips::ab__deal_of_the_day::max_height"
+msgid "max_height"
+msgstr "Максимальная высота блока описания акции в px. Если описание блока будет занимать место больше чем указанное значение, тогда оставшееся описание будет скрыто. Название ссылки является языковой переменной - <code>ab__dotd.more</code> и <code>ab__dotd.less</code>"
+
+msgctxt "Languages::ab__dotd.more"
+msgid "ab__dotd.more"
+msgstr "Больше"
+
+msgctxt "Languages::ab__dotd.less"
+msgid "ab__dotd.less"
+msgstr "Меньше"
+
+msgctxt "Languages::ab__dotd.form.h1"
+msgid "H1 tag"
+msgstr "H1 тег"
+
+msgctxt "Languages::ab__dotd.form.page_title"
+msgid "Page title"
+msgstr "Заголовок страницы"
+
+msgctxt "Languages::ab__dotd.form.meta_description"
+msgid "Meta-description"
+msgstr "Meta-description"
+
+msgctxt "Languages::ab__dotd.form.meta_keywords"
+msgid "Meta-keywords"
+msgstr "Meta-keywords"
+
+msgctxt "Languages::ab__dotd.form.page_image"
+msgid "Image for promotion page"
+msgstr "Изображение для страницы акции"
+
+msgctxt "Languages::ab__dotd.form.list_image"
+msgid "Image for promotions list"
+msgstr "Изображение для списка акций"
+
+msgctxt "Languages::ab__dotd.form.filter"
+msgid "Filter"
+msgstr "Использовать фильтр по категории"
+
+msgctxt "Languages::ab__dotd.from"
+msgid "from"
+msgstr "с"
+
+msgctxt "Languages::ab__dotd.to"
+msgid "to"
+msgstr "по"
+
+msgctxt "Languages::ab__dotd.page_action_period"
+msgid "page_action_period"
+msgstr "Период проведения акции:"
+
+msgctxt "Languages::ab__dotd.days_left"
+msgid "days_left"
+msgstr "Остался <span>[n]</span> день|Осталось <span>[n]</span> дня|Осталось <span>[n]</span> дней"
+
+msgctxt "Languages::ab__dotd.help"
+msgid "ab__dotd.help"
+msgstr "Справка"
+
+msgctxt "Languages::ab__dotd_help.docs"
+msgid "ab__dotd_help.docs"
+msgstr "Ознакомиться с <a target='_blank' href='https://cs-cart.alexbranding.com/ru/ab__deal_of_the_day.doc'>документацией</a>."
+
+msgctxt "Languages::ab__dotd.clear_filter"
+msgid "ab__dotd.clear_filter"
+msgstr "Очистить фильтр"
+
+msgctxt "Languages::ab__dotd.detailed"
+msgid "ab__dotd.detailed"
+msgstr "Подробнее об акции"
+
+msgctxt "Languages::ab__promotions_list"
+msgid "ab__promotions_list"
+msgstr "AB: Список промо-акций"
+
+msgctxt "Languages::ab__promotions_view"
+msgid "ab__promotions_view"
+msgstr "AB: Страница промо-акции"
+
+msgctxt "Languages::block_ab__promotions"
+msgid "block_ab__promotions"
+msgstr "AB: Промо-акции"
+
+msgctxt "Languages::block_ab__promotions_description"
+msgid "block_ab__promotions_description"
+msgstr "Промо-акции магазина"
+
+msgctxt "Languages::ab__dotd.add_promotions_and_close"
+msgid "ab__dotd.add_promotions_and_close"
+msgstr "Добавить промо-акции и закрыть"
+
+msgctxt "Languages::ab__dotd.add_promotions"
+msgid "ab__dotd.add_promotions"
+msgstr "Добавить промо-акции"
+
+msgctxt "Languages::ab__dotd_scroller"
+msgid "ab__dotd_scroller"
+msgstr "Скроллер промо-акций"
+
+msgctxt "Languages::ab__dotd_sorted_promotions"
+msgid "ab__dotd_sorted_promotions"
+msgstr "Cортированные акции"
+
+msgctxt "Languages::ab__dotd.sort.created"
+msgid "ab__dotd.sort.created"
+msgstr "дате создания"
+
+msgctxt "Languages::ab__dotd.sort.to_date"
+msgid "ab__dotd.sort.to_date"
+msgstr "дате завершения"
+
+msgctxt "Languages::ab__dotd.sort.priority"
+msgid "ab__dotd.sort.priority"
+msgstr "приоритету"
+
+msgctxt "Languages::ab__dotd.sort.name"
+msgid "ab__dotd.sort.name"
+msgstr "названию"
+
+msgctxt "Languages::sort_order"
+msgid "sort_order"
+msgstr "Порядок сортировки"
+
+msgctxt "Languages::ab__dotd.choose_promotion"
+msgid "ab__dotd.choose_promotion"
+msgstr "Выберите промо-акцию"
+
+msgctxt "Languages::ab__deal_of_the_day_title_product"
+msgid "ab__deal_of_the_day_title_product"
+msgstr "Промо-акции"
+
+msgctxt "Languages::ab__dotd.all_promotions"
+msgid "ab__dotd.all_promotions"
+msgstr "Также в акциях"
+
+msgctxt "Languages::ab__dotd.all_promotions.title"
+msgid "ab__dotd.all_promotions.title"
+msgstr "Просмотрите другие акции, в которых участвует товар"
+
+msgctxt "Languages::ab__show_additional_product_images"
+msgid "ab__show_additional_product_images"
+msgstr "Показывать дополнительные фото товаров"
+
+msgctxt "Languages::ab__dotd.counter.years"
+msgid "years"
+msgstr "лет"
+
+msgctxt "Languages::ab__dotd.counter.months"
+msgid "months"
+msgstr "месяцев"
+
+msgctxt "Languages::ab__dotd.counter.days"
+msgid "days"
+msgstr "дней"
+
+msgctxt "Languages::ab__dotd.counter.hours"
+msgid "hours"
+msgstr "часов"
+
+msgctxt "Languages::ab__dotd.counter.minutes"
+msgid "minutes"
+msgstr "минут"
+
+msgctxt "Languages::ab__dotd.counter.seconds"
+msgid "seconds"
+msgstr "секунд"
+
+msgctxt "Languages::ab__dotd.promotion_expired"
+msgid "ab__dotd.promotion_expired"
+msgstr "Акция истекла"
+
+msgctxt "Languages::privilege_sections.ab__deal_of_the_day"
+msgid "privilege_sections.ab__deal_of_the_day"
+msgstr "AB: Товар дня"
+
+msgctxt "Languages::privileges.ab__dotd_manage_seodata"
+msgid "privileges.ab__dotd_manage_seodata"
+msgstr "Управление seo-данными промоакций"
+
+msgctxt "Languages::privileges.ab__dotd_view_seodata"
+msgid "privileges.ab__dotd_view_seodata"
+msgstr "Просмотр seo-данных промоакций"
+
+msgctxt "Languages::ab__dotd.get_more_combinations"
+msgid "ab__dotd.get_more_combinations"
+msgstr "Показать еще [n] комбинацию|Показать еще [n] комбинации|Показать еще [n] комбинаций"
+
+msgctxt "Languages::ab__dotd.showed_combitations"
+msgid "ab__dotd.showed_combitations"
+msgstr "Показано [n] из [total]"
+
+msgctxt "Languages::ab__dotd.chains_list.title"
+msgid "ab__dotd.chains_list.title"
+msgstr "Комбинации товаров"
+
+msgctxt "SettingsOptions::ab__deal_of_the_day::promotions_per_page"
+msgid "promotions_per_page"
+msgstr "Акций на страницу"
+
+msgctxt "SettingsTooltips::ab__deal_of_the_day::promotions_per_page"
+msgid "promotions_per_page"
+msgstr "Количество акций на страницу списка. Чтобы отключить пагинацию введите <code> 0 </code>"
+
+msgctxt "SettingsOptions::ab__deal_of_the_day::chains_per_page"
+msgid "chains_per_page"
+msgstr "Шаг загрузки комбинаций"
+
+msgctxt "SettingsTooltips::ab__deal_of_the_day::chains_per_page"
+msgid "chains_per_page"
+msgstr "Количество комбинаций модуля \"Комбинации товаров\" на шаг загрузки на странице списка акций. Чтобы отображать все сразу введите <code> 0 </code>"
+
+msgctxt "Languages::ab__dotd.today_only"
+msgid "ab__dotd.today_only"
+msgstr "Только сегодня"
+
+msgctxt "SettingsOptions::ab__deal_of_the_day::highlight_when_left"
+msgid "highlight_when_left"
+msgstr "Выделить кол-во дней акции"
+
+msgctxt "SettingsTooltips::ab__deal_of_the_day::highlight_when_left"
+msgid "highlight_when_left"
+msgstr "Выделить количество оставшихся дней акции, если осталось"
+
+msgctxt "SettingsVariants::ab__deal_of_the_day::highlight_when_left::0"
+msgid "0"
+msgstr "Не выделять"
+
+msgctxt "SettingsVariants::ab__deal_of_the_day::highlight_when_left::1"
+msgid "1"
+msgstr "1 день"
+
+msgctxt "SettingsVariants::ab__deal_of_the_day::highlight_when_left::2"
+msgid "2"
+msgstr "2 дня"
+
+msgctxt "SettingsVariants::ab__deal_of_the_day::highlight_when_left::3"
+msgid "3"
+msgstr "3 дня"
+
+msgctxt "SettingsVariants::ab__deal_of_the_day::highlight_when_left::4"
+msgid "4"
+msgstr "4 дня"
+
+msgctxt "SettingsVariants::ab__deal_of_the_day::highlight_when_left::5"
+msgid "5"
+msgstr "5 дней"
+
+msgctxt "SettingsVariants::ab__deal_of_the_day::highlight_when_left::6"
+msgid "6"
+msgstr "6 дней"
+
+msgctxt "SettingsVariants::ab__deal_of_the_day::highlight_when_left::7"
+msgid "7"
+msgstr "7 дней"
+
+msgctxt "SettingsOptions::ab__deal_of_the_day::ab__as"
+msgid "ab__as"
+msgstr "AB: Расширенная карта сайта"
+
+msgctxt "SettingsOptions::ab__deal_of_the_day::ab__as_add_to_sitemap"
+msgid "ab__as_add_to_sitemap"
+msgstr "Добавить страницы акций в xml-карту сайта"

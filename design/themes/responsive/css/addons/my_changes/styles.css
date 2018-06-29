@@ -1,0 +1,5 @@
+.grid-list .border-column {
+    width: -webkit-calc(33.3333% - 15px);
+    width: calc(33.3333% - 15px);
+    margin: 7.5px;
+}

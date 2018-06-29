@@ -1,0 +1,6 @@
+.fieldset-icon{
+	background-image:url("opt-icon.png");
+	display: inline-block;
+    height: 85px;
+    width: 100px;
+}

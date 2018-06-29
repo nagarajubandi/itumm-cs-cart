@@ -1,0 +1,230 @@
+<?xml version="1.0"?>
+<addon scheme="3.0">
+    <id>sms_notification_msg91</id>
+    <version>2.0</version>
+    <priority>10011</priority>
+    <position>980</position>  
+    <status>active</status>
+    <has_icon>Y</has_icon>
+    <default_language>en</default_language>
+    <supplier>Webkul</supplier>
+    <supplier_link>https://store.webkul.com/CS-Cart.html</supplier_link>
+    <authors>
+        <author>
+            <name>Vivek Gupta</name>
+        </author>
+        <author>
+            <name>Webkul</name>
+            <email>support@webkul.com</email>
+            <url>https://store.webkul.com</url>
+        </author>
+    </authors>
+    <auto_install>MULTIVENDOR,ULTIMATE</auto_install>
+    <settings>
+        <sections>
+            <section id="credentials">
+                <items>
+                    <item id="authkey">
+                        <type>input</type>
+                        <variants/>
+                    </item>
+                    <item id="client_id">
+                        <type>input</type>
+                        <variants/>
+                    </item>
+
+                    <item id="route">
+                        <type>input</type>
+                        <default_value>default</default_value>
+                        <variants/>
+                    </item>
+                </items>
+            </section>
+            <section id="settings">
+                <items>
+                    <item id="setting_customer">
+                        <type>header</type>
+                        <variants/>
+                    </item>
+
+                    <item id="sms_new_cusomer_registered">
+                        <type>checkbox</type>
+                        <default_value>Y</default_value>
+                        <variants/>
+                    </item>
+
+                    <item id="sms_new_order_placed">
+                        <type>checkbox</type>
+                        <default_value>Y</default_value>
+                        <variants/>
+                    </item>
+
+                    <item id="sms_shipment_status">
+                        <type>checkbox</type>
+                        <default_value>Y</default_value>
+                        <variants/>
+                    </item>
+
+                    <item id="sms_user_status">
+                        <type>checkbox</type>
+                        <default_value>Y</default_value>
+                        <variants/>
+                    </item>
+                    
+                    <item id="setting_admin">
+                        <type>header</type>
+                        <variants/>
+                    </item>
+
+                    <item id="admin_phone">
+                        <type>input</type>
+                        <variants/>
+                    </item>
+
+                    <item id="sms_new_cusomer_registered_admin">
+                        <type>checkbox</type>
+                        <default_value>Y</default_value>
+                        <variants/>
+                    </item>
+
+                    <item id="sms_new_order_placed_admin">
+                        <type>checkbox</type>
+                        <default_value>Y</default_value>
+                        <variants/>
+                    </item>
+
+                    <item id="sms_shipment_status_admin">
+                        <type>checkbox</type>
+                        <default_value>Y</default_value>
+                        <variants/>
+                    </item>
+
+                    <item id="sms_low_stock_admin">
+                        <type>checkbox</type>
+                        <default_value>Y</default_value>
+                        <variants/>
+                    </item>
+
+                    <item id="setting_vendor" edition_type="MVE:ROOT">
+                        <type>header</type>
+                        <variants/>
+                    </item>
+
+                    <item id="sms_new_order_placed_vendor" edition_type="MVE:ROOT">
+                        <type>checkbox</type>
+                        <default_value>Y</default_value>
+                        <variants/>
+                    </item>
+
+                    <item id="sms_shipment_status_vendor" edition_type="MVE:ROOT">
+                        <type>checkbox</type>
+                        <default_value>Y</default_value>
+                        <variants/>
+                    </item>
+
+                    <item id="sms_vendor_status_vendor" edition_type="MVE:ROOT">
+                        <type>checkbox</type>
+                        <default_value>Y</default_value>
+                        <variants/>
+                    </item>
+
+                    <item id="sms_low_stock_vendor" edition_type="MVE:ROOT">
+                        <type>checkbox</type>
+                        <default_value>Y</default_value>
+                        <variants/>
+                    </item>
+                </items>
+            </section>
+            <section id="template">
+                <items>
+                    <item id="setting_template_help">
+                        <type>header</type>
+                        <variants/>
+                    </item>
+
+                    <item id="setting_help_template">
+                        <type>template</type>
+                        <default_value>help.tpl</default_value>
+                    </item>
+
+                    <item id="setting_customer_template">
+                        <type>header</type>
+                        <variants/>
+                    </item>
+
+                    <item id="sms_new_cusomer_registered_template">
+                        <type>textarea</type>
+                        <default_value> You are successfully Register with us. email id : %email% and password : ********
+                        </default_value>
+                    </item>
+
+                    <item id="sms_new_order_placed_template">
+                        <type>textarea</type>
+                        <default_value>Dear %first_name% %last_name% (%email%),A new order %order_id% has been placed successfully by payment %payment_method% on %date%. your ordered products are %products%.</default_value>
+                    </item>
+
+                    <item id="sms_shipment_status_template">
+                        <type>textarea</type>
+                        <default_value>Dear %first_name% %last_name% (%email%), your order id : %order_id% shipment of products %products% has been shipped with %carrier% (Tracking No : %tracking_number%) on %date%.</default_value>
+                    </item>
+
+                    <item id="sms_user_status_template">
+                        <type>textarea</type>
+                        <default_value>Dear %first_name% %last_name% (%email%), your account status changed to %status%.</default_value>
+                    </item>
+
+                    <item id="setting_admin_template">
+                        <type>header</type>
+                        <variants/>
+                    </item>
+
+                    <item id="sms_new_cusomer_registered_admin_template">
+                        <type>textarea</type>
+                        <default_value> Hi , A new Customer Register on store with email :  %email%
+                        </default_value>
+                    </item>
+
+                    <item id="sms_new_order_placed_admin_template">
+                        <type>textarea</type>
+                        <default_value>Hi , A new Order %order_id% placed . Customer Email : %email%</default_value>
+                    </item>
+
+                    <item id="sms_shipment_status_admin_template">
+                        <type>textarea</type>
+                        <default_value>New Shipment Created of order id : %order_id%. Tracking No : %tracking_number% , Carrier : %carrier%</default_value>
+                    </item>
+
+                    <item id="sms_low_stock_admin_template">
+                        <type>textarea</type>
+                        <default_value>Hi, %product% (%product_code%) have low inventory. Available Quantity: %amount%</default_value>
+                    </item>
+
+                    <item id="setting_vendor_template" edition_type="MVE:ROOT">
+                        <type>header</type>
+                        <variants/>
+                    </item>
+
+                    <item id="sms_new_order_placed_vendor_template" edition_type="MVE:ROOT">
+                        <type>textarea</type>
+                        <default_value>Hi , A new Order %order_id% placed . Customer Email : %email%</default_value>
+                    </item>
+
+                    <item id="sms_shipment_status_vendor_template" edition_type="MVE:ROOT">
+                        <type>textarea</type>
+                        <default_value>New Shipment Created of order id : %order_id%. Tracking No : %tracking_number% , Carrier : %carrier%</default_value>
+                    </item>
+
+                    <item id="sms_vendor_status_vendor_template" edition_type="MVE:ROOT">
+                        <type>textarea</type>
+                        <default_value>Dear %vendor% (%email%), your vendor account status changed to %status%.</default_value>
+                    </item>
+
+                    <item id="sms_low_stock_vendor_template" edition_type="MVE:ROOT">
+                        <type>textarea</type>
+                        <default_value>Hi, %product% (%product_code%) have low inventory. Available Quantity: %amount%</default_value>
+                    </item>
+                </items>
+            </section>
+        </sections>
+    </settings>
+</addon>                
