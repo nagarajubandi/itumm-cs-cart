@@ -9,3 +9,4 @@ mysql.sh
 *.zip
 *.sql
 /config.local.php
+cache
