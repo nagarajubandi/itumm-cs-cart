@@ -202,13 +202,38 @@ if ($mode == 'index') {
     $timezone_timestamp_from = date_create($time_period['from']->format('Y-m-d'), timezone_open('+05:30'))->getTimestamp();
     $timezone_timestamp_to = date_create($time_period['to']->format('Y-m-d'), timezone_open('+05:30'))->getTimestamp();
 
+
+    /////////////////////////////////////////////////////////////
     $vendor_payouts = \Tygh\VendorPayouts::instance();
+    $payout_params = [
+    ];
+    $dashboard_stats = array();
+
+    $sales_params = $payout_params;
+    $sales_params['payout_type']='order_placed';
+    list($payouts, $search) = $vendor_payouts->getList($sales_params);
+    $dashboard_stats['ebs_sales'] = 0;
+    foreach($payouts as $payoutDetails){
+        if($payoutDetails['payment_method'] != 'COD'){
+            $dashboard_stats['ebs_sales'] += $payoutDetails['order_amount'];
+        }
+    }
+
+    $balance_params = $payout_params;
+    $balance_params['payout_type']='payout';
+    $balance_params['approval_status']='C';
+    list($payouts, $search) = $vendor_payouts->getList($balance_params);
+    $dashboard_stats['payouts'] = array_sum(array_column($payouts, 'payout_amount'));
+    $dashboard_stats['balance'] = $dashboard_stats['ebs_sales'] - $dashboard_stats['payouts'];
+    /////////////////////////////////////////////////////////////////////////////////////////////////////
+
+    //$vendor_payouts = \Tygh\VendorPayouts::instance();
     $payout_params = [
         'period' => 'C',
         'time_from' => $timezone_timestamp_from,
         'time_to' => $timezone_timestamp_to,
     ];
-    $dashboard_stats = array();
+    //$dashboard_stats = array();
 
     $sales_params = $payout_params;
     $sales_params['payout_type']='order_placed';
@@ -227,7 +252,6 @@ if ($mode == 'index') {
     $balance_params['approval_status']='C';
     list($payouts, $search) = $vendor_payouts->getList($balance_params);
     $dashboard_stats['payouts'] = array_sum(array_column($payouts, 'payout_amount'));
-    $dashboard_stats['balance'] = $dashboard_stats['ebs_sales'] - $dashboard_stats['payouts'];
 
     list($payouts, $search) = $vendor_payouts->getList($balance_params);
     $dashboard_stats['last_payment'] = reset($payouts);

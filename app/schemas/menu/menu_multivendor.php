@@ -1,16 +1,16 @@
 <?php
 /***************************************************************************
-*                                                                          *
-*   (c) 2004 Vladimir V. Kalynyak, Alexey V. Vinokurov, Ilya M. Shalnev    *
-*                                                                          *
-* This  is  commercial  software,  only  users  who have purchased a valid *
-* license  and  accept  to the terms of the  License Agreement can install *
-* and use this program.                                                    *
-*                                                                          *
-****************************************************************************
-* PLEASE READ THE FULL TEXT  OF THE SOFTWARE  LICENSE   AGREEMENT  IN  THE *
-* "copyright.txt" FILE PROVIDED WITH THIS DISTRIBUTION PACKAGE.            *
-****************************************************************************/
+ *                                                                          *
+ *   (c) 2004 Vladimir V. Kalynyak, Alexey V. Vinokurov, Ilya M. Shalnev    *
+ *                                                                          *
+ * This  is  commercial  software,  only  users  who have purchased a valid *
+ * license  and  accept  to the terms of the  License Agreement can install *
+ * and use this program.                                                    *
+ *                                                                          *
+ ****************************************************************************
+ * PLEASE READ THE FULL TEXT  OF THE SOFTWARE  LICENSE   AGREEMENT  IN  THE *
+ * "copyright.txt" FILE PROVIDED WITH THIS DISTRIBUTION PACKAGE.            *
+ ****************************************************************************/
 
 use Tygh\Registry;
 
@@ -39,10 +39,10 @@ $schema['central']['customers']['items'] = $customers_items + $schema['central']
     ),
     'position' => 600,
 );*/
-$schema['top']['administration']['items']['shippings_taxes']= array(
+/*$schema['top']['administration']['items']['shippings_taxes']= array(
     'href' => 'taxes.manage',
     'position' => 600,
-);
+);*/
 
 $schema['top']['administration']['items']['import_data']['subitems']['vendors'] = array(
     'href' => 'exim.import?section=vendors',
@@ -85,11 +85,7 @@ $schema['central']['orders']['items']['return_requests'] = array(
     )
 );
 if (Registry::get('runtime.company_id')) {
-	 $schema['top']['administration']['items']['shippings_taxes'] = array(
-        'href' => 'taxes.manage',
-        'position' => 1100,
-        
-    );
+
     $schema['top']['administration']['items']['import_data'] = array(
         'href' => 'exim.import',
         'position' => 1200,
@@ -115,7 +111,7 @@ if (Registry::get('runtime.company_id')) {
             ),
         ),
     );
-	
+
 }
 
 
@@ -145,27 +141,34 @@ $schema['central']['finance'] = array(
 
 
 if (Registry::get('runtime.company_id')) {
-	unset($schema['top']['administration']['items']['shippings_taxes']['subitems']['taxes']);
-	unset($schema['top']['administration']['items']['shippings_taxes']['subitems']['shipping_methods']);
+    unset($schema['top']['administration']['items']['shippings_taxes']);
+    $schema['top']['administration']['items']['taxes']= array(
+        'href' => 'taxes.manage',
+        'position' => 600,
+    );
+    unset($schema['top']['administration']['items']['currencies']);
+    unset($schema['top']['administration']['items']['logs']);
+    unset($schema['central']['website']);
+    unset($schema['central']['website']['items']['blog']);
+    unset($schema['central']['web_site']);
+    unset($schema['central']['web_site']['items']['blog']);
+    unset($schema['central']['products']['items']['features']);
+    unset($schema['central']['customers']['items']['customers']);
+    unset($schema['central']['accounting']['items']['vendors']);
+    unset($schema['central']['vendors']['items']['vendor_accounting']);
+    //unset($schema['central']['customers']);
+} else {
     unset($schema['top']['administration']['items']['shippings_taxes']['subitems']['states']);
-	unset($schema['top']['administration']['items']['shippings_taxes']['subitems']['countries']);
-	unset($schema['top']['administration']['items']['shippings_taxes']['subitems']['locations']);
-	unset($schema['top']['administration']['items']['currencies']);
-	unset($schema['top']['administration']['items']['logs']);
-	unset($schema['central']['website']);
-	unset($schema['central']['website']['items']['blog']);
-	unset($schema['central']['web_site']);
-	unset($schema['central']['web_site']['items']['blog']);
-	unset($schema['central']['products']['items']['features']);
-	unset($schema['central']['customers']['items']['customers']);
-	unset($schema['central']['accounting']['items']['vendors']);
-	unset($schema['central']['vendors']['items']['vendor_accounting']);
-	//unset($schema['central']['customers']);
+    unset($schema['top']['administration']['items']['shippings_taxes']['subitems']['countries']);
+    unset($schema['top']['administration']['items']['shippings_taxes']['subitems']['locations']);
 }
 if (!Registry::get('runtime.company_id')) {
-    
-	unset($schema['central']['accounting']);
-	//unset($schema['central']['customers_vendors']);
+    unset($schema['central']['website']);
+    unset($schema['central']['website']['items']['blog']);
+    unset($schema['central']['web_site']);
+    unset($schema['central']['web_site']['items']['blog']);
+    unset($schema['central']['accounting']);
+    //unset($schema['central']['customers_vendors']);
 }
 
 return $schema;
