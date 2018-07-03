@@ -184,6 +184,9 @@ if ($mode == 'export') {
     }
 
     list($sections, $patterns) = fn_exim_get_patterns($_REQUEST['section'], 'export');
+    if (Registry::get('runtime.company_id')) {
+        unset($sections['vendors']);
+    }
 
     if (empty($sections) && empty($patterns) || (isset($_REQUEST['section']) && empty($sections[$_REQUEST['section']]))) {
         return array(CONTROLLER_STATUS_DENIED);

@@ -26,7 +26,10 @@ if ( $mode == 'view' ) {
 			} else {
 				$product[ 'vendors' ] = fn_sort_array_by_key( $product[ 'vendors' ], 'price', SORT_DESC );
 			}
-		}
+		} else {
+            $method = 'asc';
+            $product[ 'vendors' ] = fn_sort_array_by_key( $product[ 'vendors' ], 'price', SORT_ASC );
+        }
 	}
 	else
 	{
