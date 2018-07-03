@@ -288,6 +288,7 @@ if ($mode == 'view') {
     list($products, $search) = fn_get_products($params, Registry::get('settings.Appearance.products_per_page'));
 
 
+
     if (defined('AJAX_REQUEST') && (!empty($params['features_hash']) && !$products)) {
         fn_filters_not_found_notification();
         exit;
@@ -297,6 +298,12 @@ if ($mode == 'view') {
 
     if (!empty($products)) {
         Tygh::$app['session']['continue_url'] = Registry::get('config.current_url');
+    }
+
+    foreach ($products as $key => $productDetails){
+        if(!isset($productDetails['vendors_products'][$company_id])){
+            unset($products[$key]);
+        }
     }
 
     $selected_layout = fn_get_products_layout($params);
