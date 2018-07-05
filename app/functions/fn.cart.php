@@ -6466,7 +6466,7 @@ function fn_order_notification(&$order_info, $edp_data = array(), $force_notific
 
             $mailer->send(array(
                 'to' => $order_info['email'],
-                'from' => 'company_orders_department',
+                'from' => 'default_company_users_department',
                 'data' => array(
                     'order_info' => $order_info,
                     'shipments' => $shipments,

@@ -77,10 +77,10 @@
                                             <div class="ty-float-right">
 												
 												{if !$auth.user_id}
-												<a href="{''|fn_url}''?dispatch=auth.login_form&amp;return_url=index.php" data-ca-target-id="login_block789" class="cm-dialog-opener cm-dialog-auto-size ty-btn ty-btn__secondary" rel="nofollow"> Move to wish list</a>
+												<a href="{''|fn_url}''?dispatch=auth.login_form&amp;return_url=index.php&mv_product_id={$product.product_id}" data-ca-target-id="login_block789" class="cm-dialog-opener cm-dialog-auto-size ty-btn ty-btn__secondary storelocal" rel="nofollow" data-product_id="{$product.product_id}"> Move to wish list</a>
 												
 												{else}
-                                                <button type="button" class="movetolist ty-btn ty-btn__secondary cm-dialog-closer" role="button" title="Close" data-dismiss="modal" data-product_id="{$product.product_id}">
+                                                <button type="button" class="movetolist movetolist{$product.product_id} ty-btn ty-btn__secondary cm-dialog-closer" role="button" title="Close" data-dismiss="modal" data-product_id="{$product.product_id}">
                                                     Move to wish list
                                                 </button>
 												{/if}
