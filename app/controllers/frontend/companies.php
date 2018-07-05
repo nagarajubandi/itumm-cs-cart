@@ -301,7 +301,10 @@ if ($mode == 'view') {
     }
 
     foreach ($products as $key => $productDetails){
-        if(!isset($productDetails['vendors_products'][$company_id])){
+        if(
+            !isset($productDetails['vendors_products'][$company_id]) ||
+            ($productDetails['vendors_products'][$company_id]['amount'] <= 0)
+        ){
             unset($products[$key]);
         }
     }
