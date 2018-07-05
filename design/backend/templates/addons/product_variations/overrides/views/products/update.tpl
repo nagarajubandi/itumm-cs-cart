@@ -308,8 +308,10 @@
                         </div>
                     {/if}
 
+
+
                     {if $product_type->isFieldAvailable("tax_ids")}
-                        <div class="control-group">
+                        <div class="control-group" {if $product_data.product_type === "\Tygh\Addons\ProductVariations\Product\Manager::PRODUCT_TYPE_VARIATION"|constant}style="display:none;"{/if}>
                             <label class="control-label cm-required" for="elm_taxes">{__("taxes")}:</label>
                             <div class="controls">
                                 {*<input type="hidden" name="product_data[tax_ids]" value="" />*}

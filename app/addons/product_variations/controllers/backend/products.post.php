@@ -93,3 +93,14 @@ if ($_SERVER['REQUEST_METHOD'] === 'GET') {
         $view->assign('products_data', $products);
     }
 }
+
+if ($_SERVER['REQUEST_METHOD'] === 'POST') {
+    if ($mode == 'update') {
+        /** @var array $product_data */
+        $product_data = fn_get_product_data($_REQUEST['product_id'], $auth, DESCR_SL, '', true, true, true, true, false, false, $skip_company_condition);
+
+        if ($product_data['product_type'] === ProductManager::PRODUCT_TYPE_CONFIGURABLE) {
+            db_query('UPDATE ?:products SET tax_ids = ?s WHERE parent_product_id = ?i', implode(',', $product_data['tax_ids']), $product_data['product_id']);
+        }
+    }
+}
