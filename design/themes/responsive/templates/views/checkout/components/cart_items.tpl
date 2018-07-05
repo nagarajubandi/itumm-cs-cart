@@ -101,7 +101,10 @@
                                 {__("sku")}: <span class="cm-reload-{$obj_id}" id="product_code_update_{$obj_id}">{$product.product_code}<!--product_code_update_{$obj_id}--></span>
                             </div>
                             {if $product.product_options}
-                                <div class="cm-reload-{$obj_id} ty-cart-content__options" id="options_update_{$obj_id}" style="display:none;">
+                                <div class="options-info">
+                                {include file="common/options_info.tpl" product_options=$product.product_options inline_option=false}
+                                </div>
+                                <div class="cm-reload-{$obj_id} ty-cart-content__options" id="options_update_{$obj_id}" style="display: none;">
                                 {include file="views/products/components/product_options.tpl" product_options=$product.product_options product=$product name="cart_products" id=$key location="cart" disable_ids=$disable_ids form_name="checkout_form"}
                                 <!--options_update_{$obj_id}--></div>
                             {/if}
