@@ -457,6 +457,7 @@ function fn_multiple_vendors_gather_additional_product_data_post(&$product, $aut
                 $vendor_name = db_get_field ("SELECT company FROM ?:companies WHERE company_id = ?i", $vendor_id);
                 $vendor_price = db_get_field ("SELECT price FROM ?:vendors_products_data WHERE company_id = ?i AND product_id = ?i", $vendor_id, $product['product_id']);
                 $product['vendors_products'][$vendor_id] = array ('name' => $vendor_name, 'price' => $vendor_price);
+
             }
         }
 
@@ -472,7 +473,9 @@ function fn_multiple_vendors_gather_additional_product_data_post(&$product, $aut
                 $price = $product['price'];
             }
 
-            $product['vendors_products'][$company_id] = array ('name' => fn_get_company_name($company_id), 'price' => $price);
+            $amount = db_get_field("SELECT amount FROM ?:product_vendor_sell WHERE company_id = ?i AND product_id = ?i", $company_id, $product['product_id']);
+
+            $product['vendors_products'][$company_id] = array ('name' => fn_get_company_name($company_id), 'price' => $price, 'amount' => $amount);
         }
     }
 

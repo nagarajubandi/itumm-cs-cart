@@ -217,7 +217,7 @@ function fn_product_variations_save_variation($parent_product_data, array $combi
     fn_update_product_prices($product_variation_id, array(
         'price' => $combination['price'],
         'prices' => array()
-    ));
+    ), $data['company_id']);
 
     foreach ($languages as $lang_code => $lang) {
         $description_data = array(
