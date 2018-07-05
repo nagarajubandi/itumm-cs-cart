@@ -29,25 +29,59 @@
 </form>
 {if $cart_products}
         {foreach from=$cart_products item="product" key="key" name="cart_products"}
- <form action="{''|fn_url}" method="post" name="product_form_{$product.product_id}" enctype="multipart/form-data" class="cm-disable-empty-files  cm-ajax cm-ajax-full-render cm-ajax-status-middle  cm-processed-form">
+ <form action="{''|fn_url}" method="post" name="product_form_{$product.product_id}" id="product_form_{$product.product_id}" enctype="multipart/form-data" class="cm-disable-empty-files  cm-ajax cm-ajax-full-render cm-ajax-status-middle  cm-processed-form">
 <input name="result_ids" value="cart_items,checkout_totals,cart_status*,checkout_steps,checkout_cart" type="hidden">
 <input name="product_data[{$product.product_id}][product_id]" value="{$product.product_id}" type="hidden">
 
-<a class="ty-btn ty-btn__primary cm-ajax"  href="{"checkout.delete?cart_id=`$key`&redirect_mode=`$runtime.mode`"|fn_url}" data-ca-target-id="cart_items,checkout_totals,cart_status*,checkout_steps,checkout_cart" id="remove_button_{$product.product_id}" style="display:none">Remove</a>
+<a class="ty-btn ty-btn__primary cm-ajax cm-ajax-full-render"  href="{"checkout.delete?cart_id=`$key`&redirect_mode=`$runtime.mode`"|fn_url}" 
+   data-ca-target-id="cart_items,checkout_totals,cart_status*,checkout_steps,checkout_cart" id="remove_button_{$product.product_id}" style="display:none">Remove</a>
 	 
-    <a class="ty-btn ty-btn__secondary   ty-add-to-wish cm-submit text-button" id="button_wishlist_{$product.product_id}" data-ca-dispatch="dispatch[wishlist.add..{$product.product_id}]"  style="display:none">Move  to wish list</a>
+    <a class="ty-btn ty-btn__secondary ty-add-to-wish cm-submit text-button" id="button_wishlist_{$product.product_id}"
+	   data-ca-dispatch="dispatch[wishlist.add..{$product.product_id}]"  style="display:none" data-product_id="{$product.product_id}">Move  to wish list</a>
 
  </form>
+
 {/foreach}
         {/if}
 
  <script>
         $(document).ready(function() {
 			$(".movetolist").click(function() {
-				document.getElementById("remove_button_"+$(this).data('product_id')).click();
-				document.getElementById("button_wishlist_"+$(this).data('product_id')).click();
-            });  });
-</script>
+				 localStorage.setItem('mv_product_id', $(this).data('product_id'));
+			   // $("#product_form_"+$(this).data('product_id')).find("#remove_button_"+$(this).data('product_id')).click();
+			    $("#product_form_"+$(this).data('product_id')).find("#button_wishlist_"+$(this).data('product_id')).click();
+				
+				//document.getElementById("remove_button_"+$(this).data('product_id')).click();
+				//document.getElementById("button_wishlist_"+$(this).data('product_id')).click();
+            }); 
+		
+		$(".storelocal").click(function() { 	 
+			localStorage.setItem('remove_mv_product_id', $(this).data('product_id'));
+		});
+		 $(".movetolist"+productid).click(function() {
+			localStorage.setItem('mv_product_id', $(this).data('product_id')); 
+			$("#product_form_"+$(this).data('product_id')).find("#button_wishlist_"+$(this).data('product_id')).click(); 
+		}); 
+		if(localStorage.getItem('mv_product_id')!= ''){
+	    	var productid=localStorage.getItem('mv_product_id');
+			 localStorage.setItem('mv_product_id', '');
+			 localStorage.setItem('remove_mv_product_id','');
+			 document.getElementById("remove_button_"+productid).click();
+         }
+	 if(localStorage.getItem('remove_mv_product_id') != ''){ 
+		  var productid=localStorage.getItem('remove_mv_product_id');
+		  $(".movetolist"+productid).click();		  
+	 }
+		});
+	
+
+	
+   		  	 
+		 
+ 
+            
+</script> 
+ 
 {include file="views/checkout/components/checkout_totals.tpl" location="cart"}
 
 <div class="buttons-container ty-cart-content__bottom-buttons clearfix">
