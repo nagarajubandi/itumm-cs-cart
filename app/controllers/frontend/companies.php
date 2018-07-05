@@ -301,11 +301,10 @@ if ($mode == 'view') {
     }
 
     foreach ($products as $key => $productDetails){
-        if(
-            !isset($productDetails['vendors_products'][$company_id]) ||
-            ($productDetails['vendors_products'][$company_id]['amount'] <= 0)
-        ){
+        $amount = db_get_field("SELECT amount FROM ?:product_vendor_sell WHERE company_id = ?i AND product_id = ?i", $company_id, $productDetails['product_id']);
+        if($amount <= 0){
             unset($products[$key]);
+            $search['total_items']--;
         }
     }
 

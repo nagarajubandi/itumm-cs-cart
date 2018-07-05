@@ -154,8 +154,8 @@
         </td>
     {else}
     <td>
-        {if $hide_input_for_show_mode}<span id="span_price_{$product.product_id}">{if $product.vendors[$runtime.company_id].amount}{$product.vendors[$runtime.company_id].amount}{else}{$product.amount}{/if}</span>{/if}
-        <input type="text" {if $hide_input_for_show_mode}id="price_{$product.product_id}"{/if} name="products_data[{$product.product_id}][vendors][{$runtime.company_id}][amount]" size="6" value="{if $product.vendors[$runtime.company_id].amount}{$product.vendors[$runtime.company_id].amount}{else}{$product.amount}{/if}" class="input-mini input-hidden {if $hide_input_for_show_mode}hidden{/if}"/>
+        {if $hide_input_for_show_mode}<span id="span_price_{$product.product_id}">{if $runtime.company_id}{$product.vendors[$runtime.company_id].amount}{else}{$product.amount}{/if}</span>{/if}
+        <input type="text" {if $hide_input_for_show_mode}id="price_{$product.product_id}"{/if} name="products_data[{$product.product_id}][vendors][{$runtime.company_id}][amount]" size="6" value="{if $runtime.company_id}{$product.vendors[$runtime.company_id].amount}{else}{$product.amount}{/if}" class="input-mini input-hidden {if $hide_input_for_show_mode}hidden{/if}"/>
     </td>
     {/if}
 	 
