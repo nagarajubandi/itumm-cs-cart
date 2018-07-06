@@ -10,3 +10,4 @@ mysql.sh
 *.sql
 /config.local.php
 cache
+/support/include/ost-config.php
