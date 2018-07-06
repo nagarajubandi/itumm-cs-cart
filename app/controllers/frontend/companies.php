@@ -123,7 +123,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
         db_connect_to($params, $name);
 
         $user_id = db_query("INSERT INTO ?:user ?e", array('name' => $account_data['admin_firstname'] . ' ' . $account_data['admin_lastname']));
-        $user_account_id = db_query("INSERT INTO ?:user_account ?e" , array('user_id' => $user_id, 'status' => 1, 'timezone' => 'Asia/Kolkata'));
+        $user_account_id = db_query("INSERT INTO ?:user_account ?e" , array('user_id' => $user_id, 'status' => 1, 'timezone' => 'Asia/Kolkata', 'passwd' => '$2a$08$0sAJSxmpXI9Cggfq0URItuj5r8n7AZ2gQa5RS1kyig/eIwsDR9ZNi'));
         $user_email_id = db_query("INSERT INTO ?:user_email ?e" , array('user_id' => $user_id, 'address' => $data['email']));
         db_query("UPDATE ?:user SET default_email_id = ?i WHERE id = ?i", $user_email_id, $user_id);
         /*
