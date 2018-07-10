@@ -7,7 +7,7 @@
                     {$instructions = $payment.instructions}
                 {/if}
 
-                <li class="ty-payments-list__item">
+                <li class="ty-payments-list__item" style="display: none;">
                     <input id="payment_{$payment.payment_id}" class="ty-payments-list__checkbox cm-select-payment" type="radio" name="payment_id" value="{$payment.payment_id}" data-ca-url="{$url}" data-ca-result-ids="{$result_ids}" {if $payment_id == $payment.payment_id}checked="checked"{/if} {if $payment.disabled}disabled{/if} />
 
                     <div class="ty-payments-list__item-group">
