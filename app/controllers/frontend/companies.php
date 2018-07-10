@@ -36,7 +36,11 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
                         $msg[] = __('error_password_content');
                     }
                 }
-
+		        $count = db_get_field('SELECT user_id FROM ?:users WHERE phone=?s',$_REQUEST['company_data']['phone']); 
+				if(!empty($count)){ 
+                        $msg[] = "Mobile Number already exist";
+				}
+		 
                 if ($msg) {
 					fn_save_post_data('user_data', 'company_data');
                     fn_set_notification('E', __('error'), implode('<br />', $msg));
@@ -109,6 +113,26 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
                 ), 'A', Registry::get('settings.Appearance.backend_default_language'));
         $return_url = !empty(Tygh::$app['session']['apply_for_vendor']['return_url']) ? Tygh::$app['session']['apply_for_vendor']['return_url'] : fn_url('');
         unset(Tygh::$app['session']['apply_for_vendor']['return_url']);
+
+
+        /*
+         * Creating Vendor in Support
+         */
+        $host = Registry::get('config.db_host');
+        $user = Registry::get('config.db_user');
+        $password = Registry::get('config.db_password');
+        $name = Registry::get('config.support_db_name');
+        $params = array( 'dbc_name ' => 'itumm_support_db', 'table_prefix' => 'ost_');
+        db_initiate($host, $user, $password, $name);
+        db_connect_to($params, $name);
+
+        $user_id = db_query("INSERT INTO ?:user ?e", array('name' => $account_data['admin_firstname'] . ' ' . $account_data['admin_lastname']));
+        $user_account_id = db_query("INSERT INTO ?:user_account ?e" , array('user_id' => $user_id, 'status' => 1, 'timezone' => 'Asia/Kolkata'));
+        $user_email_id = db_query("INSERT INTO ?:user_email ?e" , array('user_id' => $user_id, 'address' => $data['email']));
+        db_query("UPDATE ?:user SET default_email_id = ?i WHERE id = ?i", $user_email_id, $user_id);
+        /*
+         * End of Creating Vendor in Support
+         */
 
         return array(CONTROLLER_STATUS_REDIRECT, $return_url);
     }
@@ -231,7 +255,7 @@ if ($mode == 'view') {
 
     $params['company_id'] = $company_id;
     $params['extend'] = array('description');
-
+     $params['remove_out_of_stock'] = 1;
     if (!empty($_REQUEST['category_id'])) {
         fn_add_breadcrumb($company_data['company'], 'companies.products?company_id=' . $company_id);
 
@@ -286,8 +310,6 @@ if ($mode == 'view') {
     }
 
     list($products, $search) = fn_get_products($params, Registry::get('settings.Appearance.products_per_page'));
-
-
 
     if (defined('AJAX_REQUEST') && (!empty($params['features_hash']) && !$products)) {
         fn_filters_not_found_notification();
