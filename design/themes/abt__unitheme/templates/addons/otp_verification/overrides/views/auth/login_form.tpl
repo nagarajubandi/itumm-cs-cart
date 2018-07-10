@@ -31,7 +31,7 @@
         </div>
         {/if}
 
-        {if $style == "popup"}
+        {if $style == "popup" || $style == ""}
             <div class="ty-login-reglink ty-center">
                 <a class="ty-login-reglink__a" href="{"profiles.add"|fn_url}" rel="nofollow">{__("register_new_account")}</a>
             </div>
