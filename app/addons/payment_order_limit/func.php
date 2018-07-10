@@ -26,6 +26,18 @@ function fn_payment_order_limit_prepare_checkout_payment_methods(&$cart, &$auth,
             unset($payment_groups[$g_key]);
         }
     }
+    if(count($payment_groups) == 1){
+        foreach ($payment_groups as $g_key => $group) {
+            if(count($group) == 1){
+                foreach ($group as $p_key => $payment) {
+                    $payment_groups[$g_key][$p_key]['instructions'] .= ' '
+                        . '<div style="width: 150%; float: left; margin-top: 20px;">'
+                        . 'Cash on Delivery is not applicable for the orders above Rs. 5000. <br><br>Please proceed further and make the payment through EBS.'
+                        . '</div>';
+                }
+            }
+        }
+    }
 }
 
 function fn_payment_order_limit_checkout_select_default_payment_method(&$cart, &$payment_methods, &$completed_steps)
