@@ -44,7 +44,10 @@
 
                 {if $payments|count == 1}
                     {assign var="payment" value=$payments|reset}
+                    {if $payment_methods|count > 1}
+                        {else}
                     <h2>{$payment.payment}</h2>
+                    {/if}
                     <input type="hidden" name="payment_id" value="{$payment.payment_id}" />
 
                     {if $payment.template}
