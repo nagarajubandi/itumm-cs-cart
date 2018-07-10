@@ -1,5 +1,7 @@
 <div id="breadcrumbs_{$block.block_id}">
-
+    {if $_REQUEST['dispatch'] == 'products.view'}
+        {array_pop($breadcrumbs)}
+    {/if}
     {if $breadcrumbs && $breadcrumbs|@sizeof > 1}
         <div itemscope itemtype="http://schema.org/BreadcrumbList" class="ty-breadcrumbs clearfix">
             {strip}
