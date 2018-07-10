@@ -258,8 +258,8 @@ function fn_get_discussion($object_id, $object_type, $get_posts = false, $params
             } else {
                 if ($customer_products === null) {
                     $customer_products = db_get_hash_single_array(
-                        'SELECT od.product_id AS product_id FROM ?:orders AS o INNER JOIN ?:order_details AS od ON o.order_id = od.order_id  WHERE o.user_id = ?i',
-                        array('product_id', 'product_id'), Tygh::$app['session']['auth']['user_id']
+                        'SELECT od.product_id AS product_id FROM ?:orders AS o INNER JOIN ?:order_details AS od ON o.order_id = od.order_id  WHERE o.status=?s AND o.user_id = ?i',
+                        array('product_id', 'product_id'), 'C', Tygh::$app['session']['auth']['user_id']
                     );
                 }
                 if (empty($customer_products[$object_id])) {
