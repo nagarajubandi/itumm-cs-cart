@@ -238,8 +238,8 @@ function fn_get_discussion($object_id, $object_type, $get_posts = false, $params
             } else {
                 if ($customer_companies === null) {
                     $customer_companies = db_get_hash_single_array(
-                        'SELECT company_id FROM ?:orders WHERE user_id = ?i',
-                        array('company_id', 'company_id'), Tygh::$app['session']['auth']['user_id']
+                        'SELECT company_id FROM ?:orders WHERE status=?s AND user_id = ?i',
+                        array('company_id', 'company_id'), 'C', Tygh::$app['session']['auth']['user_id']
                     );
                 }
                 if (empty($customer_companies[$object_id])) {
