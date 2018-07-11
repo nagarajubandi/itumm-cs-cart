@@ -5869,7 +5869,6 @@
     '38c6d4a1e8d689336c0f7ed0c992861e' => '/js/addons/newsletters/func.js',
     '7388aa12fc9f3876d5e9e0fc1ad380a4' => '/js/addons/hw_modern_backend/func.js',
     '9fff151842237872287b76b444c42c89' => '/js/addons/product_variations/func.js',
-    '18b74746bd0d3a9d2053279fb5ff1726' => '/js/addons/zipcode_validator/func.js',
     'fdc2a3e895cb5c8baf6ccfaa6e9f6d81' => '/js/addons/bb_autosuggest_search/func.js',
     '52a1cf5b44bb770001a4ae7494c3d563' => '/design/backend/media/images/payments.png',
     '863eee83deb5b0d1cb4f76983605d3c4' => '/design/backend/media/images/handler.png',
