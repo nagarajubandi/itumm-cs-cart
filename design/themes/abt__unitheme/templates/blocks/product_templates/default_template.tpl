@@ -1,5 +1,4 @@
 {script src="js/tygh/exceptions.js"}
-{script src="js/addons/zipcode_validator/func.js"}
 <div class="ty-product-block ty-product-detail">
     <div class="row-fluid  ty-product-block__wrapper clearfix">
         {hook name="products:view_main_info"}
