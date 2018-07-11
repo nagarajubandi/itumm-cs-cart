@@ -1,1 +1,0 @@
-{script src="js/addons/my_changes/html.js"}
