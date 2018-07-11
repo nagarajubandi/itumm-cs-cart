@@ -140,7 +140,7 @@
                     {$smarty.capture.$sku nofilter}
                 </div>
 				*}
-<div class="ty-zipcode-validator clearfix">
+{*<div class="ty-zipcode-validator clearfix">
     <span class="ty-zipcode-validator">
         <div class="buttons-container">
         	<span class="my-zip-data" id="my_product_id_{$product.product_id}">
@@ -170,7 +170,7 @@
 	        </span>
         </div>
     </span>
-</div>
+</div>*}
                 {if $capture_buttons}{capture name="buttons"}{/if}
                 <div class="ty-product-block__button">
                     {if $show_details_button}
@@ -243,4 +243,3 @@
 </div>
 
 {capture name="mainbox_title"}{assign var="details_page" value=true}{/capture}
-{script src="js/addons/zipcode_validator/func.js"}
