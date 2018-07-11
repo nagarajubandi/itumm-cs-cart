@@ -8,17 +8,19 @@ function fn_payment_order_limit_prepare_checkout_payment_methods(&$cart, &$auth,
 {
     foreach ($payment_groups as $g_key => $group) {
         foreach ($group as $p_key => $payment) {
-            if($payment['min_order_limit'] != 0.00 && $payment['max_order_limit'] != 0.00){
-                if($payment['min_order_limit'] > $cart['total'] && $cart['total'] > $payment['max_order_limit']) {
-                    unset($payment_groups[$g_key][$p_key]);
-                }
-            } elseif($payment['min_order_limit'] >= 0.00 && $payment['max_order_limit'] == 0.00) {
-                if($payment['min_order_limit'] > $cart['total']) {
-                    unset($payment_groups[$g_key][$p_key]);
-                }
-            } elseif ($payment['max_order_limit'] != 0.00 && $payment['min_order_limit'] == 0.00) {
-                if($cart['total'] > $payment['max_order_limit']) {
-                   unset($payment_groups[$g_key][$p_key]);
+            if(isset($cart['total'])){
+                if($payment['min_order_limit'] != 0.00 && $payment['max_order_limit'] != 0.00){
+                    if($payment['min_order_limit'] > $cart['total'] && $cart['total'] > $payment['max_order_limit']) {
+                        unset($payment_groups[$g_key][$p_key]);
+                    }
+                } elseif($payment['min_order_limit'] >= 0.00 && $payment['max_order_limit'] == 0.00) {
+                    if($payment['min_order_limit'] > $cart['total']) {
+                        unset($payment_groups[$g_key][$p_key]);
+                    }
+                } elseif ($payment['max_order_limit'] != 0.00 && $payment['min_order_limit'] == 0.00) {
+                    if($cart['total'] > $payment['max_order_limit']) {
+                        unset($payment_groups[$g_key][$p_key]);
+                    }
                 }
             }
         }

@@ -35,7 +35,7 @@ function fn_ecl_tabbed_blocks_render_blocks(& $grid, $block, $obj, & $content)
 
 function fn_ecl_tabbed_blocks_render_block_content_pre($template_variable, $field, $block_scheme, & $block)
 {
-    $tabs = Registry::get('tab_blocks.groups.tabs_' . $block['grid_id']);
+    $tabs = Registry::get('tab_blocks.groups.tabs_' . $block['block_id']);
 
     if (!empty($tabs) && in_array($block['block_id'], $tabs) && false === strpos($block['user_class'], " cm-tab-block cm-block-index-$block[block_id]")) {
         $first_id = array_shift($tabs);
@@ -46,7 +46,7 @@ function fn_ecl_tabbed_blocks_render_block_content_pre($template_variable, $fiel
 
 function fn_ecl_tabbed_blocks_render_block_pre(& $block, $block_schema, $params, $block_content)
 {
-    $tabs = Registry::get('tab_blocks.groups.tabs_' . $block['grid_id']);
+    $tabs = Registry::get('tab_blocks.groups.tabs_' . $block['block_id']);
 
     if (!empty($tabs) && in_array($block['block_id'], $tabs)) {
         $first_id = array_shift($tabs);

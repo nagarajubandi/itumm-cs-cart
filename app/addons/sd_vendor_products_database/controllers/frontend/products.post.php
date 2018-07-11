@@ -17,7 +17,7 @@ if ( $mode == 'view' ) {
 				unset($product['vendors'][$key]);
 		}
 	}
-	
+    $method = 'asc';
 	if ( !empty( $product[ 'vendors' ] ) && count($product[ 'vendors' ])>1) {
 		$method = !empty( $_REQUEST[ 'sort_vendor_offers' ] ) ? $_REQUEST[ 'sort_vendor_offers' ] : Registry::get( 'addons.sd_vendor_products_database.sort_vendor_offers' );
 		if ( !empty( $method ) && $method != 'none' ) {
