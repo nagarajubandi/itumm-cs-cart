@@ -6440,8 +6440,11 @@ function fn_get_products($params, $items_per_page = 0, $lang_code = CART_LANGUAG
     // find with certain variant
     if (!empty($params['variant_id'])) {
         $join .= db_quote(" INNER JOIN ?:product_features_values as c_var ON c_var.product_id = products.product_id AND c_var.lang_code = ?s AND c_var.variant_id = ?i", $lang_code, $params['variant_id']);
+		
     }
-
+ if (!empty($params['remove_out_of_stock'])) {
+	 $join .= db_quote(" INNER JOIN ?:product_vendor_sell as pvs ON pvs.product_id = products.product_id AND pvs.amount > 0 and pvs.company_id = ?i", $params['company_id']); 
+ }
     if (!empty($params['features_hash']) || !empty($params['filter_variants'])) {
 
         $selected_filters = !empty($params['filter_variants']) ? $params['filter_variants'] : fn_parse_filters_hash($params['features_hash']);
