@@ -49,9 +49,9 @@ function fn_multiple_vendors_get_products(&$params, $fields, $sortings, &$condit
         $p_ids = array_unique($p_ids);
 
         if (!empty($p_ids)) {
-            $new_condition = db_quote( ' AND ( products.company_id = ?i OR products.product_id IN (?n) )', $params['company_id'], $p_ids);
+            $new_condition = db_quote( ' AND ( products.company_id = ?i OR products.product_id IN (?n) )', $vendor_company_id, $p_ids);
 
-            $condition = str_replace('AND products.company_id = ' . $params['company_id'], $new_condition, $condition);
+            $condition = str_replace('AND products.company_id = ' . $vendor_company_id, $new_condition, $condition);
 
         }
     }
